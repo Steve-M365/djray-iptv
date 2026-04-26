@@ -1,0 +1,11 @@
+{
+  "epg": {
+    "source": "iptvorg",
+    "api_key": "",
+    "xmltv_url": ""
+  },
+  "channels": {
+    "exclude_patterns": [],
+    "name_cleanup": {}
+  }
+}
