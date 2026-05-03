@@ -70,7 +70,7 @@ def main():
 
     # Push
     print(f"\nPushing to {remote_url}...")
-    run_cmd("git push -u origin main --force")
+    run_cmd("git push -u origin main")
 
     print("\n" + "=" * 60)
     print("✓ Deployment complete!")

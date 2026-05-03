@@ -9,6 +9,7 @@ Supported sources:
 """
 
 import json
+import re
 import requests
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -87,66 +88,122 @@ def fetch_epgshare(api_key: str, channels: List[Dict]) -> ET.Element:
 
 
 def fetch_iptvorg_epg(channels: List[Dict]) -> ET.Element:
-    """
-    Use iptv-org's EPG grabber sources.
-    iptv-org maintains a list of free EPG providers.
-    We'll fetch from multiple sources and merge.
-    """
+    """Fetch actual EPG from iptv-org's community-maintained EPG sources."""
     print("Fetching EPG from iptv-org sources...")
 
-    # Common free EPG sources
-    sources = [
+    # Create root EPG element
+    epg_root = ET.Element("tv")
+
+    # iptv-org EPG sources - try multiple for better coverage
+    epg_sources = [
         "https://iptv-org.github.io/epg/guides/epg.xml",
-        "https://iptv-org.github.io/epg/guides/epg2.xml",
-        # Add more sources from iptv-org
     ]
 
-    # For demo purposes, create a minimal EPG
-    root = ET.Element(
-        "tv",
-        {
-            "generator-info-name": "Apsattv EPG Generator",
-            "source-info-name": "iptv-org",
-        },
-    )
+    # Normalize all search names
+    search_names = {normalize_channel_name(ch["name"]) for ch in channels if ch["name"]}
+    print(f"Searching for {len(search_names)} channels across EPG sources...")
 
-    # Generate channel descriptors
-    for ch in channels[:100]:  # Limit for demo
-        channel_elem = ET.SubElement(root, "channel", id=ch["normalized_name"])
-        display_elem = ET.SubElement(channel_elem, "display-name")
-        display_elem.text = ch["name"]
-        icon_elem = ET.SubElement(channel_elem, "icon")
-        icon_elem.set("src", "")
+    # Store fetched channels for matching
+    fetched_channels: Dict[str, ET.Element] = {}
+    fetched_programmes: Dict[str, List[ET.Element]] = {}
 
-    # Add placeholder programmes for next 7 days
-    now = datetime.now()
-    for ch in channels[:100]:
-        for day in range(7):
-            date = now + timedelta(days=day)
-            for hour in [0, 3, 6, 9, 12, 15, 18, 21]:
-                start_time = date.replace(hour=hour, minute=0, second=0, microsecond=0)
-                stop_time = start_time + timedelta(hours=3)
+    for source_url in epg_sources:
+        try:
+            print(f"  Fetching {source_url}...")
+            resp = requests.get(source_url, timeout=60)
+            resp.raise_for_status()
+            root = ET.fromstring(resp.text.encode('utf-8') if isinstance(resp.text, str) else resp.text)
 
-                prog = ET.SubElement(
-                    root,
-                    "programme",
-                    {
-                        "start": start_time.strftime("%Y%m%d%H%M%S %z"),
-                        "stop": stop_time.strftime("%Y%m%d%H%M%S %z"),
-                        "channel": ch["normalized_name"],
-                    },
-                )
-                title_elem = ET.SubElement(prog, "title")
-                title_elem.text = (
-                    f"{ch['name']} - {start_time.strftime('%A %H:%M')} Broadcast"
-                )
-                desc_elem = ET.SubElement(prog, "desc")
-                desc_elem.text = "Schedule information not available"
+            for channel_elem in root.findall('channel'):
+                id_elem = channel_elem.find('id')
+                name_elem = channel_elem.find('display-name')
+                channel_id = id_elem.text if id_elem is not None else None
+                channel_name = name_elem.text if name_elem is not None else channel_id
 
-    print(
-        f"Generated EPG with {len(channels)} channels, 7 days of placeholder programmes"
-    )
-    return root
+                if channel_id:
+                    fetched_channels[channel_id] = channel_elem
+                    # Also store by normalized name for flexible matching
+                    norm = normalize_channel_name(channel_name or "").lower()
+                    if channel_name:
+                        fetched_channels[norm] = channel_elem
+
+            # Collect programmes by channel ID
+            for programme_elem in root.findall('programme'):
+                chan_attr = programme_elem.get('channel', '')
+                if chan_attr:
+                    if chan_attr not in fetched_programmes:
+                        fetched_programmes[chan_attr] = []
+                    fetched_programmes[chan_attr].append(programme_elem)
+
+            print(f"  Fetched {len(fetched_channels)} channels from iptv-org")
+
+        except Exception as e:
+            print(f"  Error fetching {source_url}: {e}")
+
+    # Track which channel IDs we've already added to avoid duplicates
+    added_channel_ids = set()
+
+    # Add EPG entry for each of our channels
+    for ch in channels:
+        ch_name = ch.get("name", "")
+        if not ch_name:
+            continue
+
+        normalized = normalize_channel_name(ch_name)
+        norm_lower = normalized.lower()
+
+        # Try to find matching EPG channel
+        matched_id = None
+        matched_elem = None
+
+        for key, elem in fetched_channels.items():
+            key_norm = key.lower()
+            if key_norm == norm_lower:
+                matched_id = key
+                matched_elem = elem
+                break
+
+        if matched_id is None or matched_id in added_channel_ids:
+            matched_id = None
+            for key, elem in fetched_channels.items():
+                key_norm = key.lower()
+                if (len(key_norm) > 3) and (key_norm in norm_lower or norm_lower in key_norm):
+                    matched_id = key
+                    matched_elem = elem
+                    break
+
+        if matched_id is not None:
+            added_channel_ids.add(matched_id)
+            if matched_elem is not None:
+                epg_root.append(matched_elem)
+                for prog in fetched_programmes.get(matched_id, []):
+                    epg_root.append(prog)
+            continue
+
+        # Fallback: for channels not found in EPG, add with today's placeholder data
+        channel_elem = ET.Element("channel")
+        channel_id = f"{ch_name.replace(' ', '_').upper()}.tv"
+        channel_elem.set("id", channel_id)
+        display = ET.SubElement(channel_elem, "display-name")
+        display.text = ch_name
+        epg_root.append(channel_elem)
+        added_channel_ids.add(channel_id)
+
+        # Add today's placeholder programme
+        now = datetime.now()
+        for hour in range(24):
+            start = now.replace(hour=hour, minute=0, second=0, microsecond=0).strftime("%Y%m%d%H%M%S +0000")
+            stop = start[:14] + f"{hour+1:02d}0000 +0000"
+            programme_elem = ET.Element("programme")
+            programme_elem.set("channel", channel_id)
+            programme_elem.set("start", start)
+            programme_elem.set("stop", stop)
+            title = ET.SubElement(programme_elem, "title")
+            title.text = ch_name
+            epg_root.append(programme_elem)
+
+    print(f"EPG generated with {len(epg_root)} elements")
+    return epg_root
 
 
 def fetch_manual_epg(url: str) -> ET.Element:

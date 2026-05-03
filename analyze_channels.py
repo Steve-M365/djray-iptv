@@ -1,7 +1,8 @@
 import json
+from pathlib import Path
 from collections import Counter
 
-with open("/Users/steve/scripts/apsattv-iptv/output/channels.json") as f:
+with open((Path(__file__).parent / "output" / "channels.json")) as f:
     data = json.load(f)
 
 print(f"Total unique channels: {len(data)}")

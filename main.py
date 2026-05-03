@@ -14,7 +14,8 @@ import requests
 import re
 from pathlib import Path
 from bs4 import BeautifulSoup
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
+from datetime import datetime, timedelta
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import partial
@@ -23,6 +24,7 @@ from functools import partial
 APSV_URL = "https://www.apsattv.com/streams.html"
 PLAYLIST_BASE = "https://www.apsattv.com/"
 OUTPUT_DIR = Path("output")
+CACHE_DIR = Path("cache")
 MASTER_M3U = OUTPUT_DIR / "master.m3u"
 CHANNEL_LIST = OUTPUT_DIR / "channels.json"
 CONFIG_FILE = Path("config.json")
@@ -30,22 +32,27 @@ CONFIG_FILE = Path("config.json")
 # Category definitions based on URL patterns and naming
 CATEGORIES = {
     "Main Playlists": [
-        "lg.m3u",
         "distro.m3u",
         "metax.m3u",
         "whaletvplus_all.m3u",
         "whaletvplus_us.m3u",
+        "orka.m3u",
+        "cineverse.m3u",
     ],
     "LG Regional": lambda url: (
         url.endswith("lg.m3u")
-        and not url.endswith("whaletvplus_all.m3u")
-        and not url.endswith("whaletvplus_us.m3u")
+        and "ssung" not in url.split("/")[-1]
     ),
     "Samsung Regional": lambda url: (
-        url.split("/")[-1].startswith("ssung") and url.endswith(".m3u")
+        url.split("/")[-1].startswith("ssung")
+        and url.endswith(".m3u")
     ),
-    "Australian": ["10fast.m3u", "9fast.m3u", "kogantvplus.m3u"],
-    "Brazilian": ["moviearkbr.m3u", "redeitv.m3u", "soultv.m3u", "tclbr.m3u"],
+    "Australian": [
+        "10fast.m3u", "9fast.m3u", "kogantvplus.m3u", "fetchtv.m3u",
+    ],
+    "Brazilian": [
+        "moviearkbr.m3u", "redeitv.m3u", "soultv.m3u", "tclbr.m3u",
+    ],
     "Platform/Device": [
         "firetv.m3u",
         "xiaomi.m3u",
@@ -55,6 +62,7 @@ CATEGORIES = {
         "rok.m3u",
         "xumo.m3u",
         "zeasn.m3u",
+        "veely.m3u",
     ],
     "Content/Services": [
         "freelivesports.m3u",
@@ -74,12 +82,51 @@ CATEGORIES = {
         "rakuten-jp.m3u",
         "tubi_all.m3u",
         "roku_all.m3u",
+        # Country flag playlists (non-LG/non-Samsung)
+        "col.m3u",  # Colombia
+        "de.m3u",   # Germany
+        "dk.m3u",   # Denmark
+        "fi.m3u",   # Finland
+        "nl.m3u",   # Netherlands
+        "no.m3u",   # Norway
+        "ro.m3u",   # Romania
+        "sa.m3u",   # South Africa
+        "za.m3u",   # South Africa (alternate)
+        "latam.m3u", # Latin America
+        "latv.m3u",  # Latvia
+        "lgb.m3u",   # LG UK (variant)
+        "rab.m3u",   # Regional Australia Broadcast
+        # nolm3u appears to be a typo/legacy entry - keep it
+        "nolm3u",
     ],
 }
+
+CATEGORY_ORDER = [
+    "Main Playlists",
+    "LG Regional",
+    "Samsung Regional",
+    "Australian",
+    "Brazilian",
+    "Platform/Device",
+    "Content/Services",
+    "Specialized",
+    "Sports",
+    "External/Third-Party",
+    "Other/Misc",
+]
 
 EXTERNAL_PLAYLISTS = {
     "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/tubi_all.m3u": "External: Tubi TV",
     "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u": "External: Roku Channel",
+    # Sports playlists (from iptv-org GitHub)
+    "https://iptv-org.github.io/iptv/index.m3u": "iptv-org: Full Master Playlist (23k+ channels)",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/categories/sports.m3u": "iptv-org: Sports Category (670+ channels)",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/countries/au.m3u": "iptv-org: Australia (incl. Racing.com, Sky Racing)",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/countries/us.m3u": "iptv-org: United States",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/countries/gb.m3u": "iptv-org: United Kingdom",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/countries/in.m3u": "iptv-org: India (Sony/Star Sports)",
+    # Free-TV project (60+ countries, 23k+ channels)
+    "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8": "Free-TV: International Free Channels",
 }
 
 
@@ -125,17 +172,16 @@ def extract_playlist_urls(html: str) -> List[Tuple[str, str]]:
     text = soup.get_text()
 
     # Pattern for URLs
-    patterns = [r'https?://[^\s"\']+\.m3u', r'https?://[^\s<>"]+\.m3u']
+    pattern = r'https?://[^\s<>"]+\.m3u'
 
     found_urls = set()
-    for pattern in patterns:
-        for match in re.finditer(pattern, text):
-            url = match.group(0).rstrip(".,;:)")
-            if url not in found_urls:
-                # Try to get a human name from nearby text
-                name = extract_name_from_context(text, match.start())
-                urls.append((url, name))
-                found_urls.add(url)
+    for match in re.finditer(pattern, text):
+        url = match.group(0).rstrip(".,;:)")
+        if url not in found_urls:
+            # Try to get a human name from nearby text
+            name = extract_name_from_context(text, match.start())
+            urls.append((url, name))
+            found_urls.add(url)
 
     # Also include external playlists
     for url, name in EXTERNAL_PLAYLISTS.items():
@@ -179,7 +225,7 @@ def categorize_playlist(url: str, name: str) -> str:
             if filename == criterion:
                 return category
 
-    # Check external
+    # If not matched, check if it's an external playlist
     if url in EXTERNAL_PLAYLISTS:
         return "External/Third-Party"
 
@@ -190,13 +236,21 @@ def fetch_m3u_content_with_retry(
     url: str, max_retries: int = 3, backoff_factor: float = 1.0
 ) -> List[str]:
     """Fetch and parse M3U file with retry logic."""
+    is_external = url in EXTERNAL_PLAYLISTS
+    if is_external:
+        cached, hit = get_cached_external_content(url)
+        if hit and cached:
+            return cached
     for attempt in range(max_retries):
         try:
             print(f"  Fetching {url} (attempt {attempt + 1}/{max_retries})...")
             resp = requests.get(url, timeout=30)
             resp.raise_for_status()
             lines = resp.text.splitlines()
-            return [line.strip() for line in lines if line.strip()]
+            content = [line.strip() for line in lines if line.strip()]
+            if is_external and content:
+                save_external_cache(url, content)
+            return content
         except requests.exceptions.Timeout:
             if attempt < max_retries - 1:
                 sleep_time = backoff_factor * (2**attempt)
@@ -212,6 +266,53 @@ def fetch_m3u_content_with_retry(
             print(f"    Error fetching {url}: {e}")
             return []
     return []
+
+
+def get_cached_external_content(url: str) -> Tuple[Optional[List[str]], bool]:
+    """
+    Check if we have a fresh cache for this external playlist.
+    Returns (content, hit) - content is list of lines, hit is bool.
+    Cache is valid for 6 hours.
+    """
+    if not CACHE_DIR.exists():
+        return None, False
+
+    try:
+        with open(CACHE_DIR / "external_playlists.cache.json") as f:
+            cache = json.load(f)
+
+        entry = cache.get(url)
+        if entry:
+            last_fetched = datetime.fromisoformat(entry["last_fetched"])
+            if datetime.now() - last_fetched < timedelta(hours=6):
+                print(f"  Using cached content for {url}")
+                return entry["content"], True
+    except Exception:
+        pass
+
+    return None, False
+
+
+def save_external_cache(url: str, content: List[str]) -> None:
+    """Save content to cache for this external playlist URL."""
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_path = CACHE_DIR / "external_playlists.cache.json"
+
+    cache = {}
+    if cache_path.exists():
+        try:
+            with open(cache_path) as f:
+                cache = json.load(f)
+        except Exception:
+            cache = {}
+
+    cache[url] = {
+        "last_fetched": datetime.now().isoformat(),
+        "content": content,
+    }
+
+    with open(cache_path, "w") as f:
+        json.dump(cache, f, indent=2)
 
 
 def parse_m3u_channels(lines: List[str]) -> List[Dict]:
@@ -263,10 +364,7 @@ def generate_master_m3u(
             f"# Total playlists: {sum(len(v) for v in categorized_playlists.values())}\n\n"
         )
 
-        for category in sorted(CATEGORIES.keys()) + [
-            "External/Third-Party",
-            "Other/Misc",
-        ]:
+        for category in CATEGORY_ORDER:
             if category not in categorized_playlists:
                 continue
 
@@ -345,10 +443,7 @@ def main():
     print("Fetching playlists concurrently...")
 
     # 2. Categorize and fetch each playlist concurrently
-    categorized = {
-        cat: []
-        for cat in list(CATEGORIES.keys()) + ["External/Third-Party", "Other/Misc"]
-    }
+    categorized = {cat: [] for cat in CATEGORY_ORDER}
 
     all_channels = []
     completed = 0
