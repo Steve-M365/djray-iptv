@@ -209,13 +209,15 @@
             color: var(--accent);
             font-weight: 600;
         }
-        .source-countries {
-            font-size: 0.75rem;
-            color: var(--text-muted);
+        .source-url {
+            font-size: 0.7rem;
+            color: var(--accent);
             margin-top: 0.25rem;
+            font-family: 'SF Mono', 'Fira Code', monospace;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            opacity: 0.8;
         }
 
         /* Footer */
@@ -406,6 +408,7 @@
             filtered.forEach(source => {
                 const card = document.createElement('div');
                 card.className = `source-card ${selectedFiles.has(source.file) ? 'selected' : ''}`;
+                const fullUrl = `${RAW_BASE}/${source.file}`;
                 card.innerHTML = `
                     <input type="checkbox" ${selectedFiles.has(source.file) ? 'checked' : ''} 
                            onchange="toggleSource('${source.file}', this.checked)">
@@ -415,7 +418,7 @@
                             <span class="channels">${source.channels.toLocaleString()} channels</span>
                             <span>${source.countries} ${source.countries === 1 ? 'country' : 'countries'}</span>
                         </div>
-                        <div class="source-countries">${source.file}</div>
+                        <div class="source-url" title="${fullUrl}">${fullUrl}</div>
                     </div>
                 `;
                 container.appendChild(card);
