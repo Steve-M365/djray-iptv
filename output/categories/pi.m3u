@@ -1,0 +1,12 @@
+#EXTM3U
+# DJRay - Pi
+# Total channels: 3
+# Generated: 2026-08-09 10:54:42
+
+# Pi (3 channels)
+#EXTINF:-1 tvg-id="ANTENA10" tvg-name="ANTENA 10" tvg-logo="https://s3minio.webativa.com.br/redeitv/antena-10.png" group-title="Pi",ANTENA 10
+https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCidadeVerde" tvg-name="TV Cidade Verde" tvg-logo="https://i.ibb.co/nnnyG3k/029.jpg" group-title="Pi",TV Cidade Verde
+https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8
+#EXTINF:-1 tvg-id="TvLagoaDantas" tvg-name="Tv Lagoa Dantas" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-lagoa-dantas.png" group-title="Pi",Tv Lagoa Dantas
+https://srv3.zcast.com.br/tvlagoadantas/tvlagoadantas/playlist.m3u8

@@ -1,0 +1,12 @@
+#EXTM3U
+# DJRay - Alagoas
+# Total channels: 3
+# Generated: 2026-08-09 10:54:42
+
+# Alagoas (3 channels)
+#EXTINF:-1 tvg-id="Macei" tvg-name="Maceió" tvg-logo="https://i.ibb.co/VYWsJfD/006.jpg" group-title="Alagoas",Maceió
+https://srv5.zcast.com.br/paulo4100/paulo4100/playlist.m3u8
+#EXTINF:-1 tvg-id="MULTIMIX" tvg-name="MULTIMIX" tvg-logo="https://s3minio.webativa.com.br/redeitv/multimix.png" group-title="Alagoas",MULTIMIX
+https://stmv1.ahtvox.com.br/multimix/multimix/playlist.m3u8
+#EXTINF:-1 tvg-id="WebTvJuventude" tvg-name="Web Tv Juventude" tvg-logo="https://i.ibb.co/1vRsHpG/1280.jpg" group-title="Alagoas",Web Tv Juventude
+https://stmv1.srvif.com/valmirtv/valmirtv/playlist.m3u8

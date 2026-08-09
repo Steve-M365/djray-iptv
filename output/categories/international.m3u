@@ -1,0 +1,42 @@
+#EXTM3U
+# DJRay - International
+# Total channels: 18
+# Generated: 2026-08-09 10:54:42
+
+# International (18 channels)
+#EXTINF:-1 tvg-id="CindiePortuguese" tvg-name="Cindie (Portuguese)" group-title="International",Cindie (Portuguese)
+https://d3md4qb9yzbxfm.cloudfront.net/scheduler/scheduleMaster/480.m3u8
+#EXTINF:-1 tvg-id="CNNPortugal" tvg-name="CNN Portugal" tvg-logo="https://s3minio.webativa.com.br/redeitv/cnn-portugal.png" group-title="International",CNN Portugal
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
+#EXTINF:-1 tvg-id="KuriakosTV" tvg-name="Kuriakos TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1288/2024/03/LOGO-KURIAKOS-TV-1.png" group-title="International",Kuriakos TV
+https://w1.manasat.com:443/ktv/smil:ktv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NollyAfrica" tvg-name="Nolly Africa" group-title="International",Nolly Africa
+https://amg02784-amg02784c1-orkatv-us-10374.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-orkatvus/playlist.m3u8?cb=1776194441&ip=104.23.198.47&did=[DID]&ifa_type=ppid&lat=34.2666&lon=-118.7643&country=US&region=CA&ua=Mozilla%2F5.0+%28Windows%3B+U%3B+Windows+NT+6.1%3B+en-US%29+AppleWebKit%2F533.20.25+%28KHTML%2C+like+Gecko%29+Version%2F5.0.4+Safari%2F533.20.27&device_make=&device_model=&width=[W]&height=[H]&app_name=OrkaTV&app_bundle=tv.orka.watch.webclient&app_store_url=https%3A%2F%2Fwatch.orka.tv&app_domain=watch.orka.tv&content_livestream=1&channel_name=Nolly+Africa&language=en&network_name=OrkaTV&publisher_id=99388254&publisher_name=OrkaTV&maxseq=3&pod_max_dur=POD_MAX_DUR&content_id=CONTENT_ID&content_genre=CONTENT_GENRE&content_rating=CONTENT_RATING&content_season=CONTENT_SEASON&content_episode=CONTENT_EPISODE&content_title=CONTENT_TITLE&iris_id=IRIS_ID&iris_context=IRIS_CONTEXT&dnt=0&gdpr_consent=&gdpr=0&us_privacy=1---&coppa=0&lmt=0&url=[URL]
+#EXTINF:-1 tvg-id="PanoramaDrama" tvg-name="Panorama Drama" group-title="International",Panorama Drama
+https://orkatv.iptvcdn.tv/mcnc_cdn/PANORAMA_DRAMA_ENCODED/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaAflam" tvg-name="Rotana Aflam+" group-title="International",Rotana Aflam+
+https://orkatv.iptvcdn.tv/mcnc_cdn/ROTANA_AFLAMPLUS_ENCODED_ABR/playlist.m3u8
+#EXTINF:-1 tvg-id="RotanaM" tvg-name="Rotana M+" group-title="International",Rotana M+
+https://orkatv.iptvcdn.tv/mcnc_5s_cdn/ROTANA_MPLUS_30FPS_ABR/playlist.m3u8
+#EXTINF:-1 tvg-id="RTVIUSFAST" tvg-name="RTVI US FAST" group-title="International",RTVI US FAST
+https://amg17233-amg17233c1-orkatv-us-10154.playouts.now.amagi.tv/playlist/amg17233-rtvi-rtvius-orkatvus/playlist.m3u8?cb=1776194441&ip=104.23.198.47&did=[DID]&ifa_type=ppid&lat=34.2666&lon=-118.7643&country=US&region=CA&ua=Mozilla%2F5.0+%28Windows%3B+U%3B+Windows+NT+6.1%3B+en-US%29+AppleWebKit%2F533.20.25+%28KHTML%2C+like+Gecko%29+Version%2F5.0.4+Safari%2F533.20.27&device_make=&device_model=&width=[W]&height=[H]&app_name=OrkaTV&app_bundle=tv.orka.watch.webclient&app_store_url=https%3A%2F%2Fwatch.orka.tv&app_domain=watch.orka.tv&content_livestream=1&channel_name=RTVI+US+FAST&language=en&network_name=OrkaTV&publisher_id=99388254&publisher_name=OrkaTV&maxseq=3&pod_max_dur=POD_MAX_DUR&content_id=CONTENT_ID&content_genre=CONTENT_GENRE&content_rating=CONTENT_RATING&content_season=CONTENT_SEASON&content_episode=CONTENT_EPISODE&content_title=CONTENT_TITLE&iris_id=IRIS_ID&iris_context=IRIS_CONTEXT&dnt=0&gdpr_consent=&gdpr=0&us_privacy=1---&coppa=0&lmt=0&url=[URL]
+#EXTINF:-1 tvg-id="SIC" tvg-name="SIC" tvg-logo="https://redeitv.online/roku/imgcanais/sic-png-2.png?alt=media&token=fe9e5ef8-61af-4c6a-a7d0-e4885d76e8b3" group-title="International",SIC
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 tvg-id="SICNotcias" tvg-name="SIC Notícias" tvg-logo="https://s3minio.webativa.com.br/redeitv/sic-noticias.png" group-title="International",SIC Notícias
+https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
+#EXTINF:-1 tvg-id="SriesClassic" tvg-name="Séries Classic" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/84/2023/09/Logo-Series-800X450-2.png" group-title="International",Séries Classic
+https://video10.logicahost.com.br/serieclassic/serieclassic/playlist.m3u8
+#EXTINF:-1 tvg-id="TRACEBrasil" tvg-name="TRACE Brasil" group-title="International",TRACE Brasil
+https://amg01131-amg01131c4-orkatv-us-5264.playouts.now.amagi.tv/playlist/amg01131-tracetvfast-tracebrazuca-orkatvus/playlist.m3u8?cb=1776194442&ip=104.23.198.47&did=[DID]&ifa_type=ppid&lat=34.2666&lon=-118.7643&country=US&region=CA&ua=Mozilla%2F5.0+%28Windows%3B+U%3B+Windows+NT+6.1%3B+en-US%29+AppleWebKit%2F533.20.25+%28KHTML%2C+like+Gecko%29+Version%2F5.0.4+Safari%2F533.20.27&device_make=&device_model=&width=[W]&height=[H]&app_name=OrkaTV&app_bundle=tv.orka.watch.webclient&app_store_url=https%3A%2F%2Fwatch.orka.tv&app_domain=watch.orka.tv&content_livestream=1&channel_name=TRACE+Brasil&language=en&network_name=OrkaTV&publisher_id=99388254&publisher_name=OrkaTV&maxseq=3&pod_max_dur=POD_MAX_DUR&content_id=CONTENT_ID&content_genre=CONTENT_GENRE&content_rating=CONTENT_RATING&content_season=CONTENT_SEASON&content_episode=CONTENT_EPISODE&content_title=CONTENT_TITLE&iris_id=IRIS_ID&iris_context=IRIS_CONTEXT&dnt=0&gdpr_consent=&gdpr=0&us_privacy=1---&coppa=0&lmt=0&url=[URL]
+#EXTINF:-1 tvg-id="TVMANABRASIL" tvg-name="TV MANA BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1288/2024/03/LOGO_TV_MANA_BRASIL_V4-1.jpg" group-title="International",TV MANA BRASIL
+https://w1.manasat.com:443/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVI" tvg-name="TVI" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvi.png" group-title="International",TVI
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+#EXTINF:-1 tvg-id="TVIInternacional" tvg-name="TVI Internacional" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvi-internacional.png" group-title="International",TVI Internacional
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8
+#EXTINF:-1 tvg-id="TVIReality" tvg-name="TVI Reality" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvi-reality.png" group-title="International",TVI Reality
+https://video-auth5.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
+#EXTINF:-1 tvg-id="TVIfrica" tvg-name="TVI África" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvi-africa.png" group-title="International",TVI África
+https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
+#EXTINF:-1 tvg-id="VTVI" tvg-name="V+ TVI" tvg-logo="https://s3minio.webativa.com.br/redeitv/v-tvi.png" group-title="International",V+ TVI
+https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8

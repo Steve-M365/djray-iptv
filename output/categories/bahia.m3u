@@ -1,0 +1,28 @@
+#EXTM3U
+# DJRay - Bahia
+# Total channels: 11
+# Generated: 2026-08-09 10:54:42
+
+# Bahia (11 channels)
+#EXTINF:-1 tvg-id="40gtv" tvg-name="40gtv" tvg-logo="https://s3minio.webativa.com.br/redeitv/40gtv.png" group-title="Bahia",40gtv
+https://40gtv-aovivo.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="JRTV" tvg-name="JRTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/jrtv.png" group-title="Bahia",JRTV
+https://video08.logicahost.com.br/jrtv01/jrtv01/playlist.m3u8
+#EXTINF:-1 tvg-id="R9TV" tvg-name="R9TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/r9tv.png" group-title="Bahia",R9TV
+https://stmv1.srvif.com/clausavi/clausavi/playlist.m3u8
+#EXTINF:-1 tvg-id="TVALA" tvg-name="TV ALA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-ala.png" group-title="Bahia",TV ALA
+http://stmv1.painelcast.com/jotta9709/jotta9709/playlist.m3u8
+#EXTINF:-1 tvg-id="TvCidadeBahia" tvg-name="Tv Cidade Bahia" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cidade-bahia.png" group-title="Bahia",Tv Cidade Bahia
+https://cdn.live.br1.jmvstream.com/webtv/ifulrbjz/playlist/playlist.m3u8
+#EXTINF:-1 tvg-id="TVFeiradeSantanaAoVivo" tvg-name="TV Feira de Santana Ao Vivo" tvg-logo="https://redeitv.online/roku/imgcanais/feira-de-santana.jpg?alt=media&token=1c8ff367-e1bf-47a7-8b1e-b32a292b3ba7" group-title="Bahia",TV Feira de Santana Ao Vivo
+https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/chunklist_w174675839.m3u8?fluxustv.m3u8
+#EXTINF:-1 tvg-id="TVGroVerde" tvg-name="TV Grão Verde" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-grao-verde.png" group-title="Bahia",TV Grão Verde
+https://stmv1.srvif.com/gesimas/gesimas/playlist.m3u8
+#EXTINF:-1 tvg-id="TvJSID" tvg-name="Tv J.SID" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/05/novo16.jpg" group-title="Bahia",Tv J.SID
+https://video05.logicahost.com.br/tvjsid/tvjsid/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNBN" tvg-name="TV NBN" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/03/tv-nbn.jpg" group-title="Bahia",TV NBN
+https://cdn.live.br1.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRecncavo" tvg-name="TV Recôncavo" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1188/2024/03/logo-i-TV.png" group-title="Bahia",TV Recôncavo
+https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
+#EXTINF:-1 tvg-id="WebRdioLairtonTeclas" tvg-name="Web Rádio Lairton Teclas" tvg-logo="https://s3minio.webativa.com.br/redeitv/web-radio-lairton-teclas.png" group-title="Bahia",Web Rádio Lairton Teclas
+https://live20.bozztv.com/akamaissh101/ssh101/ltrecords/playlist.m3u8

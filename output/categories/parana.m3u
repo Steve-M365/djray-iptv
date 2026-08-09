@@ -1,0 +1,34 @@
+#EXTM3U
+# DJRay - Parana
+# Total channels: 14
+# Generated: 2026-08-09 10:54:42
+
+# Parana (14 channels)
+#EXTINF:-1 tvg-id="DeoPLayTV" tvg-name="DeoPLay TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/deoplay-tv.png" group-title="Parana",DeoPLay TV
+https://video01.logicahost.com.br/deoplay/deoplay/playlist.m3u8
+#EXTINF:-1 tvg-id="FOZTV" tvg-name="FOZ TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/foz-tv.png" group-title="Parana",FOZ TV
+https://videostreamingserver.septecloud.com.br/memfs/6154fa08-b4c2-4e8f-aba8-1c5a38399d47.m3u8
+#EXTINF:-1 tvg-id="RCTV" tvg-name="RCTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/rctv.png" group-title="Parana",RCTV
+https://tv03.zas.media:1936/mbc/mbc/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAFOLHA" tvg-name="TV A FOLHA" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/241/2023/09/tv-e1694173039734.png" group-title="Parana",TV A FOLHA
+https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBrasilHits" tvg-name="TV Brasil Hits" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/44/2023/07/TV-BRASIL-HITS-1.png" group-title="Parana",TV Brasil Hits
+https://video01.logicahost.com.br/brasilhits/brasilhits/playlist.m3u8
+#EXTINF:-1 tvg-id="TVConexo" tvg-name="TV Conexão" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-conexao.png" group-title="Parana",TV Conexão
+https://pop.uniquetv.com.br/tvconexao/video.m3u8
+#EXTINF:-1 tvg-id="TVJAPO" tvg-name="TV JAPÃO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-japao.png" group-title="Parana",TV JAPÃO
+https://pop.uniquetv.com.br/tvjapao/video.m3u8
+#EXTINF:-1 tvg-id="TVOReporter" tvg-name="TV O Reporter" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-o-reporter.png" group-title="Parana",TV O Reporter
+https://pop.uniquetv.com.br/tvoreporter/video.m3u8
+#EXTINF:-1 tvg-id="TVParanTurismo" tvg-name="TV Paraná Turismo" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-parana-turismo.png" group-title="Parana",TV Paraná Turismo
+http://200.189.113.201/hls/tve.m3u8
+#EXTINF:-1 tvg-id="TVTUDOPARAN" tvg-name="TV TUDO PARANÁ" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-tudo-parana.png" group-title="Parana",TV TUDO PARANÁ
+https://pop.uniquetv.com.br/tvtudoparana/video.m3u8
+#EXTINF:-1 tvg-id="TVCi" tvg-name="TVCi" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvci.png" group-title="Parana",TVCi
+https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
+#EXTINF:-1 tvg-id="TVPRedeBrasil" tvg-name="TVP - Rede Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvp-rede-brasil.png" group-title="Parana",TVP - Rede Brasil
+https://stream.ichibansys.com:3441/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="VivaVida" tvg-name="Viva Vida" tvg-logo="https://s3minio.webativa.com.br/redeitv/viva-vida.png" group-title="Parana",Viva Vida
+https://stmv1.srvif.com/vivavida/vivavida/playlist.m3u8
+#EXTINF:-1 tvg-id="WebTvFamiliadeJesus" tvg-name="WebTv Familia de Jesus" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1933/2024/06/WebTv-Familia-de-Jesus-1.jpg" group-title="Parana",WebTv Familia de Jesus
+https://stmv1.srvif.com/tvadorando/tvadorando/playlist.m3u8

@@ -1,0 +1,14 @@
+#EXTM3U
+# DJRay - Para
+# Total channels: 4
+# Generated: 2026-08-09 10:54:42
+
+# Para (4 channels)
+#EXTINF:-1 tvg-id="CloudingTV" tvg-name="Clouding TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/clouding-tv.png" group-title="Para",Clouding TV
+https://stmv.webtvninjas.com.br/abner5597/abner5597/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTPar" tvg-name="SBT Pará" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-para.png" group-title="Para",SBT Pará
+https://www.youtube.com/live/FvKPA40VCOc?si=dfGq0kEXMU9I6Ox-
+#EXTINF:-1 tvg-id="TVMarajoara" tvg-name="TV Marajoara" tvg-logo="https://i.ibb.co/zJTmHFm/018.jpg" group-title="Para",TV Marajoara
+https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMETROPOLITANABELM" tvg-name="TV METROPOLITANA - BELÉM" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropolitana-belem.png" group-title="Para",TV METROPOLITANA - BELÉM
+https://video09.logicahost.com.br/tvmpara/tvmpara/chunklist_w1770665011.m3u8

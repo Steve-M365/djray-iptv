@@ -1,0 +1,20 @@
+#EXTM3U
+# DJRay - Classic TV
+# Total channels: 7
+# Generated: 2026-08-09 10:54:42
+
+# Classic TV (7 channels)
+#EXTINF:-1 tvg-id="653199" tvg-name="Baywatch" tvg-logo="https://canvas-lb.tubitv.com/opts/f_dPQDku21hHxw==/68173373-ff90-45ee-bf4d-d33e0f863770/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",Baywatch
+https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
+#EXTINF:-1 tvg-id="684170" tvg-name="Grit Xtra" tvg-logo="https://canvas-lb.tubitv.com/opts/aBwIuhHsOE8fLQ==/9ba330f3-9b7c-436d-9eb3-ca24daeaa59a/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",Grit Xtra
+https://live-manifest.production-public.tubi.io/live/e83c161c-4949-499b-b2b6-195337c7fd18/playlist.m3u8
+#EXTINF:-1 tvg-id="400000104" tvg-name="Hersphere" tvg-logo="https://canvas-lb.tubitv.com/opts/xP0esskgVLQXMA==/2733aed8-2c07-4221-9669-061ef85c0df0/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",Hersphere
+https://live-manifest.production-public.tubi.io/live/33df563a-88ee-46d9-9cc1-3459f2e90710/playlist.m3u8
+#EXTINF:-1 tvg-id="400000105" tvg-name="Nash Bridges" tvg-logo="https://canvas-lb.tubitv.com/opts/WNnMH6qKRZWqEw==/13cb369b-10c8-4017-82f6-3658ff67b899/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",Nash Bridges
+https://live-manifest.production-public.tubi.io/live/597417af-5589-4e08-a432-2ac5034e0a71/playlist.m3u8
+#EXTINF:-1 tvg-id="400000066" tvg-name="The FBI" tvg-logo="https://canvas-lb.tubitv.com/opts/aHkRMXjL2FQbvg==/44ac2d3a-3a63-46f3-badb-fe3f8afa7600/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",The FBI
+https://live-manifest.production-public.tubi.io/live/0e9b3dc6-8b19-4854-b0d1-df85b9ffa282/playlist.m3u8
+#EXTINF:-1 tvg-id="724210" tvg-name="The Rifleman" tvg-logo="https://canvas-lb.tubitv.com/opts/U7cdfxf2EiPC5A==/e80bdb91-a817-463c-84b6-f3e4be903428/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",The Rifleman
+https://live-manifest.production-public.tubi.io/live/a4fbd2ea-9b37-4cad-86fb-221be1efbc9f/playlist.m3u8
+#EXTINF:-1 tvg-id="680705" tvg-name="Wanted: Dead or Alive" tvg-logo="https://canvas-lb.tubitv.com/opts/cMalDW-Z-wT0Nw==/5583c936-6239-4da3-b733-a9aaeebbc2fe/CHgQeDoFMS4xLjlAAQ==" group-title="Classic TV",Wanted: Dead or Alive
+https://live-manifest.production-public.tubi.io/live/f4c47d84-a50e-4053-8fd5-827f2e62a401/playlist.m3u8

@@ -1,0 +1,18 @@
+#EXTM3U
+# DJRay - Df
+# Total channels: 6
+# Generated: 2026-08-09 10:54:42
+
+# Df (6 channels)
+#EXTINF:-1 tvg-id="COMBrasil" tvg-name="COM Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/com-brasil.png" group-title="Df",COM Brasil
+https://br5093.streamingdevideo.com.br:8081/abc/abc/playlist.m3u8
+#EXTINF:-1 tvg-id="MinistrioInfantilTVMITVKids" tvg-name="Ministério Infantil TV - MITV (Kids)" tvg-logo="https://s3minio.webativa.com.br/redeitv/ministerio-infantil-tv-mitv-kids.png" group-title="Df",Ministério Infantil TV - MITV (Kids)
+https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
+#EXTINF:-1 tvg-id="TvCidade" tvg-name="Tv Cidade" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/06/tvcidadebrasil.jpg" group-title="Df",Tv Cidade
+https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVComDF" tvg-name="TV Com DF" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-com-df.png" group-title="Df",TV Com DF
+https://5b7f3c45ab7c2.streamlock.net/8008/8008/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEntonoSul" tvg-name="TV Entono Sul" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-entono-sul.png" group-title="Df",TV Entono Sul
+https://video01.kshost.com.br/manoel2072/manoel2072/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMirai" tvg-name="TV Mirai" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mirai.png" group-title="Df",TV Mirai
+https://stream.ichibantv.com:3738/hybrid/play.m3u8

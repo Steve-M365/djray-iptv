@@ -1,0 +1,16 @@
+#EXTM3U
+# DJRay - TV Dramas
+# Total channels: 5
+# Generated: 2026-08-09 10:54:42
+
+# TV Dramas (5 channels)
+#EXTINF:-1 tvg-id="400000070" tvg-name="Generation Drama" tvg-logo="https://canvas-lb.tubitv.com/opts/95HEwdQAa2iY7A==/6e4b7a38-ccc1-4f1f-b4ce-626221c91a06/CHgQeDoFMS4xLjlAAQ==" group-title="TV Dramas",Generation Drama
+https://live-manifest.production-public.tubi.io/live/a8250c51-f628-4936-97cb-67a931d2d7d8/playlist.m3u8
+#EXTINF:-1 tvg-id="682634" tvg-name="ION" tvg-logo="https://canvas-lb.tubitv.com/opts/LFLNras1Iw825A==/d7bf80e8-e8bc-4883-9c2b-551d1d7ab80c/CHgQeDoFMS4xLjlAAQ==" group-title="TV Dramas",ION
+https://live-manifest.production-public.tubi.io/live/cadd5511-0fda-4045-94b6-4dd982fa63e7/playlist.m3u8
+#EXTINF:-1 tvg-id="684165" tvg-name="ION Plus" tvg-logo="https://canvas-lb.tubitv.com/opts/i_iUUrOlkunMhA==/979fd7e0-d2df-4c2b-90d0-af690c9405cb/CHgQeDoFMS4xLjlAAQ==" group-title="TV Dramas",ION Plus
+https://live-manifest.production-public.tubi.io/live/2fd87230-572e-47ef-8bae-c282f99b174c/playlist.m3u8
+#EXTINF:-1 tvg-id="400000071" tvg-name="Nikita" tvg-logo="https://canvas-lb.tubitv.com/opts/-Qup7p-9U8QS9Q==/bf6f69f6-4495-4bc2-94f9-fd91877e36f0/CHgQeDoFMS4xLjlAAQ==" group-title="TV Dramas",Nikita
+https://live-manifest.production-public.tubi.io/live/69aad4c1-9bb9-49db-9b2a-f8b26a7c3582/playlist.m3u8
+#EXTINF:-1 tvg-id="400000300" tvg-name="Third Watch" tvg-logo="https://canvas-lb.tubitv.com/opts/A9_upU8CqMCRtQ==/94f3024e-0a66-41fa-bbd3-11e642c7e994/CHgQeDoFMS4xLjlAAQ==" group-title="TV Dramas",Third Watch
+https://live-manifest.production-public.tubi.io/live/90f1e22d-74ba-4b06-83ee-0f15d0872a03/playlist.m3u8

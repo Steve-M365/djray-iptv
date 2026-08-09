@@ -1,0 +1,28 @@
+#EXTM3U
+# DJRay - Mt
+# Total channels: 11
+# Generated: 2026-08-09 10:54:42
+
+# Mt (11 channels)
+#EXTINF:-1 tvg-id="PanTVMT" tvg-name="Pan TV MT" tvg-logo="https://s3minio.webativa.com.br/redeitv/pan-tv-mt.png" group-title="Mt",Pan TV MT
+https://stmv8.samcast.com.br/carlos6664/carlos6664/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTCuiab" tvg-name="SBT Cuiabá" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-cuiaba.png" group-title="Mt",SBT Cuiabá
+https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTNovaMutum" tvg-name="SBT Nova Mutum" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-nova-mutum.png" group-title="Mt",SBT Nova Mutum
+https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTRondonpolis" tvg-name="SBT Rondonópolis" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-rondonopolis.png" group-title="Mt",SBT Rondonópolis
+https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTSinop" tvg-name="SBT Sinop" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-sinop.png" group-title="Mt",SBT Sinop
+https://video09.logicahost.com.br/sbtsinop/sbtsinop/playlist.m3u8
+#EXTINF:-1 tvg-id="TBO" tvg-name="TBO" tvg-logo="https://redeitv.online/roku/imgcanais/tv-tbo.jpg?alt=media&token=e5b667f1-9f59-4024-adda-3fce4f106a8a" group-title="Mt",TBO
+https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
+#EXTINF:-1 tvg-id="tvbrasilsinop" tvg-name="tv brasil sinop" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-brasil-sinop.JPG" group-title="Mt",tv brasil sinop
+https://stmv2.painelvideocast.com.br/1186/1186/playlist.m3u8
+#EXTINF:-1 tvg-id="TvcidadeverdeCuiab" tvg-name="Tv cidade verde Cuiabá" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/11/Logotipo_da_Rede_Cidade_Verde-1.png" group-title="Mt",Tv cidade verde Cuiabá
+https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+#EXTINF:-1 tvg-id="TVCONQUISTA" tvg-name="TV CONQUISTA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-conquista.png" group-title="Mt",TV CONQUISTA
+https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+#EXTINF:-1 tvg-id="TVMARCHETI" tvg-name="TV MARCHETI" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/95/2023/07/logo-tv-projeto-e1690460421190.jpg" group-title="Mt",TV MARCHETI
+https://Stmv1.samcast.com.br/junior4319/junior4319/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNOVAMT" tvg-name="TV NOVA MT" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/09/LOGO-TV-NOVA-MT-1.png" group-title="Mt",TV NOVA MT
+https://video05.logicahost.com.br/tvnovaweb1/tvnovaweb1/playlist.m3u8

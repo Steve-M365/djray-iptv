@@ -1,0 +1,12 @@
+#EXTM3U
+# DJRay - Ms
+# Total channels: 3
+# Generated: 2026-08-09 10:54:42
+
+# Ms (3 channels)
+#EXTINF:-1 tvg-id="PlayTVhorse" tvg-name="PlayTV horse" tvg-logo="https://s3minio.webativa.com.br/redeitv/playtv-horse.png" group-title="Ms",PlayTV horse
+https://video04.logicahost.com.br/playtvhorse/playtvhorse/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAssembleiaMS" tvg-name="TV Assembleia MS" tvg-logo="https://redeitv.online/roku/imgcanais/tv-assembleia-ms.jpg?alt=media&token=91618d01-7931-44aa-859a-5c83dfe2a148" group-title="Ms",TV Assembleia MS
+https://playertv.al.ms.gov.br/hls/live.stream.m3u8
+#EXTINF:-1 tvg-id="ViaMorena" tvg-name="Via Morena" tvg-logo="https://redeitv.online/roku/imgcanais/via-morena.jpg?alt=media&token=d9e536b3-9c03-47ae-828b-36d536c79b32" group-title="Ms",Via Morena
+https://5ad482a77183d.streamlock.net/cleuzaviamorena.com/cleuzaviamorena.com/playlist.m3u8

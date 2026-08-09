@@ -1,0 +1,42 @@
+#EXTM3U
+# DJRay - Séries
+# Total channels: 18
+# Generated: 2026-08-09 10:54:42
+
+# Séries (18 channels)
+#EXTINF:-1 tvg-id="alarm-for-cobra-rakuten-tv" tvg-name="Alerte Cobra" group-title="Séries",Alerte Cobra
+https://alarm-for-cobra-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6477/master.m3u8
+#EXTINF:-1 tvg-id="alerte-a-malibu-tv" tvg-name="Alerte à Malibu TV" group-title="Séries",Alerte à Malibu TV
+https://daiconnect.com/live/hls/okast/rak-mw20/.m3u8
+#EXTINF:-1 tvg-id="beyblade-fr" tvg-name="Beyblade" group-title="Séries",Beyblade
+https://amg01796-amg01796c6-rakuten-fr-5334.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladefr-rakutenfr/playlist.m3u8
+#EXTINF:-1 tvg-id="c-drama-now" tvg-name="C-Drama Now" group-title="Séries",C-Drama Now
+https://c-drama-now-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-smg-1/master.m3u8
+#EXTINF:-1 tvg-id="crime-rakuten-tv" tvg-name="Crime - Rakuten TV" group-title="Séries",Crime - Rakuten TV
+https://crime-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6214/master.m3u8
+#EXTINF:-1 tvg-id="frequence-novelas" tvg-name="Fréquence Novelas" group-title="Séries",Fréquence Novelas
+https://amg00711-zylo-amg00711c4-rakuten-us-769.playouts.now.amagi.tv/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-id="generation-sitcoms" tvg-name="Génération Sitcoms" group-title="Séries",Génération Sitcoms
+https://production-fastbpk.content.okast.tv/channels/eec463a6-4364-473b-8d89-555acc5b8fb2/e36e4304-73ff-4f9f-8d38-e748576a1f51/media_.m3u8
+#EXTINF:-1 tvg-id="jodha-akbar" tvg-name="Jodha Akbar" group-title="Séries",Jodha Akbar
+https://ae63f2b9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0pvZGhhQWtiYXJfSExT/playlist.m3u8
+#EXTINF:-1 tvg-id="les-filles-d-a-cote" tvg-name="Les Filles d'a Coté" group-title="Séries",Les Filles d'a Coté
+https://daiconnect.com/live/hls/okast/rak-mw10/.m3u8
+#EXTINF:-1 tvg-id="mr-bean-fr" tvg-name="Mr. Bean" group-title="Séries",Mr. Bean
+https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
+#EXTINF:-1 tvg-id="mr-bean-live-action" tvg-name="Mr. Bean - Live Action" group-title="Séries",Mr. Bean - Live Action
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-id="rakuten-viki-new" tvg-name="Rakuten VIKI" group-title="Séries",Rakuten VIKI
+https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8
+#EXTINF:-1 tvg-id="rookie-blue-fre" tvg-name="Rookie Blue" group-title="Séries",Rookie Blue
+https://amg00353-amg00353c47-rakuten-us-8850.playouts.now.amagi.tv/playlist/amg00353-lionsgatetvfast-rookiebluefrench-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-id="soap-fra" tvg-name="Soap" group-title="Séries",Soap
+https://88296474.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1NvYXBfSExT/playlist.m3u8
+#EXTINF:-1 tvg-id="televisa-telenovelas" tvg-name="Televisa: Les riches pleurent aussi" group-title="Séries",Televisa: Les riches pleurent aussi
+https://5da8648ad154478c8d45cd6a4c3c7784.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_TelevisaTelenovelas/playlist.m3u8
+#EXTINF:-1 tvg-id="bbc-top-gear-fr" tvg-name="Top Gear" group-title="Séries",Top Gear
+https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearfrance-rakutenfr/playlist.m3u8
+#EXTINF:-1 tvg-id="un-village-francais" tvg-name="Un Village Français" group-title="Séries",Un Village Français
+https://amg00654-itv-amg00654c32-rakuten-fr-6134.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-unvillagesfrancais-rakutenfr/playlist.m3u8
+#EXTINF:-1 tvg-id="yu-gi-oh-new-fr" tvg-name="Yu-Gi-Oh!" group-title="Séries",Yu-Gi-Oh!
+https://amg01796-amg01796c16-rakuten-fr-7493.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh3fr-rakutenfr/playlist.m3u8

@@ -1,0 +1,8 @@
+#EXTM3U
+# DJRay - Afghanistan
+# Total channels: 1
+# Generated: 2026-08-09 10:54:42
+
+# Afghanistan (1 channels)
+#EXTINF:-1 tvg-id="Cctv4" tvg-name="Cctv4" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202310/12319_720p_f_16x9.webp?v=1769766190" group-title="Afghanistan",Cctv4
+https://livealiglobal-srf.cctv.cn/hls/zwgjzb2m/playlist.m3u8?AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-12319&AV_CUSTOM17=Google--520678__156__12319__0__0__0____MP

@@ -1,0 +1,8 @@
+#EXTM3U
+# DJRay - IRIS FTA Channels
+# Total channels: 1
+# Generated: 2026-08-09 10:54:42
+
+# IRIS FTA Channels (1 channels)
+#EXTINF:-1 tvg-id="ABPNews" tvg-name="ABP News" tvg-logo="https://c.kmpr.in/assets/tv_channels_150/5212.jpg" group-title="IRIS FTA Channels",ABP News
+https://amg01043-amg01043c1-kogan-au-9421.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01043-abpnewsnetwork-abpnews-koganau/playlist.m3u8?ads.network_name=ABPNewsNetwork&ads.coppa=Replace_me&ads.channel_name=ABPNews&ads.did=Replace_me&ads.age=Replace_me&ads.ifa_type=Replace_me&ads.language=Replace_me&ads.us_privacy=Replace_me&ads.lmt=Replace_me&ads.ip=Replace_me&ads.timezone=Replace_me&ads.gpp_sid=Replace_me&ads.dnt=Replace_me&ads.cb=Replace_me&ads.gpp=Replace_me&ads.gender=Replace_me&ads.app_bundle=Replace_me&ads.gdpr=Replace_me&ads.ifa=Replace_me&ads.h=Replace_me&ads.app_name=Replace_me&ads.gdpr_consent=Replace_me&ads.region=Replace_me&ads.genre=Replace_me&ads.ua=Replace_me&ads.app_store_url=Replace_me&ads.country=Replace_me&ads.url=Replace_me&ads.pod_max_dur=Replace_me&ads.w=Replace_me

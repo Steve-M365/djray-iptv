@@ -1,0 +1,16 @@
+#EXTM3U
+# DJRay - Rn
+# Total channels: 5
+# Generated: 2026-08-09 10:54:42
+
+# Rn (5 channels)
+#EXTINF:-1 tvg-id="TVAVIVANDONAES" tvg-name="TV AVIVANDO NAÇÕES" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-avivando-nacoes.png" group-title="Rn",TV AVIVANDO NAÇÕES
+https://video04.logicahost.com.br/tvavivandonacoes/tvavivandonacoes/playlist.m3u8
+#EXTINF:-1 tvg-id="TVFELIZ" tvg-name="TV FELIZ" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/142/2023/08/LOGO.png" group-title="Rn",TV FELIZ
+https://video01.logicahost.com.br/tvfeliz/tvfeliz/playlist.m3u8
+#EXTINF:-1 tvg-id="TvGrandeNatal" tvg-name="Tv Grande Natal" tvg-logo="https://hosttec.online/rokuxml/natal/vivo.jpg" group-title="Rn",Tv Grande Natal
+https://canalteste.duckdns.org:443/app/tvgrandenatalhdtv/llhls.m3u8
+#EXTINF:-1 tvg-id="TVGRANDENATALTVBRASIL" tvg-name="TV GRANDE NATALTV BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/909/2024/06/logo-para-icone.jpg" group-title="Rn",TV GRANDE NATALTV BRASIL
+https://canalteste.duckdns.org/app/tvgrandenatalhdtv/llhls.m3u8
+#EXTINF:-1 tvg-id="TVSONORA" tvg-name="TV SONORA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-sonora.jpeg" group-title="Rn",TV SONORA
+https://video01.kshost.com.br/xavier4499/xavier4499/playlist.m3u8
