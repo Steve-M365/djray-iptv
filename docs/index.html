@@ -4,501 +4,866 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJRay IPTV Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #0f1117;
-            --surface: #1a1d27;
-            --surface2: #242836;
-            --border: #2d3148;
-            --text: #e4e6f0;
-            --text-muted: #8b8fa3;
-            --accent: #6c5ce7;
-            --accent-hover: #7c6df7;
-            --success: #00b894;
-            --warning: #fdcb6e;
-            --danger: #e17055;
-            --radius: 10px;
+            --bg: #08080c;
+            --surface: #111118;
+            --surface2: #1a1a24;
+            --surface3: #22222e;
+            --border: #2a2a38;
+            --border-hover: #3a3a4e;
+            --text: #e8e4de;
+            --text-muted: #7a7880;
+            --text-dim: #4a4850;
+            --accent: #d4913a;
+            --accent-glow: rgba(212, 145, 58, 0.15);
+            --accent-dim: #b87a2e;
+            --success: #4a9e6e;
+            --danger: #c45a4a;
+            --serif: 'Instrument Serif', Georgia, serif;
+            --sans: 'DM Sans', -apple-system, sans-serif;
+            --mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: var(--sans);
             background: var(--bg);
             color: var(--text);
-            line-height: 1.6;
+            line-height: 1.5;
             min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
         }
-        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+        /* Grain overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 9999;
+        }
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
 
-        /* Header */
-        header {
-            text-align: center;
-            padding: 3rem 0 2rem;
+        /* ── HEADER ── */
+        .masthead {
+            padding: 3.5rem 0 2.5rem;
             border-bottom: 1px solid var(--border);
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
+            position: relative;
         }
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--accent), #a29bfe);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
+        .masthead::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-dim), transparent);
+            opacity: 0.4;
         }
-        header p { color: var(--text-muted); font-size: 1.1rem; }
-        .stats {
+        .masthead-top {
             display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 1.5rem;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
             flex-wrap: wrap;
         }
-        .stat {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 1rem 1.5rem;
-            text-align: center;
-            min-width: 140px;
+        .masthead h1 {
+            font-family: var(--serif);
+            font-size: 3.2rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            line-height: 1;
         }
-        .stat .value {
-            font-size: 1.8rem;
-            font-weight: 700;
+        .masthead h1 em {
+            font-style: italic;
             color: var(--accent);
         }
-        .stat .label {
+        .masthead-link {
             font-size: 0.8rem;
             color: var(--text-muted);
+            text-decoration: none;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            transition: color 0.2s;
+        }
+        .masthead-link:hover { color: var(--accent); }
+        .masthead-sub {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-weight: 300;
+            max-width: 500px;
+        }
+        .masthead-sub strong { color: var(--text); font-weight: 500; }
+        .stat-row {
+            display: flex;
+            gap: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+        .stat-num {
+            font-family: var(--serif);
+            font-size: 2rem;
+            color: var(--accent);
+            line-height: 1;
+        }
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 0.25rem;
         }
 
-        /* URL Output */
-        .url-box {
+        /* ── URL BAR ── */
+        .url-bar {
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 1.5rem;
+            padding: 1.25rem 1.5rem;
             margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
         }
-        .url-box h2 {
-            font-size: 1rem;
-            color: var(--text-muted);
-            margin-bottom: 0.75rem;
+        .url-bar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: var(--accent);
+        }
+        .url-bar-label {
+            font-size: 0.65rem;
+            color: var(--text-dim);
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.12em;
+            margin-bottom: 0.75rem;
         }
         .url-row {
             display: flex;
             gap: 0.5rem;
-            margin-bottom: 0.75rem;
-        }
-        .url-row:last-child { margin-bottom: 0; }
-        .url-input {
-            flex: 1;
-            background: var(--surface2);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 0.75rem 1rem;
-            color: var(--text);
-            font-family: 'SF Mono', 'Fira Code', monospace;
-            font-size: 0.85rem;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-        .url-label {
-            min-width: 80px;
-            display: flex;
             align-items: center;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            font-weight: 600;
         }
-        .btn {
-            background: var(--accent);
-            color: white;
-            border: none;
-            border-radius: 6px;
-            padding: 0.75rem 1.25rem;
-            font-size: 0.85rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.2s;
-            white-space: nowrap;
-        }
-        .btn:hover { background: var(--accent-hover); }
-        .btn.success { background: var(--success); }
-        .btn.small { padding: 0.5rem 0.75rem; font-size: 0.8rem; }
-
-        /* Presets */
-        .presets {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 1.5rem;
-        }
-        .preset-btn {
-            background: var(--surface2);
-            color: var(--text);
+        .url-row + .url-row { margin-top: 0.5rem; }
+        .url-field {
+            flex: 1;
+            background: var(--bg);
             border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 0.5rem 1rem;
-            font-size: 0.85rem;
+            padding: 0.6rem 0.8rem;
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 0.78rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .url-field:focus { border-color: var(--accent); }
+        .url-field-label {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            min-width: 32px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .copy-btn {
+            background: var(--accent);
+            color: var(--bg);
+            border: none;
+            padding: 0.6rem 1rem;
+            font-family: var(--sans);
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
             cursor: pointer;
             transition: all 0.2s;
+            text-transform: uppercase;
         }
-        .preset-btn:hover { border-color: var(--accent); color: var(--accent); }
-        .preset-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
-
-        /* Search */
-        .search-box {
-            width: 100%;
-            background: var(--surface2);
+        .copy-btn:hover { background: var(--text); }
+        .copy-btn:active { transform: scale(0.97); }
+        .copy-btn.ghost {
+            background: transparent;
+            color: var(--text-muted);
             border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 0.75rem 1rem;
-            color: var(--text);
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
         }
-        .search-box::placeholder { color: var(--text-muted); }
-        .search-box:focus { outline: none; border-color: var(--accent); }
+        .copy-btn.ghost:hover { border-color: var(--accent); color: var(--accent); }
 
-        /* Source Grid */
-        .sources-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        /* ── TOOLBAR ── */
+        .toolbar {
+            display: flex;
+            align-items: center;
             gap: 0.75rem;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
         }
-        .source-card {
+        .search-input {
+            flex: 1;
+            min-width: 200px;
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 1rem;
+            padding: 0.65rem 1rem;
+            color: var(--text);
+            font-family: var(--sans);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input::placeholder { color: var(--text-dim); }
+        .search-input:focus { border-color: var(--accent); }
+        .pill-group {
+            display: flex;
+            gap: 0.35rem;
+            flex-wrap: wrap;
+        }
+        .pill {
+            background: transparent;
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            padding: 0.45rem 0.85rem;
+            font-family: var(--sans);
+            font-size: 0.78rem;
             cursor: pointer;
             transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .pill:hover { border-color: var(--text-muted); color: var(--text); }
+        .pill.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 600; }
+        .pill-divider {
+            width: 1px;
+            height: 20px;
+            background: var(--border);
+            margin: 0 0.25rem;
+            align-self: center;
+        }
+
+        /* ── SOURCE GRID ── */
+        .source-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+        }
+        .source-tile {
+            background: var(--surface);
+            padding: 1.25rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            position: relative;
+        }
+        .source-tile:hover { background: var(--surface2); }
+        .source-tile.selected { background: var(--accent-glow); }
+        .source-tile.expanded { background: var(--surface2); }
+        .tile-top {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 0.75rem;
         }
-        .source-card:hover { border-color: var(--accent); }
-        .source-card.selected { border-color: var(--accent); background: rgba(108, 92, 231, 0.1); }
-        .source-card input[type="checkbox"] {
-            width: 18px;
-            height: 18px;
-            accent-color: var(--accent);
+        .tile-check {
+            width: 16px;
+            height: 16px;
+            border: 1.5px solid var(--border);
+            background: var(--bg);
+            appearance: none;
             cursor: pointer;
             flex-shrink: 0;
+            margin-top: 2px;
+            transition: all 0.15s;
+            position: relative;
         }
-        .source-info { flex: 1; min-width: 0; }
-        .source-name {
+        .tile-check:checked {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+        .tile-check:checked::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 5px;
+            width: 4px;
+            height: 7px;
+            border: solid var(--bg);
+            border-width: 0 1.5px 1.5px 0;
+            transform: rotate(45deg);
+        }
+        .tile-content { flex: 1; min-width: 0; }
+        .tile-name {
             font-weight: 600;
-            font-size: 0.95rem;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            font-size: 0.9rem;
+            margin-bottom: 0.3rem;
+            line-height: 1.2;
         }
-        .source-meta {
-            font-size: 0.8rem;
-            color: var(--text-muted);
+        .tile-stats {
             display: flex;
             gap: 0.75rem;
-            margin-top: 0.25rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
-        .source-meta .channels {
-            color: var(--accent);
-            font-weight: 600;
-        }
-        .source-url {
-            font-size: 0.7rem;
-            color: var(--accent);
-            margin-top: 0.25rem;
-            font-family: 'SF Mono', 'Fira Code', monospace;
+        .tile-stat-num { color: var(--accent); font-weight: 600; }
+        .tile-url {
+            margin-top: 0.5rem;
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            color: var(--text-dim);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            opacity: 0.8;
         }
+        .tile-expand {
+            color: var(--text-dim);
+            font-size: 0.7rem;
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            transition: color 0.2s;
+        }
+        .source-tile:hover .tile-expand { color: var(--accent); }
+        .tile-expand-arrow {
+            transition: transform 0.3s;
+            font-size: 0.6rem;
+        }
+        .source-tile.expanded .tile-expand-arrow { transform: rotate(90deg); }
 
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 2rem 0;
+        /* ── DETAIL PANEL ── */
+        .detail-panel {
+            grid-column: 1 / -1;
+            background: var(--surface);
+            border-top: 2px solid var(--accent);
+            display: none;
+            animation: slideDown 0.3s ease;
+        }
+        .detail-panel.open { display: block; }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .detail-inner {
+            padding: 1.5rem;
+        }
+        .detail-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .detail-title {
+            font-family: var(--serif);
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        .detail-title em { color: var(--accent); font-style: italic; }
+        .detail-close {
+            background: none;
+            border: 1px solid var(--border);
             color: var(--text-muted);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border);
-            margin-top: 2rem;
+            padding: 0.4rem 0.8rem;
+            font-family: var(--sans);
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
         }
-        footer a { color: var(--accent); text-decoration: none; }
-        footer a:hover { text-decoration: underline; }
-
-        /* Loading */
-        .loading {
+        .detail-close:hover { border-color: var(--danger); color: var(--danger); }
+        .detail-url-row {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            padding: 0.6rem 0.8rem;
+            font-family: var(--mono);
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .detail-url-text {
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .detail-loading {
             text-align: center;
             padding: 3rem;
-            color: var(--text-muted);
+            color: var(--text-dim);
         }
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid var(--border);
+        .detail-spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border);
             border-top-color: var(--accent);
             border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin: 0 auto 1rem;
+            animation: spin 0.7s linear infinite;
+            margin: 0 auto 0.75rem;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        /* Toast */
+        /* ── CHANNEL GROUPS ── */
+        .ch-group {
+            border: 1px solid var(--border);
+            margin-bottom: 0.5rem;
+        }
+        .ch-group-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.65rem 1rem;
+            background: var(--surface2);
+            cursor: pointer;
+            transition: background 0.15s;
+            font-size: 0.82rem;
+        }
+        .ch-group-header:hover { background: var(--surface3); }
+        .ch-group-name { flex: 1; font-weight: 500; }
+        .ch-group-count {
+            font-size: 0.7rem;
+            color: var(--accent);
+            font-weight: 600;
+            background: var(--accent-glow);
+            padding: 0.15rem 0.5rem;
+        }
+        .ch-group-arrow {
+            font-size: 0.6rem;
+            color: var(--text-dim);
+            transition: transform 0.2s;
+        }
+        .ch-group.open .ch-group-arrow { transform: rotate(90deg); }
+        .ch-list {
+            display: none;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+        .ch-list.open { display: block; }
+        .ch-item {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.4rem 1rem;
+            font-size: 0.78rem;
+            border-top: 1px solid var(--border);
+            transition: background 0.1s;
+        }
+        .ch-item:hover { background: rgba(212, 145, 58, 0.04); }
+        .ch-icon {
+            width: 22px;
+            height: 22px;
+            border-radius: 3px;
+            background: var(--surface3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.6rem;
+            color: var(--text-dim);
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        .ch-icon img { width: 100%; height: 100%; object-fit: contain; }
+        .ch-name {
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--text-muted);
+        }
+        .ch-list::-webkit-scrollbar { width: 4px; }
+        .ch-list::-webkit-scrollbar-track { background: var(--bg); }
+        .ch-list::-webkit-scrollbar-thumb { background: var(--border); }
+
+        /* ── FOOTER ── */
+        footer {
+            margin-top: 3rem;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        footer p { font-size: 0.78rem; color: var(--text-dim); }
+        footer a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+        footer a:hover { color: var(--accent); }
+        .footer-links { display: flex; gap: 1.5rem; }
+
+        /* ── TOAST ── */
         .toast {
             position: fixed;
             bottom: 2rem;
             right: 2rem;
-            background: var(--success);
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 8px;
+            background: var(--accent);
+            color: var(--bg);
+            padding: 0.6rem 1.2rem;
+            font-size: 0.8rem;
             font-weight: 600;
             opacity: 0;
-            transform: translateY(10px);
-            transition: all 0.3s;
+            transform: translateY(8px);
+            transition: all 0.25s;
             z-index: 1000;
+            pointer-events: none;
         }
         .toast.show { opacity: 1; transform: translateY(0); }
 
-        @media (max-width: 640px) {
-            .container { padding: 1rem; }
-            header h1 { font-size: 1.8rem; }
-            .sources-grid { grid-template-columns: 1fr; }
-            .url-row { flex-direction: column; }
-            .url-label { min-width: auto; }
+        /* ── ANIMATIONS ── */
+        .source-tile {
+            animation: fadeUp 0.4s ease both;
+        }
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 0 1rem; }
+            .masthead h1 { font-size: 2.2rem; }
+            .stat-row { gap: 1.5rem; }
+            .source-grid { grid-template-columns: 1fr; }
+            .url-row { flex-direction: column; align-items: stretch; }
+            .url-field-label { min-width: auto; }
+            .toolbar { flex-direction: column; align-items: stretch; }
+            .pill-group { justify-content: center; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>DJRay IPTV Hub</h1>
-            <p>28,380+ free channels from 42 sources across 163 countries</p>
-            <div class="stats">
-                <div class="stat"><div class="value" id="totalChannels">28,380</div><div class="label">Channels</div></div>
-                <div class="stat"><div class="value" id="totalSources">42</div><div class="label">Sources</div></div>
-                <div class="stat"><div class="value" id="totalCountries">163</div><div class="label">Countries</div></div>
+        <header class="masthead">
+            <div class="masthead-top">
+                <h1>DJRay <em>IPTV</em></h1>
+                <a href="setup.html" class="masthead-link">Setup Guide &rarr;</a>
             </div>
-            <a href="setup.html" class="btn" style="margin-top: 1.5rem; display: inline-block; text-decoration: none;">Setup Guide &rarr;</a>
+            <p class="masthead-sub">
+                <strong>28,380</strong> free channels from <strong>42</strong> sources across <strong>163</strong> countries. Pick a source, copy the URL, paste into your player.
+            </p>
+            <div class="stat-row">
+                <div class="stat-item">
+                    <span class="stat-num">28,380</span>
+                    <span class="stat-label">Channels</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">42</span>
+                    <span class="stat-label">Sources</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">163</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
         </header>
 
-        <div class="url-box">
-            <h2>TiviMate / IPTV Player URL</h2>
+        <div class="url-bar">
+            <div class="url-bar-label">Player URL</div>
             <div class="url-row">
-                <span class="url-label">M3U:</span>
-                <input type="text" class="url-input" id="m3uUrl" readonly>
-                <button class="btn" onclick="copyUrl('m3uUrl')">Copy</button>
+                <span class="url-field-label">M3U</span>
+                <input type="text" class="url-field" id="m3uUrl" readonly value="Select a source below">
+                <button class="copy-btn" onclick="copyUrl('m3uUrl')">Copy</button>
             </div>
             <div class="url-row">
-                <span class="url-label">EPG:</span>
-                <input type="text" class="url-input" id="epgUrl" readonly>
-                <button class="btn small" onclick="copyUrl('epgUrl')">Copy</button>
+                <span class="url-field-label">EPG</span>
+                <input type="text" class="url-field" id="epgUrl" readonly>
+                <button class="copy-btn ghost" onclick="copyUrl('epgUrl')">Copy</button>
             </div>
         </div>
 
-        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap;">
-            <input type="text" class="search-box" id="search" placeholder="Search sources..." style="flex: 1; min-width: 200px; margin-bottom: 0;">
-            <button class="preset-btn" onclick="selectAll()">Select All</button>
-            <button class="preset-btn" onclick="selectNone()">Clear</button>
+        <div class="toolbar">
+            <input type="text" class="search-input" id="search" placeholder="Search sources...">
+            <div class="pill-group">
+                <button class="pill" onclick="selectAll()">All</button>
+                <button class="pill" onclick="selectNone()">Clear</button>
+                <span class="pill-divider"></span>
+                <button class="pill" data-preset="australian">AU</button>
+                <button class="pill" data-preset="us">US</button>
+                <button class="pill" data-preset="sports">Sports</button>
+                <button class="pill" data-preset="free">Free</button>
+                <button class="pill" data-preset="fast">FAST</button>
+                <button class="pill" data-preset="world">World</button>
+            </div>
         </div>
 
-        <div class="presets" id="presets">
-            <button class="preset-btn" data-preset="australian">Australian</button>
-            <button class="preset-btn" data-preset="us">US Only</button>
-            <button class="preset-btn" data-preset="sports">Sports</button>
-            <button class="preset-btn" data-preset="free">Free Streams</button>
-            <button class="preset-btn" data-preset="fast">FAST Channels</button>
-            <button class="preset-btn" data-preset="world">World TV</button>
-        </div>
-
-        <div id="sources-container" class="loading">
-            <div class="spinner"></div>
-            Loading sources from GitHub...
+        <div id="sources-container" class="source-grid">
+            <div class="detail-loading">Loading sources...</div>
         </div>
 
         <footer>
-            <p>Powered by <a href="https://github.com/Steve-M365/djray-iptv">DJRay IPTV</a> &mdash; Aggregated from apsattv, dearbulut, Samsung TV Plus, LG, Roku, Pluto TV, and more.</p>
-            <p style="margin-top: 0.5rem;"><a href="setup.html">Setup Guide</a> &middot; <a href="https://github.com/Steve-M365/djray-iptv">GitHub</a></p>
+            <p>DJRay IPTV Hub &mdash; open source, community maintained</p>
+            <div class="footer-links">
+                <a href="setup.html">Setup Guide</a>
+                <a href="https://github.com/Steve-M365/djray-iptv">GitHub</a>
+            </div>
         </footer>
     </div>
 
-    <div class="toast" id="toast">Copied!</div>
+    <div class="toast" id="toast"></div>
 
     <script>
         const REPO = 'Steve-M365/djray-iptv';
         const BRANCH = 'master';
-        const RAW_BASE = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/output/sources`;
-        const EPG_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/output/epg.xml.gz`;
+        const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/output/sources`;
+        const EPG = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/output/epg.xml.gz`;
 
-        // Source metadata (name, channels, countries, category)
         const SOURCES = [
-            { file: 'dearbulut.m3u', name: 'dearbulut', channels: 9637, countries: 163, category: 'world' },
-            { file: 'vortexo.m3u', name: 'Vortexo (Pluto TV)', channels: 4264, countries: 1, category: 'fast' },
-            { file: 'apsattv.m3u', name: 'apsattv', channels: 4065, countries: 31, category: 'world' },
-            { file: 'lg_channels.m3u', name: 'LG Channels', channels: 1268, countries: 29, category: 'fast' },
-            { file: 'tcl_tv.m3u', name: 'TCL TV', channels: 1129, countries: 3, category: 'fast' },
-            { file: 'daddylive.m3u', name: 'DaddyLive', channels: 1020, countries: 1, category: 'free' },
-            { file: 'vidaa.m3u', name: 'Vidaa', channels: 788, countries: 1, category: 'fast' },
-            { file: 'samsung_tv_plus.m3u', name: 'Samsung TV Plus', channels: 717, countries: 16, category: 'fast' },
-            { file: 'roku.m3u', name: 'Roku', channels: 646, countries: 1, category: 'fast' },
-            { file: 'whaletv.m3u', name: 'WhaleTV', channels: 491, countries: 2, category: 'fast' },
-            { file: 'localnow.m3u', name: 'LocalNow', channels: 447, countries: 1, category: 'fast' },
-            { file: 'vizio.m3u', name: 'Vizio WatchFree+', channels: 429, countries: 1, category: 'fast' },
-            { file: 'xumo.m3u', name: 'Xumo Play', channels: 387, countries: 1, category: 'fast' },
-            { file: 'rakuten_tv.m3u', name: 'Rakuten TV', channels: 304, countries: 3, category: 'fast' },
-            { file: 'redeitv.m3u', name: 'RedeiTV', channels: 268, countries: 1, category: 'world' },
-            { file: 'xiaomi.m3u', name: 'Xiaomi', channels: 249, countries: 1, category: 'fast' },
-            { file: 'metax.m3u', name: 'MetaX', channels: 232, countries: 1, category: 'fast' },
-            { file: 'orka_tv.m3u', name: 'Orka TV', channels: 195, countries: 1, category: 'world' },
-            { file: 'tubi.m3u', name: 'Tubi', channels: 179, countries: 1, category: 'fast' },
-            { file: 'tablo.m3u', name: 'Tablo', channels: 164, countries: 1, category: 'free' },
-            { file: 'movieark.m3u', name: 'MovieArk', channels: 146, countries: 1, category: 'world' },
-            { file: 'hp_tv.m3u', name: 'HP TV+', channels: 134, countries: 1, category: 'free' },
-            { file: 'freelivesports.m3u', name: 'FreeLiveSports', channels: 125, countries: 1, category: 'sports' },
-            { file: 'sportstv.m3u', name: 'SportsTV', channels: 124, countries: 1, category: 'sports' },
-            { file: 'soultv.m3u', name: 'SoulTV', channels: 121, countries: 1, category: 'world' },
-            { file: 'rewarded_tv.m3u', name: 'Rewarded.tv', channels: 89, countries: 1, category: 'free' },
-            { file: 'freetv.m3u', name: 'FreeTV', channels: 84, countries: 1, category: 'free' },
-            { file: 'iptv-org_sports.m3u', name: 'iptv-org Sports', channels: 84, countries: 1, category: 'sports' },
-            { file: 'kogan_tv.m3u', name: 'Kogan TV+', channels: 82, countries: 1, category: 'fast' },
-            { file: 'klowdtv.m3u', name: 'KlowdTV', channels: 78, countries: 1, category: 'free' },
-            { file: 'iptv-org_australia.m3u', name: 'iptv-org Australia', channels: 75, countries: 1, category: 'australian' },
-            { file: 'amazon_fire_tv.m3u', name: 'Amazon Fire TV', channels: 57, countries: 1, category: 'fast' },
-            { file: '10fast.m3u', name: '10FAST', channels: 55, countries: 1, category: 'australian' },
-            { file: 'galaxy_tv.m3u', name: 'Galaxy TV', channels: 49, countries: 1, category: 'free' },
-            { file: 'zeasn.m3u', name: 'Zeasn', channels: 45, countries: 1, category: 'fast' },
-            { file: '9fast.m3u', name: '9FAST', channels: 30, countries: 1, category: 'australian' },
-            { file: 'cineverse.m3u', name: 'Cineverse', channels: 29, countries: 1, category: 'free' },
-            { file: 'olhosnatv.m3u', name: 'OlhosnaTV', channels: 29, countries: 1, category: 'world' },
-            { file: 'igocast.m3u', name: 'IGOCast', channels: 25, countries: 1, category: 'free' },
-            { file: 'fetch_tv.m3u', name: 'Fetch TV', channels: 17, countries: 1, category: 'australian' },
-            { file: 'freemoviesplus.m3u', name: 'FreeMoviesPlus', channels: 16, countries: 1, category: 'free' },
-            { file: 'veely.m3u', name: 'Veely', channels: 7, countries: 1, category: 'free' },
+            { f: 'dearbulut.m3u', n: 'dearbulut', c: 9637, co: 163, cat: 'world' },
+            { f: 'vortexo.m3u', n: 'Vortexo (Pluto TV)', c: 4264, co: 1, cat: 'fast' },
+            { f: 'apsattv.m3u', n: 'apsattv', c: 4065, co: 31, cat: 'world' },
+            { f: 'lg_channels.m3u', n: 'LG Channels', c: 1268, co: 29, cat: 'fast' },
+            { f: 'tcl_tv.m3u', n: 'TCL TV', c: 1129, co: 3, cat: 'fast' },
+            { f: 'daddylive.m3u', n: 'DaddyLive', c: 1020, co: 1, cat: 'free' },
+            { f: 'vidaa.m3u', n: 'Vidaa', c: 788, co: 1, cat: 'fast' },
+            { f: 'samsung_tv_plus.m3u', n: 'Samsung TV Plus', c: 717, co: 16, cat: 'fast' },
+            { f: 'roku.m3u', n: 'Roku', c: 646, co: 1, cat: 'fast' },
+            { f: 'whaletv.m3u', n: 'WhaleTV', c: 491, co: 2, cat: 'fast' },
+            { f: 'localnow.m3u', n: 'LocalNow', c: 447, co: 1, cat: 'fast' },
+            { f: 'vizio.m3u', n: 'Vizio WatchFree+', c: 429, co: 1, cat: 'fast' },
+            { f: 'xumo.m3u', n: 'Xumo Play', c: 387, co: 1, cat: 'fast' },
+            { f: 'rakuten_tv.m3u', n: 'Rakuten TV', c: 304, co: 3, cat: 'fast' },
+            { f: 'redeitv.m3u', n: 'RedeiTV', c: 268, co: 1, cat: 'world' },
+            { f: 'xiaomi.m3u', n: 'Xiaomi', c: 249, co: 1, cat: 'fast' },
+            { f: 'metax.m3u', n: 'MetaX', c: 232, co: 1, cat: 'fast' },
+            { f: 'orka_tv.m3u', n: 'Orka TV', c: 195, co: 1, cat: 'world' },
+            { f: 'tubi.m3u', n: 'Tubi', c: 179, co: 1, cat: 'fast' },
+            { f: 'tablo.m3u', n: 'Tablo', c: 164, co: 1, cat: 'free' },
+            { f: 'movieark.m3u', n: 'MovieArk', c: 146, co: 1, cat: 'world' },
+            { f: 'hp_tv.m3u', n: 'HP TV+', c: 134, co: 1, cat: 'free' },
+            { f: 'freelivesports.m3u', n: 'FreeLiveSports', c: 125, co: 1, cat: 'sports' },
+            { f: 'sportstv.m3u', n: 'SportsTV', c: 124, co: 1, cat: 'sports' },
+            { f: 'soultv.m3u', n: 'SoulTV', c: 121, co: 1, cat: 'world' },
+            { f: 'rewarded_tv.m3u', n: 'Rewarded.tv', c: 89, co: 1, cat: 'free' },
+            { f: 'freetv.m3u', n: 'FreeTV', c: 84, co: 1, cat: 'free' },
+            { f: 'iptv-org_sports.m3u', n: 'iptv-org Sports', c: 84, co: 1, cat: 'sports' },
+            { f: 'kogan_tv.m3u', n: 'Kogan TV+', c: 82, co: 1, cat: 'fast' },
+            { f: 'klowdtv.m3u', n: 'KlowdTV', c: 78, co: 1, cat: 'free' },
+            { f: 'iptv-org_australia.m3u', n: 'iptv-org Australia', c: 75, co: 1, cat: 'australian' },
+            { f: 'amazon_fire_tv.m3u', n: 'Amazon Fire TV', c: 57, co: 1, cat: 'fast' },
+            { f: '10fast.m3u', n: '10FAST', c: 55, co: 1, cat: 'australian' },
+            { f: 'galaxy_tv.m3u', n: 'Galaxy TV', c: 49, co: 1, cat: 'free' },
+            { f: 'zeasn.m3u', n: 'Zeasn', c: 45, co: 1, cat: 'fast' },
+            { f: '9fast.m3u', n: '9FAST', c: 30, co: 1, cat: 'australian' },
+            { f: 'cineverse.m3u', n: 'Cineverse', c: 29, co: 1, cat: 'free' },
+            { f: 'olhosnatv.m3u', n: 'OlhosnaTV', c: 29, co: 1, cat: 'world' },
+            { f: 'igocast.m3u', n: 'IGOCast', c: 25, co: 1, cat: 'free' },
+            { f: 'fetch_tv.m3u', n: 'Fetch TV', c: 17, co: 1, cat: 'australian' },
+            { f: 'freemoviesplus.m3u', n: 'FreeMoviesPlus', c: 16, co: 1, cat: 'free' },
+            { f: 'veely.m3u', n: 'Veely', c: 7, co: 1, cat: 'free' },
         ];
 
         const PRESETS = {
-            australian: ['dearbulut.m3u', 'vortexo.m3u', 'apsattv.m3u', 'iptv-org_australia.m3u', '10fast.m3u', '9fast.m3u', 'kogan_tv.m3u', 'freetv.m3u', 'fetch_tv.m3u'],
-            us: ['dearbulut.m3u', 'daddylive.m3u', 'localnow.m3u', 'xumo.m3u', 'roku.m3u', 'vidaa.m3u', 'vizio.m3u', 'tablo.m3u', 'freelivesports.m3u', 'tubi.m3u'],
-            sports: ['freelivesports.m3u', 'sportstv.m3u', 'iptv-org_sports.m3u', 'daddylive.m3u'],
-            free: ['daddylive.m3u', 'tablo.m3u', 'hp_tv.m3u', 'rewarded_tv.m3u', 'freetv.m3u', 'klowdtv.m3u', 'cineverse.m3u', 'igocast.m3u', 'freemoviesplus.m3u', 'veely.m3u', 'galaxy_tv.m3u'],
-            fast: ['vortexo.m3u', 'lg_channels.m3u', 'tcl_tv.m3u', 'samsung_tv_plus.m3u', 'roku.m3u', 'vidaa.m3u', 'whaletv.m3u', 'localnow.m3u', 'vizio.m3u', 'xumo.m3u', 'rakuten_tv.m3u', 'tubi.m3u', 'xiaomi.m3u', 'metax.m3u', 'amazon_fire_tv.m3u', 'kogan_tv.m3u', 'zeasn.m3u'],
-            world: ['dearbulut.m3u', 'apsattv.m3u', 'redeitv.m3u', 'orka_tv.m3u', 'movieark.m3u', 'soultv.m3u', 'olhosnatv.m3u'],
+            australian: ['dearbulut.m3u','vortexo.m3u','apsattv.m3u','iptv-org_australia.m3u','10fast.m3u','9fast.m3u','kogan_tv.m3u','freetv.m3u','fetch_tv.m3u'],
+            us: ['dearbulut.m3u','daddylive.m3u','localnow.m3u','xumo.m3u','roku.m3u','vidaa.m3u','vizio.m3u','tablo.m3u','freelivesports.m3u','tubi.m3u'],
+            sports: ['freelivesports.m3u','sportstv.m3u','iptv-org_sports.m3u','daddylive.m3u'],
+            free: ['daddylive.m3u','tablo.m3u','hp_tv.m3u','rewarded_tv.m3u','freetv.m3u','klowdtv.m3u','cineverse.m3u','igocast.m3u','freemoviesplus.m3u','veely.m3u','galaxy_tv.m3u'],
+            fast: ['vortexo.m3u','lg_channels.m3u','tcl_tv.m3u','samsung_tv_plus.m3u','roku.m3u','vidaa.m3u','whaletv.m3u','localnow.m3u','vizio.m3u','xumo.m3u','rakuten_tv.m3u','tubi.m3u','xiaomi.m3u','metax.m3u','amazon_fire_tv.m3u','kogan_tv.m3u','zeasn.m3u'],
+            world: ['dearbulut.m3u','apsattv.m3u','redeitv.m3u','orka_tv.m3u','movieark.m3u','soultv.m3u','olhosnatv.m3u'],
         };
 
-        const AUSTRALIAN_SOURCES = ['vortexo.m3u', 'apsattv.m3u', 'iptv-org_australia.m3u', '10fast.m3u', '9fast.m3u', 'kogan_tv.m3u', 'freetv.m3u', 'fetch_tv.m3u', 'dearbulut.m3u'];
+        let selected = new Set();
+        let openFile = null;
+        const cache = {};
 
-        let selectedFiles = new Set();
+        function parseM3U(t) {
+            const g = {};
+            const l = t.split('\n');
+            let i = 0;
+            while (i < l.length) {
+                const ln = l[i].trim();
+                if (ln.startsWith('#EXTINF:')) {
+                    const nm = ln.match(/,(.+)$/);
+                    const lg = ln.match(/tvg-logo="([^"]*)"/);
+                    const gr = ln.match(/group-title="([^"]*)"/);
+                    if (nm && i + 1 < l.length) {
+                        const url = l[i + 1].trim();
+                        if (url && !url.startsWith('#')) {
+                            const group = gr ? gr[1] : 'Other';
+                            if (!g[group]) g[group] = [];
+                            g[group].push({ name: nm[1].trim(), url, logo: lg ? lg[1] : '' });
+                            i += 2; continue;
+                        }
+                    }
+                }
+                i++;
+            }
+            return g;
+        }
 
-        function renderSources(filter = '') {
-            const container = document.getElementById('sources-container');
-            const filtered = SOURCES.filter(s =>
-                s.name.toLowerCase().includes(filter.toLowerCase()) ||
-                s.file.toLowerCase().includes(filter.toLowerCase())
+        function render(filter = '') {
+            const el = document.getElementById('sources-container');
+            const list = SOURCES.filter(s =>
+                s.n.toLowerCase().includes(filter.toLowerCase()) ||
+                s.f.toLowerCase().includes(filter.toLowerCase())
             );
-
-            container.innerHTML = '';
-            container.className = 'sources-grid';
-
-            filtered.forEach(source => {
-                const card = document.createElement('div');
-                card.className = `source-card ${selectedFiles.has(source.file) ? 'selected' : ''}`;
-                const fullUrl = `${RAW_BASE}/${source.file}`;
-                card.innerHTML = `
-                    <input type="checkbox" ${selectedFiles.has(source.file) ? 'checked' : ''} 
-                           onchange="toggleSource('${source.file}', this.checked)">
-                    <div class="source-info">
-                        <div class="source-name">${source.name}</div>
-                        <div class="source-meta">
-                            <span class="channels">${source.channels.toLocaleString()} channels</span>
-                            <span>${source.countries} ${source.countries === 1 ? 'country' : 'countries'}</span>
+            el.innerHTML = '';
+            list.forEach((s, idx) => {
+                const tile = document.createElement('div');
+                tile.className = 'source-tile' + (selected.has(s.f) ? ' selected' : '');
+                tile.dataset.file = s.f;
+                tile.style.animationDelay = `${idx * 20}ms`;
+                tile.innerHTML = `
+                    <div class="tile-top">
+                        <input type="checkbox" class="tile-check" ${selected.has(s.f) ? 'checked' : ''}
+                            onclick="event.stopPropagation(); toggle('${s.f}', this.checked)">
+                        <div class="tile-content">
+                            <div class="tile-name">${s.n}</div>
+                            <div class="tile-stats">
+                                <span><span class="tile-stat-num">${s.c.toLocaleString()}</span> channels</span>
+                                <span>${s.co} ${s.co === 1 ? 'country' : 'countries'}</span>
+                            </div>
+                            <div class="tile-url">${RAW}/${s.f}</div>
+                            <div class="tile-expand">
+                                <span class="tile-expand-arrow">&#9654;</span> Browse channels
+                            </div>
                         </div>
-                        <div class="source-url" title="${fullUrl}">${fullUrl}</div>
                     </div>
                 `;
-                container.appendChild(card);
+                tile.addEventListener('click', e => {
+                    if (e.target.classList.contains('tile-check')) return;
+                    openDetail(s);
+                });
+                el.appendChild(tile);
             });
         }
 
-        function toggleSource(file, checked) {
-            if (checked) {
-                selectedFiles.add(file);
-            } else {
-                selectedFiles.delete(file);
+        async function openDetail(s) {
+            // Close others
+            document.querySelectorAll('.detail-panel.open').forEach(p => {
+                if (p.dataset.file !== s.f) { p.remove(); }
+            });
+            document.querySelectorAll('.source-tile.expanded').forEach(t => {
+                if (t.dataset.file !== s.f) t.classList.remove('expanded');
+            });
+
+            const existing = document.querySelector(`.detail-panel[data-file="${s.f}"]`);
+            if (existing) {
+                existing.remove();
+                document.querySelector(`.source-tile[data-file="${s.f}"]`)?.classList.remove('expanded');
+                openFile = null;
+                return;
             }
-            updateUrl();
-            renderSources(document.getElementById('search').value);
+
+            const tile = document.querySelector(`.source-tile[data-file="${s.f}"]`);
+            tile.classList.add('expanded');
+            openFile = s.f;
+
+            const panel = document.createElement('div');
+            panel.className = 'detail-panel open';
+            panel.dataset.file = s.f;
+            panel.innerHTML = `
+                <div class="detail-inner">
+                    <div class="detail-top">
+                        <div class="detail-title">${s.n} <em>${s.c.toLocaleString()} channels</em></div>
+                        <button class="detail-close" onclick="closeDetail('${s.f}')">Close</button>
+                    </div>
+                    <div class="detail-url-row">
+                        <span class="detail-url-text">${RAW}/${s.f}</span>
+                        <button class="copy-btn ghost" style="padding:0.35rem 0.7rem;font-size:0.7rem" onclick="copyText('${RAW}/${s.f}')">Copy</button>
+                    </div>
+                    <div class="detail-loading"><div class="detail-spinner"></div>Loading channels...</div>
+                </div>
+            `;
+            tile.after(panel);
+
+            try {
+                let groups;
+                if (cache[s.f]) { groups = cache[s.f]; }
+                else {
+                    const r = await fetch(`${RAW}/${s.f}`);
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    groups = parseM3U(await r.text());
+                    cache[s.f] = groups;
+                }
+
+                const names = Object.keys(groups).sort();
+                let html = `
+                    <div class="detail-inner">
+                        <div class="detail-top">
+                            <div class="detail-title">${s.n} <em>${names.reduce((a, g) => a + groups[g].length, 0).toLocaleString()} channels &middot; ${names.length} groups</em></div>
+                            <button class="detail-close" onclick="closeDetail('${s.f}')">Close</button>
+                        </div>
+                        <div class="detail-url-row">
+                            <span class="detail-url-text">${RAW}/${s.f}</span>
+                            <button class="copy-btn ghost" style="padding:0.35rem 0.7rem;font-size:0.7rem" onclick="copyText('${RAW}/${s.f}')">Copy</button>
+                        </div>
+                `;
+                names.forEach(g => {
+                    const ch = groups[g];
+                    html += `<div class="ch-group"><div class="ch-group-header" onclick="this.parentElement.classList.toggle('open'); this.nextElementSibling.classList.toggle('open');"><span class="ch-group-name">${g}</span><span class="ch-group-count">${ch.length}</span><span class="ch-group-arrow">&#9654;</span></div><div class="ch-list">`;
+                    ch.forEach(c => {
+                        const ico = c.logo
+                            ? `<div class="ch-icon"><img src="${c.logo}" onerror="this.parentElement.textContent='${c.name.charAt(0)}'" alt=""></div>`
+                            : `<div class="ch-icon">${c.name.charAt(0)}</div>`;
+                        html += `<div class="ch-item">${ico}<span class="ch-name">${c.name}</span></div>`;
+                    });
+                    html += `</div></div>`;
+                });
+                html += `</div>`;
+                panel.innerHTML = html;
+            } catch (err) {
+                panel.querySelector('.detail-inner').innerHTML += `<div style="color:var(--danger);padding:1rem 0">Error: ${err.message}</div>`;
+            }
         }
 
-        function selectAll() {
-            SOURCES.forEach(s => selectedFiles.add(s.file));
-            updateUrl();
-            renderSources(document.getElementById('search').value);
+        function closeDetail(f) {
+            document.querySelector(`.detail-panel[data-file="${f}"]`)?.remove();
+            document.querySelector(`.source-tile[data-file="${f}"]`)?.classList.remove('expanded');
+            openFile = null;
         }
 
-        function selectNone() {
-            selectedFiles.clear();
+        function toggle(f, on) {
+            on ? selected.add(f) : selected.delete(f);
             updateUrl();
-            renderSources(document.getElementById('search').value);
+            render(document.getElementById('search').value);
         }
 
-        function selectPreset(preset) {
-            selectedFiles.clear();
-            (PRESETS[preset] || []).forEach(f => selectedFiles.add(f));
-            updateUrl();
-            renderSources(document.getElementById('search').value);
+        function selectAll() { SOURCES.forEach(s => selected.add(s.f)); updateUrl(); render(document.getElementById('search').value); }
+        function selectNone() { selected.clear(); updateUrl(); render(document.getElementById('search').value); }
 
-            document.querySelectorAll('.preset-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.preset === preset);
-            });
+        function selectPreset(p) {
+            selected.clear();
+            (PRESETS[p] || []).forEach(f => selected.add(f));
+            updateUrl();
+            render(document.getElementById('search').value);
+            document.querySelectorAll('.pill[data-preset]').forEach(b => b.classList.toggle('active', b.dataset.preset === p));
         }
 
         function updateUrl() {
-            const files = Array.from(selectedFiles);
-            if (files.length === 0) {
-                document.getElementById('m3uUrl').value = 'Select sources above to generate URL';
-                return;
-            }
-            const m3uUrl = `${RAW_BASE}/${files[0]}`;
-            document.getElementById('m3uUrl').value = files.length === 1 ? m3uUrl : `Selected: ${files.length} sources (${files.slice(0, 3).join(', ')}${files.length > 3 ? '...' : ''})`;
-            document.getElementById('epgUrl').value = EPG_URL;
+            const f = [...selected];
+            const m3u = document.getElementById('m3uUrl');
+            const epg = document.getElementById('epgUrl');
+            if (!f.length) { m3u.value = 'Select a source below'; epg.value = ''; return; }
+            m3u.value = f.length === 1 ? `${RAW}/${f[0]}` : `${f.length} sources selected`;
+            epg.value = EPG;
         }
 
-        function copyUrl(inputId) {
-            const input = document.getElementById(inputId);
-            let text = input.value;
-
-            // If multiple files selected, copy all URLs
-            if (selectedFiles.size > 1 && inputId === 'm3uUrl') {
-                text = Array.from(selectedFiles).map(f => `${RAW_BASE}/${f}`).join('\n');
+        function copyUrl(id) {
+            const v = document.getElementById(id).value;
+            if (!v || v.startsWith('Select')) return;
+            let text = v;
+            if (selected.size > 1 && id === 'm3uUrl') {
+                text = [...selected].map(f => `${RAW}/${f}`).join('\n');
             }
-
-            navigator.clipboard.writeText(text).then(() => {
-                const toast = document.getElementById('toast');
-                toast.textContent = selectedFiles.size > 1 ? `Copied ${selectedFiles.size} URLs!` : 'Copied!';
-                toast.classList.add('show');
-                setTimeout(() => toast.classList.remove('show'), 2000);
-            });
+            navigator.clipboard.writeText(text).then(() => toast('Copied!'));
         }
 
-        // Search
-        document.getElementById('search').addEventListener('input', (e) => {
-            renderSources(e.target.value);
-        });
+        function copyText(t) { navigator.clipboard.writeText(t).then(() => toast('Copied!')); }
 
-        // Presets
-        document.querySelectorAll('.preset-btn[data-preset]').forEach(btn => {
-            btn.addEventListener('click', () => selectPreset(btn.dataset.preset));
-        });
+        function toast(msg) {
+            const el = document.getElementById('toast');
+            el.textContent = msg;
+            el.classList.add('show');
+            setTimeout(() => el.classList.remove('show'), 1800);
+        }
 
-        // Init
-        renderSources();
-        document.getElementById('epgUrl').value = EPG_URL;
+        document.getElementById('search').addEventListener('input', e => render(e.target.value));
+        document.querySelectorAll('.pill[data-preset]').forEach(b => b.addEventListener('click', () => selectPreset(b.dataset.preset)));
+
+        render();
+        document.getElementById('epgUrl').value = EPG;
     </script>
 </body>
 </html>
