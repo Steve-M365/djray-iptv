@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CanalFormula1" tvg-name="Canal+ Formula 1" group-title="DaddyLive | International | Sports",Canal+ Formula 1
+https://dlhd.st/watch.php?id=273
+#EXTINF:-1 tvg-id="DAZNF1ES" tvg-name="DAZN F1 ES" group-title="DaddyLive | International | Sports",DAZN F1 ES
+https://dlhd.st/watch.php?id=537
+#EXTINF:-1 tvg-id="SkySportF1Italy" tvg-name="Sky Sport F1 Italy" group-title="DaddyLive | International | Sports",Sky Sport F1 Italy
+https://dlhd.st/watch.php?id=577
+#EXTINF:-1 tvg-id="SkySportsF1DE" tvg-name="Sky Sports F1 DE" group-title="DaddyLive | International | Sports",Sky Sports F1 DE
+https://dlhd.st/watch.php?id=274
+#EXTINF:-1 tvg-id="SkySportsF1UK" tvg-name="Sky Sports F1 UK" group-title="DaddyLive | International | Sports",Sky Sports F1 UK
+https://dlhd.st/watch.php?id=60
+#EXTINF:-1 tvg-id="TF1France" tvg-name="TF1 France" group-title="DaddyLive | International | Sports",TF1 France
+https://dlhd.st/watch.php?id=469
+#EXTINF:-1 tvg-id="Formula1TVUS" tvg-name="Formula 1 TV (US)" group-title="Vidaa | United States | Sports",Formula 1 TV (US)
+https://amg12058-amg12058c1-vidaa-us-8693.playouts.now.amagi.tv/playlist/amg12058-c15medianetworkslimitedfast-formula1tv-vidaaus/playlist.m3u8?ads.dnt=REPLACEME&ads.app_bundle=REPLACEME&ads.brand_name=REPLACEME&ads.ifa=REPLACEME&ads.ifa_type=REPLACEME&ads.vauth=REPLACEME&ads.device_type=REPLACEME&ads.device_country=REPLACEME&ads.device_language=REPLACEME&ads.device_osv=REPLACEME&ads.app_name=REPLACEME&ads.app_store_url=REPLACEME&ads.us_privacy=REPLACEME&ads.gdpr=REPLACEME&ads.gdpr_consent=REPLACEME&ads.w=REPLACEME&ads.h=REPLACEME&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9046
+#EXTINF:-1 tvg-id="477F1Channel" tvg-name="477 F1 Channel" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/C15studio/F1_Channel_800x200_white.png" group-title="apsattv | United States | Sports",477 F1 Channel
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist/amg12058-c15medianetworkslimitedfast-formula1tv-lgus/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&givn=[NONCE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
+#EXTINF:-1 tvg-id="F1Channel.ie" tvg-name="F1 Channel" tvg-logo="https://i.imgur.com/cjXzWsI.png" group-title="dearbulut | Ireland | Sports",F1 Channel
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SkySportsF1.ie" tvg-name="Sky Sports F1" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" group-title="dearbulut | Ireland | Sports",Sky Sports F1
+https://xemzi.short.gy/2000005
