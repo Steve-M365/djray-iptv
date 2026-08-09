@@ -1,0 +1,48 @@
+#EXTM3U
+# Fetch TV
+# Total channels: 17
+# Generated: 2026-08-09 11:11:16
+
+# Australia | Documentary (1 channels)
+#EXTINF:-1 tvg-id="NatureTime" tvg-name="Nature Time" group-title="Fetch TV | Australia | Documentary",Nature Time
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovenatureau-fetchtvau/playlist.m3u8
+
+# Australia | Entertainment (12 channels)
+#EXTINF:-1 tvg-id="FuelTV" tvg-name="Fuel TV" group-title="Fetch TV | Australia | Entertainment",Fuel TV
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvauen-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="HauntTV" tvg-name="Haunt TV" group-title="Fetch TV | Australia | Entertainment",Haunt TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01446-blueantmediacan-haunttvaustralia-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="INFAST" tvg-name="INFAST" group-title="Fetch TV | Australia | Entertainment",INFAST
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="INTROUBLE" tvg-name="INTROUBLE" group-title="Fetch TV | Australia | Entertainment",INTROUBLE
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-introuble-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="INTROUBLE" tvg-name="INTROUBLE" group-title="Fetch TV | Australia | Entertainment",INTROUBLE
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-introublehd-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="INWONDER" tvg-name="INWONDER" group-title="Fetch TV | Australia | Entertainment",INWONDER
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwonder-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="INWONDER" tvg-name="INWONDER" group-title="Fetch TV | Australia | Entertainment",INWONDER
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwonderhd-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="NoseyGeo" tvg-name="Nosey (Geo)" group-title="Fetch TV | Australia | Entertainment",Nosey (Geo)
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00560-noseymarathonve-nosey-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="Now70s" tvg-name="Now 70s" group-title="Fetch TV | Australia | Entertainment",Now 70s
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-now70-fetchtv-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="Now80s" tvg-name="Now 80s" group-title="Fetch TV | Australia | Entertainment",Now 80s
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-now80-fetchtv-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="NowRock" tvg-name="Now Rock" group-title="Fetch TV | Australia | Entertainment",Now Rock
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-now90-fetchtv-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="TheWickedTunaChannel" tvg-name="The Wicked Tuna Channel" group-title="Fetch TV | Australia | Entertainment",The Wicked Tuna Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-wickedtuna-fetchtvau/playlist.m3u8
+
+# Australia | Movies (2 channels)
+#EXTINF:-1 tvg-id="ActionHollywoodMovies" tvg-name="Action Hollywood Movies" group-title="Fetch TV | Australia | Movies",Action Hollywood Movies
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-fetchtvau/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphere" tvg-name="MovieSphere" group-title="Fetch TV | Australia | Movies",MovieSphere
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-moviesphereaus-fetchtvau/playlist.m3u8
+
+# Australia | News (1 channels)
+#EXTINF:-1 tvg-id="TickerNews" tvg-name="Ticker News" group-title="Fetch TV | Australia | News",Ticker News
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsfetchau-fetchtvau/playlist.m3u8
+
+# Australia | Sports (1 channels)
+#EXTINF:-1 tvg-id="OutdoorChannel" tvg-name="Outdoor Channel" group-title="Fetch TV | Australia | Sports",Outdoor Channel
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortv-fetchtvau/playlist.m3u8

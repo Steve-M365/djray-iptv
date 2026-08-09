@@ -1,0 +1,80 @@
+#EXTM3U
+# OlhosnaTV
+# Total channels: 35
+# Generated: 2026-08-09 11:11:16
+
+# Brazil | Entertainment (33 channels)
+#EXTINF:-1 tvg-id="BSTVONLINE" tvg-name="BS-TV ONLINE" group-title="OlhosnaTV | Brazil | Entertainment",BS-TV ONLINE
+https://video05.logicahost.com.br/gbsstudio/gbsstudio/playlist.m3u8
+#EXTINF:-1 tvg-id="CLASSIQUETV" tvg-name="CLASSIQUE TV" group-title="OlhosnaTV | Brazil | Entertainment",CLASSIQUE TV
+https://stmv1.srvif.com/classique/classique/playlist.m3u8
+#EXTINF:-1 tvg-id="CLASSIQUETVSRIES" tvg-name="CLASSIQUE TV SÉRIES" group-title="OlhosnaTV | Brazil | Entertainment",CLASSIQUE TV SÉRIES
+https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
+#EXTINF:-1 tvg-id="CLOUDINGTV" tvg-name="CLOUDING TV" group-title="OlhosnaTV | Brazil | Entertainment",CLOUDING TV
+https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
+#EXTINF:-1 tvg-id="GLNTV" tvg-name="GLN TV" group-title="OlhosnaTV | Brazil | Entertainment",GLN TV
+https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
+#EXTINF:-1 tvg-id="LOADINGTV" tvg-name="LOADING TV" group-title="OlhosnaTV | Brazil | Entertainment",LOADING TV
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+#EXTINF:-1 tvg-id="LUCASTV" tvg-name="LUCAS TV" group-title="OlhosnaTV | Brazil | Entertainment",LUCAS TV
+https://stmv1.srvif.com/lucastv/lucastv/playlist.m3u8
+#EXTINF:-1 tvg-id="MBCBRASILTV" tvg-name="MBC BRASIL TV" group-title="OlhosnaTV | Brazil | Entertainment",MBC BRASIL TV
+https://tv01.zas.media:1936/centraltvweb/centraltvweb/playlist.m3u8
+#EXTINF:-1 tvg-id="OTAKUSIGNTV" tvg-name="OTAKU SIGN TV" group-title="OlhosnaTV | Brazil | Entertainment",OTAKU SIGN TV
+https://stmv1.srvif.com/anime/anime/playlist.m3u8
+#EXTINF:-1 tvg-id="PLAYMAXTV" tvg-name="PLAYMAX TV" group-title="OlhosnaTV | Brazil | Entertainment",PLAYMAX TV
+https://stmv2.srvsh.com.br/daniel5336/daniel5336/playlist.m3u8
+#EXTINF:-1 tvg-id="REDEBRASIL" tvg-name="REDE BRASIL" group-title="OlhosnaTV | Brazil | Entertainment",REDE BRASIL
+https://redebrasil.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="REDENGT" tvg-name="REDE NGT" group-title="OlhosnaTV | Brazil | Entertainment",REDE NGT
+https://isaocorp.cloudecast.com/ngt/index.m3u8
+#EXTINF:-1 tvg-id="REDETVPARAN" tvg-name="REDE TV! PARANÁ" group-title="OlhosnaTV | Brazil | Entertainment",REDE TV! PARANÁ
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
+#EXTINF:-1 tvg-id="REVIVATV" tvg-name="REVIVA TV" group-title="OlhosnaTV | Brazil | Entertainment",REVIVA TV
+https://stmv.webtvninjas.com.br/webtvni1/webtvni1/playlist.m3u8
+#EXTINF:-1 tvg-id="TELABRASILTV" tvg-name="TELA BRASIL TV" group-title="OlhosnaTV | Brazil | Entertainment",TELA BRASIL TV
+https://stmv.webtvninjas.com.br/mailson6054/mailson6054/playlist.m3u8
+#EXTINF:-1 tvg-id="TVALIANA" tvg-name="TV ALIANÇA" group-title="OlhosnaTV | Brazil | Entertainment",TV ALIANÇA
+https://video08.logicahost.com.br/alianca/alianca/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAMPLITUDEJUARARecordMT" tvg-name="TV AMPLITUDE JUARA (Record MT)" group-title="OlhosnaTV | Brazil | Entertainment",TV AMPLITUDE JUARA (Record MT)
+https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+#EXTINF:-1 tvg-id="TVARACATI" tvg-name="TV ARACATI" group-title="OlhosnaTV | Brazil | Entertainment",TV ARACATI
+https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
+#EXTINF:-1 tvg-id="TVARAPUANBandPB" tvg-name="TV ARAPUAN (Band PB)" group-title="OlhosnaTV | Brazil | Entertainment",TV ARAPUAN (Band PB)
+https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCHANNELNETWORK" tvg-name="TV CHANNEL NETWORK" group-title="OlhosnaTV | Brazil | Entertainment",TV CHANNEL NETWORK
+https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCULTURA" tvg-name="TV CULTURA" group-title="OlhosnaTV | Brazil | Entertainment",TV CULTURA
+https://player-tvcultura.stream.uol.com.br/live/tvcultura_lsd.m3u8?vhost=player-tvcultura.stream.uol.com.br
+#EXTINF:-1 tvg-id="TVLATINASAT" tvg-name="TV LATINASAT" group-title="OlhosnaTV | Brazil | Entertainment",TV LATINASAT
+https://www.latinasat.com.br/hls/live/stream/index.m3u8
+#EXTINF:-1 tvg-id="TVMAISBRASIL" tvg-name="TV MAIS BRASIL" group-title="OlhosnaTV | Brazil | Entertainment",TV MAIS BRASIL
+https://stmv8.samcast.com.br/tvmaisbrasil/tvmaisbrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMIURA" tvg-name="TV MIURA" group-title="OlhosnaTV | Brazil | Entertainment",TV MIURA
+https://live20.bozztv.com/giatvplayout7/giatv-209397/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNBTRedeNGTPA" tvg-name="TV NBT (Rede NGT PA)" group-title="OlhosnaTV | Brazil | Entertainment",TV NBT (Rede NGT PA)
+https://stmv2.srvif.com/nortebrtv/nortebrtv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVONETVMeioNortePA" tvg-name="TV ONE (TV Meio Norte PA)" group-title="OlhosnaTV | Brazil | Entertainment",TV ONE (TV Meio Norte PA)
+https://video02.logicahost.com.br/tvone/tvone/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPOMPEIA" tvg-name="TV POMPEIA" group-title="OlhosnaTV | Brazil | Entertainment",TV POMPEIA
+https://stmv1.srvif.com/ferrera/ferrera/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSANTA" tvg-name="TV SANTA" group-title="OlhosnaTV | Brazil | Entertainment",TV SANTA
+https://video04.logicahost.com.br/tvsanta/tvsanta/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSONATA" tvg-name="TV SONATA" group-title="OlhosnaTV | Brazil | Entertainment",TV SONATA
+https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8
+#EXTINF:-1 tvg-id="TVTROPICALRecordRN" tvg-name="TV TROPICAL (Record RN)" group-title="OlhosnaTV | Brazil | Entertainment",TV TROPICAL (Record RN)
+https://video08.logicahost.com.br/portaldatropical02/portaldatropical02/playlist.m3u8
+#EXTINF:-1 tvg-id="TVWEBSOLUISCANOASRS" tvg-name="TV WEB SÃO LUIS CANOAS RS" group-title="OlhosnaTV | Brazil | Entertainment",TV WEB SÃO LUIS CANOAS RS
+https://stmv1.samcast.com.br/enei9364/enei9364/playlist.m3u8
+#EXTINF:-1 tvg-id="WORDINGTV" tvg-name="WORDING TV" group-title="OlhosnaTV | Brazil | Entertainment",WORDING TV
+https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8
+#EXTINF:-1 tvg-id="XTREMETV" tvg-name="XTREME TV" group-title="OlhosnaTV | Brazil | Entertainment",XTREME TV
+https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
+
+# Brazil | Movies (1 channels)
+#EXTINF:-1 tvg-id="TVCLSSICOSDOCINEMA" tvg-name="TV CLÁSSICOS DO CINEMA" group-title="OlhosnaTV | Brazil | Movies",TV CLÁSSICOS DO CINEMA
+https://live20.bozztv.com/giatvplayout7/giatv-208272/playlist.m3u8
+
+# Brazil | News (1 channels)
+#EXTINF:-1 tvg-id="RECORDNEWS" tvg-name="RECORD NEWS" group-title="OlhosnaTV | Brazil | News",RECORD NEWS
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431

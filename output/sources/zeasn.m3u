@@ -1,0 +1,108 @@
+#EXTM3U
+# Zeasn
+# Total channels: 45
+# Generated: 2026-08-09 11:11:16
+
+# International | Documentary (4 channels)
+#EXTINF:-1 tvg-id="TravelXPEU" tvg-name="Travel XP (EU)" group-title="Zeasn | International | Documentary",Travel XP (EU)
+https://travelxp-travelxp-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPEUalt1" tvg-name="Travel XP (EU) alt1" group-title="Zeasn | International | Documentary",Travel XP (EU) alt1
+https://travelxp-travelxp-3-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPEUalt2" tvg-name="Travel XP (EU) alt2" group-title="Zeasn | International | Documentary",Travel XP (EU) alt2
+https://travelxp-travelxp-4-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPEUalt3" tvg-name="Travel XP (EU) alt3" group-title="Zeasn | International | Documentary",Travel XP (EU) alt3
+https://travelxp-travelxp-5-eu.zeasn.wurl.tv/playlist.m3u8
+
+# International | Entertainment (25 channels)
+#EXTINF:-1 tvg-id="BilliardsTVEU" tvg-name="Billiards TV (EU)" group-title="Zeasn | International | Entertainment",Billiards TV (EU)
+https://newidco-billiardstv-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Brat" tvg-name="Brat" group-title="Zeasn | International | Entertainment",Brat
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00350-bratstudio-brattv-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliAltaTensioneEU" tvg-name="Chili Alta Tensione (EU)" group-title="Zeasn | International | Entertainment",Chili Alta Tensione (EU)
+https://chili-chili-alta-tensione-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliChilibounumoreEU" tvg-name="Chili Chilibounumore (EU)" group-title="Zeasn | International | Entertainment",Chili Chilibounumore (EU)
+https://chili-chilibuonumore-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliIndimenticabliEU" tvg-name="Chili Indimenticabli (EU)" group-title="Zeasn | International | Entertainment",Chili Indimenticabli (EU)
+https://chili-chiliindimenticabili-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliVelvetEU" tvg-name="Chili Velvet (EU)" group-title="Zeasn | International | Entertainment",Chili Velvet (EU)
+https://chili-chilivelvet-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CractionTV" tvg-name="Craction TV" group-title="Zeasn | International | Entertainment",Craction TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00609-palatinmediafil-cractiontv-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="DroneTVEU" tvg-name="Drone TV (EU)" group-title="Zeasn | International | Entertainment",Drone TV (EU)
+https://airvuz-dronetv-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ETVEU" tvg-name="ETV (EU)" group-title="Zeasn | International | Entertainment",ETV (EU)
+https://sasuprimetv-etv-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FashionTVEU" tvg-name="Fashion TV (EU)" group-title="Zeasn | International | Entertainment",Fashion TV (EU)
+https://fashiontv-fashiontv-5-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FullmoonIT" tvg-name="Fullmoon (IT)" group-title="Zeasn | International | Entertainment",Fullmoon (IT)
+https://minerva-fullmoon-1-it.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GlobalFashionChannelEU" tvg-name="Global Fashion Channel (EU)" group-title="Zeasn | International | Entertainment",Global Fashion Channel (EU)
+https://gfcomnimedia-globalfashionchannel-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GoUSAEU" tvg-name="Go USA (EU)" group-title="Zeasn | International | Entertainment",Go USA (EU)
+https://brandusa-gousa-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="JustforlaughsGagsEU" tvg-name="Just for laughs Gags (EU)" group-title="Zeasn | International | Entertainment",Just for laughs Gags (EU)
+https://distributionsjustepourrire-justforlaughsgags-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="JustforLaughsTVEU" tvg-name="Just for Laughs TV (EU)" group-title="Zeasn | International | Entertainment",Just for Laughs TV (EU)
+https://distributionsjustepourrire-justforlaughstv-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NewKidEU" tvg-name="New Kid (EU)" group-title="Zeasn | International | Entertainment",New Kid (EU)
+https://newidco-newkid-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PelimexEU" tvg-name="Pelimex (EU)" group-title="Zeasn | International | Entertainment",Pelimex (EU)
+https://telecine-pelimex-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="QwestClassicGeo" tvg-name="Qwest Classic (Geo)" group-title="Zeasn | International | Entertainment",Qwest Classic (Geo)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00447-qwest-qwestclassic-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="QwestJazzGeo" tvg-name="Qwest Jazz (Geo)" group-title="Zeasn | International | Entertainment",Qwest Jazz (Geo)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00447-qwest-qwestjazz-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="SBSEU" tvg-name="SBS (EU)" group-title="Zeasn | International | Entertainment",SBS (EU)
+https://newidco-sbs-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeGermany" tvg-name="Tastemade Germany" group-title="Zeasn | International | Entertainment",Tastemade Germany
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadegermany-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="TEDConferencesEU" tvg-name="TED Conferences (EU)" group-title="Zeasn | International | Entertainment",TED Conferences (EU)
+https://tedconferences-ted-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheRedGreenShowEU" tvg-name="The Red Green Show (EU)" group-title="Zeasn | International | Entertainment",The Red Green Show (EU)
+https://answermedia-theredgreenshow-2-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WatchMojoEU" tvg-name="Watch Mojo (EU)" group-title="Zeasn | International | Entertainment",Watch Mojo (EU)
+https://watchmojo-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YGTVEU" tvg-name="YGTV (EU)" group-title="Zeasn | International | Entertainment",YGTV (EU)
+https://newidco-ygtv-1-eu.zeasn.wurl.tv/playlist.m3u8
+
+# International | Lifestyle (2 channels)
+#EXTINF:-1 tvg-id="GustoEU" tvg-name="Gusto (EU)" group-title="Zeasn | International | Lifestyle",Gusto (EU)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gusto-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="NewKFoodEU" tvg-name="New K Food (EU)" group-title="Zeasn | International | Lifestyle",New K Food (EU)
+https://newidco-newkfood-1-eu.zeasn.wurl.tv/playlist.m3u8
+
+# International | Movies (7 channels)
+#EXTINF:-1 tvg-id="ChileFilmSorrisiEU" tvg-name="Chile Film Sorrisi (EU)" group-title="Zeasn | International | Movies",Chile Film Sorrisi (EU)
+https://chili-film-sorrisi-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CinemaSegrettoIT" tvg-name="Cinema Segretto (IT)" group-title="Zeasn | International | Movies",Cinema Segretto (IT)
+https://minerva-cinemasegreto-1-it.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FilmzieEU" tvg-name="Filmzie (EU)" group-title="Zeasn | International | Movies",Filmzie (EU)
+https://filmzie-filmzie-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FilmzieUS" tvg-name="Filmzie (US)" group-title="Zeasn | International | Movies",Filmzie (US)
+https://filmzie-filmzie-3-us.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MoviedomeFamily" tvg-name="Moviedome Family" group-title="Zeasn | International | Movies",Moviedome Family
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="W4Movies" tvg-name="W4 Movies" group-title="Zeasn | International | Movies",W4 Movies
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-w4movies-zeasn-zeasn/playlist.m3u8
+#EXTINF:-1 tvg-id="WedoMovies" tvg-name="Wedo Movies" group-title="Zeasn | International | Movies",Wedo Movies
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-watch4-zeasn-zeasn/playlist.m3u8
+
+# International | Music (1 channels)
+#EXTINF:-1 tvg-id="TraceUrban" tvg-name="Trace Urban" group-title="Zeasn | International | Music",Trace Urban
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
+
+# International | News (5 channels)
+#EXTINF:-1 tvg-id="BloombergOriginalsEU" tvg-name="Bloomberg Originals (EU)" group-title="Zeasn | International | News",Bloomberg Originals (EU)
+https://bloomberg-quicktake-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTVEU" tvg-name="Bloomberg TV (EU)" group-title="Zeasn | International | News",Bloomberg TV (EU)
+https://bloomberg-bloombergtv-3-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsGermanEU" tvg-name="Euronews German (EU)" group-title="Zeasn | International | News",Euronews German (EU)
+https://euronews-euronews-german-4-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsWorldEU" tvg-name="Euronews World (EU)" group-title="Zeasn | International | News",Euronews World (EU)
+https://euronews-euronews-world-1-eu.zeasn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NewsmaxEU" tvg-name="Newsmax (EU)" group-title="Zeasn | International | News",Newsmax (EU)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00217-newsmax-newsmax-zeasn/playlist.m3u8
+
+# International | Sports (1 channels)
+#EXTINF:-1 tvg-id="Sportsgrid" tvg-name="Sportsgrid" group-title="Zeasn | International | Sports",Sportsgrid
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00315-sportsgrid-sportsgrid-zeasn/playlist.m3u8

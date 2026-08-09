@@ -1,0 +1,150 @@
+#EXTM3U
+# Amazon Fire TV
+# Total channels: 67
+# Generated: 2026-08-09 11:11:16
+
+# United States | Documentary (3 channels)
+#EXTINF:-1 tvg-id="INTRAVELGeo" tvg-name="INTRAVEL (Geo)" group-title="Amazon Fire TV | United States | Documentary",INTRAVEL (Geo)
+https://amg00861-amg00861c10-firetv-us-4726.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSNatureGeo" tvg-name="PBS Nature (Geo)" group-title="Amazon Fire TV | United States | Documentary",PBS Nature (Geo)
+https://amg02333-pbs-amg02333c11-firetv-us-4242.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSScienceGeo" tvg-name="PBS Science (Geo)" group-title="Amazon Fire TV | United States | Documentary",PBS Science (Geo)
+https://amg02333-pbs-amg02333c7-firetv-us-4238.playouts.now.amagi.tv/playlist.m3u8
+
+# United States | Entertainment (40 channels)
+#EXTINF:-1 tvg-id="ACCDN" tvg-name="ACCDN" group-title="Amazon Fire TV | United States | Entertainment",ACCDN
+https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BYUTVGeo" tvg-name="BYU TV (Geo)" group-title="Amazon Fire TV | United States | Entertainment",BYU TV (Geo)
+https://amg02604-byutv-amg02604c2-firetv-us-4981.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CreatorTVGeo" tvg-name="Creator TV (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Creator TV (Geo)
+https://amg16070-amg16070c1-firetv-us-7978.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DogTVGeo" tvg-name="Dog TV (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Dog TV (Geo)
+https://amg26269-dogtv-amg26269c2-firetv-us-6673.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DPWORLDTourGeo" tvg-name="DP WORLD Tour (Geo)" group-title="Amazon Fire TV | United States | Entertainment",DP WORLD Tour (Geo)
+https://amg12058-amg12058c6-firetv-us-5955.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DungeonsandDragonsAdventuresGe" tvg-name="Dungeons and Dragons Adventures (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Dungeons and Dragons Adventures (Geo)
+https://amg00461-eone-amg00461c3-firetv-us-5211.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EstrellaGamesGeo" tvg-name="Estrella Games (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Estrella Games (Geo)
+https://amg00567-amg00567c1-firetv-us-4124.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FGTEEVGeo" tvg-name="FGTEEV (Geo)" group-title="Amazon Fire TV | United States | Entertainment",FGTEEV (Geo)
+https://amg00285-amg00285c3-firetv-us-6596.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FuelTVGeo" tvg-name="Fuel TV (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Fuel TV (Geo)
+https://amg01074-fueltv-amg01074c1-firetv-us-3150.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GameFishGeo" tvg-name="Game & Fish (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Game & Fish (Geo)
+https://amg00436-osg-amg00436c7-firetv-us-6715.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HagertyGeo" tvg-name="Hagerty (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Hagerty (Geo)
+https://amg01703-amg01703c1-firetv-us-7717.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="INFASTGeo" tvg-name="INFAST (Geo)" group-title="Amazon Fire TV | United States | Entertainment",INFAST (Geo)
+https://amg00861-amg00861c5-firetv-us-4727.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="IntouchPlusGeo" tvg-name="Intouch Plus (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Intouch Plus (Geo)
+https://amg01540-amg01540c2-firetv-us-6755.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="INWILDGeo" tvg-name="INWILD (Geo)" group-title="Amazon Fire TV | United States | Entertainment",INWILD (Geo)
+https://amg00861-amg00861c7-firetv-us-4725.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="INWONDERGeo" tvg-name="INWONDER (Geo)" group-title="Amazon Fire TV | United States | Entertainment",INWONDER (Geo)
+https://amg00861-amg00861c4-firetv-us-4724.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LuchaPlusWrestlingGeo" tvg-name="Lucha Plus Wrestling (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Lucha Plus Wrestling (Geo)
+https://amg17334-amg17334c1-firetv-us-6733.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MTRSPT1Geo" tvg-name="MTRSPT 1 (Geo)" group-title="Amazon Fire TV | United States | Entertainment",MTRSPT 1 (Geo)
+https://amg02873-amg02873c1-firetv-us-7012.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NaturalezaSalvajeGeo" tvg-name="Naturaleza Salvaje (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Naturaleza Salvaje (Geo)
+https://amg00376-amg00376c21-firetv-us-3433.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCUTelemundoFlorida" tvg-name="NBCU Telemundo Florida" group-title="Amazon Fire TV | United States | Entertainment",NBCU Telemundo Florida
+https://nbcu-telemundoflorida-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCUTelemundoNorthEast" tvg-name="NBCU Telemundo North East" group-title="Amazon Fire TV | United States | Entertainment",NBCU Telemundo North East
+https://nbcu-telemundonortheast-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCUTelemundoTexas" tvg-name="NBCU Telemundo Texas" group-title="Amazon Fire TV | United States | Entertainment",NBCU Telemundo Texas
+https://nbcu-telemundotexas-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCUTelemundoWest" tvg-name="NBCU Telemundo West" group-title="Amazon Fire TV | United States | Entertainment",NBCU Telemundo West
+https://nbcu-telemundowest-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="OutsideTV" tvg-name="Outside TV" group-title="Amazon Fire TV | United States | Entertainment",Outside TV
+https://outsidetv-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Pac12Insider" tvg-name="Pac 12 Insider" group-title="Amazon Fire TV | United States | Entertainment",Pac 12 Insider
+https://pac12-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSAntiquesRoadTripGeo" tvg-name="PBS Antiques Road Trip (Geo)" group-title="Amazon Fire TV | United States | Entertainment",PBS Antiques Road Trip (Geo)
+https://amg02333-pbs-amg02333c9-firetv-us-4249.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSAntiquesRoadshowGeo" tvg-name="PBS Antiques Roadshow (Geo)" group-title="Amazon Fire TV | United States | Entertainment",PBS Antiques Roadshow (Geo)
+https://amg02333-pbs-amg02333c8-firetv-us-4239.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerRangersGeo" tvg-name="Power Rangers (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Power Rangers (Geo)
+https://amg00461-eone-amg00461c2-firetv-us-5210.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TeamUSA" tvg-name="Team USA" group-title="Amazon Fire TV | United States | Entertainment",Team USA
+https://amg01416-amg01416c4-firetv-us-4522.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheDesignNetwork" tvg-name="The Design Network" group-title="Amazon Fire TV | United States | Entertainment",The Design Network
+https://amg00441-amg00441c1-firetv-us-5132.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheHillGeo" tvg-name="The Hill (Geo)" group-title="Amazon Fire TV | United States | Entertainment",The Hill (Geo)
+https://amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TransformersGeo" tvg-name="Transformers (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Transformers (Geo)
+https://amg00461-eone-amg00461c1-firetv-us-5209.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TrueCrimeNetworkGeo" tvg-name="True Crime Network+ (Geo)" group-title="Amazon Fire TV | United States | Entertainment",True Crime Network+ (Geo)
+https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBlossom" tvg-name="TV Blossom" group-title="Amazon Fire TV | United States | Entertainment",TV Blossom
+https://amg00437-amg00437c3-firetv-us-5409.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TYTGeo" tvg-name="TYT (Geo)" group-title="Amazon Fire TV | United States | Entertainment",TYT (Geo)
+https://amg01220-amg01220c1-firetv-us-5111.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ViceTV" tvg-name="Vice TV" group-title="Amazon Fire TV | United States | Entertainment",Vice TV
+https://vicetv-vicefast1-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WaypointTV" tvg-name="Waypoint TV" group-title="Amazon Fire TV | United States | Entertainment",Waypoint TV
+https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WPTGeo" tvg-name="WPT (Geo)" group-title="Amazon Fire TV | United States | Entertainment",WPT (Geo)
+https://amg12058-amg12058c9-firetv-us-6066.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="XiteChristianGeo" tvg-name="Xite Christian (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Xite Christian (Geo)
+https://amg01243-xite-amg01243c25-firetv-us-7066.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="XiteReggaeVibesGeo" tvg-name="Xite Reggae Vibes (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Xite Reggae Vibes (Geo)
+https://amg01243-xite-amg01243c26-firetv-us-7067.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YahooFinanceGeo" tvg-name="Yahoo Finance (Geo)" group-title="Amazon Fire TV | United States | Entertainment",Yahoo Finance (Geo)
+https://amg00119-amg00119c1-firetv-us-4205.playouts.now.amagi.tv/playlist.m3u8
+
+# United States | Lifestyle (2 channels)
+#EXTINF:-1 tvg-id="Gusto" tvg-name="Gusto" group-title="Amazon Fire TV | United States | Lifestyle",Gusto
+https://amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeHomeGeo" tvg-name="Tastemade Home (Geo)" group-title="Amazon Fire TV | United States | Lifestyle",Tastemade Home (Geo)
+https://amg00047-amg00047c2-firetv-us-8254.playouts.now.amagi.tv/playlist.m3u8
+
+# United States | Music (1 channels)
+#EXTINF:-1 tvg-id="PBSRetroGeo" tvg-name="PBS Retro (Geo)" group-title="Amazon Fire TV | United States | Music",PBS Retro (Geo)
+https://amg02333-pbs-amg02333c6-firetv-us-4236.playouts.now.amagi.tv/playlist.m3u8
+
+# United States | News (14 channels)
+#EXTINF:-1 tvg-id="BBCEarthGeo" tvg-name="BBC Earth (Geo)" group-title="Amazon Fire TV | United States | News",BBC Earth (Geo)
+https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCTopGearGeo" tvg-name="BBC Top Gear (Geo)" group-title="Amazon Fire TV | United States | News",BBC Top Gear (Geo)
+https://amg00793-amg00793c5-firetv-us-4068.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCBostonNews" tvg-name="NBC Boston News" group-title="Amazon Fire TV | United States | News",NBC Boston News
+https://nbcu-nbcbostonnews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCChicagoNews" tvg-name="NBC Chicago News" group-title="Amazon Fire TV | United States | News",NBC Chicago News
+https://nbcu-nbcchicagonews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCConnecticutNews" tvg-name="NBC Connecticut News" group-title="Amazon Fire TV | United States | News",NBC Connecticut News
+https://nbcu-nbcconnecticutnews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCDallasFortworthNews" tvg-name="NBC Dallas Fortworth News" group-title="Amazon Fire TV | United States | News",NBC Dallas Fortworth News
+https://nbcu-nbcdallasfortworthnews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCLosAngelesNews" tvg-name="NBC Los Angeles News" group-title="Amazon Fire TV | United States | News",NBC Los Angeles News
+https://nbcu-nbclosangelesnews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCNewYorkNews" tvg-name="NBC New York News" group-title="Amazon Fire TV | United States | News",NBC New York News
+https://nbcu-nbcnewyorknews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCPhiladelphiaNews" tvg-name="NBC Philadelphia News" group-title="Amazon Fire TV | United States | News",NBC Philadelphia News
+https://nbcu-nbcphiladelphianews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCSanDiegoNews" tvg-name="NBC San Diego News" group-title="Amazon Fire TV | United States | News",NBC San Diego News
+https://nbcu-nbcsandiegonews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCSanFranciscoNews" tvg-name="NBC San Francisco News" group-title="Amazon Fire TV | United States | News",NBC San Francisco News
+https://nbcu-nbcsanfrancisconews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCSouthFloridaNews" tvg-name="NBC South Florida News" group-title="Amazon Fire TV | United States | News",NBC South Florida News
+https://nbcu-nbcsouthfloridanews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCWashingtonNews" tvg-name="NBC Washington News" group-title="Amazon Fire TV | United States | News",NBC Washington News
+https://nbcu-nbcwashingtonnews-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ViceNews" tvg-name="Vice News" group-title="Amazon Fire TV | United States | News",Vice News
+https://vicetv-vicefast2-firetv.amagi.tv/playlist.m3u8
+
+# United States | Sports (7 channels)
+#EXTINF:-1 tvg-id="BeinsportsXtra" tvg-name="Beinsports Xtra" group-title="Amazon Fire TV | United States | Sports",Beinsports Xtra
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NascarGeo" tvg-name="Nascar (Geo)" group-title="Amazon Fire TV | United States | Sports",Nascar (Geo)
+https://amg00115-nascar-amg00115c1-firetv-us-8584.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBAFastChannelGeo" tvg-name="NBA Fast Channel (Geo)" group-title="Amazon Fire TV | United States | Sports",NBA Fast Channel (Geo)
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NHL" tvg-name="NHL" group-title="Amazon Fire TV | United States | Sports",NHL
+https://nhl-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Sportsgrid" tvg-name="Sportsgrid" group-title="Amazon Fire TV | United States | Sports",Sportsgrid
+https://amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="T2TennisChannelGeo" tvg-name="T2 Tennis Channel (Geo)" group-title="Amazon Fire TV | United States | Sports",T2 Tennis Channel (Geo)
+https://ttc-tennischannelus-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WillowSportsGeo" tvg-name="Willow Sports (Geo)" group-title="Amazon Fire TV | United States | Sports",Willow Sports (Geo)
+https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8

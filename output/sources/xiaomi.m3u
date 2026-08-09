@@ -1,0 +1,526 @@
+#EXTM3U
+# Xiaomi
+# Total channels: 253
+# Generated: 2026-08-09 11:11:16
+
+# International | Documentary (10 channels)
+#EXTINF:-1 tvg-id="LoveCrimeandHistory" tvg-name="Love Crime and History" group-title="Xiaomi | International | Documentary",Love Crime and History
+https://amg01821-amg01821c16-xiaomi-international-4605.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveCrimeandHistorySpain" tvg-name="Love Crime and History Spain" group-title="Xiaomi | International | Documentary",Love Crime and History Spain
+https://amg01821-amg01821c23-xiaomi-international-4612.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovecrimeandhistoryspain-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="LovethePlanetESGeo" tvg-name="Love the Planet (ES) Geo" group-title="Xiaomi | International | Documentary",Love the Planet (ES) Geo
+https://amg01821-lovetv-amg01821c9-xiaomi-international-752.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovetheplanetsp-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveThePlanetIT" tvg-name="Love The Planet (IT)" group-title="Xiaomi | International | Documentary",Love The Planet (IT)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovetheplanetit-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="NatureTime" tvg-name="Nature Time" group-title="Xiaomi | International | Documentary",Nature Time
+https://amg01515-amg01515c13-xiaomi-international-4618.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NatureTimeC14" tvg-name="Nature Time C14" group-title="Xiaomi | International | Documentary",Nature Time C14
+https://amg01515-amg01515c14-xiaomi-international-4619.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPDE" tvg-name="Travel XP (DE)" group-title="Xiaomi | International | Documentary",Travel XP (DE)
+https://travelxp-travelxp-2-de.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPEU" tvg-name="Travel XP (EU)" group-title="Xiaomi | International | Documentary",Travel XP (EU)
+https://travelxp-travelxp-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPEUalt" tvg-name="Travel XP (EU) alt" group-title="Xiaomi | International | Documentary",Travel XP (EU) alt
+https://travelxp-travelxp-5-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXPFR" tvg-name="Travel XP (FR)" group-title="Xiaomi | International | Documentary",Travel XP (FR)
+https://travelxp-travelxp-4-fr.xiaomi.wurl.tv/playlist.m3u8
+
+# International | Entertainment (195 channels)
+#EXTINF:-1 tvg-id="123GoES" tvg-name="123 Go! (ES)" group-title="Xiaomi | International | Entertainment",123 Go! (ES)
+https://amg02051-soulpublishing-amg02051c9-xiaomi-international-385.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123gospanish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="123GoEnglishIN" tvg-name="123 Go! English (IN)" group-title="Xiaomi | International | Entertainment",123 Go! English (IN)
+https://amg02051-soulpublishing-amg02051c17-xiaomi-in-399.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="123GoSpanish" tvg-name="123 Go! Spanish" group-title="Xiaomi | International | Entertainment",123 Go! Spanish
+https://amg02051-soulpublishing-amg02051c18-xiaomi-international-372.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123gospanish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="9XMAsia" tvg-name="9XM (Asia)" group-title="Xiaomi | International | Entertainment",9XM (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-9xm-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="AapKiAdalat" tvg-name="Aap Ki Adalat" group-title="Xiaomi | International | Entertainment",Aap Ki Adalat
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01550-indiatv-indiatv-aapkiadalat-mi-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ABPAnandaAsia" tvg-name="ABP Ananda (Asia)" group-title="Xiaomi | International | Entertainment",ABP Ananda (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ABPAsmitaAsia" tvg-name="ABP Asmita (Asia)" group-title="Xiaomi | International | Entertainment",ABP Asmita (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpasmita-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ABPGangaAsia" tvg-name="ABP Ganga (Asia)" group-title="Xiaomi | International | Entertainment",ABP Ganga (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpganga-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ABPMajhaAsia" tvg-name="ABP Majha (Asia)" group-title="Xiaomi | International | Entertainment",ABP Majha (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpmajha-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ABPSanjhaAsia" tvg-name="ABP Sanjha (Asia)" group-title="Xiaomi | International | Entertainment",ABP Sanjha (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpsanjha-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" group-title="Xiaomi | International | Entertainment",Arirang
+https://amg02040-amg02040c6-xiaomi-international-5845.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="B4UKadak" tvg-name="B4U Kadak" group-title="Xiaomi | International | Entertainment",B4U Kadak
+https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BeondTVGeo" tvg-name="Beond TV Geo" group-title="Xiaomi | International | Entertainment",Beond TV Geo
+https://amg01681-beondtv-amg01681c1-xiaomi-international-378.playouts.now.amagi.tv/playlist/amg01681-amg01681c1-277/playlist.m3u8
+#EXTINF:-1 tvg-id="Bike" tvg-name="Bike" group-title="Xiaomi | International | Entertainment",Bike
+https://amg13231-amg13231c1-xiaomi-international-2911.playouts.now.amagi.tv/playlist/amg13231-actvefast-bike-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="BilliardsTVEU" tvg-name="Billiards TV (EU)" group-title="Xiaomi | International | Entertainment",Billiards TV (EU)
+https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BoombergQuicktakeEU" tvg-name="Boomberg Quicktake (EU)" group-title="Xiaomi | International | Entertainment",Boomberg Quicktake (EU)
+https://bloomberg-quicktake-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BratTV" tvg-name="Brat TV" group-title="Xiaomi | International | Entertainment",Brat TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00350-bratstudio-bratttv-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="BRBEU" tvg-name="BRB (EU)" group-title="Xiaomi | International | Entertainment",BRB (EU)
+https://playworksdigital-brb-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BrightsideEnglish" tvg-name="Brightside English" group-title="Xiaomi | International | Entertainment",Brightside English
+https://amg02051-soulpublishing-amg02051c9-xiaomi-international-385.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsideenglish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="BrightsideSpanishGeo" tvg-name="Brightside Spanish Geo" group-title="Xiaomi | International | Entertainment",Brightside Spanish Geo
+https://amg02051-soulpublishing-amg02051c16-xiaomi-international-371.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsidespanish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTVIT" tvg-name="CGTV (IT)" group-title="Xiaomi | International | Entertainment",CGTV (IT)
+https://cgentertainment-cgtv-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CharlieEU" tvg-name="Charlie (EU)" group-title="Xiaomi | International | Entertainment",Charlie (EU)
+https://amogonetworx-charlie-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliAltaTensioneIT" tvg-name="Chili Alta Tensione (IT)" group-title="Xiaomi | International | Entertainment",Chili Alta Tensione (IT)
+https://chili-chili-alta-tensione-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliBuonumoreIT" tvg-name="Chili Buonumore (IT)" group-title="Xiaomi | International | Entertainment",Chili Buonumore (IT)
+https://chili-chilibuonumore-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliHipHopTVIT" tvg-name="Chili Hip Hop TV (IT)" group-title="Xiaomi | International | Entertainment",Chili Hip Hop TV (IT)
+https://chili-hiphop-tv-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliIndimenticabiliIT" tvg-name="Chili Indimenticabili (IT)" group-title="Xiaomi | International | Entertainment",Chili Indimenticabili (IT)
+https://chili-chiliindimenticabili-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliRockTVIT" tvg-name="Chili Rock TV (IT)" group-title="Xiaomi | International | Entertainment",Chili Rock TV (IT)
+https://chili-rock-tv-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChiliVelvetIT" tvg-name="Chili Velvet (IT)" group-title="Xiaomi | International | Entertainment",Chili Velvet (IT)
+https://chili-chilivelvet-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CineClassicoEUGeo" tvg-name="Cine Classico (EU) Geo" group-title="Xiaomi | International | Entertainment",Cine Classico (EU) Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cineclasicoeu-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="CineFrikiINGeo" tvg-name="Cine Friki (IN) Geo" group-title="Xiaomi | International | Entertainment",Cine Friki (IN) Geo
+https://amg00711-zylo-amg00711c1-xiaomi-in-1317.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinefriki-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="CinenanarAsia" tvg-name="Cinenanar (Asia)" group-title="Xiaomi | International | Entertainment",Cinenanar (Asia)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-cinenanar-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ClubbingTV" tvg-name="Clubbing TV" group-title="Xiaomi | International | Entertainment",Clubbing TV
+https://clubbingtv-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CNBCTV18Geo" tvg-name="CNBC TV 18 Geo" group-title="Xiaomi | International | Entertainment",CNBC TV 18 Geo
+https://amg00866-amg00866c2-xiaomi-in-3516.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyDynamics" tvg-name="ComedyDynamics" group-title="Xiaomi | International | Entertainment",ComedyDynamics
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-comedydynamics-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="CopsGB" tvg-name="Cops (GB)" group-title="Xiaomi | International | Entertainment",Cops (GB)
+https://langleyproductions-cops-2-gb.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CractionTVGeo" tvg-name="Craction TV Geo" group-title="Xiaomi | International | Entertainment",Craction TV Geo
+https://amg00609-palatinmedia-amg00609c3-xiaomi-international-547.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-craction-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="CrimeandPunishmentUS" tvg-name="Crime and Punishment (US)" group-title="Xiaomi | International | Entertainment",Crime and Punishment (US)
+https://rightsboosterltd-crime-and-punishment-1-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DemandAfrica" tvg-name="Demand Africa" group-title="Xiaomi | International | Entertainment",Demand Africa
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00017-theafricachanne-demandafrica-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="DittyTVEU" tvg-name="Ditty TV (EU)" group-title="Xiaomi | International | Entertainment",Ditty TV (EU)
+https://memphisstudios-dittytv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DittyTVUS" tvg-name="Ditty TV (US)" group-title="Xiaomi | International | Entertainment",Ditty TV (US)
+https://memphisstudios-dittytv-1-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DriveTVLaChaineAutoFRGeo" tvg-name="Drive TV La Chaine Auto (FR) Geo" group-title="Xiaomi | International | Entertainment",Drive TV La Chaine Auto (FR) Geo
+https://amg01796-amg01796c2-xiaomi-international-2756.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-drivetv-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="DroneTVEU" tvg-name="Drone TV (EU)" group-title="Xiaomi | International | Entertainment",Drone TV (EU)
+https://airvuz-dronetv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EmotionalAsia" tvg-name="Emotional (Asia)" group-title="Xiaomi | International | Entertainment",Emotional (Asia)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-emotional-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Enqueteechoc" tvg-name="Enqueteechoc" group-title="Xiaomi | International | Entertainment",Enqueteechoc
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-enquetesdechoc-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ETVFR" tvg-name="ETV (FR)" group-title="Xiaomi | International | Entertainment",ETV (FR)
+https://sasuprimetv-etv-2-fr.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ETVGB" tvg-name="ETV (GB)" group-title="Xiaomi | International | Entertainment",ETV (GB)
+https://sasuprimetv-etv-1-gb.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FashionTV" tvg-name="Fashion TV" group-title="Xiaomi | International | Entertainment",Fashion TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01546-ftv-fashiontv-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FlashGeo" tvg-name="Flash Geo" group-title="Xiaomi | International | Entertainment",Flash Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-flash-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FloCine" tvg-name="Flo Cine" group-title="Xiaomi | International | Entertainment",Flo Cine
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01768-flou-flou-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FrecuenciaNovelasAsia" tvg-name="Frecuencia Novelas (Asia)" group-title="Xiaomi | International | Entertainment",Frecuencia Novelas (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-frecuencianovelas-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvAccionGeo" tvg-name="Freetv Accion Geo" group-title="Xiaomi | International | Entertainment",Freetv Accion Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcine-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvAccionLatmGeo" tvg-name="Freetv Accion Latm Geo" group-title="Xiaomi | International | Entertainment",Freetv Accion Latm Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinelatam-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvDramaGeo" tvg-name="Freetv Drama Geo" group-title="Xiaomi | International | Entertainment",Freetv Drama Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinereal-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvEstellalatmGeo" tvg-name="Freetv Estella latm Geo" group-title="Xiaomi | International | Entertainment",Freetv Estella latm Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucinelatam-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvEstellausGeo" tvg-name="Freetv Estella us Geo" group-title="Xiaomi | International | Entertainment",Freetv Estella us Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucineus-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvFamiliaGeo" tvg-name="Freetv Familia Geo" group-title="Xiaomi | International | Entertainment",Freetv Familia Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-juntos-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvSurenoGeo" tvg-name="Freetv Sureno Geo" group-title="Xiaomi | International | Entertainment",Freetv Sureno Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesureno-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FreetvTerrorGeo" tvg-name="Freetv Terror Geo" group-title="Xiaomi | International | Entertainment",Freetv Terror Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-horrorfy-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FuelTVES" tvg-name="Fuel TV (ES)" group-title="Xiaomi | International | Entertainment",Fuel TV (ES)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaspa-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FuelTVFR" tvg-name="Fuel TV (FR)" group-title="Xiaomi | International | Entertainment",Fuel TV (FR)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeafrance-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FuelTVUK" tvg-name="Fuel TV (UK)" group-title="Xiaomi | International | Entertainment",Fuel TV (UK)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltv-uk-en-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="FullmoonIT" tvg-name="Fullmoon (IT)" group-title="Xiaomi | International | Entertainment",Fullmoon (IT)
+https://minerva-fullmoon-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FusebeatUK" tvg-name="Fusebeat (UK)" group-title="Xiaomi | International | Entertainment",Fusebeat (UK)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00375-fusemedia-fusebeatuk-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="GhaintPunjabiAsia" tvg-name="Ghaint Punjabi (Asia)" group-title="Xiaomi | International | Entertainment",Ghaint Punjabi (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-ghaintpunjab-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="GoUSAEU" tvg-name="Go USA (EU)" group-title="Xiaomi | International | Entertainment",Go USA (EU)
+https://brandusa-gousa-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HistoriaYVida" tvg-name="Historia Y Vida" group-title="Xiaomi | International | Entertainment",Historia Y Vida
+https://amg01821-amg01821c22-xiaomi-international-4608.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Homicide" tvg-name="Homicide" group-title="Xiaomi | International | Entertainment",Homicide
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-homicide-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="IdeasEn5MinutosSpanish" tvg-name="Ideas En 5 Minutos Spanish" group-title="Xiaomi | International | Entertainment",Ideas En 5 Minutos Spanish
+https://amg02051-soulpublishing-amg02051c3-xiaomi-international-370.playouts.now.amagi.tv/playlist/amg02051-admecyltd-5minutecraftsspanish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTV" tvg-name="India TV" group-title="Xiaomi | International | Entertainment",India TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01550-indiatv-indiatvlive-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTVAsia" tvg-name="India TV (Asia)" group-title="Xiaomi | International | Entertainment",India TV (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-indiatv-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Infast" tvg-name="Infast" group-title="Xiaomi | International | Entertainment",Infast
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Infastalt" tvg-name="Infast alt" group-title="Xiaomi | International | Entertainment",Infast alt
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestylehd-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="InTrouble" tvg-name="InTrouble" group-title="Xiaomi | International | Entertainment",InTrouble
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-introuble-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Inwild" tvg-name="Inwild" group-title="Xiaomi | International | Entertainment",Inwild
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwild-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Inwonder" tvg-name="Inwonder" group-title="Xiaomi | International | Entertainment",Inwonder
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwonder-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Inwonder" tvg-name="Inwonder" group-title="Xiaomi | International | Entertainment",Inwonder
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwonderhd-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="JellyJammyWorld" tvg-name="Jelly Jammy World" group-title="Xiaomi | International | Entertainment",Jelly Jammy World
+https://amg01553-amg01553c1-xiaomi-in-5971.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LaLALifeEnglish" tvg-name="La LA Life English" group-title="Xiaomi | International | Entertainment",La LA Life English
+https://amg02051-soulpublishing-amg02051c8-xiaomi-in-398.playouts.now.amagi.tv/playlist/amg02051-admecyltd-lalalifeenglish-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="LawandCrime" tvg-name="Law and Crime" group-title="Xiaomi | International | Entertainment",Law and Crime
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00260-lawnewzincdbala-lawandcrime-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="LeFigaroFRGeo" tvg-name="Le Figaro (FR) Geo" group-title="Xiaomi | International | Entertainment",Le Figaro (FR) Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01767-secomiftvlefiga-lefigaro-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="LeMeilleurdelaTeleRealiteGeo" tvg-name="Le Meilleur de la Tele-Realite Geo" group-title="Xiaomi | International | Entertainment",Le Meilleur de la Tele-Realite Geo
+https://amg02393-awpg-amg02393c4-xiaomi-international-2302.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdelatvrealite-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="LesZAmoursGeo" tvg-name="Les Z Amours Geo" group-title="Xiaomi | International | Entertainment",Les Z Amours Geo
+https://amg02393-awpg-amg02393c3-xiaomi-international-2303.playouts.now.amagi.tv/playlist/amg02393-awpg-leszamours-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="LesangesGeo" tvg-name="Lesanges Geo" group-title="Xiaomi | International | Entertainment",Lesanges Geo
+https://amg02393-awpg-amg02393c2-xiaomi-international-2300.playouts.now.amagi.tv/playlist/amg02393-awpg-lesanges--xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="LovestoriesTVEU" tvg-name="Lovestories TV (EU)" group-title="Xiaomi | International | Entertainment",Lovestories TV (EU)
+https://lovestoriestv-lovestoriestv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MangoTVINGeo" tvg-name="Mango TV (IN) Geo" group-title="Xiaomi | International | Entertainment",Mango TV (IN) Geo
+https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="MasterchefBrasilGeo" tvg-name="Masterchef Brasil Geo" group-title="Xiaomi | International | Entertainment",Masterchef Brasil Geo
+https://amg00627-amg00627c9-xiaomi-international-4915.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MavTVGeo" tvg-name="Mav TV Geo" group-title="Xiaomi | International | Entertainment",Mav TV Geo
+https://amg00378-mavtv-amg00378c2-xiaomi-international-1789.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="MobTV" tvg-name="Mob TV" group-title="Xiaomi | International | Entertainment",Mob TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01324-infamousmedia-mobtv-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MoreUEU" tvg-name="MoreU (EU)" group-title="Xiaomi | International | Entertainment",MoreU (EU)
+https://bec-moreu-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MoreUUS" tvg-name="MoreU (US)" group-title="Xiaomi | International | Entertainment",MoreU (US)
+https://bec-moreu-1-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MotusLaChaine" tvg-name="Motus La Chaine" group-title="Xiaomi | International | Entertainment",Motus La Chaine
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-motuslachaine-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimatedBRGeo" tvg-name="Mr Bean Animated (BR) Geo" group-title="Xiaomi | International | Entertainment",Mr Bean Animated (BR) Geo
+https://amg00627-amg00627c35-xiaomi-international-4921.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanbr-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimatedESGeo" tvg-name="Mr Bean Animated (ES) Geo" group-title="Xiaomi | International | Entertainment",Mr Bean Animated (ES) Geo
+https://amg00627-amg00627c30-xiaomi-international-4916.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimatedFRGeo" tvg-name="Mr Bean Animated (FR) Geo" group-title="Xiaomi | International | Entertainment",Mr Bean Animated (FR) Geo
+https://amg00627-amg00627c31-xiaomi-international-4917.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimatedITGeo" tvg-name="Mr Bean Animated (IT) Geo" group-title="Xiaomi | International | Entertainment",Mr Bean Animated (IT) Geo
+https://amg00627-amg00627c29-xiaomi-international-4920.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimatedcheck" tvg-name="Mr Bean Animated check" group-title="Xiaomi | International | Entertainment",Mr Bean Animated check
+https://amg00627-amg00627c32-xiaomi-international-4918.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanencc-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="Mtrsprt1" tvg-name="Mtrsprt 1" group-title="Xiaomi | International | Entertainment",Mtrsprt 1
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MuseumTV" tvg-name="Museum TV" group-title="Xiaomi | International | Entertainment",Museum TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MuseumTVFR" tvg-name="Museum TV (FR)" group-title="Xiaomi | International | Entertainment",Museum TV (FR)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtvfr-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MyPadel" tvg-name="My Padel" group-title="Xiaomi | International | Entertainment",My Padel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01970-mypadeldigitals-mypadle-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MytimeDE" tvg-name="Mytime (DE)" group-title="Xiaomi | International | Entertainment",Mytime (DE)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimede-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MytimeES" tvg-name="Mytime (ES)" group-title="Xiaomi | International | Entertainment",Mytime (ES)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimees-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MytimeFR" tvg-name="Mytime (FR)" group-title="Xiaomi | International | Entertainment",Mytime (FR)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimefr-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MytimeUK" tvg-name="Mytime (UK)" group-title="Xiaomi | International | Entertainment",Mytime (UK)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimeuk-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MYZEN" tvg-name="MYZEN" group-title="Xiaomi | International | Entertainment",MYZEN
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenen-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MYZENFR" tvg-name="MYZEN (FR)" group-title="Xiaomi | International | Entertainment",MYZEN (FR)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenfr-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="NarutoGeo" tvg-name="Naruto Geo" group-title="Xiaomi | International | Entertainment",Naruto Geo
+https://amg00609-palatinmedia-amg00609c1-xiaomi-international-544.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-naruto-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="NEWKPOPEU" tvg-name="NEW KPOP (EU)" group-title="Xiaomi | International | Entertainment",NEW KPOP (EU)
+https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NinjaKidzTVEU" tvg-name="Ninja Kidz TV (EU)" group-title="Xiaomi | International | Entertainment",Ninja Kidz TV (EU)
+https://playworksdigital-ninjakidztv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NoseyotherEU" tvg-name="Nosey other (EU)" group-title="Xiaomi | International | Entertainment",Nosey other (EU)
+https://nosey-3-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Now70s" tvg-name="Now 70s" group-title="Xiaomi | International | Entertainment",Now 70s
+https://lightning-now70s-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Now80s" tvg-name="Now 80s" group-title="Xiaomi | International | Entertainment",Now 80s
+https://lightning-now80s-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Now90s" tvg-name="Now 90s" group-title="Xiaomi | International | Entertainment",Now 90s
+https://lightning-now90s-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PDCDartsGeo" tvg-name="PDC Darts Geo" group-title="Xiaomi | International | Entertainment",PDC Darts Geo
+https://amg02302-amg02302c3-xiaomi-international-5835.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PelimexEU" tvg-name="Pelimex (EU)" group-title="Xiaomi | International | Entertainment",Pelimex (EU)
+https://telecine-pelimex-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PitaaraAsia" tvg-name="Pitaara (Asia)" group-title="Xiaomi | International | Entertainment",Pitaara (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-pitaaraxiaomiin-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="PocketWatch" tvg-name="PocketWatch" group-title="Xiaomi | International | Entertainment",PocketWatch
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-pocketwatch-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="Powder" tvg-name="Powder" group-title="Xiaomi | International | Entertainment",Powder
+https://amg13231-amg13231c5-xiaomi-international-2912.playouts.now.amagi.tv/playlist/amg13231-actvefast-powder-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerNation" tvg-name="PowerNation" group-title="Xiaomi | International | Entertainment",PowerNation
+https://amg01258-raycom-amg01258c1-xiaomi-international-907.playouts.now.amagi.tv/playlist/amg01258-raycomsportsfast-powernation-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="Pulse" tvg-name="Pulse" group-title="Xiaomi | International | Entertainment",Pulse
+https://lightning-pulse-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="QuiveutgagnerdesmillionsGeo" tvg-name="Qui veut gagner des millions Geo" group-title="Xiaomi | International | Entertainment",Qui veut gagner des millions Geo
+https://amg02393-awpg-amg02393c1-xiaomi-international-2301.playouts.now.amagi.tv/playlist/amg02393-awpg-quiveutgagnerdesmillions-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenVikiEU" tvg-name="Rakuten Viki (EU)" group-title="Xiaomi | International | Entertainment",Rakuten Viki (EU)
+https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RCNMasEU" tvg-name="RCN Mas (EU)" group-title="Xiaomi | International | Entertainment",RCN Mas (EU)
+https://rcntv-rcnmas-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RealNoseyEU" tvg-name="Real Nosey (EU)" group-title="Xiaomi | International | Entertainment",Real Nosey (EU)
+https://nosey-realnosey-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RisatealSudIT" tvg-name="Risate al Sud (IT)" group-title="Xiaomi | International | Entertainment",Risate al Sud (IT)
+https://ixmedia-srl-risatealsud-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RisateAllItaliana" tvg-name="Risate All Italiana" group-title="Xiaomi | International | Entertainment",Risate All Italiana
+https://minerva-risateallitaliana-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RiseFinancialEU" tvg-name="Rise Financial (EU)" group-title="Xiaomi | International | Entertainment",Rise Financial (EU)
+https://rise-financial-roi-tv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SailingChannelIT" tvg-name="Sailing Channel (IT)" group-title="Xiaomi | International | Entertainment",Sailing Channel (IT)
+https://vitormedia-sailingchannel-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTInternationalAsia" tvg-name="SBT International (Asia)" group-title="Xiaomi | International | Entertainment",SBT International (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sbtintl-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ScreaminAsia" tvg-name="Screamin (Asia)" group-title="Xiaomi | International | Entertainment",Screamin (Asia)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-screamin-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="SeriallyCrimeIT" tvg-name="Serially Crime (IT)" group-title="Xiaomi | International | Entertainment",Serially Crime (IT)
+https://ixmediasrl-seriallycrime-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SeriallyDramaIT" tvg-name="Serially Drama (IT)" group-title="Xiaomi | International | Entertainment",Serially Drama (IT)
+https://ixmediasrl-serially-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ShadeTVEU" tvg-name="Shade TV (EU)" group-title="Xiaomi | International | Entertainment",Shade TV (EU)
+https://shadeiqllc-shadetv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Skateboarding" tvg-name="Skateboarding" group-title="Xiaomi | International | Entertainment",Skateboarding
+https://amg13231-amg13231c2-xiaomi-international-2913.playouts.now.amagi.tv/playlist/amg13231-actvefast-skateboarding-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="SlickSlimeSamEnglish" tvg-name="Slick Slime Sam English" group-title="Xiaomi | International | Entertainment",Slick Slime Sam English
+https://amg02051-soulpublishing-amg02051c12-xiaomi-international-384.playouts.now.amagi.tv/playlist/amg02051-admecyltd-slickslimesamenglish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="Snowboarder" tvg-name="Snowboarder" group-title="Xiaomi | International | Entertainment",Snowboarder
+https://amg13231-amg13231c3-xiaomi-international-2914.playouts.now.amagi.tv/playlist/amg13231-actvefast-snowboarder-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyComediasMX" tvg-name="Sony Comedias (MX)" group-title="Xiaomi | International | Entertainment",Sony Comedias (MX)
+https://spt-sonyonecomedias-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyNovelasMX" tvg-name="Sony Novelas (MX)" group-title="Xiaomi | International | Entertainment",Sony Novelas (MX)
+https://spt-sonyonenovelas-1-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyoneCompentenciasMX" tvg-name="Sonyone Compentencias (MX)" group-title="Xiaomi | International | Entertainment",Sonyone Compentencias (MX)
+https://spt-sonyonecompetencias-1-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyoneSharktankMX" tvg-name="Sonyone Sharktank (MX)" group-title="Xiaomi | International | Entertainment",Sonyone Sharktank (MX)
+https://spt-sonyonesharktank-1-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SorrisiIT" tvg-name="Sorrisi (IT)" group-title="Xiaomi | International | Entertainment",Sorrisi (IT)
+https://chili-film-sorrisi-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="StrongmanChampionsLeagueDE" tvg-name="Strongman Champions League (DE)" group-title="Xiaomi | International | Entertainment",Strongman Champions League (DE)
+https://rightsboosterltd-scl-2-de.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="StrongmansChampionLeagueEU" tvg-name="Strongmans Champion League (EU)" group-title="Xiaomi | International | Entertainment",Strongmans Champion League (EU)
+https://rightsboosterltd-scl-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SuperSimpleSongsEU" tvg-name="Super Simple Songs (EU)" group-title="Xiaomi | International | Entertainment",Super Simple Songs (EU)
+https://janson-supersimplesongs-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Surfer" tvg-name="Surfer" group-title="Xiaomi | International | Entertainment",Surfer
+https://amg13231-amg13231c4-xiaomi-international-2910.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="Tastemade" tvg-name="Tastemade" group-title="Xiaomi | International | Entertainment",Tastemade
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmes8intl-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeAU" tvg-name="Tastemade (AU)" group-title="Xiaomi | International | Entertainment",Tastemade (AU)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tminaaus-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeDE" tvg-name="Tastemade (DE)" group-title="Xiaomi | International | Entertainment",Tastemade (DE)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmgermany-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeES" tvg-name="Tastemade (ES)" group-title="Xiaomi | International | Entertainment",Tastemade (ES)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmes16intl-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeInternational" tvg-name="Tastemade International" group-title="Xiaomi | International | Entertainment",Tastemade International
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmintleng-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TEDConferencesUS" tvg-name="TED Conferences (US)" group-title="Xiaomi | International | Entertainment",TED Conferences (US)
+https://tedconferences-ted-1-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TedTalksEU" tvg-name="Ted Talks (EU)" group-title="Xiaomi | International | Entertainment",Ted Talks (EU)
+https://tedconferences-ted-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TeenVeeEnglish" tvg-name="Teen Vee English" group-title="Xiaomi | International | Entertainment",Teen Vee English
+https://amg02051-soulpublishing-amg02051c5-xiaomi-international-383.playouts.now.amagi.tv/playlist/amg02051-admecyltd-teenveeenglish-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TelenovelaTVFR" tvg-name="Telenovela TV (FR)" group-title="Xiaomi | International | Entertainment",Telenovela TV (FR)
+https://stormcast-telenovelatv-1-fr.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheBoatShowIT" tvg-name="The Boat Show (IT)" group-title="Xiaomi | International | Entertainment",The Boat Show (IT)
+https://boatshowtvsrl-theboatshow-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheRedGreenShowEU" tvg-name="The Red Green Show (EU)" group-title="Xiaomi | International | Entertainment",The Red Green Show (EU)
+https://answermedia-theredgreenshow-2-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TopTrueCrimeGeo" tvg-name="Top True Crime Geo" group-title="Xiaomi | International | Entertainment",Top True Crime Geo
+https://amg00609-palatinmedia-amg00609c2-xiaomi-international-546.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-toptruecrime-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TrailersDEGeo" tvg-name="Trailers (DE) Geo" group-title="Xiaomi | International | Entertainment",Trailers (DE) Geo
+https://amg01821-lovetv-amg01821c6-xiaomi-international-659.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailersde-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TrailersESGeo" tvg-name="Trailers (ES) Geo" group-title="Xiaomi | International | Entertainment",Trailers (ES) Geo
+https://amg01821-lovetv-amg01821c2-xiaomi-international-650.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailerses-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TrailersFRGeo" tvg-name="Trailers (FR) Geo" group-title="Xiaomi | International | Entertainment",Trailers (FR) Geo
+https://amg01821-lovetv-amg01821c4-xiaomi-international-657.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailersfr-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TrailersIT" tvg-name="Trailers (IT)" group-title="Xiaomi | International | Entertainment",Trailers (IT)
+https://amg01821-lovetv-amg01821c8-xiaomi-international-751.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailersit-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TrailersUKGeo" tvg-name="Trailers (UK) Geo" group-title="Xiaomi | International | Entertainment",Trailers (UK) Geo
+https://amg01821-lovetv-amg01821c3-xiaomi-international-656.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailersuk-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="TucineEuropeEUGeo" tvg-name="Tucine Europe (EU) Geo" group-title="Xiaomi | International | Entertainment",Tucine Europe (EU) Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucineeurope-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9BanglaINGeo" tvg-name="TV9 Bangla (IN) Geo" group-title="Xiaomi | International | Entertainment",TV9 Bangla (IN) Geo
+https://amg01106-tv9-amg01106c1-xiaomi-in-1073.playouts.now.amagi.tv/playlist/amg01106-tv9fast-tv9bangala-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9BharatvarshINGeo" tvg-name="TV9 Bharatvarsh (IN) Geo" group-title="Xiaomi | International | Entertainment",TV9 Bharatvarsh (IN) Geo
+https://amg01106-tv9-amg01106c2-xiaomi-in-1187.playouts.now.amagi.tv/playlist/amg01106-tv9fast-tv9bharatvarsh-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9GujaratiINGeo" tvg-name="TV9 Gujarati (IN) Geo" group-title="Xiaomi | International | Entertainment",TV9 Gujarati (IN) Geo
+https://amg01106-tv9-amg01106c7-xiaomi-in-1186.playouts.now.amagi.tv/playlist/amg01106-tv9fast-tv9gujarathi-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9KannadaINGeo" tvg-name="TV9 Kannada (IN) Geo" group-title="Xiaomi | International | Entertainment",TV9 Kannada (IN) Geo
+https://amg01106-tv9-amg01106c6-xiaomi-in-1185.playouts.now.amagi.tv/playlist/amg01106-tv9fast-tv9kannada-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9MarathiIN" tvg-name="TV9 Marathi (IN)" group-title="Xiaomi | International | Entertainment",TV9 Marathi (IN)
+https://amg01106-tv9-amg01106c3-xiaomi-in-1149.playouts.now.amagi.tv/playlist/amg01106-tv9fast-tv9marati-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9TeleguIN" tvg-name="TV9 Telegu (IN)" group-title="Xiaomi | International | Entertainment",TV9 Telegu (IN)
+https://amg01106-tv9-amg01106c5-xiaomi-in-1184.playouts.now.amagi.tv/playlist/amg01106-tv9fast-tv9telugu-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="Unbeaten" tvg-name="Unbeaten" group-title="Xiaomi | International | Entertainment",Unbeaten
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00721-inverleigh-unbeaten-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ViggoandSupporo" tvg-name="Viggo and Supporo" group-title="Xiaomi | International | Entertainment",Viggo and Supporo
+https://amg01821-amg01821c25-xiaomi-international-4607.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="VivaldiTV" tvg-name="Vivaldi TV" group-title="Xiaomi | International | Entertainment",Vivaldi TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01297-mezzo-vivalditv-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="VoyagesandSaveur" tvg-name="Voyages and Saveur" group-title="Xiaomi | International | Entertainment",Voyages and Saveur
+https://amg01821-amg01821c24-xiaomi-international-4603.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Wannasee" tvg-name="Wannasee" group-title="Xiaomi | International | Entertainment",Wannasee
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-wannasee-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="WasabiLaChaineAnimeFRGeo" tvg-name="Wasabi La Chaine Anime (FR) Geo" group-title="Xiaomi | International | Entertainment",Wasabi La Chaine Anime (FR) Geo
+https://amg01796-amg01796c3-xiaomi-international-2755.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-wasabii-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="WatchMojoEU" tvg-name="Watch Mojo (EU)" group-title="Xiaomi | International | Entertainment",Watch Mojo (EU)
+https://watchmojo-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WhoaThatWasWildEU" tvg-name="Whoa That Was Wild (EU)" group-title="Xiaomi | International | Entertainment",Whoa That Was Wild (EU)
+https://newsflare-whoathatwaswild-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WildEarth" tvg-name="WildEarth" group-title="Xiaomi | International | Entertainment",WildEarth
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01290-wildearthgroupl-wildearth-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="WPIT" tvg-name="WP (IT)" group-title="Xiaomi | International | Entertainment",WP (IT)
+https://minerva-wp-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WPTAsia" tvg-name="WPT (Asia)" group-title="Xiaomi | International | Entertainment",WPT (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-wpt-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="XplorationStationGB" tvg-name="Xploration Station (GB)" group-title="Xiaomi | International | Entertainment",Xploration Station (GB)
+https://srpdigital-xplorationstation-1-gb.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Yaquelaverite" tvg-name="Yaquelaverite" group-title="Xiaomi | International | Entertainment",Yaquelaverite
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-yaquelaverite-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="YGTVEU" tvg-name="YG TV (EU)" group-title="Xiaomi | International | Entertainment",YG TV (EU)
+https://newidco-ygtv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YoungHollywood" tvg-name="Young Hollywood" group-title="Xiaomi | International | Entertainment",Young Hollywood
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00143-younghollywoodl-younghollywood-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="YoungHollywoodAsia" tvg-name="Young Hollywood (Asia)" group-title="Xiaomi | International | Entertainment",Young Hollywood (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-younghollywood-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="YuGiOhDE" tvg-name="Yu-Gi-Oh (DE)" group-title="Xiaomi | International | Entertainment",Yu-Gi-Oh (DE)
+https://fastmedia-yu-gi-oh-2-de.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YuGiOhES" tvg-name="Yu-Gi-Oh (ES)" group-title="Xiaomi | International | Entertainment",Yu-Gi-Oh (ES)
+https://fastmedia-yu-gi-oh-5-es.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YuGiOhFR" tvg-name="Yu-Gi-Oh (FR)" group-title="Xiaomi | International | Entertainment",Yu-Gi-Oh (FR)
+https://fastmedia-yu-gi-oh-4-fr.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YuGiOhGB" tvg-name="Yu-Gi-Oh (GB)" group-title="Xiaomi | International | Entertainment",Yu-Gi-Oh (GB)
+https://fastmedia-yu-gi-oh-1-gb.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YuGiOhIT" tvg-name="Yu-Gi-Oh (IT)" group-title="Xiaomi | International | Entertainment",Yu-Gi-Oh (IT)
+https://fastmedia-yu-gi-oh-3-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Zee24GhantaAsia" tvg-name="Zee 24 Ghanta (Asia)" group-title="Xiaomi | International | Entertainment",Zee 24 Ghanta (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeBiharAsia" tvg-name="Zee Bihar (Asia)" group-title="Xiaomi | International | Entertainment",Zee Bihar (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeebihar-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeBusinessAsia" tvg-name="Zee Business (Asia)" group-title="Xiaomi | International | Entertainment",Zee Business (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeebusiness-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeTaasAsia" tvg-name="Zee Taas (Asia)" group-title="Xiaomi | International | Entertainment",Zee Taas (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeetaas-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeWionAsia" tvg-name="Zee Wion (Asia)" group-title="Xiaomi | International | Entertainment",Zee Wion (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeewion-xiaomi/playlist.m3u8
+
+# International | Kids (1 channels)
+#EXTINF:-1 tvg-id="KidsTVUS" tvg-name="Kids TV (US)" group-title="Xiaomi | International | Kids",Kids TV (US)
+https://jansonmedia-kidstv-1-us.xiaomi.wurl.tv/playlist.m3u8
+
+# International | Lifestyle (5 channels)
+#EXTINF:-1 tvg-id="FoodEU" tvg-name="Food (EU)" group-title="Xiaomi | International | Lifestyle",Food (EU)
+https://food-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Homeful" tvg-name="Homeful" group-title="Xiaomi | International | Lifestyle",Homeful
+https://amg00090-amg00090c15-xiaomi-international-4616.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveWine" tvg-name="Love Wine" group-title="Xiaomi | International | Lifestyle",Love Wine
+https://amg01821-amg01821c17-xiaomi-international-4602.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Petclub" tvg-name="Petclub" group-title="Xiaomi | International | Lifestyle",Petclub
+https://lightning-petclub-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TodaysHomeownerEU" tvg-name="Today's Homeowner (EU)" group-title="Xiaomi | International | Lifestyle",Today's Homeowner (EU)
+https://janson-todayshomeowner-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+# International | Movies (11 channels)
+#EXTINF:-1 tvg-id="ActionHollywoodMovies" tvg-name="Action Hollywood Movies" group-title="Xiaomi | International | Movies",Action Hollywood Movies
+https://lightning-actionhollywood-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="B4UMovies" tvg-name="B4U Movies" group-title="Xiaomi | International | Movies",B4U Movies
+https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BizzaroMoviesIT" tvg-name="Bizzaro Movies (IT)" group-title="Xiaomi | International | Movies",Bizzaro Movies (IT)
+https://minerva-bizzarromovies-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BrefCinemaEU" tvg-name="Bref Cinema (EU)" group-title="Xiaomi | International | Movies",Bref Cinema (EU)
+https://lagenceducourtmetrage-brefcinema-01-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CinemasegretoIT" tvg-name="Cinemasegreto (IT)" group-title="Xiaomi | International | Movies",Cinemasegreto (IT)
+https://minerva-cinemasegreto-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieDome" tvg-name="MovieDome" group-title="Xiaomi | International | Movies",MovieDome
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedome-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieDomeUK" tvg-name="MovieDome (UK)" group-title="Xiaomi | International | Movies",MovieDome (UK)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomeuk-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieDomeFamily" tvg-name="MovieDome Family" group-title="Xiaomi | International | Movies",MovieDome Family
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TopFilmeGeo" tvg-name="TopFilme Geo" group-title="Xiaomi | International | Movies",TopFilme Geo
+https://amg00609-palatinmedia-amg00609c4-xiaomi-international-1862.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-topfilme-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-id="Watch4Movies" tvg-name="Watch4Movies" group-title="Xiaomi | International | Movies",Watch4Movies
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-watch4movies-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="WedoMovies" tvg-name="Wedo Movies" group-title="Xiaomi | International | Movies",Wedo Movies
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-movies4free-xiaomi/playlist.m3u8
+
+# International | Music (7 channels)
+#EXTINF:-1 tvg-id="LatidoMusicGeo" tvg-name="Latido Music Geo" group-title="Xiaomi | International | Music",Latido Music Geo
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00274-vidaprimo-latidomusic-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="SagaMusicAsia" tvg-name="Saga Music (Asia)" group-title="Xiaomi | International | Music",Saga Music (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusic-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="SagaMusicHaryanviAsia" tvg-name="Saga Music Haryanvi (Asia)" group-title="Xiaomi | International | Music",Saga Music Haryanvi (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusicharyanvi-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceBrazuca" tvg-name="Trace Brazuca" group-title="Xiaomi | International | Music",Trace Brazuca
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceLatina" tvg-name="Trace Latina" group-title="Xiaomi | International | Music",Trace Latina
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatina-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceUrban" tvg-name="Trace Urban" group-title="Xiaomi | International | Music",Trace Urban
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="YRFMusicAsia" tvg-name="YRF Music (Asia)" group-title="Xiaomi | International | Music",YRF Music (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+
+# International | News (14 channels)
+#EXTINF:-1 tvg-id="ABPNewsAsia" tvg-name="ABP News (Asia)" group-title="Xiaomi | International | News",ABP News (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpnews-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTVEU" tvg-name="Bloomberg TV (EU)" group-title="Xiaomi | International | News",Bloomberg TV (EU)
+https://bloomberg-bloombergtv-3-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTVUS" tvg-name="Bloomberg TV(US)" group-title="Xiaomi | International | News",Bloomberg TV(US)
+https://bloomberg-bloombergtv-3-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNNews18Geo" tvg-name="CNN News 18 Geo" group-title="Xiaomi | International | News",CNN News 18 Geo
+https://amg00866-amg00866c5-xiaomi-in-3550.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNNews18IndiaGeo" tvg-name="CNN News 18 India Geo" group-title="Xiaomi | International | News",CNN News 18 India Geo
+https://amg00866-amg00866c1-xiaomi-in-3511.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTVSpeedNews" tvg-name="India TV Speed News" group-title="Xiaomi | International | News",India TV Speed News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01550-indiatv-indiatv-speed-mi-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTVSpeedNewsaltGeo" tvg-name="India TV Speed News alt Geo" group-title="Xiaomi | International | News",India TV Speed News alt Geo
+https://amg01550-amg01550c3-xiaomi-in-4367.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvspeednews-xiaomiin/playlist.m3u8
+#EXTINF:-1 tvg-id="News18BanglaGeo" tvg-name="News 18 Bangla Geo" group-title="Xiaomi | International | News",News 18 Bangla Geo
+https://amg00866-amg00866c8-xiaomi-in-3555.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="News18GujaratiGeo" tvg-name="News 18 Gujarati Geo" group-title="Xiaomi | International | News",News 18 Gujarati Geo
+https://amg00866-amg00866c7-xiaomi-in-3551.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="News18MadhyaPradeshGeo" tvg-name="News 18 Madhya Pradesh Geo" group-title="Xiaomi | International | News",News 18 Madhya Pradesh Geo
+https://amg00866-amg00866c3-xiaomi-in-3553.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="News18TamilNaduGeo" tvg-name="News 18 Tamil Nadu Geo" group-title="Xiaomi | International | News",News 18 Tamil Nadu Geo
+https://amg00866-amg00866c6-xiaomi-in-3554.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="News18UttarakhandGeo" tvg-name="News 18 Uttarakhand Geo" group-title="Xiaomi | International | News",News 18 Uttarakhand Geo
+https://amg00866-amg00866c4-xiaomi-in-3552.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="OANEncoreAsia" tvg-name="OAN Encore (Asia)" group-title="Xiaomi | International | News",OAN Encore (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-oanencore-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeNewsAsia" tvg-name="Zee News (Asia)" group-title="Xiaomi | International | News",Zee News (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeenews-xiaomi/playlist.m3u8
+
+# International | Sports (10 channels)
+#EXTINF:-1 tvg-id="ConflictUS" tvg-name="Conflict (US)" group-title="Xiaomi | International | Sports",Conflict (US)
+https://rightsboosterltd-conflict-1-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EdgesportsAsia" tvg-name="Edgesports (Asia)" group-title="Xiaomi | International | Sports",Edgesports (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-edgesports-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="MatchroomBoxingGeo" tvg-name="Matchroom Boxing Geo" group-title="Xiaomi | International | Sports",Matchroom Boxing Geo
+https://amg02302-amg02302c2-xiaomi-international-5834.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="OutdoorActionEU" tvg-name="Outdoor Action (EU)" group-title="Xiaomi | International | Sports",Outdoor Action (EU)
+https://careco-outdoor-action-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SportOutdoorTVEU" tvg-name="Sport Outdoor TV (EU)" group-title="Xiaomi | International | Sports",Sport Outdoor TV (EU)
+https://gto2000-sportoutdoortv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SportsGrid" tvg-name="Sports Grid" group-title="Xiaomi | International | Sports",Sports Grid
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00315-sportsgrid-sportsgrid-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="SportsgridAsia" tvg-name="Sportsgrid (Asia)" group-title="Xiaomi | International | Sports",Sportsgrid (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sportsgridin-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportsStars" tvg-name="Trace Sports Stars" group-title="Xiaomi | International | Sports",Trace Sports Stars
+https://lightning-tracesportstars-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportsStarsAsia" tvg-name="Trace Sports Stars (Asia)" group-title="Xiaomi | International | Sports",Trace Sports Stars (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-tracesportsstar-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportsStarsalt" tvg-name="Trace Sports Stars alt" group-title="Xiaomi | International | Sports",Trace Sports Stars alt
+https://tracetv-tracesportstars-xiaomi.amagi.tv/playlist.m3u8

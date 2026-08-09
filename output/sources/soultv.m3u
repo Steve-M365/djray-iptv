@@ -1,0 +1,302 @@
+#EXTM3U
+# SoulTV
+# Total channels: 143
+# Generated: 2026-08-09 11:11:16
+
+# Brazil | Entertainment (131 channels)
+#EXTINF:-1 tvg-id="ABBARTV" tvg-name="ABBA RTV" group-title="SoulTV | Brazil | Entertainment",ABBA RTV
+https://video01.kshost.com.br/adilson8953/adilson8953/playlist.m3u8
+#EXTINF:-1 tvg-id="AdessoTV" tvg-name="Adesso TV" group-title="SoulTV | Brazil | Entertainment",Adesso TV
+https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
+#EXTINF:-1 tvg-id="AGTv" tvg-name="AG Tv" group-title="SoulTV | Brazil | Entertainment",AG Tv
+https://video01.brascast.com/grezzana1839/grezzana1839/playlist.m3u8
+#EXTINF:-1 tvg-id="AlphaChannelTV" tvg-name="Alpha Channel TV" group-title="SoulTV | Brazil | Entertainment",Alpha Channel TV
+https://maystreaming.cloudecast.com/alphachannel/index.m3u8
+#EXTINF:-1 tvg-id="AmazonSat" tvg-name="Amazon Sat" group-title="SoulTV | Brazil | Entertainment",Amazon Sat
+https://cdn-tiva-amazonsat-brasilstream-com-br.smartbit.co/hls/amazonsat/index.m3u8
+#EXTINF:-1 tvg-id="AMCPLAYTV" tvg-name="AMC PLAY TV" group-title="SoulTV | Brazil | Entertainment",AMC PLAY TV
+https://video01.kshost.com.br/andre4742/andre4742/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericaTV" tvg-name="America TV" group-title="SoulTV | Brazil | Entertainment",America TV
+https://cdn.live.br1.jmvstream.com/webtv/AVJ-12962/playlist/playlist.m3u8
+#EXTINF:-1 tvg-id="AssimPortugal" tvg-name="Assim é Portugal" group-title="SoulTV | Brazil | Entertainment",Assim é Portugal
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/assimeportugal/assimeportugal/playlist.m3u8
+#EXTINF:-1 tvg-id="AstralTV" tvg-name="Astral TV" group-title="SoulTV | Brazil | Entertainment",Astral TV
+https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/astraltv/index.m3u8
+#EXTINF:-1 tvg-id="AtitudeNew" tvg-name="Atitude New" group-title="SoulTV | Brazil | Entertainment",Atitude New
+https://stmv1.transmissaodigital.com/tvatitudenew/tvatitudenew/playlist.m3u8
+#EXTINF:-1 tvg-id="ATV" tvg-name="ATV" group-title="SoulTV | Brazil | Entertainment",ATV
+https://csm-e-yopoc1-live-usw2-eb.bln1.yospace.com/csm/extlive/smartbitdev01,cdn2-origin-sp-atv-abr.m3u8
+#EXTINF:-1 tvg-id="AugeTV" tvg-name="Auge TV" group-title="SoulTV | Brazil | Entertainment",Auge TV
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/canalaugetv/canalaugetv/playlist.m3u8
+#EXTINF:-1 tvg-id="BemTV" tvg-name="Bem + TV" group-title="SoulTV | Brazil | Entertainment",Bem + TV
+https://cdn-tiva-video09-logicahost-com-br.smartbit.co/bemmaistv01/bemmaistv01/playlist.m3u8
+#EXTINF:-1 tvg-id="BemMelhor" tvg-name="Bem Melhor" group-title="SoulTV | Brazil | Entertainment",Bem Melhor
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/bemmelhor/bemmelhor/playlist.m3u8
+#EXTINF:-1 tvg-id="BHChannel" tvg-name="BH Channel" group-title="SoulTV | Brazil | Entertainment",BH Channel
+https://cdn-tiva-stmv8-samcast-com-br.smartbit.co/jcbrasil7363/jcbrasil7363/playlist.m3u8
+#EXTINF:-1 tvg-id="BHTV" tvg-name="BH TV" group-title="SoulTV | Brazil | Entertainment",BH TV
+https://cdn-tiva-sc1-wasidata-com.smartbit.co/Bhtv/video.m3u8
+#EXTINF:-1 tvg-id="BittTV" tvg-name="Bitt TV" group-title="SoulTV | Brazil | Entertainment",Bitt TV
+https://srt.logicahost.com.br/memfs/f3d27992-7c26-4e18-bd88-e35ce3850065_output_0.m3u8
+#EXTINF:-1 tvg-id="BlitsTV" tvg-name="Blits TV" group-title="SoulTV | Brazil | Entertainment",Blits TV
+https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8
+#EXTINF:-1 tvg-id="BrGlobalStation" tvg-name="Br Global Station" group-title="SoulTV | Brazil | Entertainment",Br Global Station
+https://brglobalstation.duckdns.org:3334/hls/brglobalstation.m3u8
+#EXTINF:-1 tvg-id="Canal25" tvg-name="Canal 25" group-title="SoulTV | Brazil | Entertainment",Canal 25
+https://cdn-tiva-stream01-msolutionbrasil-com-br.smartbit.co/hls/canal25/live.m3u8
+#EXTINF:-1 tvg-id="CanaldoBoi" tvg-name="Canal do Boi" group-title="SoulTV | Brazil | Entertainment",Canal do Boi
+https://aovivo3.equipea.com.br:5443/aovivort/streams/OSCJWX8rDkLrgW7A488545952175222.m3u8
+#EXTINF:-1 tvg-id="CANALSTART" tvg-name="CANAL START" group-title="SoulTV | Brazil | Entertainment",CANAL START
+https://cdn-tiva-srv5-zcast-com-br.smartbit.co/canalstart/canalstart/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalTVC" tvg-name="Canal TVC" group-title="SoulTV | Brazil | Entertainment",Canal TVC
+https://cdn-tiva-stmv1-voxtvhd-com-br.smartbit.co/canaltvc/canaltvc/playlist.m3u8
+#EXTINF:-1 tvg-id="CNBAmericanTV" tvg-name="CNB American TV" group-title="SoulTV | Brazil | Entertainment",CNB American TV
+https://5cf4a2c2512a2.streamlock.net/tvcnbamerican/tvcnbamerican/playlist.m3u8
+#EXTINF:-1 tvg-id="ColetivaTV" tvg-name="Coletiva TV" group-title="SoulTV | Brazil | Entertainment",Coletiva TV
+https://cdn-tiva-video02-logicahost-com-br.smartbit.co/coletivatv/coletivatv/playlist.m3u8
+#EXTINF:-1 tvg-id="DTV" tvg-name="D+ TV" group-title="SoulTV | Brazil | Entertainment",D+ TV
+https://cdn-tiva-stmv1-samcast-com-br.smartbit.co/demaistv6503/demaistv6503/playlist.m3u8
+#EXTINF:-1 tvg-id="ExtremoOrientalTV" tvg-name="Extremo Oriental TV" group-title="SoulTV | Brazil | Entertainment",Extremo Oriental TV
+https://cdn-tiva-video05-logicahost-com-br.smartbit.co/extremotv/extremotv/playlist.m3u8
+#EXTINF:-1 tvg-id="GLNTV" tvg-name="GLN TV" group-title="SoulTV | Brazil | Entertainment",GLN TV
+https://cdn-tiva-stmv8-samcast-com-br.smartbit.co/glnfilmes/glnfilmes/playlist.m3u8
+#EXTINF:-1 tvg-id="GMCTV" tvg-name="GMC TV" group-title="SoulTV | Brazil | Entertainment",GMC TV
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/motionbrasiltv/motionbrasiltv/playlist.m3u8
+#EXTINF:-1 tvg-id="HackathonBrasilTV" tvg-name="Hackathon Brasil TV" group-title="SoulTV | Brazil | Entertainment",Hackathon Brasil TV
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/hackathonbrasil/hackathonbrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="HipHopVaiAlmTV" tvg-name="Hip Hop Vai Além TV" group-title="SoulTV | Brazil | Entertainment",Hip Hop Vai Além TV
+https://cdn-tiva-stmv4-voxtvhd-com-br.smartbit.co/carlosdavi6787/carlosdavi6787/playlist.m3u8
+#EXTINF:-1 tvg-id="ISTV" tvg-name="ISTV" group-title="SoulTV | Brazil | Entertainment",ISTV
+https://cdn-tiva-video10-logicahost-com-br.smartbit.co/redeistv/redeistv/playlist.m3u8
+#EXTINF:-1 tvg-id="KanucaTVBrasil" tvg-name="Kanuca TV Brasil" group-title="SoulTV | Brazil | Entertainment",Kanuca TV Brasil
+https://cdn-tiva-video08-logicahost-com-br.smartbit.co/kanucatv/kanucatv/playlist.m3u8
+#EXTINF:-1 tvg-id="KpopTV" tvg-name="Kpop TV" group-title="SoulTV | Brazil | Entertainment",Kpop TV
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
+#EXTINF:-1 tvg-id="LatinaTESTINTERNO" tvg-name="Latina TEST INTERNO" group-title="SoulTV | Brazil | Entertainment",Latina TEST INTERNO
+https://jireh-5-hls-video-us-isp.dps.live/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8?dpssid=f9a1a2fa53ae03fa661a018b91154208&amp;sid=ba5t1l1xb219765137496823a472d5e82&amp;ndvc=0
+#EXTINF:-1 tvg-id="LiderTV" tvg-name="Lider TV" group-title="SoulTV | Brazil | Entertainment",Lider TV
+https://cdn-tiva-video08-logicahost-com-br.smartbit.co/lidertvssp/lidertvssp/playlist.m3u8
+#EXTINF:-1 tvg-id="MasperTV" tvg-name="Masper TV" group-title="SoulTV | Brazil | Entertainment",Masper TV
+https://tv02.zas.media:1936/masper/masper/playlist.m3u8
+#EXTINF:-1 tvg-id="NovaTVAgrotour" tvg-name="Nova TV Agrotour" group-title="SoulTV | Brazil | Entertainment",Nova TV Agrotour
+https://video01.kshost.com.br/marcelo7614/marcelo7614/playlist.m3u8
+#EXTINF:-1 tvg-id="OKTV" tvg-name="OK TV" group-title="SoulTV | Brazil | Entertainment",OK TV
+https://stmv2.srvsh.com.br/douglas5010/douglas5010/playlist.m3u8
+#EXTINF:-1 tvg-id="OndaDigitalTV" tvg-name="Onda Digital TV" group-title="SoulTV | Brazil | Entertainment",Onda Digital TV
+http://live.ondadigitaltv.com/ODTV/index.m3u8
+#EXTINF:-1 tvg-id="PeruChannel" tvg-name="Peru Channel" group-title="SoulTV | Brazil | Entertainment",Peru Channel
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/entertainmentplay/entertainmentplay/playlist.m3u8
+#EXTINF:-1 tvg-id="PlayTV" tvg-name="Play TV" group-title="SoulTV | Brazil | Entertainment",Play TV
+https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/playtv/index.m3u8
+#EXTINF:-1 tvg-id="PlayTVHorse" tvg-name="Play TV Horse" group-title="SoulTV | Brazil | Entertainment",Play TV Horse
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/playtvhorse/playtvhorse/playlist.m3u8
+#EXTINF:-1 tvg-id="POAStreamingTV" tvg-name="POA Streaming TV" group-title="SoulTV | Brazil | Entertainment",POA Streaming TV
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/poastreaming/poastreaming/playlist.m3u8
+#EXTINF:-1 tvg-id="PrimerTV" tvg-name="Primer TV" group-title="SoulTV | Brazil | Entertainment",Primer TV
+http://177.74.174.57:8080/hls/primertv.m3u8
+#EXTINF:-1 tvg-id="QTalChannel" tvg-name="Q Tal Channel" group-title="SoulTV | Brazil | Entertainment",Q Tal Channel
+https://stmv1.transmissaodigital.com/qtalchannel/qtalchannel/playlist.m3u8
+#EXTINF:-1 tvg-id="RAETV" tvg-name="RAE TV" group-title="SoulTV | Brazil | Entertainment",RAE TV
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/raetv/raetv/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeBrasil" tvg-name="Rede Brasil" group-title="SoulTV | Brazil | Entertainment",Rede Brasil
+https://cdn-tiva-video09-logicahost-com-br.smartbit.co/redebrasiloficial/redebrasiloficial/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeGramado" tvg-name="Rede Gramado" group-title="SoulTV | Brazil | Entertainment",Rede Gramado
+https://cdn-tiva-isaocorp-cloudecast-com.smartbit.co/tvgramado/index.m3u8
+#EXTINF:-1 tvg-id="RedeMetrpole" tvg-name="Rede Metrópole" group-title="SoulTV | Brazil | Entertainment",Rede Metrópole
+https://cdn-tiva-isaocorp-cloudecast-com.smartbit.co/metropole/index.m3u8
+#EXTINF:-1 tvg-id="RedeNGTTV" tvg-name="Rede NGT TV" group-title="SoulTV | Brazil | Entertainment",Rede NGT TV
+https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/ngt/index.m3u8
+#EXTINF:-1 tvg-id="RedePremiumTV" tvg-name="Rede Premium TV" group-title="SoulTV | Brazil | Entertainment",Rede Premium TV
+https://cdn-tiva-stmv2-samcast-com-br.smartbit.co/leonardo9878/leonardo9878/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeQDM" tvg-name="Rede QDM" group-title="SoulTV | Brazil | Entertainment",Rede QDM
+https://stmv1.transmissaodigital.com/redeqdm/redeqdm/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeUTVBrasil" tvg-name="Rede UTV Brasil" group-title="SoulTV | Brazil | Entertainment",Rede UTV Brasil
+https://utvsoultv.acessaradios.com.br/utvsoultv/utvsoultv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="RedePTV" tvg-name="RedeP TV" group-title="SoulTV | Brazil | Entertainment",RedeP TV
+https://video01.brascast.com/rede8652/rede8652/playlist.m3u8
+#EXTINF:-1 tvg-id="Republic" tvg-name="Republic" group-title="SoulTV | Brazil | Entertainment",Republic
+https://cdn-tiva-video01-soultv-com-br.smartbit.co/republic/republic/playlist.m3u8
+#EXTINF:-1 tvg-id="RoraimaTV" tvg-name="Roraima TV" group-title="SoulTV | Brazil | Entertainment",Roraima TV
+https://video06.logicahost.com.br/roraimatv/roraimatv/playlist.m3u8
+#EXTINF:-1 tvg-id="SBC" tvg-name="SBC" group-title="SoulTV | Brazil | Entertainment",SBC
+https://video01.brascast.com/rede1250/rede1250/playlist.m3u8
+#EXTINF:-1 tvg-id="SescTV" tvg-name="SescTV" group-title="SoulTV | Brazil | Entertainment",SescTV
+https://hqf6tcxuhk.singularcdn.net.br/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/playlist.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmlfc3ViIjoiLzAxOTVlZGUxLWMyM2MtNzA3OC04ZjJhLTI1Zjk4MmE5ZmM5MS8iLCJ1aWQiOiIwMTk3YTg1Ni02NGEzLTczODMtYWFjNC04MWJkYzkyMWRhOWYiLCJyYXUiOm51bGwsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsIm5iZiI6MTc1MDg3NTkyMywiaWF0IjoxNzUwODc1OTIzLCJleHAiOjE3ODI0MTE5MjMsImp0aSI6IjAxOTdhODU2LTY0YTMtNzM4My1hYWM0LTgxYmRjOTIxZGE5ZiIsImlzcyI6IlNwYWxsYSJ9.KKL0LO-BSzObn8Kykfu4Q2Xv-MPWWD14fv8LXuuE4rs
+#EXTINF:-1 tvg-id="SouPopTV" tvg-name="Sou + Pop TV" group-title="SoulTV | Brazil | Entertainment",Sou + Pop TV
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/soumaispop/soumaispop/playlist.m3u8
+#EXTINF:-1 tvg-id="SoulLab" tvg-name="Soul Lab" group-title="SoulTV | Brazil | Entertainment",Soul Lab
+http://34.95.200.150:8888/soultv/soultv/index.m3u8
+#EXTINF:-1 tvg-id="SriesClassic" tvg-name="Séries Classic" group-title="SoulTV | Brazil | Entertainment",Séries Classic
+https://cdn-tiva-video10-logicahost-com-br.smartbit.co/serieclassic/serieclassic/playlist.m3u8
+#EXTINF:-1 tvg-id="TendaTV" tvg-name="Tenda TV" group-title="SoulTV | Brazil | Entertainment",Tenda TV
+https://tv02.zas.media:1936/tendatv/tendatv/playlist.m3u8
+#EXTINF:-1 tvg-id="THELEDE" tvg-name="THELED E" group-title="SoulTV | Brazil | Entertainment",THELED E
+https://cdn-ssai-dev.smartbit.co/sp/theledextrema/index.m3u8
+#EXTINF:-1 tvg-id="THELEDM" tvg-name="THELED M" group-title="SoulTV | Brazil | Entertainment",THELED M
+https://cdn-ssai-dev.smartbit.co/sp/theledmooca/index.m3u8
+#EXTINF:-1 tvg-id="THELEDP" tvg-name="THELED P" group-title="SoulTV | Brazil | Entertainment",THELED P
+https://cdn-ssai-dev.smartbit.co/sp/theledpinheiro/index.m3u8
+#EXTINF:-1 tvg-id="TVAFolha" tvg-name="TV A Folha" group-title="SoulTV | Brazil | Entertainment",TV A Folha
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/tvafolha/tvafolha/playlist.m3u8
+#EXTINF:-1 tvg-id="TvAdorar" tvg-name="Tv Adorar" group-title="SoulTV | Brazil | Entertainment",Tv Adorar
+https://cdn-tiva-isaocorp-cloudecast-com.smartbit.co/tvadorar/index.m3u8
+#EXTINF:-1 tvg-id="TVAlagoinha" tvg-name="TV Alagoinha" group-title="SoulTV | Brazil | Entertainment",TV Alagoinha
+https://cdn-tiva-stmv-jnbhost-com-br.smartbit.co/tvalagoinha/tvalagoinha/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAlternativa" tvg-name="TV Alternativa" group-title="SoulTV | Brazil | Entertainment",TV Alternativa
+https://cdn-tiva-stmv5-samcast-com-br.smartbit.co/wagner7919/wagner7919/playlist.m3u8
+#EXTINF:-1 tvg-id="TvAmplitudeJuara" tvg-name="Tv Amplitude Juara" group-title="SoulTV | Brazil | Entertainment",Tv Amplitude Juara
+https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+#EXTINF:-1 tvg-id="TvAmplitudeJuna" tvg-name="Tv Amplitude Juína" group-title="SoulTV | Brazil | Entertainment",Tv Amplitude Juína
+https://cdn.live.br1.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
+#EXTINF:-1 tvg-id="TvAurora" tvg-name="Tv Aurora" group-title="SoulTV | Brazil | Entertainment",Tv Aurora
+https://tv.redeaurora.com.br/public/Index.m3u8
+#EXTINF:-1 tvg-id="TVAvivandoNaes" tvg-name="TV Avivando Nações" group-title="SoulTV | Brazil | Entertainment",TV Avivando Nações
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/tvavivandonacoes/tvavivandonacoes/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCariocaNet" tvg-name="TV Carioca Net" group-title="SoulTV | Brazil | Entertainment",TV Carioca Net
+https://cdn-tiva-video03-logicahost-com-br.smartbit.co/cariocainternacional1/cariocainternacional1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVClube" tvg-name="TV Clube" group-title="SoulTV | Brazil | Entertainment",TV Clube
+https://isaocorp.cloudecast.com/recon/index.m3u8
+#EXTINF:-1 tvg-id="TVCNB" tvg-name="TV CNB" group-title="SoulTV | Brazil | Entertainment",TV CNB
+https://5cf4a2c2512a2.streamlock.net/tvcnb/tvcnb/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCOM" tvg-name="TV COM" group-title="SoulTV | Brazil | Entertainment",TV COM
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/tvcomsantos/tvcomsantos/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCorreiodoImb" tvg-name="TV Correio do Imbé" group-title="SoulTV | Brazil | Entertainment",TV Correio do Imbé
+https://srv2.tvmais.net.br/hls/tvcorreio/index.m3u8
+#EXTINF:-1 tvg-id="TVdaPesca" tvg-name="TV da Pesca" group-title="SoulTV | Brazil | Entertainment",TV da Pesca
+https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/tvdapesca/index.m3u8
+#EXTINF:-1 tvg-id="TVDifuso" tvg-name="TV Difusão" group-title="SoulTV | Brazil | Entertainment",TV Difusão
+https://tvdsoultv.acessaradios.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEducar" tvg-name="TV Educar" group-title="SoulTV | Brazil | Entertainment",TV Educar
+http://v1.comunicabh.com.br/tveducar/tveducar/playlist.m3u8
+#EXTINF:-1 tvg-id="TVErgaOmnes" tvg-name="TV Erga Omnes" group-title="SoulTV | Brazil | Entertainment",TV Erga Omnes
+https://cdn-tiva-stmv1-srvif-com.smartbit.co/grupoergaomnes/grupoergaomnes/playlist.m3u8
+#EXTINF:-1 tvg-id="TvEstilo" tvg-name="Tv Estilo" group-title="SoulTV | Brazil | Entertainment",Tv Estilo
+https://cdn-tiva-stmv8-samcast-com-br.smartbit.co/tvestilo/tvestilo/playlist.m3u8
+#EXTINF:-1 tvg-id="TvEvangelizar" tvg-name="Tv Evangelizar" group-title="SoulTV | Brazil | Entertainment",Tv Evangelizar
+https://cdn-tiva-tvevangelizar-brasilstream-com-br.smartbit.co/hls/tvevangelizar/index.m3u8
+#EXTINF:-1 tvg-id="TVFlorida" tvg-name="TV Florida" group-title="SoulTV | Brazil | Entertainment",TV Florida
+https://cdn-tiva-srv6-zcast-com-br.smartbit.co/tvfloridausa/tvfloridausa/playlist.m3u8
+#EXTINF:-1 tvg-id="TVFolhadoCampo" tvg-name="TV Folha do Campo" group-title="SoulTV | Brazil | Entertainment",TV Folha do Campo
+https://stmv1.transmissaodigital.com/folha-do-campo/folha-do-campo/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGazin" tvg-name="TV Gazin" group-title="SoulTV | Brazil | Entertainment",TV Gazin
+https://cdn-tiva-video09-logicahost-com-br.smartbit.co/tvgazin/tvgazin/playlist.m3u8
+#EXTINF:-1 tvg-id="TvGrandeNatalTV" tvg-name="Tv Grande NatalTV" group-title="SoulTV | Brazil | Entertainment",Tv Grande NatalTV
+https://tvgrandenatalhdtv.duckdns.org:3334/hls/live.m3u8
+#EXTINF:-1 tvg-id="TvHistria" tvg-name="Tv História" group-title="SoulTV | Brazil | Entertainment",Tv História
+https://cdn-tiva-video10-logicahost-com-br.smartbit.co/tvhistoria/tvhistoria/playlist.m3u8
+#EXTINF:-1 tvg-id="TVItap" tvg-name="TV Itapê" group-title="SoulTV | Brazil | Entertainment",TV Itapê
+https://cdn-tiva-stream01-msolutionbrasil-com-br.smartbit.co/hls/tvitape/live.m3u8
+#EXTINF:-1 tvg-id="TVJudaica" tvg-name="TV Judaica" group-title="SoulTV | Brazil | Entertainment",TV Judaica
+https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8
+#EXTINF:-1 tvg-id="TVLitoralRN" tvg-name="TV Litoral RN" group-title="SoulTV | Brazil | Entertainment",TV Litoral RN
+https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8
+#EXTINF:-1 tvg-id="TvLondres" tvg-name="Tv Londres" group-title="SoulTV | Brazil | Entertainment",Tv Londres
+https://cdn.tvlondres.com/8744_push_3653_001/05a4e5d3c1769a61f8350e4fc677a4a5.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMaisBrasil" tvg-name="TV Mais Brasil" group-title="SoulTV | Brazil | Entertainment",TV Mais Brasil
+https://cdn-tiva-stmv8-samcast-com-br.smartbit.co/tvmaisbrasil/tvmaisbrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMarataizes" tvg-name="TV Marataizes" group-title="SoulTV | Brazil | Entertainment",TV Marataizes
+https://247788.global.ssl.fastly.net/68ad1a7c724a6928f050ebba/live_809e4d1087af11f092f8f727f1f0bfd4/index.m3u8
+#EXTINF:-1 tvg-id="TVMarcheti" tvg-name="TV Marcheti" group-title="SoulTV | Brazil | Entertainment",TV Marcheti
+https://cdn-tiva-stmv1-samcast-com-br.smartbit.co/junior4319/junior4319/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMAX" tvg-name="TV MAX" group-title="SoulTV | Brazil | Entertainment",TV MAX
+https://cdn-tiva-video09-logicahost-com-br.smartbit.co/tvmax/tvmax/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMeio" tvg-name="TV Meio" group-title="SoulTV | Brazil | Entertainment",TV Meio
+https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/redemeio/index.m3u8
+#EXTINF:-1 tvg-id="TvMetropolitanaRio" tvg-name="Tv Metropolitana Rio" group-title="SoulTV | Brazil | Entertainment",Tv Metropolitana Rio
+https://cdn-tiva-stmv5-samcast-com-br.smartbit.co/claudio8701/claudio8701/playlist.m3u8
+#EXTINF:-1 tvg-id="TvMogiana" tvg-name="Tv Mogiana" group-title="SoulTV | Brazil | Entertainment",Tv Mogiana
+https://a.cdni.live/mogianaonline4773/mogianaonline4773/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMon" tvg-name="TV Mon" group-title="SoulTV | Brazil | Entertainment",TV Mon
+https://cdn-tiva-video10-logicahost-com-br.smartbit.co/tvmon/tvmon/playlist.m3u8
+#EXTINF:-1 tvg-id="TvNordestina" tvg-name="Tv Nordestina" group-title="SoulTV | Brazil | Entertainment",Tv Nordestina
+https://5ad482a77183d.streamlock.net/estudiosabiliojosegmail.com/estudiosabiliojosegmail.com/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNotciasAgrcolas" tvg-name="TV Notícias Agrícolas" group-title="SoulTV | Brazil | Entertainment",TV Notícias Agrícolas
+https://cdn-tiva-video09-logicahost-com-br.smartbit.co/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNovaMT" tvg-name="TV Nova MT" group-title="SoulTV | Brazil | Entertainment",TV Nova MT
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/tvnovaweb/tvnovaweb/playlist.m3u8
+#EXTINF:-1 tvg-id="TVOReprter" tvg-name="TV O Repórter" group-title="SoulTV | Brazil | Entertainment",TV O Repórter
+https://video11.logicahost.com.br/jornaloreporter/jornaloreporter/playlist.m3u8
+#EXTINF:-1 tvg-id="TVOndasPlay" tvg-name="TV Ondas Play" group-title="SoulTV | Brazil | Entertainment",TV Ondas Play
+https://cdn-tiva-stmv5-samcast-com-br.smartbit.co/portalondasdemarica/portalondasdemarica/playlist.m3u8
+#EXTINF:-1 tvg-id="TVOnix" tvg-name="TV Onix" group-title="SoulTV | Brazil | Entertainment",TV Onix
+https://cdn-tiva-video01-soultv-com-br.smartbit.co/tvonix/tvonix/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPAMPA" tvg-name="TV PAMPA" group-title="SoulTV | Brazil | Entertainment",TV PAMPA
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/tvpampa/tvpampa/playlist.m3u8
+#EXTINF:-1 tvg-id="TvPontadaSerra" tvg-name="Tv Ponta da Serra" group-title="SoulTV | Brazil | Entertainment",Tv Ponta da Serra
+https://playout.hubcloud.tv.br:3977/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TVPortuguesa" tvg-name="TV Portuguesa" group-title="SoulTV | Brazil | Entertainment",TV Portuguesa
+https://cdn-origin-sp.smartbit.co/tvportuguesa/index.m3u8
+#EXTINF:-1 tvg-id="TVPotengi" tvg-name="TV Potengi" group-title="SoulTV | Brazil | Entertainment",TV Potengi
+https://stmv1.samcast.com.br/jeova3318/jeova3318/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRabelo" tvg-name="TV Rabelo" group-title="SoulTV | Brazil | Entertainment",TV Rabelo
+https://stv1.ipstm.net:3080/stream/play.m3u8
+#EXTINF:-1 tvg-id="TVReconcavo" tvg-name="TV Reconcavo" group-title="SoulTV | Brazil | Entertainment",TV Reconcavo
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/tvreconcavo/tvreconcavo/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRedeMaisFamilia" tvg-name="TV Rede Mais Familia" group-title="SoulTV | Brazil | Entertainment",TV Rede Mais Familia
+https://cdn-tiva-video09-logicahost-com-br.smartbit.co/redefamilia/redefamilia/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRioPreto" tvg-name="TV Rio Preto" group-title="SoulTV | Brazil | Entertainment",TV Rio Preto
+https://cdn-tiva-video02-logicahost-com-br.smartbit.co/tvriopreto/tvriopreto/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSBN" tvg-name="TV SBN" group-title="SoulTV | Brazil | Entertainment",TV SBN
+https://acesso.ecast.site:3500/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TVSonata" tvg-name="TV Sonata" group-title="SoulTV | Brazil | Entertainment",TV Sonata
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/isonata/isonata/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSurubim" tvg-name="TV Surubim" group-title="SoulTV | Brazil | Entertainment",TV Surubim
+https://video01.brascast.com/antonio9510/antonio9510/playlist.m3u8
+#EXTINF:-1 tvg-id="TvVerdade" tvg-name="Tv Verdade" group-title="SoulTV | Brazil | Entertainment",Tv Verdade
+https://acesso.ecast.site:3104/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TVVotorantim" tvg-name="TV Votorantim" group-title="SoulTV | Brazil | Entertainment",TV Votorantim
+https://br5093.streamingdevideo.com.br/tvv/tvv/playlist.m3u8
+#EXTINF:-1 tvg-id="TvZoom" tvg-name="Tv Zoom" group-title="SoulTV | Brazil | Entertainment",Tv Zoom
+https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
+#EXTINF:-1 tvg-id="VamboraChannel" tvg-name="Vambora Channel" group-title="SoulTV | Brazil | Entertainment",Vambora Channel
+https://cdn-tiva-video07-logicahost-com-br.smartbit.co/vamborachannel/vamborachannel/playlist.m3u8
+#EXTINF:-1 tvg-id="VezaTV" tvg-name="Veza TV" group-title="SoulTV | Brazil | Entertainment",Veza TV
+https://vezatv.mediastreaming.com.br/vezatv/live.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="VGSTV" tvg-name="VGS TV" group-title="SoulTV | Brazil | Entertainment",VGS TV
+https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/vgstv/index.m3u8
+#EXTINF:-1 tvg-id="ViajandopeloBrasil" tvg-name="Viajando pelo Brasil" group-title="SoulTV | Brazil | Entertainment",Viajando pelo Brasil
+https://cdn-tiva-video01-soultv-com-br.smartbit.co/viajandopelobrasil/viajandopelobrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="VivaeEduque" tvg-name="Viva e Eduque" group-title="SoulTV | Brazil | Entertainment",Viva e Eduque
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/vivaedeixeviver/vivaedeixeviver/playlist.m3u8
+#EXTINF:-1 tvg-id="Vivax" tvg-name="Vivax" group-title="SoulTV | Brazil | Entertainment",Vivax
+https://video11.logicahost.com.br/redevivaxtv/redevivaxtv/playlist.m3u8
+#EXTINF:-1 tvg-id="VRTChannel" tvg-name="VRT Channel" group-title="SoulTV | Brazil | Entertainment",VRT Channel
+https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="WTJTV" tvg-name="WTJ TV" group-title="SoulTV | Brazil | Entertainment",WTJ TV
+https://cdn-tiva-video02-logicahost-com-br.smartbit.co/wtjtvminas/wtjtvminas/playlist.m3u8
+#EXTINF:-1 tvg-id="WTVBrasil" tvg-name="WTV Brasil" group-title="SoulTV | Brazil | Entertainment",WTV Brasil
+https://cdn-tiva-stmv7-samcast-com-br.smartbit.co/wtvbrasil/wtvbrasil/playlist.m3u8
+
+# Brazil | Kids (2 channels)
+#EXTINF:-1 tvg-id="DMKidsTV" tvg-name="DM Kids TV" group-title="SoulTV | Brazil | Kids",DM Kids TV
+https://cdn-tiva-video03-logicahost-com-br.smartbit.co/dmkidstv/dmkidstv/playlist.m3u8
+#EXTINF:-1 tvg-id="KidsMais" tvg-name="Kids Mais" group-title="SoulTV | Brazil | Kids",Kids Mais
+https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+
+# Brazil | Lifestyle (3 channels)
+#EXTINF:-1 tvg-id="PetLoversTV" tvg-name="Pet Lovers TV" group-title="SoulTV | Brazil | Lifestyle",Pet Lovers TV
+https://cdn-tiva-video04-logicahost-com-br.smartbit.co/petloverstv/petloverstv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPet" tvg-name="TV + Pet" group-title="SoulTV | Brazil | Lifestyle",TV + Pet
+https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPetrpolis" tvg-name="TV Petrópolis" group-title="SoulTV | Brazil | Lifestyle",TV Petrópolis
+https://cdn-tiva-video02-logicahost-com-br.smartbit.co/tvpetropolis/tvpetropolis/playlist.m3u8
+
+# Brazil | Music (1 channels)
+#EXTINF:-1 tvg-id="FMTV" tvg-name="FMTV" group-title="SoulTV | Brazil | Music",FMTV
+https://cdn-tiva-video08-logicahost-com-br.smartbit.co/fmtvbr/fmtvbr/playlist.m3u8
+
+# Brazil | News (2 channels)
+#EXTINF:-1 tvg-id="RecordNews" tvg-name="Record News" group-title="SoulTV | Brazil | News",Record News
+https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 tvg-id="TVdeoNews" tvg-name="TVídeoNews" group-title="SoulTV | Brazil | News",TVídeoNews
+https://cdn-tiva-video01-logicahost-com-br.smartbit.co/tvideonews/tvideonews/chunklist.m3u8
+
+# Brazil | Sports (4 channels)
+#EXTINF:-1 tvg-id="RSSPORTS" tvg-name="RS SPORTS" group-title="SoulTV | Brazil | Sports",RS SPORTS
+https://cdn-tiva-video07-logicahost-com-br.smartbit.co/rssports01/rssports01/playlist.m3u8
+#EXTINF:-1 tvg-id="RSSPORTS2" tvg-name="RS SPORTS 2" group-title="SoulTV | Brazil | Sports",RS SPORTS 2
+https://cdn-tiva-video07-logicahost-com-br.smartbit.co/rssports02/rssports02/playlist.m3u8
+#EXTINF:-1 tvg-id="RSSPORTS3" tvg-name="RS SPORTS 3" group-title="SoulTV | Brazil | Sports",RS SPORTS 3
+https://cdn-tiva-video07-logicahost-com-br.smartbit.co/rssports03/rssports03/playlist.m3u8
+#EXTINF:-1 tvg-id="UniqueSports" tvg-name="Unique Sports" group-title="SoulTV | Brazil | Sports",Unique Sports
+https://pop.uniquetv.com.br/uniquesports1/video.m3u8

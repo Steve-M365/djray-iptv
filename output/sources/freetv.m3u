@@ -1,0 +1,188 @@
+#EXTM3U
+# FreeTV
+# Total channels: 85
+# Generated: 2026-08-09 11:11:16
+
+# Australia | Documentary (4 channels)
+#EXTINF:-1 tvg-id="Docurama" tvg-name="Docurama" group-title="FreeTV | Australia | Documentary",Docurama
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-docrumaa-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="LovenatureGeo" tvg-name="Lovenature (Geo)" group-title="FreeTV | Australia | Documentary",Lovenature (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-lovenature-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="LovenatureSpainGeo" tvg-name="Lovenature Spain (Geo)" group-title="FreeTV | Australia | Documentary",Lovenature Spain (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-lovenaturespn-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="LovenatureusSpanishGeo" tvg-name="Lovenatureus Spanish (Geo)" group-title="FreeTV | Australia | Documentary",Lovenatureus Spanish (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-lovenatureusspa-freetv/playlist.m3u8
+
+# Australia | Entertainment (62 channels)
+#EXTINF:-1 tvg-id="123GOGeo" tvg-name="123 GO! (Geo)" group-title="FreeTV | Australia | Entertainment",123 GO! (Geo)
+https://amg02051-soulpublishing-amg02051c17-freetv-us-358.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="AdventuresofSonictheHedgehogCh" tvg-name="Adventures of Sonic the Hedgehog Channel" group-title="FreeTV | Australia | Entertainment",Adventures of Sonic the Hedgehog Channel
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3968
+#EXTINF:-1 tvg-id="AwePlusGeo" tvg-name="Awe Plus (Geo)" group-title="FreeTV | Australia | Entertainment",Awe Plus (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00450-herringnetwork-awe-freetv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="AXSTVNow" tvg-name="AXSTV Now" group-title="FreeTV | Australia | Entertainment",AXSTV Now
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-axstvnow-frtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="BeondTV" tvg-name="Beond TV" group-title="FreeTV | Australia | Entertainment",Beond TV
+https://d3ecnelhfrie8y.cloudfront.net/playlist/amg01681-amg01681c1-277/playlist.m3u8
+#EXTINF:-1 tvg-id="BratTVGeo" tvg-name="Brat TV (Geo)" group-title="FreeTV | Australia | Entertainment",Brat TV (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00350-bratstudio-brattv-frtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="BrightsideGeo" tvg-name="Brightside (Geo)" group-title="FreeTV | Australia | Entertainment",Brightside (Geo)
+https://amg02051-soulpublishing-amg02051c9-freetv-us-345.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsideenglish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="CanelaClasicos" tvg-name="Canela Clasicos" group-title="FreeTV | Australia | Entertainment",Canela Clasicos
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00658-canelamediainc-canelaclasicos-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanelaDeportes" tvg-name="Canela Deportes" group-title="FreeTV | Australia | Entertainment",Canela Deportes
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00658-canelamediainc-caneladeportes-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanelaTV" tvg-name="Canela.TV" group-title="FreeTV | Australia | Entertainment",Canela.TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00658-canelamediainc-canelatv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanelasTelenovelas" tvg-name="Canelas Telenovelas" group-title="FreeTV | Australia | Entertainment",Canelas Telenovelas
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00658-canelamediainc-canelatelenovelas-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="CarolBurnett" tvg-name="Carol Burnett" group-title="FreeTV | Australia | Entertainment",Carol Burnett
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00163-shoutfactory-carolburnett-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="ChickenSoupfortheSoulGeo" tvg-name="Chicken Soup for the Soul (Geo)" group-title="FreeTV | Australia | Entertainment",Chicken Soup for the Soul (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00540-crackleplusllc-chickensoupfrtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Chiquilines" tvg-name="Chiquilines" group-title="FreeTV | Australia | Entertainment",Chiquilines
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-chiquilines-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="CinePride" tvg-name="Cine Pride" group-title="FreeTV | Australia | Entertainment",Cine Pride
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3954
+#EXTINF:-1 tvg-id="CineReal" tvg-name="Cine Real" group-title="FreeTV | Australia | Entertainment",Cine Real
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinerealfreetv-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="CineSureno" tvg-name="Cine Sureno" group-title="FreeTV | Australia | Entertainment",Cine Sureno
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesureno-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="CrackleGeo" tvg-name="Crackle (Geo)" group-title="FreeTV | Australia | Entertainment",Crackle (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00540-crackleplusllc-crackle-freetv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="CrackleClassicsGeo" tvg-name="Crackle Classics (Geo)" group-title="FreeTV | Australia | Entertainment",Crackle Classics (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00540-crackleplusllc-ckclassics-frtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Crimetime" tvg-name="Crimetime" group-title="FreeTV | Australia | Entertainment",Crimetime
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-engcrimetime-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="DaVinciGeo" tvg-name="Da Vinci (Geo)" group-title="FreeTV | Australia | Entertainment",Da Vinci (Geo)
+https://amg00406-tinizine-amg00406c1-freetv-us-434.playouts.now.amagi.tv/playlist/amg00406-tinizinelimited-davincius-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="DestinationAction" tvg-name="Destination Action" group-title="FreeTV | Australia | Entertainment",Destination Action
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-engtopcineeng-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="DoveChannel" tvg-name="Dove Channel" group-title="FreeTV | Australia | Entertainment",Dove Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-dovechanel-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="DramaVault" tvg-name="Drama Vault" group-title="FreeTV | Australia | Entertainment",Drama Vault
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-engflameandfire-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Dungeon" tvg-name="Dungeon" group-title="FreeTV | Australia | Entertainment",Dungeon
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3958
+#EXTINF:-1 tvg-id="EntrepreneurTV" tvg-name="Entrepreneur TV" group-title="FreeTV | Australia | Entertainment",Entrepreneur TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3963
+#EXTINF:-1 tvg-id="ESTVGeo" tvg-name="ESTV (Geo)" group-title="FreeTV | Australia | Entertainment",ESTV (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00303-televisionkorea-estv-freetv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="FamilyTree" tvg-name="Family Tree" group-title="FreeTV | Australia | Entertainment",Family Tree
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-engfamilytree-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="FightNetwork" tvg-name="Fight Network" group-title="FreeTV | Australia | Entertainment",Fight Network
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-fightnwk-frtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Flash" tvg-name="Flash" group-title="FreeTV | Australia | Entertainment",Flash
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-flash-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="GenialGeo" tvg-name="Genial (Geo)" group-title="FreeTV | Australia | Entertainment",Genial (Geo)
+https://amg02051-soulpublishing-amg02051c16-freetv-us-361.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsidespanish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="HauntTVGeo" tvg-name="Haunt TV (Geo)" group-title="FreeTV | Australia | Entertainment",Haunt TV (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-haunttv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="HororfySpanish" tvg-name="Hororfy Spanish" group-title="FreeTV | Australia | Entertainment",Hororfy Spanish
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-horrorfy-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="HSN" tvg-name="HSN" group-title="FreeTV | Australia | Entertainment",HSN
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1usott/master.m3u8
+#EXTINF:-1 tvg-id="IdeasEn5MinutosGeo" tvg-name="Ideas En 5 Minutos (Geo)" group-title="FreeTV | Australia | Entertainment",Ideas En 5 Minutos (Geo)
+https://amg02051-soulpublishing-amg02051c3-freetv-us-364.playouts.now.amagi.tv/playlist/amg02051-admecyltd-5minutecraftsspanish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="ImpactWrestling" tvg-name="Impact Wrestling" group-title="FreeTV | Australia | Entertainment",Impact Wrestling
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-impactres-frtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Indistry" tvg-name="Indistry" group-title="FreeTV | Australia | Entertainment",Indistry
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3967
+#EXTINF:-1 tvg-id="JohnnyCarson" tvg-name="Johnny Carson" group-title="FreeTV | Australia | Entertainment",Johnny Carson
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00163-shoutfactory-johnnycarson-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="JudgeNoseyGeo" tvg-name="Judge Nosey (Geo)" group-title="FreeTV | Australia | Entertainment",Judge Nosey (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-realnosey-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Juntos" tvg-name="Juntos" group-title="FreeTV | Australia | Entertainment",Juntos
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-juntos-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="LaLaLifeGeo" tvg-name="La La Life (Geo)" group-title="FreeTV | Australia | Entertainment",La La Life (Geo)
+https://amg02051-soulpublishing-amg02051c8-freetv-us-363.playouts.now.amagi.tv/playlist/amg02051-admecyltd-lalalifeenglish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="Lonestar" tvg-name="Lonestar" group-title="FreeTV | Australia | Entertainment",Lonestar
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-thelonestarchanel-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="MMC" tvg-name="MMC" group-title="FreeTV | Australia | Entertainment",MMC
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-mmcfreetv-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="Mst3k" tvg-name="Mst3k" group-title="FreeTV | Australia | Entertainment",Mst3k
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00163-shoutfactory-mst3k-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Mystify" tvg-name="Mystify" group-title="FreeTV | Australia | Entertainment",Mystify
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-engmystify-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="NoseyGeo" tvg-name="Nosey (Geo)" group-title="FreeTV | Australia | Entertainment",Nosey (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-nosey-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="QVC" tvg-name="QVC" group-title="FreeTV | Australia | Entertainment",QVC
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1usott/master.m3u8
+#EXTINF:-1 tvg-id="SaberMas" tvg-name="Saber Mas" group-title="FreeTV | Australia | Entertainment",Saber Mas
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-sabermas-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="ScreamboxTV" tvg-name="Screambox TV" group-title="FreeTV | Australia | Entertainment",Screambox TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bloodydisgusting-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="ShoutTV" tvg-name="Shout TV" group-title="FreeTV | Australia | Entertainment",Shout TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00163-shoutfactory-shoutfactorytv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="SlickSlimeSamGeo" tvg-name="Slick Slime Sam (Geo)" group-title="FreeTV | Australia | Entertainment",Slick Slime Sam (Geo)
+https://amg02051-soulpublishing-amg02051c12-freetv-us-365.playouts.now.amagi.tv/playlist/amg02051-admecyltd-slickslimesamenglish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="TeenVeeGeo" tvg-name="Teen Vee (Geo)" group-title="FreeTV | Australia | Entertainment",Teen Vee (Geo)
+https://amg02051-soulpublishing-amg02051c5-freetv-us-362.playouts.now.amagi.tv/playlist/amg02051-admecyltd-teenveeenglish-freetvus/playlist.m3u8
+#EXTINF:-1 tvg-id="TheMeateater" tvg-name="The Meateater" group-title="FreeTV | Australia | Entertainment",The Meateater
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01786-themeateater-meateater-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="ThePalmBeachesTV" tvg-name="The Palm Beaches TV" group-title="FreeTV | Australia | Entertainment",The Palm Beaches TV
+https://live.feed.thepalmbeaches.tv/index.m3u8
+#EXTINF:-1 tvg-id="TopCine" tvg-name="Top Cine" group-title="FreeTV | Australia | Entertainment",Top Cine
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinefreetv-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="TotalcrimeGeo" tvg-name="Totalcrime (Geo)" group-title="FreeTV | Australia | Entertainment",Totalcrime (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-totalcrime-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="TUCine" tvg-name="TU Cine" group-title="FreeTV | Australia | Entertainment",TU Cine
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucineusfreetv-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="WatchitKid" tvg-name="Watch it .Kid" group-title="FreeTV | Australia | Entertainment",Watch it .Kid
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3970
+#EXTINF:-1 tvg-id="WatchItScream" tvg-name="Watch It Scream" group-title="FreeTV | Australia | Entertainment",Watch It Scream
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3971
+#EXTINF:-1 tvg-id="XFCTV" tvg-name="XFC TV" group-title="FreeTV | Australia | Entertainment",XFC TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3972
+#EXTINF:-1 tvg-id="YoungHollywoodGeo" tvg-name="Young Hollywood (Geo)" group-title="FreeTV | Australia | Entertainment",Young Hollywood (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00143-younghollywood-younghollywood-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Zas" tvg-name="Zas" group-title="FreeTV | Australia | Entertainment",Zas
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3973
+
+# Australia | Lifestyle (3 channels)
+#EXTINF:-1 tvg-id="5MinuteCraftsGeo" tvg-name="5 Minute Crafts (Geo)" group-title="FreeTV | Australia | Lifestyle",5 Minute Crafts (Geo)
+https://amg02051-soulpublishing-amg02051c7-freetv-us-303.playouts.now.amagi.tv/playlist/amg02051-amg02051c7-303/playlist.m3u8
+#EXTINF:-1 tvg-id="GustoGeo" tvg-name="Gusto (Geo)" group-title="FreeTV | Australia | Lifestyle",Gusto (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gusto-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="HomefulUSGeo" tvg-name="Homeful U.S (Geo)" group-title="FreeTV | Australia | Lifestyle",Homeful U.S (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-homefulusa-freetv/playlist.m3u8
+
+# Australia | Movies (8 channels)
+#EXTINF:-1 tvg-id="CanelaCinema" tvg-name="Canela Cinema" group-title="FreeTV | Australia | Movies",Canela Cinema
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00658-canelamediainc-canelacinema-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="FlixFlingNow" tvg-name="FlixFling Now" group-title="FreeTV | Australia | Movies",FlixFling Now
+https://d12yathgm1h4sj.cloudfront.net/playlist/amg00698-AMG00698C1-271/playlist.m3u8
+#EXTINF:-1 tvg-id="FrightFlix" tvg-name="Fright Flix" group-title="FreeTV | Australia | Movies",Fright Flix
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3964
+#EXTINF:-1 tvg-id="Horrorfy" tvg-name="Horrorfy" group-title="FreeTV | Australia | Movies",Horrorfy
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-enghorrorfy-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="MytimeMoviesUSSpanishGeo" tvg-name="Mytime Movies U.S Spanish (Geo)" group-title="FreeTV | Australia | Movies",Mytime Movies U.S Spanish (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimeussp-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="MytimeMoviesUKGeo" tvg-name="Mytime Movies UK (Geo)" group-title="FreeTV | Australia | Movies",Mytime Movies UK (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimemovieuk-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="PopcornFlixGeo" tvg-name="Popcorn Flix (Geo)" group-title="FreeTV | Australia | Movies",Popcorn Flix (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00540-crackleplusllc-popcornflixfrtv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheFilmDetective" tvg-name="The Film Detective" group-title="FreeTV | Australia | Movies",The Film Detective
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-filmdetectivee-freetv/playlist.m3u8
+
+# Australia | Music (1 channels)
+#EXTINF:-1 tvg-id="TraceUrban" tvg-name="Trace Urban" group-title="FreeTV | Australia | Music",Trace Urban
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-traceurban-freetv/playlist.m3u8
+
+# Australia | News (4 channels)
+#EXTINF:-1 tvg-id="Newsnet" tvg-name="Newsnet" group-title="FreeTV | Australia | News",Newsnet
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01756-newsnet-newsnet-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="OANPlusGeo" tvg-name="OAN Plus (Geo)" group-title="FreeTV | Australia | News",OAN Plus (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00450-herringnetwork-oan-freetv-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="SportsnewsHighlights" tvg-name="Sportsnews Highlights" group-title="FreeTV | Australia | News",Sportsnews Highlights
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01756-newsnet-sportsnewshignlights-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="TickerNewsGeo" tvg-name="TickerNews (Geo)" group-title="FreeTV | Australia | News",TickerNews (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernews-freetv/playlist.m3u8
+
+# Australia | Sports (3 channels)
+#EXTINF:-1 tvg-id="ElConflictoSpanish" tvg-name="El Conflicto Spanish" group-title="FreeTV | Australia | Sports",El Conflicto Spanish
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=3961
+#EXTINF:-1 tvg-id="SportsgridGeo" tvg-name="Sportsgrid (Geo)" group-title="FreeTV | Australia | Sports",Sportsgrid (Geo)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00315-sportsgrid-sportsgrid-freetv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportsStars" tvg-name="Trace Sports Stars" group-title="FreeTV | Australia | Sports",Trace Sports Stars
+https://tracesportstars-freetv.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-sportstars-freetv/CDN/playlist.m3u8

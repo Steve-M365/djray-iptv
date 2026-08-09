@@ -1,0 +1,46 @@
+#EXTM3U
+# FreeMoviesPlus
+# Total channels: 16
+# Generated: 2026-08-09 11:11:16
+
+# United States | Documentary (1 channels)
+#EXTINF:-1 tvg-id="SpaceScienceNowUS" tvg-name="Space Science Now -US" group-title="FreeMoviesPlus | United States | Documentary",Space Science Now -US
+https://magellan-space-science-now-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+
+# United States | Entertainment (11 channels)
+#EXTINF:-1 tvg-id="ALLSTREAMSONTHISSERVICEARECURR" tvg-name="ALL STREAMS!! ON THIS SERVICE ARE CURRENTLY OFFLINE!!" group-title="FreeMoviesPlus | United States | Entertainment",ALL STREAMS!! ON THIS SERVICE ARE CURRENTLY OFFLINE!!
+https://alliantcontent-truecrimenow-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DittyTVEU" tvg-name="Ditty TV -EU" group-title="FreeMoviesPlus | United States | Entertainment",Ditty TV -EU
+https://memphisstudios-dittytv-1-eu.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="IntipachaEU" tvg-name="Intipacha -EU" group-title="FreeMoviesPlus | United States | Entertainment",Intipacha -EU
+https://bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="JustforLaughsGagsEU" tvg-name="Just for Laughs Gags -EU" group-title="FreeMoviesPlus | United States | Entertainment",Just for Laughs Gags -EU
+https://distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Nosey2US" tvg-name="Nosey 2 -US" group-title="FreeMoviesPlus | United States | Entertainment",Nosey 2 -US
+https://nosey-2-us.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PecanEU" tvg-name="Pecan -EU" group-title="FreeMoviesPlus | United States | Entertainment",Pecan -EU
+https://bold-tv-corp-pecan-tv-1-eu.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PelimexEU" tvg-name="Pelimex -EU" group-title="FreeMoviesPlus | United States | Entertainment",Pelimex -EU
+https://telecine-pelimex-1-eu.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RealNoseyUS" tvg-name="Real Nosey -US" group-title="FreeMoviesPlus | United States | Entertainment",Real Nosey -US
+https://nosey-realnosey-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="VintageTVUS" tvg-name="Vintage TV -US" group-title="FreeMoviesPlus | United States | Entertainment",Vintage TV -US
+https://chestnut-vintagetv-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WarandMilitaryNowUS" tvg-name="War and Military Now -US" group-title="FreeMoviesPlus | United States | Entertainment",War and Military Now -US
+https://alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WatchMojoEU" tvg-name="WatchMojo -EU" group-title="FreeMoviesPlus | United States | Entertainment",WatchMojo -EU
+https://watchmojo-1-eu.freemoviesplus.wurl.tv/playlist.m3u8
+
+# United States | Lifestyle (2 channels)
+#EXTINF:-1 tvg-id="FoodUS" tvg-name="Food -US" group-title="FreeMoviesPlus | United States | Lifestyle",Food -US
+https://food-us.freemoviesplus.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TodaysHomeownerUS" tvg-name="Todays Homeowner -US" group-title="FreeMoviesPlus | United States | Lifestyle",Todays Homeowner -US
+https://janson-todayshomeowner-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+
+# United States | Movies (1 channels)
+#EXTINF:-1 tvg-id="CrimeandThrillersUS" tvg-name="Crime and Thrillers -US" group-title="FreeMoviesPlus | United States | Movies",Crime and Thrillers -US
+https://topic-crimeandthrillers-1-us.freemoviesplus.wurl.tv/playlist.m3u8
+
+# United States | Sports (1 channels)
+#EXTINF:-1 tvg-id="GloryKickBoxingEU" tvg-name="Glory Kick Boxing -EU" group-title="FreeMoviesPlus | United States | Sports",Glory Kick Boxing -EU
+https://glorykickboxing-glorykickboxing-1-eu.freemoviesplus.wurl.tv/playlist.m3u8

@@ -1,0 +1,72 @@
+#EXTM3U
+# Cineverse
+# Total channels: 29
+# Generated: 2026-08-09 11:11:16
+
+# United States | Documentary (1 channels)
+#EXTINF:-1 tvg-id="TastemadeTravelGeo" tvg-name="Tastemade Travel (Geo)" group-title="Cineverse | United States | Documentary",Tastemade Travel (Geo)
+https://amg00047-tastemade-amg00047c3-cineverse-us-1360.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadetravel-cineverseus/playlist.m3u8
+
+# United States | Entertainment (24 channels)
+#EXTINF:-1 tvg-id="Asiancrush" tvg-name="Asiancrush" group-title="Cineverse | United States | Entertainment",Asiancrush
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-asiancrush-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="CircleCountryGeo" tvg-name="Circle Country (Geo)" group-title="Cineverse | United States | Entertainment",Circle Country (Geo)
+https://amg00432-circletvfast-amg00432c1-cineverse-us-1112.playouts.now.amagi.tv/playlist/amg00432-circletv-circletv-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyDynamics" tvg-name="Comedy Dynamics" group-title="Cineverse | United States | Entertainment",Comedy Dynamics
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-comedydynamics-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="CrimeHunters" tvg-name="Crime Hunters" group-title="Cineverse | United States | Entertainment",Crime Hunters
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-crimehunters-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="DoveChannel" tvg-name="Dove Channel" group-title="Cineverse | United States | Entertainment",Dove Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="EntrepreneurTVGeo" tvg-name="Entrepreneur TV (Geo)" group-title="Cineverse | United States | Entertainment",Entrepreneur TV (Geo)
+https://amg01201-amg01201c31-cineverse-us-2915.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-entrepreneurtv-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="INFAMOUSTVGeo" tvg-name="INFAMOUS TV (Geo)" group-title="Cineverse | United States | Entertainment",INFAMOUS TV (Geo)
+https://amg01324-infamous-amg01324c1-cineverse-us-1102.playouts.now.amagi.tv/playlist/amg01324-infamousmedia-infamoustv-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="INFASTGeo" tvg-name="INFAST (Geo)" group-title="Cineverse | United States | Entertainment",INFAST (Geo)
+https://amg00861-terncloud-amg00861c5-cineverse-us-963.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-lifestyleushd-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="INTROUBLEGeo" tvg-name="INTROUBLE (Geo)" group-title="Cineverse | United States | Entertainment",INTROUBLE (Geo)
+https://amg00861-terncloud-amg00861c6-cineverse-us-964.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-introublehd-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="INWONDERGeo" tvg-name="INWONDER (Geo)" group-title="Cineverse | United States | Entertainment",INWONDER (Geo)
+https://amg00861-terncloud-amg00861c4-cineverse-us-962.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-inwonderushd-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="JudgeNosey" tvg-name="Judge Nosey" group-title="Cineverse | United States | Entertainment",Judge Nosey
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="LNTNGeo" tvg-name="LNTN (Geo)" group-title="Cineverse | United States | Entertainment",LNTN (Geo)
+https://amg00779-latv-amg00779c1-cineverse-us-1746.playouts.now.amagi.tv/playlist/amg00779-latvnetworkllc-latv-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="Lonestar" tvg-name="Lonestar" group-title="Cineverse | United States | Entertainment",Lonestar
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-lonestar-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="Meateater" tvg-name="Meateater" group-title="Cineverse | United States | Entertainment",Meateater
+https://amg01201-amg01201c35-cineverse-us-3139.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-meateater-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="MidnightPulp" tvg-name="Midnight Pulp" group-title="Cineverse | United States | Entertainment",Midnight Pulp
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-midnightpulp-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="NollyAfricaGeo" tvg-name="Nolly Africa (Geo)" group-title="Cineverse | United States | Entertainment",Nolly Africa (Geo)
+https://amg02784-nollyafricafast-amg02784c1-cineverse-us-1124.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="Nosey" tvg-name="Nosey" group-title="Cineverse | United States | Entertainment",Nosey
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-nosey-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="QwestJazz" tvg-name="Qwest Jazz" group-title="Cineverse | United States | Entertainment",Qwest Jazz
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="RealmadridTV" tvg-name="Realmadrid TV" group-title="Cineverse | United States | Entertainment",Realmadrid TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-realmadrid-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="ScreamboxTV" tvg-name="Screambox TV" group-title="Cineverse | United States | Entertainment",Screambox TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bloodydisgus-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="SoReal" tvg-name="So... Real" group-title="Cineverse | United States | Entertainment",So... Real
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-soreal-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="TheBobRossChannel" tvg-name="The Bob Ross Channel" group-title="Cineverse | United States | Entertainment",The Bob Ross Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bobross-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="TheDogWhispererwithCesarMillan" tvg-name="The Dog Whisperer with Cesar Millan (Geo)" group-title="Cineverse | United States | Entertainment",The Dog Whisperer with Cesar Millan (Geo)
+https://amg01201-amg01201c30-cineverse-us-3100.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-dogwhispererwithcesarmilan-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="YoungHollywoodGeo" tvg-name="Young Hollywood (Geo)" group-title="Cineverse | United States | Entertainment",Young Hollywood (Geo)
+https://amg00143-younghollywoodfast-amg00143c1-cineverse-us-946.playouts.now.amagi.tv/playlist/amg00143-younghollywoodfast-younghollywood-cineverseus/playlist.m3u8
+
+# United States | Lifestyle (2 channels)
+#EXTINF:-1 tvg-id="TastemadeFoodandMoreGeo" tvg-name="Tastemade Food and More (Geo)" group-title="Cineverse | United States | Lifestyle",Tastemade Food and More (Geo)
+https://amg00047-tastemade-amg00047c4-cineverse-us-1361.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadefreetv16-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeHomeGeo" tvg-name="Tastemade Home (Geo)" group-title="Cineverse | United States | Lifestyle",Tastemade Home (Geo)
+https://amg00047-tastemade-amg00047c2-cineverse-us-1357.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadehome-cineverseus/playlist.m3u8
+
+# United States | Movies (1 channels)
+#EXTINF:-1 tvg-id="TheFilmDetective" tvg-name="The Film Detective" group-title="Cineverse | United States | Movies",The Film Detective
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-filmdetective-cineverse/playlist.m3u8
+
+# United States | Music (1 channels)
+#EXTINF:-1 tvg-id="CaliforniaMusicChannel" tvg-name="California Music Channel" group-title="Cineverse | United States | Music",California Music Channel
+https://cmc-cmctv-cineverse.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-cineverse/CDN/playlist.m3u8
