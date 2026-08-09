@@ -1,46 +1,586 @@
 #EXTM3U
 # DJRay - Brazil
-# Total channels: 20
-# Generated: 2026-08-09 10:54:42
+# Total channels: 290
+# Generated: 2026-08-09 10:57:23
 
-# Brazil (20 channels)
+# Brazil (290 channels)
+#EXTINF:-1 tvg-id="MaisUm" tvg-name="+MaisUm" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/137/2023/08/IMG-20220508-WA0121-1-e1692619875326.jpg" group-title="Brazil",+MaisUm
+https://stream.ichibantv.com:3230/stream/play.m3u8
+#EXTINF:-1 tvg-id="01TVItapetingaSP" tvg-name="01 TV Itapetinga SP" tvg-logo="https://s3minio.webativa.com.br/redeitv/01-tv-itapetinga-sp.png" group-title="Brazil",01 TV Itapetinga SP
+https://Stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
+#EXTINF:-1 tvg-id="40gtv" tvg-name="40gtv" tvg-logo="https://s3minio.webativa.com.br/redeitv/40gtv.png" group-title="Brazil",40gtv
+https://40gtv-aovivo.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="7tvs" tvg-name="7tvs" tvg-logo="https://s3minio.webativa.com.br/redeitv/7tvs.png" group-title="Brazil",7tvs
+https://Stmv1.samcast.com.br/beatpapo/beatpapo/playlist.m3u8
+#EXTINF:-1 tvg-id="AVozPopularTV" tvg-name="A Voz Popular TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/a-voz-popular-tv.png" group-title="Brazil",A Voz Popular TV
+https://video04.logicahost.com.br/avozpopulartv/avozpopulartv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCBrasil" tvg-name="ABC Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/abc-brasil.png" group-title="Brazil",ABC Brasil
+https://stmv1.srvstm.com/abc7891/abc7891/playlist.m3u8
+#EXTINF:-1 tvg-id="AcessoBrasil" tvg-name="Acesso Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/acesso-channel-tv.png" group-title="Brazil",Acesso Brasil
+https://cdn.live.br1.jmvstream.com/webtv/tvacessochannel/playlist/playlist.m3u8
+#EXTINF:-1 tvg-id="AdessoTV" tvg-name="Adesso TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/adesso-tv.png" group-title="Brazil",Adesso TV
+https://cdn.live.br1.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
+#EXTINF:-1 tvg-id="AGTVBRASIL" tvg-name="AG TV BRASIL" tvg-logo="https://s3minio.webativa.com.br/redeitv/ag-tv-brasil.png" group-title="Brazil",AG TV BRASIL
+https://video01.kshost.com.br/grezzana1839/grezzana1839/playlist.m3u8
+#EXTINF:-1 tvg-id="AGITOMAXChannel" tvg-name="AGITOMAX Channel" tvg-logo="https://s3minio.webativa.com.br/redeitv/agitomax-channel.png" group-title="Brazil",AGITOMAX Channel
+https://stmv2.samcast.com.br/agitomax/agitomax/playlist.m3u8
+#EXTINF:-1 tvg-id="AlphaChannel" tvg-name="Alpha Channel" tvg-logo="https://s3minio.webativa.com.br/redeitv/alpha-channel.png" group-title="Brazil",Alpha Channel
+https://isaocorp.cloudecast.com/alphachannel/index.m3u8
+#EXTINF:-1 tvg-id="AmazonSat" tvg-name="Amazon Sat" tvg-logo="https://s3minio.webativa.com.br/redeitv/amazon-sat.png" group-title="Brazil",Amazon Sat
+https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+#EXTINF:-1 tvg-id="ANTENA10" tvg-name="ANTENA 10" tvg-logo="https://s3minio.webativa.com.br/redeitv/antena-10.png" group-title="Brazil",ANTENA 10
+https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ArarunaTV" tvg-name="ArarunaTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/02/ararunatv.jpg" group-title="Brazil",ArarunaTV
+https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
+#EXTINF:-1 tvg-id="AstralTV" tvg-name="Astral TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/astral-tv.png" group-title="Brazil",Astral TV
+https://isaocorp.cloudecast.com/astraltv/index.m3u8
+#EXTINF:-1 tvg-id="AUGETV" tvg-name="AUGE TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/2322/2024/07/IMG-20240718-WA0065.jpg" group-title="Brazil",AUGE TV
+https://video01.logicahost.com.br/canalaugetv/canalaugetv/playlist.m3u8
+#EXTINF:-1 tvg-id="AWTV" tvg-name="AWTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/24/2023/07/AWTV-LOGO-ALPHA5_VALE.png" group-title="Brazil",AWTV
+https://awtv.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="BEMMAISTV" tvg-name="BEM MAIS TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/bem-mais-tv.png" group-title="Brazil",BEM MAIS TV
+https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
+#EXTINF:-1 tvg-id="BSTV" tvg-name="BSTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/bstv.png" group-title="Brazil",BSTV
+https://br5093.streamingdevideo.com.br:8081/bstv/bstv/playlist.m3u8
+#EXTINF:-1 tvg-id="BTTVBrazilianTimesTV" tvg-name="BTTV - Brazilian Times TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/bttv-brazilian-times-tv.png" group-title="Brazil",BTTV - Brazilian Times TV
+https://braziliantimes.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Canal29" tvg-name="Canal 29" tvg-logo="https://redeitv.online/roku/imgcanais/canal29.jpg" group-title="Brazil",Canal 29
+https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalBemMelhor" tvg-name="Canal Bem Melhor" tvg-logo="https://s3minio.webativa.com.br/redeitv/canal-bem-melhor.png" group-title="Brazil",Canal Bem Melhor
+https://video01.logicahost.com.br/bemmelhor/bemmelhor/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalPromessas" tvg-name="Canal Promessas" tvg-logo="https://redeitv.online/roku/imgcanais/canal-promessas.jpg?alt=media&token=ad232b98-a201-4321-8fcf-c35afcb1624c" group-title="Brazil",Canal Promessas
+https://video01.kshost.com.br/gente8322/gente8322/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalRicos" tvg-name="Canal Ricos" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1072/2024/03/logo-800x450-1.png" group-title="Brazil",Canal Ricos
+https://a.cdni.live/tvcanalricos/tvcanalricos/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalRural" tvg-name="Canal Rural" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/656/2024/01/images.jpeg" group-title="Brazil",Canal Rural
+https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CANALSTART" tvg-name="CANAL START" tvg-logo="https://s3minio.webativa.com.br/redeitv/canal-start.png" group-title="Brazil",CANAL START
+https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSriesClassic" tvg-name="Canal Séries Classic" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202605/14058_720p_f_16x9.webp?v=1779430593" group-title="Brazil",Canal Séries Classic
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a0fcefa4c5c602f170ccb74&AV_CHANNEL_NAME=CANAL-SÉRIES-CLASSIC&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-7&AV_TITLE=CANAL-SÉRIES-CLASSIC&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Action&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=CANAL-SÉRIES-CLASSIC&AV_CUSTOM17=Google--520678__204__14058__0__0__0____MP&AV_CUSTOM18=MX_GIVN
+#EXTINF:-1 tvg-id="CanoNovaPortugal" tvg-name="Canção Nova Portugal" tvg-logo="https://s3minio.webativa.com.br/redeitv/cancao-nova-portugal.png" group-title="Brazil",Canção Nova Portugal
+https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/chunklist_w112988970.m3u8
+#EXTINF:-1 tvg-id="CaravanaPlay" tvg-name="Caravana Play" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/368/2023/10/94E2BE69-679B-4AB3-B60B-7F97F6BB1C81.jpeg" group-title="Brazil",Caravana Play
+https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
+#EXTINF:-1 tvg-id="CARIRITV" tvg-name="CARIRI TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/cariri-tv.png" group-title="Brazil",CARIRI TV
+https://video05.logicahost.com.br/cariritv/cariritv/playlist.m3u8
+#EXTINF:-1 tvg-id="CasaGamela" tvg-name="Casa Gamela" tvg-logo="https://s3minio.webativa.com.br/redeitv/casa-gamela.png" group-title="Brazil",Casa Gamela
+https://stmv3.voxtvhd.com.br/tvgamela/tvgamela/playlist.m3u8
+#EXTINF:-1 tvg-id="CBTVPLAY" tvg-name="CBTV PLAY" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1896/2024/06/Design-sem-nome_20240604_143646_0000-1.png" group-title="Brazil",CBTV PLAY
+https://stmv2.samcast.com.br/carla7379/carla7379/playlist.m3u8
+#EXTINF:-1 tvg-id="ChromaTV" tvg-name="Chroma TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/721/2024/01/tv-chroma-2024-1-2.png" group-title="Brazil",Chroma TV
+https://5c483b9d1019c.streamlock.net:443/8054/8054/playlist.m3u8
+#EXTINF:-1 tvg-id="CineClssicosDoCinema" tvg-name="Cine Clássicos Do Cinema" tvg-logo="https://s3minio.webativa.com.br/redeitv/cine-classicos-do-cinema.png" group-title="Brazil",Cine Clássicos Do Cinema
+https://srv1.zcast.com.br/tvterraboa/tvterraboa/chunklist_w303527472.m3u8
+#EXTINF:-1 tvg-id="CloudingTV" tvg-name="Clouding TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/clouding-tv.png" group-title="Brazil",Clouding TV
+https://stmv.webtvninjas.com.br/abner5597/abner5597/playlist.m3u8
+#EXTINF:-1 tvg-id="ClubeWebTV" tvg-name="Clube Web TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/clube-web-tv.png" group-title="Brazil",Clube Web TV
+https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
+#EXTINF:-1 tvg-id="CNU" tvg-name="CNU" tvg-logo="https://s3minio.webativa.com.br/redeitv/cnu.png" group-title="Brazil",CNU
+https://br5093.streamingdevideo.com.br/wbgpymgwys/wbgpymgwys/playlist.m3u8
+#EXTINF:-1 tvg-id="COMBrasil" tvg-name="COM Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/com-brasil.png" group-title="Brazil",COM Brasil
+https://br5093.streamingdevideo.com.br:8081/abc/abc/playlist.m3u8
+#EXTINF:-1 tvg-id="CreativeTVBrasil" tvg-name="Creative TV Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/creative-tv-brasil.png" group-title="Brazil",Creative TV Brasil
+https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="DTV" tvg-name="D+TV" tvg-logo="https://i.ibb.co/xC1nTt2/802.jpg" group-title="Brazil",D+TV
+https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
+#EXTINF:-1 tvg-id="DeoPLayTV" tvg-name="DeoPLay TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/deoplay-tv.png" group-title="Brazil",DeoPLay TV
+https://video01.logicahost.com.br/deoplay/deoplay/playlist.m3u8
+#EXTINF:-1 tvg-id="ExtremoOrientalTV" tvg-name="Extremo Oriental TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/581/2024/01/capa_eotv.png" group-title="Brazil",Extremo Oriental TV
+https://video05.logicahost.com.br/extremotv/extremotv/playlist.m3u8
+#EXTINF:-1 tvg-id="FarolTV" tvg-name="Farol TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/farol-tv.png" group-title="Brazil",Farol TV
+https://video05.logicahost.com.br/tvpontadoseixas/tvpontadoseixas/playlist.m3u8
+#EXTINF:-1 tvg-id="FolhadoCampo" tvg-name="Folha do Campo" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/08/folhadocampo.jpg" group-title="Brazil",Folha do Campo
+https://video03.logicahost.com.br/tvsaobernardo/tvsaobernardo/playlist.m3u8
+#EXTINF:-1 tvg-id="FonteTV" tvg-name="Fonte TV" tvg-logo="https://redeitv.online/roku/imgcanais/tv-fonte.jpg?alt=media&token=0818be5e-79fc-43df-bdf5-1a7eef440393" group-title="Brazil",Fonte TV
+https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/playlist.m3u8
+#EXTINF:-1 tvg-id="FOZTV" tvg-name="FOZ TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/foz-tv.png" group-title="Brazil",FOZ TV
+https://videostreamingserver.septecloud.com.br/memfs/6154fa08-b4c2-4e8f-aba8-1c5a38399d47.m3u8
 #EXTINF:-1 tvg-id="FuelTvBrazil" tvg-name="Fuel Tv | Brazil" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202509/13816_720p_f_16x9.webp?v=1758855634" group-title="Brazil",Fuel Tv | Brazil
 https://amg01074-amg01074c13-metax-international-8798.playouts.now.amagi.tv/playlist/amg01074-fueltvfast-fueltvbr-metaxinternational/playlist.m3u8?app_bundle=MX_APP_BUNDLE&app_name=MX_APP_NAME&app_store_url=MX_APP_STORE_URL&us_privacy=MX_US_PRIVACY&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&did=MX_DUID&dnt=MX_DNT&ic=IAB17-37&ifa_type=MX_IFA_TYPE&coppa=MX_COPPA&content_network=MetaXTV&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13816&AV_CUSTOM17=Google--520678__188__13816__0__0__0____MP
+#EXTINF:-1 tvg-id="GERALTV" tvg-name="GERAL TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/geral-tv-hd.png" group-title="Brazil",GERAL TV
+https://srv4.zcast.com.br/sbctv/sbctv/playlist.m3u8
 #EXTINF:-1 tvg-id="GramadoTv" tvg-name="Gramado Tv" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202607/14105_720p_f_16x9.webp?v=1783065729" group-title="Brazil",Gramado Tv
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a476f1a8a4b426a6b0bbeca&AV_CHANNEL_NAME=Gramado-TV&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB12&AV_TITLE=Gramado-TV&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Environmental News&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Gramado-TV&AV_CUSTOM17=Google--520678__204__14105__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14105
+#EXTINF:-1 tvg-id="GramadoTV" tvg-name="Gramado TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/gramado-tv.png" group-title="Brazil",Gramado TV
+https://tv01.zas.media:1936/gramadotv/gramadotv/playlist.m3u8
+#EXTINF:-1 tvg-id="HIPHOPVAIALEMNATV" tvg-name="HIP-HOP VAI ALEM NA TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/01/hiphop.jpg" group-title="Brazil",HIP-HOP VAI ALEM NA TV
+https://stmv4.voxtvhd.com.br/carlosdavi6787/carlosdavi6787/playlist.m3u8
+#EXTINF:-1 tvg-id="IGREJAMUNDIAL" tvg-name="IGREJA MUNDIAL" tvg-logo="https://s3minio.webativa.com.br/redeitv/igreja-mundial.png" group-title="Brazil",IGREJA MUNDIAL
+https://igrejamundial.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="IjuPlay" tvg-name="Ijuí Play" tvg-logo="https://s3minio.webativa.com.br/redeitv/ijui-play.png" group-title="Brazil",Ijuí Play
+https://video04.logicahost.com.br/schamlztv/schamlztv/playlist.m3u8
+#EXTINF:-1 tvg-id="JOVEMTOTALTVDIGITAL" tvg-name="JOVEM TOTAL TV DIGITAL" tvg-logo="https://s3minio.webativa.com.br/redeitv/jovem-total-tv-digital.png" group-title="Brazil",JOVEM TOTAL TV DIGITAL
+https://stmv1.liveplushd.com.br/jovemtotaltv/jovemtotaltv/playlist.m3u8
+#EXTINF:-1 tvg-id="JRTV" tvg-name="JRTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/jrtv.png" group-title="Brazil",JRTV
+https://video08.logicahost.com.br/jrtv01/jrtv01/playlist.m3u8
+#EXTINF:-1 tvg-id="JViuTV" tvg-name="Já Viu TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/ja-viu-tv.png" group-title="Brazil",Já Viu TV
+https://stmv5.samcast.com.br/val4355/val4355/playlist.m3u8
+#EXTINF:-1 tvg-id="KATHOLIKA" tvg-name="KATHOLIKA" tvg-logo="https://s3minio.webativa.com.br/redeitv/katholika.png" group-title="Brazil",KATHOLIKA
+https://acesso.ecast.site:3743/live/katholikalive.m3u8
+#EXTINF:-1 tvg-id="KETV" tvg-name="KE TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/346/2024/02/LEAO-LOGO-OFICIAL-3-tamanho-800X450-1.png" group-title="Brazil",KE TV
+https://stmv1.srvif.com/ketv/ketv/playlist.m3u
+#EXTINF:-1 tvg-id="LamoreRockShowWebTV" tvg-name="Lamore Rock Show WebTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/lamore-rock-show-webtv.png" group-title="Brazil",Lamore Rock Show WebTV
+https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
+#EXTINF:-1 tvg-id="LitoralPlayTV" tvg-name="Litoral Play TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/litoral-play-tv.png" group-title="Brazil",Litoral Play TV
+https://stmv2.samcast.com.br/andrius3216/andrius3216/playlist.m3u8
+#EXTINF:-1 tvg-id="LderTV" tvg-name="Líder TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/2270/2024/07/LOGO-LIDER-EM-BAIXA-1.png" group-title="Brazil",Líder TV
+https://video08.logicahost.com.br/lidertvssp/lidertvssp/playlist.m3u8
+#EXTINF:-1 tvg-id="Macei" tvg-name="Maceió" tvg-logo="https://i.ibb.co/VYWsJfD/006.jpg" group-title="Brazil",Maceió
+https://srv5.zcast.com.br/paulo4100/paulo4100/playlist.m3u8
 #EXTINF:-1 tvg-id="MasperTv" tvg-name="Masper Tv" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202607/14107_720p_f_16x9.webp?v=1783065705" group-title="Brazil",Masper Tv
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a476f711b2cee675308afc6&AV_CHANNEL_NAME=Masper-TV&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB12&AV_TITLE=Masper-TV&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Current Affairs&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Masper-TV&AV_CUSTOM17=Google--520678__204__14107__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14107
+#EXTINF:-1 tvg-id="MasperTV" tvg-name="Masper TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/masper-tv.png" group-title="Brazil",Masper TV
+https://tv01.zas.media:1936/bahtv/bahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaCineTv" tvg-name="Mega Cine Tv" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202605/14052_720p_f_16x9.webp?v=1779431755" group-title="Brazil",Mega Cine Tv
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a0fce9c112c6f469705e876&AV_CHANNEL_NAME=Mega-Cine-TV&AV_CONTENT_LANGUAGE=es&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-5&AV_TITLE=Mega-Cine-TV&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Drama&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Mega-Cine-TV&AV_CUSTOM17=Google--520678__204__14052__0__0__0____MP&AV_CUSTOM18=MX_GIVN
 #EXTINF:-1 tvg-id="MiamiViceChannel" tvg-name="Miami Vice Channel" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202606/14078_720p_f_16x9.webp?v=1781151563" group-title="Brazil",Miami Vice Channel
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a2a544376ffdc372a022f78&AV_CHANNEL_NAME=Miami-Vice-Channel&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-7&AV_TITLE=Miami-Vice-Channel&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Comedy&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Miami-Vice-Channel&AV_CUSTOM17=Google--520678__204__14078__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14078
+#EXTINF:-1 tvg-id="MinistrioInfantilTVMITVKids" tvg-name="Ministério Infantil TV - MITV (Kids)" tvg-logo="https://s3minio.webativa.com.br/redeitv/ministerio-infantil-tv-mitv-kids.png" group-title="Brazil",Ministério Infantil TV - MITV (Kids)
+https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
+#EXTINF:-1 tvg-id="MJRTV" tvg-name="MJR TV" tvg-logo="https://redeitv.online/roku/imgcanais/MJR.jpg?alt=media&token=80fe892b-1227-4052-b313-09a29445d743" group-title="Brazil",MJR TV
+https://Stmv1.samcast.com.br/migueljunior2043/migueljunior2043/playlist.m3u8
+#EXTINF:-1 tvg-id="MULTIMIX" tvg-name="MULTIMIX" tvg-logo="https://s3minio.webativa.com.br/redeitv/multimix.png" group-title="Brazil",MULTIMIX
+https://stmv1.ahtvox.com.br/multimix/multimix/playlist.m3u8
+#EXTINF:-1 tvg-id="MVersoTV" tvg-name="MVerso TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/mverso-tv.png" group-title="Brazil",MVerso TV
+https://video08.logicahost.com.br/gustavov/gustavov/playlist.m3u8
+#EXTINF:-1 tvg-id="NERYTV" tvg-name="NERY TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/nery-tv.png" group-title="Brazil",NERY TV
+https://stmv8.samcast.com.br/neryfm/neryfm/playlist.m3u8
+#EXTINF:-1 tvg-id="NossaTV" tvg-name="Nossa TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/nossa-tv.png" group-title="Brazil",Nossa TV
+https://video01.logicahost.com.br/canal09/canal09/playlist.m3u8
+#EXTINF:-1 tvg-id="NovaRioTV" tvg-name="Nova Rio TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/68/2023/08/Fundo-transparente-1.png" group-title="Brazil",Nova Rio TV
+https://video04.logicahost.com.br/novariotv/novariotv/playlist.m3u8
+#EXTINF:-1 tvg-id="NovaTviPetrpolis" tvg-name="Nova Tvi Petrópolis" tvg-logo="https://s3minio.webativa.com.br/redeitv/nova-tvi-petropolis.jpeg" group-title="Brazil",Nova Tvi Petrópolis
+https://stmv8.samcast.com.br/novatvi2098/novatvi2098/playlist.m3u8
+#EXTINF:-1 tvg-id="NTCPLAY" tvg-name="NTC PLAY" tvg-logo="https://s3minio.webativa.com.br/redeitv/ntc-play.png" group-title="Brazil",NTC PLAY
+https://stmv1.video.brstream.com.br/matheusdeoliveira7374/matheusdeoliveira7374/playlist.m3u8
+#EXTINF:-1 tvg-id="ONTV" tvg-name="ON TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/on-tv.png" group-title="Brazil",ON TV
+https://ikki.hubcloud.tv.br/OnTV/index.m3u8
+#EXTINF:-1 tvg-id="OriundiTV" tvg-name="Oriundi TV" tvg-logo="https://redeitv.webativa.com.br/wp-content/uploads/jet-engine-forms/8/2023/06/VEGAS_INTRO_01-800X-450-1.jpg" group-title="Brazil",Oriundi TV
+https://stmv5.samcast.com.br/oriunditv/oriunditv/playlist.m3u8
+#EXTINF:-1 tvg-id="PanTVMT" tvg-name="Pan TV MT" tvg-logo="https://s3minio.webativa.com.br/redeitv/pan-tv-mt.png" group-title="Brazil",Pan TV MT
+https://stmv8.samcast.com.br/carlos6664/carlos6664/playlist.m3u8
+#EXTINF:-1 tvg-id="PetloversTV" tvg-name="Petlovers TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/petlovers-tv.png" group-title="Brazil",Petlovers TV
+https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
+#EXTINF:-1 tvg-id="PlayTV" tvg-name="Play TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/play-tv.png" group-title="Brazil",Play TV
+https://isaocorp.cloudecast.com/playtv/mono.m3u8
 #EXTINF:-1 tvg-id="Playtv" tvg-name="Playtv" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202505/13689_720p_f_16x9.webp?v=1747305228" group-title="Brazil",Playtv
 https://api-ott.playtv.com.br/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=metax&content_network=MetaXTV&app_name=MX_APP_NAME&app_bundle=MX_APP_BUNDLE&app_store_url=MX_APP_STORE_URL&cb=MX_CACHEBUSTER&device_id=MX_DUID&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&us_privacy=MX_US_PRIVACY&device_width=MX_WIDTH&device_height=MX_HEIGHT&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13689&AV_CUSTOM17=Google--520678__151__13689__0__0__0____MP
+#EXTINF:-1 tvg-id="PlayTVhorse" tvg-name="PlayTV horse" tvg-logo="https://s3minio.webativa.com.br/redeitv/playtv-horse.png" group-title="Brazil",PlayTV horse
+https://video04.logicahost.com.br/playtvhorse/playtvhorse/playlist.m3u8
+#EXTINF:-1 tvg-id="POLIDOROTVSoPaulo" tvg-name="POLIDORO TV São Paulo" tvg-logo="https://s3minio.webativa.com.br/redeitv/polidoro-tv-sao-paulo.png" group-title="Brazil",POLIDORO TV São Paulo
+https://srv5.zcast.com.br/yeeaah/yeeaah/playlist.m3u8
+#EXTINF:-1 tvg-id="QuixeramobimTV" tvg-name="Quixeramobim TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/quixeramobim-tv.png" group-title="Brazil",Quixeramobim TV
+https://srv4.zcast.com.br/flavio2481/flavio2481/playlist.m3u8
+#EXTINF:-1 tvg-id="R9TV" tvg-name="R9TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/r9tv.png" group-title="Brazil",R9TV
+https://stmv1.srvif.com/clausavi/clausavi/playlist.m3u8
+#EXTINF:-1 tvg-id="RADIOTVWEBSILVESFM" tvg-name="RADIOTVWEBSILVESFM" tvg-logo="https://s3minio.webativa.com.br/redeitv/radiotvwebsilvesfm.jpeg" group-title="Brazil",RADIOTVWEBSILVESFM
+https://stmv2.liveplushd.com.br/radiotvsilvesfm/radiotvsilvesfm/playlist.m3u8
 #EXTINF:-1 tvg-id="RctTv" tvg-name="Rct Tv" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202606/14082_720p_f_16x9.webp?v=1781155748" group-title="Brazil",Rct Tv
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a2a53f882224f09d50032e4&AV_CHANNEL_NAME=RCT-TV&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB12&AV_TITLE=RCT-TV&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Entertainment News&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=RCT-TV&AV_CUSTOM17=Google--520678__204__14082__0__0__0____MP&AV_CUSTOM18=MX_GIVN
+#EXTINF:-1 tvg-id="RCTV" tvg-name="RCTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/rctv.png" group-title="Brazil",RCTV
+https://tv03.zas.media:1936/mbc/mbc/playlist.m3u8
 #EXTINF:-1 tvg-id="RecordNews" tvg-name="Record News" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202507/13734_720p_f_16x9.webp?v=1751530925" group-title="Brazil",Record News
 https://api-ott-rnw-rn.ottera.tv/loggingmediaurlpassthrough/a.m3u8?version=12&id=1709&partner=metax&content_network=MetaXTV&app_name=MX_APP_NAME&app_bundle=MX_APP_BUNDLE&app_store_url=MX_APP_STORE_URL&cb=MX_CACHEBUSTER&device_id=MX_DUID&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&us_privacy=MX_US_PRIVACY&device_width=MX_WIDTH&device_height=MX_HEIGHT&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13734&AV_CUSTOM17=Google--520678__151__13734__0__0__0____MP
+#EXTINF:-1 tvg-id="RedeBlitzSmsicadequalidade" tvg-name="Rede Blitz - Só música de qualidade." tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-blitz-so-musica-de-qualidade.png" group-title="Brazil",Rede Blitz - Só música de qualidade.
+https://video01.logicahost.com.br/redeblitz/redeblitz/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeFnix" tvg-name="Rede Fénix" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-fenix.png" group-title="Brazil",Rede Fénix
+https://video08.logicahost.com.br/redefenix/redefenix/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeGospel" tvg-name="Rede Gospel" tvg-logo="https://i.ibb.co/d0p3Zvk/gospel.jpg" group-title="Brazil",Rede Gospel
+https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/chunklist.m3u8
+#EXTINF:-1 tvg-id="RedeISTV" tvg-name="Rede ISTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-istv.png" group-title="Brazil",Rede ISTV
+https://video10.logicahost.com.br/redeistv/redeistv/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeMetropolitano" tvg-name="Rede Metropolitano" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-metropolitano.png" group-title="Brazil",Rede Metropolitano
+https://streaming.cloudecast.com/hls/rederecon/index.m3u8
 #EXTINF:-1 tvg-id="RedeMetrpole" tvg-name="Rede Metrópole" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202606/14077_720p_f_16x9.webp?v=1781156424" group-title="Brazil",Rede Metrópole
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a2a5464b116b7b5a00f6f46&AV_CHANNEL_NAME=Rede-Metrópole&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-7&AV_TITLE=Rede-Metrópole&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Talk Show&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Rede-Metrópole&AV_CUSTOM17=Google--520678__204__14077__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14077
+#EXTINF:-1 tvg-id="RedeMetrpole" tvg-name="Rede Metrópole" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-metropole.png" group-title="Brazil",Rede Metrópole
+https://isaocorp.cloudecast.com/metropole/index.m3u8
+#EXTINF:-1 tvg-id="RedeQDMdeTeleviso" tvg-name="Rede QDM de Televisão" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/145/2023/08/IMG-20230328-WA0040-e1692190261211.jpg" group-title="Brazil",Rede QDM de Televisão
+https://video03.logicahost.com.br/tvkidmais01/tvkidmais01/playlist.m3u8
+#EXTINF:-1 tvg-id="REDESPTV" tvg-name="REDE SPTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/02/rede-sptv.jpg" group-title="Brazil",REDE SPTV
+https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTvParan" tvg-name="Rede Tv Paraná" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202606/14072_720p_f_16x9.webp?v=1781155718" group-title="Brazil",Rede Tv Paraná
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a22a416c3369f6cf208adb7&AV_CHANNEL_NAME=Rede-TV-Paraná&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB12&AV_TITLE=Rede-TV-Paraná&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Entertainment News&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Rede-TV-Paraná&AV_CUSTOM17=Google--520678__204__14072__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14072
+#EXTINF:-1 tvg-id="REDETVE" tvg-name="REDE TV.E" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-tve.png" group-title="Brazil",REDE TV.E
+https://stmv6.voxtvhd.com.br/romilson/romilson/playlist.m3u8
+#EXTINF:-1 tvg-id="REDETVS" tvg-name="REDE TVS" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-tvs.png" group-title="Brazil",REDE TVS
+https://video01.kshost.com.br/rede1250/rede1250/playlist.m3u8
+#EXTINF:-1 tvg-id="REDEULTRATV" tvg-name="REDE ULTRA TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-ultra-tv.png" group-title="Brazil",REDE ULTRA TV
+https://stmv8.samcast.com.br/jcbrasil7363/jcbrasil7363/playlist.m3u8
+#EXTINF:-1 tvg-id="REDEUTVBRASIL" tvg-name="REDE UTV BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/05/m.png" group-title="Brazil",REDE UTV BRASIL
+https://utvitv.acessaradios.com.br/utvitv/utvitv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="REDEWTJMINAS" tvg-name="REDE WTJMINAS" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/114/2023/08/logo-para-a-nova-iptv.jpg" group-title="Brazil",REDE WTJMINAS
+https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
+#EXTINF:-1 tvg-id="ReisenClubeTV" tvg-name="Reisen Clube TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/reisen-clube-tv.png" group-title="Brazil",Reisen Clube TV
+https://pop.uniquetv.com.br/reisenclubetv/video.m3u8
+#EXTINF:-1 tvg-id="RITTV" tvg-name="RITTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/rittv.png" group-title="Brazil",RITTV
+https://acesso.ecast.site:3648/live/ritlive.m3u8
+#EXTINF:-1 tvg-id="RSPlay" tvg-name="RS Play" tvg-logo="https://s3minio.webativa.com.br/redeitv/rs-play.png" group-title="Brazil",RS Play
+https://tv03.zas.media:1936/rsplay/rsplay/playlist.m3u8
+#EXTINF:-1 tvg-id="RdioeTVLivreBrasil" tvg-name="Rádio e TV Livre Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/radio-e-tv-livre-brasil.png" group-title="Brazil",Rádio e TV Livre Brasil
+https://video03.logicahost.com.br/tvlivrebrasil/tvlivrebrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="RdioForrMix" tvg-name="Rádio Forró Mix" tvg-logo="https://s3minio.webativa.com.br/redeitv/radio-forro-mix.png" group-title="Brazil",Rádio Forró Mix
+https://v01.taaqui.org/radioforromix/radioforromix/chunklist_w1050354422.m3u8
+#EXTINF:-1 tvg-id="SBCTV" tvg-name="SBC TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbc-tv.png" group-title="Brazil",SBC TV
+https://video01.kshost.com.br/rede4871/rede4871/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTCuiab" tvg-name="SBT Cuiabá" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-cuiaba.png" group-title="Brazil",SBT Cuiabá
+https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTNovaMutum" tvg-name="SBT Nova Mutum" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-nova-mutum.png" group-title="Brazil",SBT Nova Mutum
+https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTPar" tvg-name="SBT Pará" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-para.png" group-title="Brazil",SBT Pará
+https://www.youtube.com/live/FvKPA40VCOc?si=dfGq0kEXMU9I6Ox-
+#EXTINF:-1 tvg-id="SBTRondonpolis" tvg-name="SBT Rondonópolis" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-rondonopolis.png" group-title="Brazil",SBT Rondonópolis
+https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTSinop" tvg-name="SBT Sinop" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-sinop.png" group-title="Brazil",SBT Sinop
+https://video09.logicahost.com.br/sbtsinop/sbtsinop/playlist.m3u8
+#EXTINF:-1 tvg-id="SevenTv" tvg-name="Seven Tv" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/136/2023/09/Arte-Para-Site-Terceiros-Seven-Tv-2023.jpg" group-title="Brazil",Seven Tv
+https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
 #EXTINF:-1 tvg-id="SftCombat" tvg-name="Sft Combat" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202505/13722_720p_f_16x9.webp?v=1747304908" group-title="Brazil",Sft Combat
 https://api-ott-hrm-hr.ottera.tv/loggingmediaurlpassthrough/a.m3u8?version=12&id=57&partner=metax&content_network=MetaXTV&app_name=MX_APP_NAME&app_bundle=MX_APP_BUNDLE&app_store_url=MX_APP_STORE_URL&cb=MX_CACHEBUSTER&device_id=MX_DUID&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&us_privacy=MX_US_PRIVACY&device_width=MX_WIDTH&device_height=MX_HEIGHT&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13722&AV_CUSTOM17=Google--520678__151__13722__0__0__0____MP
+#EXTINF:-1 tvg-id="SICtv" tvg-name="SICtv" tvg-logo="https://i.ibb.co/0VDqCX9/041.jpg" group-title="Brazil",SICtv
+https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8?token=10625035048351615000
+#EXTINF:-1 tvg-id="SIMTV" tvg-name="SIM TV" tvg-logo="https://i.ibb.co/w0X3pJt/jjj.jpg" group-title="Brazil",SIM TV
+https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
+#EXTINF:-1 tvg-id="SOU" tvg-name="SOU" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1530/2024/04/LOGO-OFICIAL-ALTA.png" group-title="Brazil",SOU
+https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8
+#EXTINF:-1 tvg-id="SummitTV" tvg-name="Summit TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/summit-tv.png" group-title="Brazil",Summit TV
+https://stmv2.samcast.com.br/canalsummittv/canalsummittv/playlist.m3u8
+#EXTINF:-1 tvg-id="TBO" tvg-name="TBO" tvg-logo="https://redeitv.online/roku/imgcanais/tv-tbo.jpg?alt=media&token=e5b667f1-9f59-4024-adda-3fce4f106a8a" group-title="Brazil",TBO
+https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonGogglesEmPortugus" tvg-name="Toon Goggles Em Português" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202307/12204_720p_f_16x9.webp" group-title="Brazil",Toon Goggles Em Português
 https://api.toongoggles.com/loggingmediaurlpassthrough/a.m3u8?version=12&id=264301&partner=metax&content_network=MetaXTV&coppa=1&app_name=MX_APP_NAME&app_bundle=MX_APP_BUNDLE&app_store_url=MX_APP_STORE_URL&cb=MX_CACHEBUSTER&device_id=MX_DUID&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&us_privacy=MX_US_PRIVACY&device_width=MX_WIDTH&device_height=MX_HEIGHT&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-12204&AV_CUSTOM17=Google--520678__151__12204__0__0__0____MP
+#EXTINF:-1 tvg-id="TopDemaisTV" tvg-name="Top Demais TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-demaistv.png" group-title="Brazil",Top Demais TV
+https://stmv.webtvninjas.com.br/gustavo2585/gustavo2585/playlist.m3u8
+#EXTINF:-1 tvg-id="TOPMIXTV" tvg-name="TOP MIX TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-mix-tv.png" group-title="Brazil",TOP MIX TV
+https://video01.logicahost.com.br/topmixtvgospel01/topmixtvgospel01/playlist.m3u8
+#EXTINF:-1 tvg-id="TOPMIXTVCANALPOPRETR" tvg-name="TOP MIX TV - CANAL POP RETRÔ" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-mix-tv-canal-pop-retro.png" group-title="Brazil",TOP MIX TV - CANAL POP RETRÔ
+https://video01.logicahost.com.br/topmixtvpopantigo5/topmixtvpopantigo5/playlist.m3u8
+#EXTINF:-1 tvg-id="TOPMIXTVCANALSERTANEJO" tvg-name="TOP MIX TV - CANAL SERTANEJO" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-mix-tv-canal-sertanejo.png" group-title="Brazil",TOP MIX TV - CANAL SERTANEJO
+https://video01.logicahost.com.br/topmixtvsertanejooficial/topmixtvsertanejooficial/playlist.m3u8
+#EXTINF:-1 tvg-id="TOPMIXTVCANAL3GOSPEL" tvg-name="TOP MIX TV CANAL 3 GOSPEL" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-mix-tv-canal-3-gospel.png" group-title="Brazil",TOP MIX TV CANAL 3 GOSPEL
+https://video01.logicahost.com.br/topmixtvgospelcanal03/topmixtvgospelcanal03/playlist.m3u8
+#EXTINF:-1 tvg-id="TOPMIXTVFILMESGOSPEL" tvg-name="TOP MIX TV FILMES GOSPEL" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-mix-tv-filmes-gospel.png" group-title="Brazil",TOP MIX TV FILMES GOSPEL
+https://video01.logicahost.com.br/topmixtvfilmes/topmixtvfilmes/playlist.m3u8
+#EXTINF:-1 tvg-id="TOPMIXTV" tvg-name="TOPMIXTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/281/2023/09/MUSICA-GOSPEL-NOVAS-E-LANCAMENTOS.jpg" group-title="Brazil",TOPMIXTV
+https://video03.logicahost.com.br/topmixtv/topmixtv/playlist.m3u8
+#EXTINF:-1 tvg-id="TramandaTV" tvg-name="Tramandaí TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/tramandai-tv.png" group-title="Brazil",Tramandaí TV
+https://stmv2.srvif.com/redacaotrinoo/redacaotrinoo/playlist.m3u8
+#EXTINF:-1 tvg-id="TV247" tvg-name="TV 247" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-247.png" group-title="Brazil",TV 247
+https://video03.logicahost.com.br/tv247online/tv247online/playlist.m3u8
+#EXTINF:-1 tvg-id="TV3Fronteiras" tvg-name="TV 3 Fronteiras" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-3-fronteiras.png" group-title="Brazil",TV 3 Fronteiras
+https://isaocorp.cloudecast.com/tv3fronteiras/index.m3u8
+#EXTINF:-1 tvg-id="TVAFOLHA" tvg-name="TV A FOLHA" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/241/2023/09/tv-e1694173039734.png" group-title="Brazil",TV A FOLHA
+https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
+#EXTINF:-1 tvg-id="TvAdoradorGospel" tvg-name="Tv Adorador Gospel" tvg-logo="https://redeitv.online/roku/imgcanais/tv-adorador-gospel.jpg?alt=media&token=fdf0f1fd-f5bc-4077-b8f8-a9c8490f57eb" group-title="Brazil",Tv Adorador Gospel
+https://stmv1.voxtvhd.com.br/tvadoradorgospel/tvadoradorgospel/playlist.m3u8
+#EXTINF:-1 tvg-id="TVALA" tvg-name="TV ALA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-ala.png" group-title="Brazil",TV ALA
+http://stmv1.painelcast.com/jotta9709/jotta9709/playlist.m3u8
+#EXTINF:-1 tvg-id="TvAlagoinha" tvg-name="Tv Alagoinha" tvg-logo="https://redeitv.online/roku/imgcanais/tva.jpg?alt=media&token=74f67529-a63a-431d-9733-22151edcd58e" group-title="Brazil",Tv Alagoinha
+https://stmv.jnbhost.com.br/tvalagoinha/tvalagoinha/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAlpha" tvg-name="TV Alpha" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-alpha.png" group-title="Brazil",TV Alpha
+https://video05.logicahost.com.br/tvalpha/tvalpha/playlist.m3u8
+#EXTINF:-1 tvg-id="TVALVORADA" tvg-name="TV ALVORADA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-alvorada.png" group-title="Brazil",TV ALVORADA
+https://live20.bozztv.com/akamaissh101/ssh101/tvalvorada/chunks.m3u8
+#EXTINF:-1 tvg-id="TVAparecida" tvg-name="TV Aparecida" tvg-logo="https://i.ibb.co/nfjgPjH/048.jpg" group-title="Brazil",TV Aparecida
+https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8
+#EXTINF:-1 tvg-id="TVApstolos" tvg-name="TV Apóstolos" tvg-logo="https://i.ibb.co/ch8L6WH/1280.jpg" group-title="Brazil",TV Apóstolos
+https://video04.logicahost.com.br/tvapostolos/tvapostolos/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAssembleiaMS" tvg-name="TV Assembleia MS" tvg-logo="https://redeitv.online/roku/imgcanais/tv-assembleia-ms.jpg?alt=media&token=91618d01-7931-44aa-859a-5c83dfe2a148" group-title="Brazil",TV Assembleia MS
+https://playertv.al.ms.gov.br/hls/live.stream.m3u8
+#EXTINF:-1 tvg-id="TVAVIVANDONAES" tvg-name="TV AVIVANDO NAÇÕES" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-avivando-nacoes.png" group-title="Brazil",TV AVIVANDO NAÇÕES
+https://video04.logicahost.com.br/tvavivandonacoes/tvavivandonacoes/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBanqueta" tvg-name="TV Banqueta" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-banqueta.png" group-title="Brazil",TV Banqueta
+https://video10.logicahost.com.br/tvbanqueta/tvbanqueta/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBlueBrasil" tvg-name="TV Blue Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-blue-brasil.jpeg" group-title="Brazil",TV Blue Brasil
+https://stmv8.samcast.com.br/eudes3221/eudes3221/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBrasilAngola" tvg-name="TV Brasil Angola" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-brasil-angola.png" group-title="Brazil",TV Brasil Angola
+https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBrasilHits" tvg-name="TV Brasil Hits" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/44/2023/07/TV-BRASIL-HITS-1.png" group-title="Brazil",TV Brasil Hits
+https://video01.logicahost.com.br/brasilhits/brasilhits/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBrasilInternacional" tvg-name="TV Brasil Internacional" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-brasil-internacional.png" group-title="Brazil",TV Brasil Internacional
+https://tvbrasilinternacional-stream.ebc.com.br/INTERNACIONAL-avc1_1800000=10000.m3u8
+#EXTINF:-1 tvg-id="tvbrasilsinop" tvg-name="tv brasil sinop" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-brasil-sinop.JPG" group-title="Brazil",tv brasil sinop
+https://stmv2.painelvideocast.com.br/1186/1186/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBrusque" tvg-name="TV Brusque" tvg-logo="https://redeitv.online/roku/imgcanais/brusque.jpg?alt=media&token=a0bde148-3166-4384-babb-fd3fd45fd8fe" group-title="Brazil",TV Brusque
+https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/rodrigotvbrusque.com.br/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCandids" tvg-name="TV Candidés" tvg-logo="https://i.ibb.co/QX2s7DC/016.jpg" group-title="Brazil",TV Candidés
+https://cdn.jmvstream.com/w/LVW-8067/ngrp:LVW8067_ZffQjxn7UC_all/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCariris" tvg-name="TV Cariris" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cariris.png" group-title="Brazil",TV Cariris
+https://video08.logicahost.com.br/tvcariris/tvcariris/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCaruaru" tvg-name="TV Caruaru" tvg-logo="https://redeitv.online/roku/imgcanais/caruaru-tv.jpg?alt=media&token=4bc13b02-80ac-4286-94a4-d70ab0ba1ea3" group-title="Brazil",TV Caruaru
+https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8?fluxustv.m3u8
+#EXTINF:-1 tvg-id="TvCidade" tvg-name="Tv Cidade" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/06/tvcidadebrasil.jpg" group-title="Brazil",Tv Cidade
+https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
 #EXTINF:-1 tvg-id="TvCidade10" tvg-name="Tv Cidade 10" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202607/14108_720p_f_16x9.webp?v=1783065693" group-title="Brazil",Tv Cidade 10
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a476fa232c8a5510e090215&AV_CHANNEL_NAME=TV-Cidade-10&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-5&AV_TITLE=TV-Cidade-10&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Entertainment&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=TV-Cidade-10&AV_CUSTOM17=Google--520678__204__14108__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14108
+#EXTINF:-1 tvg-id="TVCidade10" tvg-name="TV Cidade 10" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cidade-10.png" group-title="Brazil",TV Cidade 10
+https://video10.logicahost.com.br/tvcidade10/tvcidade10/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCidadeAraatuba" tvg-name="TV Cidade Araçatuba" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cidade-aracatuba.png" group-title="Brazil",TV Cidade Araçatuba
+https://video08.logicahost.com.br/tvc21/tvc21/playlist.m3u8
+#EXTINF:-1 tvg-id="TvCidadeBahia" tvg-name="Tv Cidade Bahia" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cidade-bahia.png" group-title="Brazil",Tv Cidade Bahia
+https://cdn.live.br1.jmvstream.com/webtv/ifulrbjz/playlist/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCidadeRiodeJaneiro" tvg-name="TV Cidade Rio de Janeiro" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cidade-rio-de-janeiro.png" group-title="Brazil",TV Cidade Rio de Janeiro
+https://stream.ichibantv.com:3809/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TVCidadeVerde" tvg-name="TV Cidade Verde" tvg-logo="https://i.ibb.co/nnnyG3k/029.jpg" group-title="Brazil",TV Cidade Verde
+https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8
+#EXTINF:-1 tvg-id="TvcidadeverdeCuiab" tvg-name="Tv cidade verde Cuiabá" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/11/Logotipo_da_Rede_Cidade_Verde-1.png" group-title="Brazil",Tv cidade verde Cuiabá
+https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+#EXTINF:-1 tvg-id="TVComBrasil" tvg-name="TV Com Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-com-brasil.png" group-title="Brazil",TV Com Brasil
+https://br5093.streamingdevideo.com.br:443/abc/abc/playlist.m3u8
+#EXTINF:-1 tvg-id="TVComDF" tvg-name="TV Com DF" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-com-df.png" group-title="Brazil",TV Com DF
+https://5b7f3c45ab7c2.streamlock.net/8008/8008/playlist.m3u8
+#EXTINF:-1 tvg-id="TVConexo" tvg-name="TV Conexão" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-conexao.png" group-title="Brazil",TV Conexão
+https://pop.uniquetv.com.br/tvconexao/video.m3u8
+#EXTINF:-1 tvg-id="TVCONQUISTA" tvg-name="TV CONQUISTA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-conquista.png" group-title="Brazil",TV CONQUISTA
+https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+#EXTINF:-1 tvg-id="TVCristalTocantins" tvg-name="TV Cristal Tocantins" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cristal-tocantins.png" group-title="Brazil",TV Cristal Tocantins
+https://tv03.zas.media:1936/tvcristalto/tvcristalto/chunklist_w63998101.m3u8
 #EXTINF:-1 tvg-id="TvCultural" tvg-name="Tv Cultural" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202606/14080_720p_f_16x9.webp?v=1781151625" group-title="Brazil",Tv Cultural
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a2a542146162b15de0c3096&AV_CHANNEL_NAME=TV-Cultural-HD&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB17-12&AV_TITLE=TV-Cultural-HD&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Soccer&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=TV-Cultural-HD&AV_CUSTOM17=Google--520678__204__14080__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14080
+#EXTINF:-1 tvg-id="TVCMARALINS" tvg-name="TV CÂMARA LINS" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-camara-lins.png" group-title="Brazil",TV CÂMARA LINS
+https://video04.logicahost.com.br/camaralins/camaralins/playlist.m3u8
+#EXTINF:-1 tvg-id="TVDaPesca" tvg-name="TV Da Pesca" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-da-pesca.png" group-title="Brazil",TV Da Pesca
+https://isaocorp.cloudecast.com/tvdapesca/index.m3u8
+#EXTINF:-1 tvg-id="TVDifusoraLeste" tvg-name="TV Difusora Leste" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/203/2024/07/252810197_2927661030712377_3852608683659475570_n-e1721651897706.png" group-title="Brazil",TV Difusora Leste
+https://stream.amsolution.net.br:8443/live/60d0a8ea6b884/index.m3u8
+#EXTINF:-1 tvg-id="TVDifusoraSoLus" tvg-name="TV Difusora São Luís" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/203/2024/07/245792697_3958664411025416_3600284647331741374_n-e1721651722307.png" group-title="Brazil",TV Difusora São Luís
+https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8
+#EXTINF:-1 tvg-id="TVDIFUSO" tvg-name="TV DIFUSÃO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-difusao.png" group-title="Brazil",TV DIFUSÃO
+https://tvditv.acessaradios.com.br/tvditv/tvditv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVDIVERSIDADE" tvg-name="TV DIVERSIDADE" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-diversidade.png" group-title="Brazil",TV DIVERSIDADE
+https://cdn.live.br1.jmvstream.com/webtv/AVJ-12928/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="TvDirioDoSerto" tvg-name="Tv Diário Do Sertão" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202605/14055_720p_f_16x9.webp?v=1779431719" group-title="Brazil",Tv Diário Do Sertão
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a0fcf63a534b75506011414&AV_CHANNEL_NAME=TV-Diário-do-Sertão&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB12&AV_TITLE=TV-Diário-do-Sertão&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Current Affairs&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=TV-Diário-do-Sertão&AV_CUSTOM17=Google--520678__204__14055__0__0__0____MP&AV_CUSTOM18=MX_GIVN
+#EXTINF:-1 tvg-id="TVDirioDoSerto" tvg-name="TV Diário Do Sertão" tvg-logo="https://i.ibb.co/cTCtLMj/021.jpg" group-title="Brazil",TV Diário Do Sertão
+https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEntonoSul" tvg-name="TV Entono Sul" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-entono-sul.png" group-title="Brazil",TV Entono Sul
+https://video01.kshost.com.br/manoel2072/manoel2072/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEXPLOSOFM" tvg-name="TV EXPLOSÃO FM" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-explosao-fm.png" group-title="Brazil",TV EXPLOSÃO FM
+https://stmv1.liveplushd.com.br/tvexplosaofm/tvexplosaofm/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEXPLOSOFMFILIAL" tvg-name="TV EXPLOSÃO FM FILIAL" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-explosao-fm-filial.png" group-title="Brazil",TV EXPLOSÃO FM FILIAL
+https://srv3.zcast.com.br/edson6164/edson6164/playlist.m3u8ylist.m3u8
+#EXTINF:-1 tvg-id="TVFeiradeSantanaAoVivo" tvg-name="TV Feira de Santana Ao Vivo" tvg-logo="https://redeitv.online/roku/imgcanais/feira-de-santana.jpg?alt=media&token=1c8ff367-e1bf-47a7-8b1e-b32a292b3ba7" group-title="Brazil",TV Feira de Santana Ao Vivo
+https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/chunklist_w174675839.m3u8?fluxustv.m3u8
+#EXTINF:-1 tvg-id="TVFELIZ" tvg-name="TV FELIZ" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/142/2023/08/LOGO.png" group-title="Brazil",TV FELIZ
+https://video01.logicahost.com.br/tvfeliz/tvfeliz/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGalega" tvg-name="TV Galega" tvg-logo="https://i.ibb.co/3MtcpfN/vivo.jpg" group-title="Brazil",TV Galega
+https://cdn.jmvstream.com/w/LVW-8538/LVW8538_KBtZ9UMIZn/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGazin" tvg-name="TV Gazin" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-gazin.png" group-title="Brazil",TV Gazin
+https://video09.logicahost.com.br/tvgazin/tvgazin/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGOITAC" tvg-name="TV GOITACÁ" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/2137/2024/06/TV-GOITACA-IP-TV-1.png" group-title="Brazil",TV GOITACÁ
+https://video01.kshost.com.br/david7639/david7639/playlist.m3u8
+#EXTINF:-1 tvg-id="TvGrandeNatal" tvg-name="Tv Grande Natal" tvg-logo="https://hosttec.online/rokuxml/natal/vivo.jpg" group-title="Brazil",Tv Grande Natal
+https://canalteste.duckdns.org:443/app/tvgrandenatalhdtv/llhls.m3u8
+#EXTINF:-1 tvg-id="TVGRANDENATALTVBRASIL" tvg-name="TV GRANDE NATALTV BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/909/2024/06/logo-para-icone.jpg" group-title="Brazil",TV GRANDE NATALTV BRASIL
+https://canalteste.duckdns.org/app/tvgrandenatalhdtv/llhls.m3u8
+#EXTINF:-1 tvg-id="TVGroVerde" tvg-name="TV Grão Verde" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-grao-verde.png" group-title="Brazil",TV Grão Verde
+https://stmv1.srvif.com/gesimas/gesimas/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGuarRedeTV" tvg-name="TV Guará - RedeTV!" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-guara-redetv.png" group-title="Brazil",TV Guará - RedeTV!
+https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
+#EXTINF:-1 tvg-id="TVHistria" tvg-name="TV História" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-historia.png" group-title="Brazil",TV História
+https://video10.logicahost.com.br/tvhistoria/tvhistoria/playlist.m3u8
+#EXTINF:-1 tvg-id="TVHORTOLNDIA" tvg-name="TV HORTOLÂNDIA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-hortolandia.png" group-title="Brazil",TV HORTOLÂNDIA
+https://s1.tvr.ovh/video83070/video83070/playlist.m3u8
+#EXTINF:-1 tvg-id="TVIFCINE" tvg-name="TV IF CINE" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-if-cine.png" group-title="Brazil",TV IF CINE
+https://stmv1.srvsite.com/tvifcine/tvifcine/playlist.m3u8
+#EXTINF:-1 tvg-id="TVIMJC" tvg-name="TV IMJC" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-imjc.png" group-title="Brazil",TV IMJC
+https://stmv7.voxtvhd.com.br/tvimjc/tvimjc/playlist.m3u8
+#EXTINF:-1 tvg-id="TVITABAIANA" tvg-name="TV ITABAIANA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-itabaiana.png" group-title="Brazil",TV ITABAIANA
+https://live20.bozztv.com/akamaissh101/ssh101/tvitabaiana/chunks.m3u8
+#EXTINF:-1 tvg-id="TVItaipuau" tvg-name="TV Itaipuaçu" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-itaipuacu.png" group-title="Brazil",TV Itaipuaçu
+https://stmv5.samcast.com.br/jorgerobertorodriguescardoso1832/jorgerobertorodriguescardoso1832/playlist.m3u8
+#EXTINF:-1 tvg-id="TvJSID" tvg-name="Tv J.SID" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/05/novo16.jpg" group-title="Brazil",Tv J.SID
+https://video05.logicahost.com.br/tvjsid/tvjsid/playlist.m3u8
+#EXTINF:-1 tvg-id="TVJAPO" tvg-name="TV JAPÃO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-japao.png" group-title="Brazil",TV JAPÃO
+https://pop.uniquetv.com.br/tvjapao/video.m3u8
+#EXTINF:-1 tvg-id="TvLagoaDantas" tvg-name="Tv Lagoa Dantas" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-lagoa-dantas.png" group-title="Brazil",Tv Lagoa Dantas
+https://srv3.zcast.com.br/tvlagoadantas/tvlagoadantas/playlist.m3u8
+#EXTINF:-1 tvg-id="TVLagos" tvg-name="TV Lagos" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1296/2024/03/800x450.png" group-title="Brazil",TV Lagos
+https://video01.kshost.com.br/tvlagos/tvlagos/playlist.m3u8
+#EXTINF:-1 tvg-id="TVLiberdade" tvg-name="TV Liberdade" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/84/2024/07/TV-Liberdade-800x450-1.png" group-title="Brazil",TV Liberdade
+https://video01.kshost.com.br/eberson6273/eberson6273/playlist.m3u8
+#EXTINF:-1 tvg-id="TVLIFEAMRICA" tvg-name="TV LIFE AMÉRICA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-life-america.png" group-title="Brazil",TV LIFE AMÉRICA
+https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
+#EXTINF:-1 tvg-id="TVMaisMarlia" tvg-name="TV Mais Marília" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mais-marilia.png" group-title="Brazil",TV Mais Marília
+https://video01.logicahost.com.br/tvmais/tvmais/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMAISPET" tvg-name="TV MAIS PET" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mais-pet.png" group-title="Brazil",TV MAIS PET
+https://isaocorp.cloudecast.com/tvmaispet/index.m3u8
+#EXTINF:-1 tvg-id="TVManancial" tvg-name="TV Manancial" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-manancial.png" group-title="Brazil",TV Manancial
+https://srv4.zcast.com.br/flavio8792/flavio8792/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMarRioGrande" tvg-name="TV Mar Rio Grande" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mar-rio-grande.png" group-title="Brazil",TV Mar Rio Grande
+https://video04.logicahost.com.br/tvmarzonasul/tvmarzonasul/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMarajoara" tvg-name="TV Marajoara" tvg-logo="https://i.ibb.co/zJTmHFm/018.jpg" group-title="Brazil",TV Marajoara
+https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMARCHETI" tvg-name="TV MARCHETI" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/95/2023/07/logo-tv-projeto-e1690460421190.jpg" group-title="Brazil",TV MARCHETI
+https://Stmv1.samcast.com.br/junior4319/junior4319/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMEGABRASIL" tvg-name="TV MEGA BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1367/2024/04/BackgroundEraser_20230923_191810870-e1712923742793.png" group-title="Brazil",TV MEGA BRASIL
+https://video01.kshost.com.br/sergio7305/sergio7305/playlist.m3u8
+#EXTINF:-1 tvg-id="Tvmetropoleguaiuba" tvg-name="Tv metropole guaiuba" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropole-guaiuba.png" group-title="Brazil",Tv metropole guaiuba
+https://stmv3.webtvninjas.com.br/tvguaiuba/tvguaiuba/playlist.m3u8
+#EXTINF:-1 tvg-id="TvmetropoleSobral461" tvg-name="Tv metropole Sobral 46.1" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metrople-sobral-461.png" group-title="Brazil",Tv metropole Sobral 46.1
+https://stmv4.voxtvhd.com.br/tvmetropolesobral/tvmetropolesobral/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMetropolitana" tvg-name="TV Metropolitana" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropolitana.png" group-title="Brazil",TV Metropolitana
+https://video04.logicahost.com.br/redemetropolitana/redemetropolitana/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMETROPOLITANABELM" tvg-name="TV METROPOLITANA - BELÉM" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropolitana-belem.png" group-title="Brazil",TV METROPOLITANA - BELÉM
+https://video09.logicahost.com.br/tvmpara/tvmpara/chunklist_w1770665011.m3u8
+#EXTINF:-1 tvg-id="TVMETROPOLITANARIO" tvg-name="TV METROPOLITANA RIO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropolitana-rio.png" group-title="Brazil",TV METROPOLITANA RIO
+https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMetrpole" tvg-name="TV Metrópole" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/844/2024/02/images-1.jpeg" group-title="Brazil",TV Metrópole
+https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/chunklist_w545902318.m3u8
+#EXTINF:-1 tvg-id="TVMIRAFM" tvg-name="TV MIRA FM" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mira-fm.png" group-title="Brazil",TV MIRA FM
+https://srv3.zcast.com.br/edson6164/edson6164/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMirai" tvg-name="TV Mirai" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mirai.png" group-title="Brazil",TV Mirai
+https://stream.ichibantv.com:3738/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TVMon" tvg-name="TV Mon" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/84/2023/07/TV-1-JPG-3.jpg" group-title="Brazil",TV Mon
+https://video10.logicahost.com.br/tvmon/tvmon/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNBN" tvg-name="TV NBN" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/03/tv-nbn.jpg" group-title="Brazil",TV NBN
+https://cdn.live.br1.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNORTENEWS" tvg-name="TV NORTE NEWS" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-norte-news.png" group-title="Brazil",TV NORTE NEWS
+https://stmv8.samcast.com.br/paulojose3646/paulojose3646/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNORTEPARSC" tvg-name="TV NORTE PARÁ - SC" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-norte-para-sc.png" group-title="Brazil",TV NORTE PARÁ - SC
+https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNotciasAgrcolas" tvg-name="TV Notícias Agrícolas" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-noticias-agricolas.png" group-title="Brazil",TV Notícias Agrícolas
+https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNOVAJUAREZ" tvg-name="TV NOVA JUAREZ" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-nova-juarez.png" group-title="Brazil",TV NOVA JUAREZ
+https://stmv1.srvif.com/rodasdecapoeirapb/rodasdecapoeirapb/playlist.m3u8
+#EXTINF:-1 tvg-id="Tvnovajuarezcanal2" tvg-name="Tv nova juarez canal 2" tvg-logo="https://s3minio.webativa.com.br/redeitv/nanal-2-tv-nova-juarez.png" group-title="Brazil",Tv nova juarez canal 2
+https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNOVAMT" tvg-name="TV NOVA MT" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/09/LOGO-TV-NOVA-MT-1.png" group-title="Brazil",TV NOVA MT
+https://video05.logicahost.com.br/tvnovaweb1/tvnovaweb1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNovaNordeste" tvg-name="TV Nova Nordeste" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/10/TVNOVA-1-1.jpg" group-title="Brazil",TV Nova Nordeste
+https://acesso.ecast.site:3675/live/novatvlive.m3u8
+#EXTINF:-1 tvg-id="TVNovoTempo" tvg-name="TV Novo Tempo" tvg-logo="https://redeitv.online/roku/imgcanais/novo-tempo.jpg?alt=media&token=86102375-67b0-4f50-8a12-730a2afb9dcf" group-title="Brazil",TV Novo Tempo
+http://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVOReporter" tvg-name="TV O Reporter" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-o-reporter.png" group-title="Brazil",TV O Reporter
+https://pop.uniquetv.com.br/tvoreporter/video.m3u8
+#EXTINF:-1 tvg-id="TVOlhoDgua" tvg-name="TV Olho D´água" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-olho-dagua.png" group-title="Brazil",TV Olho D´água
+https://video08.logicahost.com.br/tvolhodagua/tvolhodagua/playlist.m3u8
+#EXTINF:-1 tvg-id="TVOMINDAR" tvg-name="TV OMINDARÉ" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/858/2024/02/TV-omindare.png" group-title="Brazil",TV OMINDARÉ
+https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8
+#EXTINF:-1 tvg-id="TVONE" tvg-name="TV ONE" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-one.png" group-title="Brazil",TV ONE
+https://video08.logicahost.com.br/redeonebrasil/redeonebrasil/playlist.m3u8
+#EXTINF:-1 tvg-id="TvPadreCicero" tvg-name="Tv Padre Cicero" tvg-logo="https://i.ibb.co/hZwzXDY/008.jpg" group-title="Brazil",Tv Padre Cicero
+https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPaiEterno" tvg-name="TV Pai Eterno" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-pai-eterno.png" group-title="Brazil",TV Pai Eterno
+https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1170674421.m3u8
+#EXTINF:-1 tvg-id="TVParadise" tvg-name="TV Paradise" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-paradise.png" group-title="Brazil",TV Paradise
+https://stmv5.samcast.com.br/marcos3057/marcos3057/playlist.m3u8
+#EXTINF:-1 tvg-id="TVParanTurismo" tvg-name="TV Paraná Turismo" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-parana-turismo.png" group-title="Brazil",TV Paraná Turismo
+http://200.189.113.201/hls/tve.m3u8
+#EXTINF:-1 tvg-id="TVPETRPOLIS" tvg-name="TV PETRÓPOLIS" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/04/Novo-Projeto.png" group-title="Brazil",TV PETRÓPOLIS
+https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPLANALTO" tvg-name="TV PLANALTO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-planalto.png" group-title="Brazil",TV PLANALTO
+https://pop.uniquetv.com.br/tvplanaltonorte/video.m3u8
+#EXTINF:-1 tvg-id="TvPontadaSerra" tvg-name="Tv Ponta da Serra" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-ponta-da-serra.png" group-title="Brazil",Tv Ponta da Serra
+https://ikki.hubcloud.tv.br/PontadaSerra/index.m3u8
+#EXTINF:-1 tvg-id="TVPOPULAR" tvg-name="TV POPULAR" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-popular.png" group-title="Brazil",TV POPULAR
+https://live20.bozztv.com/giatvplayout7/giatv-208800/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="TVPortal" tvg-name="TV Portal" tvg-logo="http://redeitv.online/roku/thumb/Logo-Portal-Ativo.jpeg" group-title="Brazil",TV Portal
+https://flussonic-tv.jupiter.com.br/portalativo/index.m3u8
 #EXTINF:-1 tvg-id="TvPraia" tvg-name="Tv Praia" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202607/14106_720p_f_16x9.webp?v=1783065715" group-title="Brazil",Tv Praia
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a476f44858b8009490d68d8&AV_CHANNEL_NAME=TV-Praia&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB12&AV_TITLE=TV-Praia&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Entertainment News&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=TV-Praia&AV_CUSTOM17=Google--520678__204__14106__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14106
+#EXTINF:-1 tvg-id="TvPrincesadoVale" tvg-name="Tv Princesa do Vale" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/02/princesadovale.jpg" group-title="Brazil",Tv Princesa do Vale
+https://stmv.jnbhost.com.br/tvprincesadovale/tvprincesadovale/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRabelo" tvg-name="TV Rabelo" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-rabelo.png" group-title="Brazil",TV Rabelo
+https://stv1.ipstm.net:3080/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TVRabeloNacionalRede" tvg-name="TV Rabelo Nacional (Rede)" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/2382/2024/07/background-tv-1280x720.jpg-e1722946457125.png" group-title="Brazil",TV Rabelo Nacional (Rede)
+https://video01.logicahost.com.br/televisaorabelo/televisaorabelo/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRADICALDIGITAL" tvg-name="TV RADICAL DIGITAL" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-radical-digital.png" group-title="Brazil",TV RADICAL DIGITAL
+https://stmv1.srvif.com/tvradicaldigital/tvradicaldigital/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRecncavo" tvg-name="TV Recôncavo" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1188/2024/03/logo-i-TV.png" group-title="Brazil",TV Recôncavo
+https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRedeUnio" tvg-name="TV Rede União" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/844/2024/02/images-2.jpeg" group-title="Brazil",TV Rede União
+https://live.uniaoplus.com/hls/8b43MluBjzR7M1Uk.m3u8
+#EXTINF:-1 tvg-id="TVRioMadeira" tvg-name="TV Rio Madeira" tvg-logo="https://redeitv.online/roku/imgcanais/web-tv.jpg?alt=media&token=0ee24aea-3b47-43f5-94b9-0b07c7d1ab03" group-title="Brazil",TV Rio Madeira
+https://stmv1.srvif.com/tvriomadeira/tvriomadeira/playlist.m3u8
 #EXTINF:-1 tvg-id="TvSerrana" tvg-name="Tv Serrana" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202606/14083_720p_f_16x9.webp?v=1781155679" group-title="Brazil",Tv Serrana
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a2a53cd780077a15f09cee6&AV_CHANNEL_NAME=TV-Serrana&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-7&AV_TITLE=TV-Serrana&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Music&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=TV-Serrana&AV_CUSTOM17=Google--520678__204__14083__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14083
+#EXTINF:-1 tvg-id="TVSerrana" tvg-name="TV Serrana" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-serrana.png" group-title="Brazil",TV Serrana
+https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSERTO" tvg-name="TV SERTÃO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-sertao.png" group-title="Brazil",TV SERTÃO
+https://stmv7.samcast.com.br/tvsertao/tvsertao/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSONORA" tvg-name="TV SONORA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-sonora.jpeg" group-title="Brazil",TV SONORA
+https://video01.kshost.com.br/xavier4499/xavier4499/playlist.m3u8
+#EXTINF:-1 tvg-id="TVTHATHI" tvg-name="TV THATHI" tvg-logo="http://redeitv.online/roku/thumb/live.jpeg" group-title="Brazil",TV THATHI
+https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
+#EXTINF:-1 tvg-id="TVTROPICALRECORD" tvg-name="TV TROPICAL RECORD" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1450/2024/04/TV-TROPICAL-800x450-1.png" group-title="Brazil",TV TROPICAL RECORD
+https://video07.logicahost.com.br/portaldatropical/portaldatropical/chunklist_w1310062622.m3u8
+#EXTINF:-1 tvg-id="TVTUDOPARAN" tvg-name="TV TUDO PARANÁ" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-tudo-parana.png" group-title="Brazil",TV TUDO PARANÁ
+https://pop.uniquetv.com.br/tvtudoparana/video.m3u8
+#EXTINF:-1 tvg-id="TVTVR" tvg-name="TV TVR" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/2240/2024/07/Design-sem-nome.png" group-title="Brazil",TV TVR
+https://stmv1.voxtvhd.com.br/4430/4430/playlist.m3u8
+#EXTINF:-1 tvg-id="TVUFMA" tvg-name="TV UFMA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-ufma.png" group-title="Brazil",TV UFMA
+https://media-gmcdn.eduplay.rnp.br/media/CFypFL3SnHR0/lSrfw6LfC9616EiCTlcPZQ'1/720_index.m3u8
+#EXTINF:-1 tvg-id="TVUniversal" tvg-name="TV Universal" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/02/images-1.jpg" group-title="Brazil",TV Universal
+https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/chunklist_a28199d1-7c29-459d-a498-993be08420ef.m3u8
+#EXTINF:-1 tvg-id="TVVelhosTempos" tvg-name="TV Velhos Tempos" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-velhos-tempos.png" group-title="Brazil",TV Velhos Tempos
+https://stmv5.voxtvhd.com.br/demo/demo/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAN" tvg-name="TVAN" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvan.png" group-title="Brazil",TVAN
+https://video01.logicahost.com.br/agronosso/agronosso/playlist.m3u8
 #EXTINF:-1 tvg-id="Tvbc" tvg-name="Tvbc" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202607/14109_720p_f_16x9.webp?v=1783065667" group-title="Brazil",Tvbc
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6a476fccf8e9b7a4ff0f5f2b&AV_CHANNEL_NAME=TVBC&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_RATING=TV-G&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB6&AV_TITLE=TVBC&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Cartoons&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=TVBC&AV_CUSTOM17=Google--520678__204__14109__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-14109
+#EXTINF:-1 tvg-id="TVBC" tvg-name="TVBC" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvbc.png" group-title="Brazil",TVBC
+https://stmv2.samcast.com.br/sandro9822/sandro9822/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCTocantins" tvg-name="TVC Tocantins" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvc-tocantins.png" group-title="Brazil",TVC Tocantins
+https://tv03.zas.media:1936/tvcristalto/tvcristalto/chunklist_w1189538587.m3u8
+#EXTINF:-1 tvg-id="TVCi" tvg-name="TVCi" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvci.png" group-title="Brazil",TVCi
+https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
+#EXTINF:-1 tvg-id="TVCOM" tvg-name="TVCOM" tvg-logo="https://redeitv.online/roku/imgcanais/tvcom.jpg" group-title="Brazil",TVCOM
+https://video01.logicahost.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
+#EXTINF:-1 tvg-id="TVD" tvg-name="TVD" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/126/2023/08/TVD-ok-outro.jpg" group-title="Brazil",TVD
+https://tvdescalvadoitv.acessaradios.com.br/tvdescalvadoitv/tvdescalvadoitv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVERS" tvg-name="TVE RS" tvg-logo="https://s3minio.webativa.com.br/redeitv/tve-rs.png" group-title="Brazil",TVE RS
+https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
+#EXTINF:-1 tvg-id="TVIN" tvg-name="TVIN" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvin.png" group-title="Brazil",TVIN
+https://live.tvinterior.com.br/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TvNilcera" tvg-name="TvNilcera" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvnilcera.png" group-title="Brazil",TvNilcera
+https://live21.bozztv.com/akamaissh101/ssh101/tvnilcera/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPRedeBrasil" tvg-name="TVP - Rede Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvp-rede-brasil.png" group-title="Brazil",TVP - Rede Brasil
+https://stream.ichibansys.com:3441/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="tvPBC18" tvg-name="tvPBC18" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/714/2024/01/tv-pbc-800x450-1.png" group-title="Brazil",tvPBC18
+https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
+#EXTINF:-1 tvg-id="tvportalweb" tvg-name="tvportalweb" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvportalweb.png" group-title="Brazil",tvportalweb
+https://stmv.webtvninjas.com.br/tvportalweb/tvportalweb/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRAmparo" tvg-name="TVR Amparo" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvr-amparo.png" group-title="Brazil",TVR Amparo
+https://srv6.zcast.com.br/lupercio1654/lupercio1654/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSLITORALNORTE" tvg-name="TVS LITORAL NORTE" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvs-litoral-norte.png" group-title="Brazil",TVS LITORAL NORTE
+https://video01.kshost.com.br/rede1220/rede1220/playlist.m3u8
+#EXTINF:-1 tvg-id="UMATV" tvg-name="UMA TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/uma-tv.png" group-title="Brazil",UMA TV
+https://umatv.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="UnifCristo" tvg-name="Unifé Cristão" tvg-logo="https://s3minio.webativa.com.br/redeitv/unife-cristao.png" group-title="Brazil",Unifé Cristão
+https://iframe.dacast.com/live/24b61c472d976075ed46ad1eb530e6ae/fdc85437d7631afb59fe3767dcc464dd
+#EXTINF:-1 tvg-id="UniqueTV" tvg-name="Unique TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/unique-tv.png" group-title="Brazil",Unique TV
+https://pop.uniquetv.com.br/uniquetv/video.m3u8
+#EXTINF:-1 tvg-id="UnisulTV" tvg-name="Unisul TV" tvg-logo="https://redeitv.online/roku/imgcanais/unisul-tv.jpg?alt=media&token=5eaf8f54-6a37-4997-b79f-43c9750c430f" group-title="Brazil",Unisul TV
+https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8
+#EXTINF:-1 tvg-id="UNOTV" tvg-name="UNO TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/uno-tv.png" group-title="Brazil",UNO TV
+https://unotvstreaming.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="VGSTV" tvg-name="VGSTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/vgstv.png" group-title="Brazil",VGSTV
+https://maystreaming.cloudecast.com/vgstv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ViaMorena" tvg-name="Via Morena" tvg-logo="https://redeitv.online/roku/imgcanais/via-morena.jpg?alt=media&token=d9e536b3-9c03-47ae-828b-36d536c79b32" group-title="Brazil",Via Morena
+https://5ad482a77183d.streamlock.net/cleuzaviamorena.com/cleuzaviamorena.com/playlist.m3u8
+#EXTINF:-1 tvg-id="VivaVida" tvg-name="Viva Vida" tvg-logo="https://s3minio.webativa.com.br/redeitv/viva-vida.png" group-title="Brazil",Viva Vida
+https://stmv1.srvif.com/vivavida/vivavida/playlist.m3u8
+#EXTINF:-1 tvg-id="VoxTV" tvg-name="VoxTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1117/2024/03/BANNER-VOXTV-APP-ITV-1.png" group-title="Brazil",VoxTV
+https://stmv1.samcast.com.br/voxtv/voxtv/playlist.m3u8
+#EXTINF:-1 tvg-id="W1WEBTV" tvg-name="W1WEBTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1359/2024/04/LOGO_W1WEBTV_ITV.png" group-title="Brazil",W1WEBTV
+https://stmv5.samcast.com.br/oscarwagnerdesouza1083/oscarwagnerdesouza1083/playlist.m3u8
+#EXTINF:-1 tvg-id="WebRdioLairtonTeclas" tvg-name="Web Rádio Lairton Teclas" tvg-logo="https://s3minio.webativa.com.br/redeitv/web-radio-lairton-teclas.png" group-title="Brazil",Web Rádio Lairton Teclas
+https://live20.bozztv.com/akamaissh101/ssh101/ltrecords/playlist.m3u8
+#EXTINF:-1 tvg-id="WEBTVCATOLICA" tvg-name="WEB TV CATOLICA" tvg-logo="https://s3minio.webativa.com.br/redeitv/web-tv-catolica.png" group-title="Brazil",WEB TV CATOLICA
+https://stmv1.paineldevideo.com.br/webcatolica/webcatolica/playlist.m3u8
+#EXTINF:-1 tvg-id="WEBTVCR" tvg-name="WEB TV CR" tvg-logo="https://s3minio.webativa.com.br/redeitv/web-tv-cr.png" group-title="Brazil",WEB TV CR
+https://stmv1.paineldevideo.com.br/teste/teste/playlist.m3u8
+#EXTINF:-1 tvg-id="WebTvJuventude" tvg-name="Web Tv Juventude" tvg-logo="https://i.ibb.co/1vRsHpG/1280.jpg" group-title="Brazil",Web Tv Juventude
+https://stmv1.srvif.com/valmirtv/valmirtv/playlist.m3u8
+#EXTINF:-1 tvg-id="WEBTVPSIHARMONIA" tvg-name="WEB TV PSIHARMONIA" tvg-logo="https://s3minio.webativa.com.br/redeitv/web-tv-psiharmonia.png" group-title="Brazil",WEB TV PSIHARMONIA
+https://stmv1.paineldevideo.com.br/psiharmonia/psiharmonia/playlist.m3u8
+#EXTINF:-1 tvg-id="WebTvFamiliadeJesus" tvg-name="WebTv Familia de Jesus" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1933/2024/06/WebTv-Familia-de-Jesus-1.jpg" group-title="Brazil",WebTv Familia de Jesus
+https://stmv1.srvif.com/tvadorando/tvadorando/playlist.m3u8
+#EXTINF:-1 tvg-id="WebTvNpfd" tvg-name="WebTv Npfd" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1094/2024/03/1704417432615-3.jpg" group-title="Brazil",WebTv Npfd
+https://video07.logicahost.com.br/webyvnpfd/webyvnpfd/playlist.m3u8
 #EXTINF:-1 tvg-id="WedoamorPielSalvajePortuguese" tvg-name="Wedoamor Piel Salvaje Portuguese" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202601/13988_720p_f_16x9.webp?v=1768994543" group-title="Brazil",Wedoamor Piel Salvaje Portuguese
 https://amg00735-amg00735c49-metax-international-10856.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedoamorpielsalvajepor-metaxinternational/playlist.m3u8?app_bundle=MX_APP_BUNDLE&app_name=MX_APP_NAME&app_store_url=MX_APP_STORE_URL&us_privacy=MX_US_PRIVACY&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&did=MX_DUID&dnt=MX_DNT&ic=IAB1-7&ifa_type=MX_IFA_TYPE&coppa=MX_COPPA&content_network=MetaXTV&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13988&AV_CUSTOM17=Google--520678__161__13988__0__0__0____MP
+#EXTINF:-1 tvg-id="YeeaahDois" tvg-name="Yeeaah Dois" tvg-logo="https://s3minio.webativa.com.br/redeitv/yeeaah-dois.png" group-title="Brazil",Yeeaah Dois
+https://srv5.zcast.com.br/yeeaahradio/yeeaahradio/playlist.m3u8

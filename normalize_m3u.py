@@ -433,6 +433,20 @@ def normalize_group(group_title, channel_name=""):
         if len(parts[0]) == 2 and parts[0].upper() in COUNTRY_PREFIXES:
             return COUNTRY_PREFIXES[parts[0].upper()]
 
+    # DaddyLive / Live Events categorization by channel name
+    if group_title == "Live Events":
+        # Parse sport from channel name (e.g., "Soccer | Argentina - ..." → Sports)
+        name_lower = channel_name.lower()
+        if any(sport in name_lower for sport in ['soccer', 'football', 'cricket', 'tennis', 'basketball',
+                                                   'baseball', 'hockey', 'rugby', 'golf', 'boxing',
+                                                   'mma', 'ufc', 'f1', 'formula', 'nascar', 'motorsport']):
+            return "Sports"
+        if any(sport in name_lower for sport in ['nfl', 'nba', 'mlb', 'nhl', 'afl', 'epl']):
+            return "Sports"
+        if 'australian open' in name_lower or 'a-league' in name_lower:
+            return "Sports"
+        return "Sports"  # Default Live Events to Sports
+
     # Default: keep original but truncate if too long
     if len(group_title) > 30:
         return group_title[:30]
@@ -613,9 +627,9 @@ def main():
     print("  DJRay IPTV - M3U Normalizer")
     print("=" * 60)
 
-    # Parse all playlist files
+    # Parse all playlist files (both .m3u and .m3u8)
     all_channels = []
-    playlist_files = sorted(PLAYLIST_DIR.glob("*.m3u"))
+    playlist_files = sorted(list(PLAYLIST_DIR.glob("*.m3u")) + list(PLAYLIST_DIR.glob("*.m3u8")))
 
     print(f"\nFound {len(playlist_files)} playlist files")
 
@@ -639,10 +653,45 @@ def main():
     count = write_m3u(normalized, master_file, "DJRay IPTV Hub")
     print(f"\nMaster M3U: {count} channels → {master_file}")
 
-    # Write per-category M3U files
-    print("\nGenerating per-category M3U files...")
+    # Merge small categories (fewer than 10 channels) into parent
+    MERGE_MAP = {
+        # Brazilian states → Brazil
+        "Alagoas": "Brazil", "Amazonas": "Brazil", "Amapa": "Brazil",
+        "Bahia": "Brazil", "Ceara": "Brazil", "Distrito Federal": "Brazil",
+        "Espirito Santo": "Brazil", "Goias": "Brazil", "Maranhao": "Brazil",
+        "Mato Grosso": "Brazil", "Minas Gerais": "Brazil", "Para": "Brazil",
+        "Paraiba": "Brazil", "Parana": "Brazil", "Pernambuco": "Brazil",
+        "Piaui": "Brazil", "Rio de Janeiro": "Brazil", "Rio Grande do Norte": "Brazil",
+        "Rio Grande do Sul": "Brazil", "Rondonia": "Brazil", "Roraima": "Brazil",
+        "Santa Catarina": "Brazil", "Sao Paulo": "Brazil", "Sergipe": "Brazil",
+        "Tocantins": "Brazil", "Acre": "Brazil", "Rondonia": "Brazil",
+        # Tiny countries → International
+        "Antarctica": "International", "Dominica": "International",
+        "Aruba": "International", "Bahrain": "International",
+        "Azerbaijan": "International", "Armenia": "International",
+        "Bulgaria": "International", "Afghanistan": "International",
+        "Burkina Faso": "International", "Bermuda": "International",
+        # Misc
+        "Action Sports": "Sports", "Formula 1": "Sports",
+        "Action": "Movies", "Adventure": "Movies",
+        "Comedy Drama": "Entertainment", "Comedy;Series": "Entertainment",
+        "TV Dramas": "Entertainment", "Séries": "Entertainment",
+        "Romance": "Movies", "Drama": "Entertainment",
+        "Classic TV": "Entertainment", "General": "Entertainment",
+        "Business": "News", "Educational": "Documentary",
+        "Culture": "Documentary", "Bullfighting": "Sports",
+        "Amagi Channels": "Entertainment", "CREATORS": "Entertainment",
+        "IRIS FTA Channels": "Entertainment", "Shop": "Lifestyle",
+        "International": "Entertainment",
+    }
+
+    print("\nMerging small categories...")
     categories = defaultdict(list)
     for ch in normalized:
+        # Check if this category should be merged
+        target = MERGE_MAP.get(ch.group_title)
+        if target:
+            ch.group_title = target
         categories[ch.group_title].append(ch)
 
     category_dir = OUTPUT_DIR / "categories"
@@ -664,10 +713,25 @@ def main():
         try:
             tree = ET.parse(epg_file)
             epg_channels = set()
+            epg_names = {}  # name -> id mapping
             for ch in tree.getroot().findall('channel'):
-                epg_channels.add(ch.get('id', ''))
+                ch_id = ch.get('id', '')
+                epg_channels.add(ch_id)
+                # Also map display-name for name-based matching
+                display = ch.find('display-name')
+                if display is not None and display.text:
+                    epg_names[display.text.lower().strip()] = ch_id
 
-            matched = sum(1 for c in normalized if c.tvg_id in epg_channels)
+            # Match by tvg-id first, then by name
+            matched = 0
+            for c in normalized:
+                if c.tvg_id in epg_channels:
+                    matched += 1
+                elif c.tvg_name.lower().strip() in epg_names:
+                    # Update tvg_id to match EPG
+                    c.tvg_id = epg_names[c.tvg_name.lower().strip()]
+                    matched += 1
+
             print(f"  EPG channels: {len(epg_channels)}")
             print(f"  Matched to playlist: {matched}/{len(normalized)} ({matched*100//len(normalized)}%)")
         except Exception as e:

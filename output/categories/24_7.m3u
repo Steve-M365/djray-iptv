@@ -1,0 +1,224 @@
+#EXTM3U
+# DJRay - 24/7
+# Total channels: 109
+# Generated: 2026-08-09 10:57:23
+
+# 24/7 (109 channels)
+#EXTINF:-1 tvg-id="mjh-cas39-fast" tvg-name="24 Hours in A&amp;E" tvg-logo="https://i.mjh.nz/.images/auto-cas39-fast-aa22c1.png" group-title="24/7",24 Hours in A&E
+https://i.mjh.nz/.r/cas39-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-60-minutes-australia-fast" tvg-name="60 Minutes Australia" tvg-logo="https://imageresizer.static9.net.au/kufGcZyXI7lNm32WrMV86xPNAnk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585173%2Fsquircle_60mins.png" group-title="24/7",60 Minutes Australia
+https://i.mjh.nz/.r/60-minutes-australia-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-7afl-fast" tvg-name="7AFL" tvg-logo="https://i.mjh.nz/.images/auto-7afl-fast-e8fdb6.png" group-title="24/7",7AFL
+https://i.mjh.nz/.r/7afl-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-7bravo-fast" tvg-name="7Bravo" tvg-logo="https://i.mjh.nz/.images/auto-7bravo-fast-04647e.png" group-title="24/7",7Bravo
+https://i.mjh.nz/.r/7bravo-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-9crime-fast" tvg-name="9Crime" tvg-logo="https://imageresizer.static9.net.au/OwBWBtMcLMF5vBP09k6w4LneJQM=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585343%2Fgroup-61566.png" group-title="24/7",9Crime
+https://i.mjh.nz/.r/9crime-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-9mysteryparanormal-fast" tvg-name="9Mystery&amp;Paranormal" tvg-logo="https://imageresizer.static9.net.au/1l9r5t0Fkyry61l_5eKpIxtv0SE=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F04%2F685323%2Fmp_squircle.png" group-title="24/7",9Mystery&Paranormal
+https://i.mjh.nz/.r/9mysteryparanormal-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-aircrashinvestigations-fast" tvg-name="Air Crash Investigations" tvg-logo="https://i.mjh.nz/.images/auto-aircrashinvestigations-fast-7ff35e.png" group-title="24/7",Air Crash Investigations
+https://i.mjh.nz/.r/aircrashinvestigations-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-allsaints-fast" tvg-name="All Saints" tvg-logo="https://i.mjh.nz/.images/auto-allsaints-fast-ebad23.png" group-title="24/7",All Saints
+https://i.mjh.nz/.r/allsaints-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-all-starcinema-fast" tvg-name="All-Star Cinema" tvg-logo="https://i.mjh.nz/.images/auto-all-starcinema-fast-9f2397.png" group-title="24/7",All-Star Cinema
+https://i.mjh.nz/.r/all-starcinema-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-anglersparadise-fast" tvg-name="Anglers Paradise" tvg-logo="https://i.mjh.nz/.images/auto-anglersparadise-fast-970ebb.png" group-title="24/7",Anglers Paradise
+https://i.mjh.nz/.r/anglersparadise-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-art-fast" tvg-name="Antiques Road Trip" tvg-logo="https://i.mjh.nz/.images/auto-art-fast-99c60f.png" group-title="24/7",Antiques Road Trip
+https://i.mjh.nz/.r/art-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-athleticsreplays-fast" tvg-name="Athletics Replays" tvg-logo="https://i.mjh.nz/.images/auto-athleticsreplays-fast-f68a21.png" group-title="24/7",Athletics Replays
+https://i.mjh.nz/.r/athleticsreplays-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-ausbiz-fast" tvg-name="ausbiz" tvg-logo="https://i.mjh.nz/.images/auto-ausbiz-fast-b12203.png" group-title="24/7",ausbiz
+https://i.mjh.nz/.r/ausbiz-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bbc-antiques-roadshow-247-fast" tvg-name="BBC Antiques Roadshow" tvg-logo="https://imageresizer.static9.net.au/zRjEXK-6iFh-92EKnAZN9rXREkA=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648315%2Fgroup-61774.png" group-title="24/7",BBC Antiques Roadshow
+https://i.mjh.nz/.r/bbc-antiques-roadshow-247-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bbc-comedy-fast" tvg-name="BBC Comedy" tvg-logo="https://imageresizer.static9.net.au/2bl6ZyviwjpHCeVoXf8twpEVFjo=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648314%2Fgroup-61772.png" group-title="24/7",BBC Comedy
+https://i.mjh.nz/.r/bbc-comedy-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bbc-food-fast" tvg-name="BBC Food" tvg-logo="https://imageresizer.static9.net.au/fsW8mo_8BA8nztvHgpodxtSmcjo=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F12%2F652517%2Fgroup-61812.png" group-title="24/7",BBC Food
+https://i.mjh.nz/.r/bbc-food-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bbc-home-garden-fast" tvg-name="BBC Home &amp; Garden" tvg-logo="https://imageresizer.static9.net.au/RHsGPvwhtEktqfW-Tg4ygRMy1ug=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648313%2Fgroup-61771.png" group-title="24/7",BBC Home & Garden
+https://i.mjh.nz/.r/bbc-home-garden-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bbc-news-fast" tvg-name="BBC News" tvg-logo="https://imageresizer.static9.net.au/85c0UKHMSSRPXJ2MJ2PXqvUcXok=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2026%2F03%2F763537%2Fbbc_squircle.png" group-title="24/7",BBC News
+https://i.mjh.nz/.r/bbc-news-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bbc-top-gear-247-fast" tvg-name="BBC Top Gear" tvg-logo="https://imageresizer.static9.net.au/anIncnAgaLBmeroZtHqBIXHpW6c=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648316%2Fgroup-61773.png" group-title="24/7",BBC Top Gear
+https://i.mjh.nz/.r/bbc-top-gear-247-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-belowdeckvault-fast" tvg-name="Below Deck Vault" tvg-logo="https://i.mjh.nz/.images/auto-belowdeckvault-fast-587793.png" group-title="24/7",Below Deck Vault
+https://i.mjh.nz/.r/belowdeckvault-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-betterhomesandgardens-fast" tvg-name="Better Homes And Gardens" tvg-logo="https://i.mjh.nz/.images/auto-betterhomesandgardens-fast-8d1753.png" group-title="24/7",Better Homes And Gardens
+https://i.mjh.nz/.r/betterhomesandgardens-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-blueheelers-fast" tvg-name="Blue Heelers" tvg-logo="https://i.mjh.nz/.images/auto-blueheelers-fast-8cc89d.png" group-title="24/7",Blue Heelers
+https://i.mjh.nz/.r/blueheelers-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bluelight-fast" tvg-name="Blue Light" tvg-logo="https://i.mjh.nz/.images/auto-bluelight-fast-dc5718.png" group-title="24/7",Blue Light
+https://i.mjh.nz/.r/bluelight-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cas41-fast" tvg-name="Bondi Rescue" tvg-logo="https://i.mjh.nz/.images/auto-cas41-fast-a6b151.png" group-title="24/7",Bondi Rescue
+https://i.mjh.nz/.r/cas41-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cas24-fast" tvg-name="Bondi Vet" tvg-logo="https://i.mjh.nz/.images/auto-cas24-fast-b9e819.png" group-title="24/7",Bondi Vet
+https://i.mjh.nz/.r/cas24-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bordersecurityaustralia-fast" tvg-name="Border Security Australia" tvg-logo="https://i.mjh.nz/.images/auto-bordersecurityaustralia-fast-30b210.png" group-title="24/7",Border Security Australia
+https://i.mjh.nz/.r/bordersecurityaustralia-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-botchedvault-fast" tvg-name="Botched VAULT" tvg-logo="https://i.mjh.nz/.images/auto-botchedvault-fast-4c6012.png" group-title="24/7",Botched VAULT
+https://i.mjh.nz/.r/botchedvault-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-bowlsreplays-fast" tvg-name="Bowls Replays" tvg-logo="https://i.mjh.nz/.images/auto-bowlsreplays-fast-7a5a56.png" group-title="24/7",Bowls Replays
+https://i.mjh.nz/.r/bowlsreplays-fast.m3u8
+#EXTINF:-1 tvg-id="plutotv-6231ede1be5b460007f91bc1" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/6231ede1be5b460007f91bc1/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-6231ede1be5b460007f91bc1.m3u8
+#EXTINF:-1 tvg-id="plutotv-62441d6ded1827000763dcda" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/62441d6ded1827000763dcda/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-62441d6ded1827000763dcda.m3u8
+#EXTINF:-1 tvg-id="plutotv-6231e909bc960f00075d8e7c" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/6231e909bc960f00075d8e7c/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-6231e909bc960f00075d8e7c.m3u8
+#EXTINF:-1 tvg-id="plutotv-6231e9b7f6deff00074674f4" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/6231e9b7f6deff00074674f4/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-6231e9b7f6deff00074674f4.m3u8
+#EXTINF:-1 tvg-id="plutotv-6231eb3865be650007f59595" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/6231eb3865be650007f59595/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-6231eb3865be650007f59595.m3u8
+#EXTINF:-1 tvg-id="plutotv-6231ec4b62cd1f0007093c7b" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/6231ec4b62cd1f0007093c7b/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-6231ec4b62cd1f0007093c7b.m3u8
+#EXTINF:-1 tvg-id="plutotv-61e82af27027f9000753c6e4" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/61e82af27027f9000753c6e4/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-61e82af27027f9000753c6e4.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-ca390002621" tvg-name="CBS News 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA390002621_20260804T050159SQUARE.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/stvp-CA390002621
+#EXTINF:-1 tvg-id="samsungtvplus-usba370000104" tvg-name="CBS News 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20260421T133815SQUARE.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/stvp-USBA370000104
+#EXTINF:-1 tvg-id="plutotv-6231ec93779a9d00079ba8e2" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/6231ec93779a9d00079ba8e2/colorLogoPNG.png" group-title="24/7",CBS News 24/7
+https://jmp2.uk/plu-6231ec93779a9d00079ba8e2.m3u8
+#EXTINF:-1 tvg-id="mjh-city2surf-2026-fast" tvg-name="City2Surf 2026" tvg-logo="https://imageresizer.static9.net.au/QX6OmL-SyylQj990TmgunaA4HVE=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2026%2F07%2F786952%2Fsquircle.png" group-title="24/7",City2Surf 2026
+https://i.mjh.nz/.r/city2surf-2026-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cricketgold-fast" tvg-name="Cricket Gold" tvg-logo="https://i.mjh.nz/.images/auto-cricketgold-fast-906f03.png" group-title="24/7",Cricket Gold
+https://i.mjh.nz/.r/cricketgold-fast.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-usak3508703a" tvg-name="Crime 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508703A_20251202T005850SQUARE.png" group-title="24/7",Crime 24/7
+https://jmp2.uk/stvp-USAK3508703A
+#EXTINF:-1 tvg-id="mjh-csicrimesceneinvestigation-fast" tvg-name="CSI Crime Scene Investigation" tvg-logo="https://i.mjh.nz/.images/auto-csicrimesceneinvestigation-fast-87549e.png" group-title="24/7",CSI Crime Scene Investigation
+https://i.mjh.nz/.r/csicrimesceneinvestigation-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cyclingreplays-fast" tvg-name="Cycling Replays" tvg-logo="https://i.mjh.nz/.images/auto-cyclingreplays-fast-da2aa3.png" group-title="24/7",Cycling Replays
+https://i.mjh.nz/.r/cyclingreplays-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-dance-moms-247-fast" tvg-name="Dance Moms 24/7" tvg-logo="https://imageresizer.static9.net.au/OKBRw5HKp9hAAVX3XM-A1HrVRug=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585178%2Fsquircle_dancemoms.png" group-title="24/7",Dance Moms 24/7
+https://i.mjh.nz/.r/dance-moms-247-fast.m3u8
+#EXTINF:-1 tvg-id="plutotv-637413d8531e0c0007442d6d" tvg-name="Dateline 24/7" tvg-logo="https://images.pluto.tv/channels/637413d8531e0c0007442d6d/colorLogoPNG.png" group-title="24/7",Dateline 24/7
+https://jmp2.uk/plu-637413d8531e0c0007442d6d.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-usbb5200007by" tvg-name="Dateline 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200007BY_20260421T133840SQUARE.png" group-title="24/7",Dateline 24/7
+https://jmp2.uk/stvp-USBB5200007BY
+#EXTINF:-1 tvg-id="samsungtvplus-gbbd3700001ab" tvg-name="DATELINE 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3700001AB_20250211T013910SQUARE.png" group-title="24/7",DATELINE 24/7
+https://jmp2.uk/stvp-GBBD3700001AB
+#EXTINF:-1 tvg-id="samsungtvplus-esbd3700001s0" tvg-name="DATELINE 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3700001S0_20241022T051012SQUARE.png" group-title="24/7",DATELINE 24/7
+https://jmp2.uk/stvp-ESBD3700001S0
+#EXTINF:-1 tvg-id="samsungtvplus-itbd3700001tm" tvg-name="DATELINE 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD3700001TM_20241022T044002SQUARE.png" group-title="24/7",DATELINE 24/7
+https://jmp2.uk/stvp-ITBD3700001TM
+#EXTINF:-1 tvg-id="samsungtvplus-us3700006xe" tvg-name="Dinos 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700006XE_20260421T141708SQUARE.png" group-title="24/7",Dinos 24/7
+https://jmp2.uk/stvp-US3700006XE
+#EXTINF:-1 tvg-id="plutotv-673bf05ddaad7f0008ac7a5c" tvg-name="Dinos 24/7" tvg-logo="https://images.pluto.tv/channels/673bf05ddaad7f0008ac7a5c/colorLogoPNG.png" group-title="24/7",Dinos 24/7
+https://jmp2.uk/plu-673bf05ddaad7f0008ac7a5c.m3u8
+#EXTINF:-1 tvg-id="mjh-drive-fast" tvg-name="Drive" tvg-logo="https://imageresizer.static9.net.au/FbD6lTD6rHmNM35zPbmc572qOB8=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F07%2F702351%2Fdrive_squircle.png" group-title="24/7",Drive
+https://i.mjh.nz/.r/drive-fast.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-gb270001538" tvg-name="Emergency 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB270001538_20250107T153916SQUARE.png" group-title="24/7",Emergency 24/7
+https://jmp2.uk/stvp-GB270001538
+#EXTINF:-1 tvg-id="mjh-etc-fast" tvg-name="Escape to the Country" tvg-logo="https://i.mjh.nz/.images/auto-etc-fast-6d4429.png" group-title="24/7",Escape to the Country
+https://i.mjh.nz/.r/etc-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cas21-fast" tvg-name="Ghost Hunters" tvg-logo="https://i.mjh.nz/.images/auto-cas21-fast-f940a9.png" group-title="24/7",Ghost Hunters
+https://i.mjh.nz/.r/cas21-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-glasgowglory-fast" tvg-name="Glasgow Glory" tvg-logo="https://i.mjh.nz/.images/auto-glasgowglory-fast-687d7c.png" group-title="24/7",Glasgow Glory
+https://i.mjh.nz/.r/glasgowglory-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-gymnasticsreplays-fast" tvg-name="Gymnastics Replays" tvg-logo="https://i.mjh.nz/.images/auto-gymnasticsreplays-fast-65b990.png" group-title="24/7",Gymnastics Replays
+https://i.mjh.nz/.r/gymnasticsreplays-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-h2-fast" tvg-name="H2" tvg-logo="https://imageresizer.static9.net.au/OxADVUkSO8Xp2ATCSJmMsa0gcDE=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F04%2F684622%2Fh2_squircle.png" group-title="24/7",H2
+https://i.mjh.nz/.r/h2-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-hardcorepawn-fast" tvg-name="Hardcore Pawn" tvg-logo="https://i.mjh.nz/.images/auto-hardcorepawn-fast-87f8ee.png" group-title="24/7",Hardcore Pawn
+https://i.mjh.nz/.r/hardcorepawn-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-heki-fast" tvg-name="Hells Kitchen" tvg-logo="https://i.mjh.nz/.images/auto-heki-fast-6f7c4d.png" group-title="24/7",Hells Kitchen
+https://i.mjh.nz/.r/heki-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cas26-fast" tvg-name="Home and Away Classics" tvg-logo="https://i.mjh.nz/.images/auto-cas26-fast-ea7944.png" group-title="24/7",Home and Away Classics
+https://i.mjh.nz/.r/cas26-fast.m3u8
+#EXTINF:-1 tvg-id="plutotv-691ed77b1308fa77bb2d5562" tvg-name="Inter 24/7" tvg-logo="https://images.pluto.tv/channels/691ed77b1308fa77bb2d5562/colorLogoPNG_1775047038535.png" group-title="24/7",Inter 24/7
+https://jmp2.uk/plu-691ed77b1308fa77bb2d5562.m3u8
+#EXTINF:-1 tvg-id="plutotv-691ed76a9c828fb484f7c2e5" tvg-name="Inter 24/7" tvg-logo="https://images.pluto.tv/channels/691ed76a9c828fb484f7c2e5/colorLogoPNG_1775046984569.png" group-title="24/7",Inter 24/7
+https://jmp2.uk/plu-691ed76a9c828fb484f7c2e5.m3u8
+#EXTINF:-1 tvg-id="plutotv-691ed751bef819002f2c7296" tvg-name="Inter 24/7" tvg-logo="https://images.pluto.tv/channels/691ed751bef819002f2c7296/colorLogoPNG_1775046963615.png" group-title="24/7",Inter 24/7
+https://jmp2.uk/plu-691ed751bef819002f2c7296.m3u8
+#EXTINF:-1 tvg-id="plutotv-691c5bef3a369d8f40192e71" tvg-name="Inter 24/7" tvg-logo="https://images.pluto.tv/channels/691c5bef3a369d8f40192e71/colorLogoPNG_1775046814007.png" group-title="24/7",Inter 24/7
+https://jmp2.uk/plu-691c5bef3a369d8f40192e71.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-at3000009d6" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT3000009D6_20260324T040404SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-AT3000009D6
+#EXTINF:-1 tvg-id="samsungtvplus-ch3100001xl" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3100001XL_20260324T040524SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-CH3100001XL
+#EXTINF:-1 tvg-id="samsungtvplus-de310000218" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE310000218_20260324T034624SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-DE310000218
+#EXTINF:-1 tvg-id="samsungtvplus-es31000013f" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-ES31000013F
+#EXTINF:-1 tvg-id="samsungtvplus-fr3100002mq" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3100002MQ_20260324T034935SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-FR3100002MQ
+#EXTINF:-1 tvg-id="samsungtvplus-gb310000151" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB310000151_20251118T015428SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-GB310000151
+#EXTINF:-1 tvg-id="samsungtvplus-it3100001ft" tvg-name="INTER 24/7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3100001FT_20260421T125918SQUARE.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/stvp-IT3100001FT
+#EXTINF:-1 tvg-id="plex-697140a85d851f5e69414688-69011e71d320237a5a2d9f63" tvg-name="INTER 24/7" tvg-logo="https://provider-static.plex.tv/epg/cms/production/57fe10fd-e61b-4796-9afa-1cb853548709/channel_logo_dark.png_-_Ingrid_Barresi.png" group-title="24/7",INTER 24/7
+https://jmp2.uk/plex-697140a85d851f5e69414688-69011e71d320237a5a2d9f63.m3u8
+#EXTINF:-1 tvg-id="mjh-judgejudy-fast" tvg-name="Judge Judy" tvg-logo="https://i.mjh.nz/.images/auto-judgejudy-fast-8781e8.png" group-title="24/7",Judge Judy
+https://i.mjh.nz/.r/judgejudy-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-kitchennightmares-fast" tvg-name="Kitchen Nightmares" tvg-logo="https://i.mjh.nz/.images/auto-kitchennightmares-fast-ba1ad2.png" group-title="24/7",Kitchen Nightmares
+https://i.mjh.nz/.r/kitchennightmares-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-lmn-fast" tvg-name="LMN" tvg-logo="https://imageresizer.static9.net.au/GfA3WNoMOfZbJOqJeq-UrX5nsdk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F12%2F658518%2Fgroup-61484.png" group-title="24/7",LMN
+https://i.mjh.nz/.r/lmn-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-married-at-first-sight-fast" tvg-name="Married At First Sight" tvg-logo="https://imageresizer.static9.net.au/OCF69HZLp4AWm0cGB8bvgx4U8mQ=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585176%2Fsquircle_mafs.png" group-title="24/7",Married At First Sight
+https://i.mjh.nz/.r/married-at-first-sight-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-medicalnrescue-fast" tvg-name="Medical And Rescue" tvg-logo="https://i.mjh.nz/.images/auto-medicalnrescue-fast-bd9388.png" group-title="24/7",Medical And Rescue
+https://i.mjh.nz/.r/medicalnrescue-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-mightymachines-fast" tvg-name="Mighty Machines" tvg-logo="https://i.mjh.nz/.images/auto-mightymachines-fast-0fa14e.png" group-title="24/7",Mighty Machines
+https://i.mjh.nz/.r/mightymachines-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cas40-fast" tvg-name="Million Dollar Listing VAULT" tvg-logo="https://i.mjh.nz/.images/auto-cas40-fast-0b72b7.png" group-title="24/7",Million Dollar Listing VAULT
+https://i.mjh.nz/.r/cas40-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-mythbusters-fast" tvg-name="Mythbusters" tvg-logo="https://i.mjh.nz/.images/auto-mythbusters-fast-3a72b1.png" group-title="24/7",Mythbusters
+https://i.mjh.nz/.r/mythbusters-fast.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-ca2900009gm" tvg-name="Mythical 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2900009GM_20260421T140416SQUARE.png" group-title="24/7",Mythical 24/7
+https://jmp2.uk/stvp-CA2900009GM
+#EXTINF:-1 tvg-id="samsungtvplus-us2900008fp" tvg-name="Mythical 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900008FP_20260421T143240SQUARE.png" group-title="24/7",Mythical 24/7
+https://jmp2.uk/stvp-US2900008FP
+#EXTINF:-1 tvg-id="plex-697140a85d851f5e69414688-650b5bb3f4b2d9579946a500" tvg-name="Mythical 24/7" tvg-logo="https://provider-static.plex.tv/epg/cms/production/cbce9562-c7a6-460c-9d07-02ab8724bbc5/Light_Logo__Mythical_24_7_1500x1000.png" group-title="24/7",Mythical 24/7
+https://jmp2.uk/plex-697140a85d851f5e69414688-650b5bb3f4b2d9579946a500.m3u8
+#EXTINF:-1 tvg-id="samsungtvplus-usbd1700014qu" tvg-name="N+ Univision 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700014QU_20260421T141836SQUARE.png" group-title="24/7",N+ Univision 24/7
+https://jmp2.uk/stvp-USBD1700014QU
+#EXTINF:-1 tvg-id="mjh-ncis-fast" tvg-name="NCIS" tvg-logo="https://i.mjh.nz/.images/auto-ncis-fast-6f82bd.png" group-title="24/7",NCIS
+https://i.mjh.nz/.r/ncis-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-onthecase-fast" tvg-name="On The Case" tvg-logo="https://i.mjh.nz/.images/auto-onthecase-fast-6ec172.png" group-title="24/7",On The Case
+https://i.mjh.nz/.r/onthecase-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-outbacktruckers-fast" tvg-name="Outback Truckers" tvg-logo="https://i.mjh.nz/.images/auto-outbacktruckers-fast-332b21.png" group-title="24/7",Outback Truckers
+https://i.mjh.nz/.r/outbacktruckers-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-powercombatreplays-fast" tvg-name="Power &amp; Combat Replays" tvg-logo="https://i.mjh.nz/.images/auto-powercombatreplays-fast-2e64e2.png" group-title="24/7",Power & Combat Replays
+https://i.mjh.nz/.r/powercombatreplays-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-qrl-hostplus-cup-2026-fast" tvg-name="QRL Hostplus Cup 2026" tvg-logo="https://imageresizer.static9.net.au/LNpywqVf2w4867hx6GFb3LerFzs=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2026%2F02%2F756275%2Fsquircle_qrlhostplus.png" group-title="24/7",QRL Hostplus Cup 2026
+https://i.mjh.nz/.r/qrl-hostplus-cup-2026-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-racingwa-fast" tvg-name="Racing WA" tvg-logo="https://i.mjh.nz/.images/auto-racingwa-fast-128220.png" group-title="24/7",Racing WA
+https://i.mjh.nz/.r/racingwa-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-racing-fast" tvg-name="Racing.com" tvg-logo="https://i.mjh.nz/.images/auto-racing-fast-de6aee.png" group-title="24/7",Racing.com
+https://i.mjh.nz/.r/racing-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-real-emergency-fast" tvg-name="Real Emergency" tvg-logo="https://imageresizer.static9.net.au/mEHWZZQZMecm6LaCcdOvOqgSn0Q=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F10%2F726130%2Frealemergencysquircle.png" group-title="24/7",Real Emergency
+https://i.mjh.nz/.r/real-emergency-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-rmc-fast" tvg-name="River Monsters" tvg-logo="https://i.mjh.nz/.images/auto-rmc-fast-cd77f2.png" group-title="24/7",River Monsters
+https://i.mjh.nz/.r/rmc-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-seinfeld-fast" tvg-name="Seinfeld" tvg-logo="https://imageresizer.static9.net.au/yKlUxIHgYC5cpCmL1DYpRCQ6w4o=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585342%2Fgroup-61657.png" group-title="24/7",Seinfeld
+https://i.mjh.nz/.r/seinfeld-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-surveillancecentral-fast" tvg-name="Surveillance Central" tvg-logo="https://i.mjh.nz/.images/auto-surveillancecentral-fast-4eeefa.png" group-title="24/7",Surveillance Central
+https://i.mjh.nz/.r/surveillancecentral-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-swimmingreplays-fast" tvg-name="Swimming Replays" tvg-logo="https://i.mjh.nz/.images/auto-swimmingreplays-fast-930ec0.png" group-title="24/7",Swimming Replays
+https://i.mjh.nz/.r/swimmingreplays-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-taronga-247-fast" tvg-name="Taronga 24/7" tvg-logo="https://imageresizer.static9.net.au/HvEyaXfq57tpzSGiLjqejGDiyA8=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2026%2F06%2F779914%2Ftaronga_squircle.png" group-title="24/7",Taronga 24/7
+https://i.mjh.nz/.r/taronga-247-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-taste-fast" tvg-name="Taste" tvg-logo="https://i.mjh.nz/.images/auto-taste-fast-9581ec.png" group-title="24/7",Taste
+https://i.mjh.nz/.r/taste-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-teamssportsreplays-fast" tvg-name="Teams Sports Replays" tvg-logo="https://i.mjh.nz/.images/auto-teamssportsreplays-fast-4d3873.png" group-title="24/7",Teams Sports Replays
+https://i.mjh.nz/.r/teamssportsreplays-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-the-block-247-fast" tvg-name="The Block 24/7" tvg-logo="https://imageresizer.static9.net.au/Mj-NaVq7oZgtzt2bf55lkLIfyuQ=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F623508%2Ftheblock_squircle.png" group-title="24/7",The Block 24/7
+https://i.mjh.nz/.r/the-block-247-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-therealhousewivesvault-fast" tvg-name="The Real Housewives VAULT" tvg-logo="https://i.mjh.nz/.images/auto-therealhousewivesvault-fast-dd8ea5.png" group-title="24/7",The Real Housewives VAULT
+https://i.mjh.nz/.r/therealhousewivesvault-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-cas33-fast" tvg-name="The Yorkshire Vet" tvg-logo="https://i.mjh.nz/.images/auto-cas33-fast-7aec74.png" group-title="24/7",The Yorkshire Vet
+https://i.mjh.nz/.r/cas33-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-truckinghell-fast" tvg-name="Trucking Hell" tvg-logo="https://i.mjh.nz/.images/auto-truckinghell-fast-6b08c1.png" group-title="24/7",Trucking Hell
+https://i.mjh.nz/.r/truckinghell-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-truecrimefiles-fast" tvg-name="True Crime Files" tvg-logo="https://i.mjh.nz/.images/auto-truecrimefiles-fast-26e3bf.png" group-title="24/7",True Crime Files
+https://i.mjh.nz/.r/truecrimefiles-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-tvsn-fast" tvg-name="TVSN" tvg-logo="https://i.mjh.nz/.images/auto-tvsn-fast-eda516.png" group-title="24/7",TVSN
+https://i.mjh.nz/.r/tvsn-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-waterrats-fast" tvg-name="Water Rats" tvg-logo="https://i.mjh.nz/.images/auto-waterrats-fast-428228.png" group-title="24/7",Water Rats
+https://i.mjh.nz/.r/waterrats-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-wtn-fast" tvg-name="Wicked Tuna" tvg-logo="https://i.mjh.nz/.images/auto-wtn-fast-0a858d.png" group-title="24/7",Wicked Tuna
+https://i.mjh.nz/.r/wtn-fast.m3u8
+#EXTINF:-1 tvg-id="plex-697140a85d851f5e69414688-652875586425fdb1f32d2169" tvg-name="World Surf League 24/7" tvg-logo="https://provider-static.plex.tv/epg/cms/production/b4cf623f-e45e-4706-ba5c-fdf92a9e1e44/WSL_WHITE_LOGO.png" group-title="24/7",World Surf League 24/7
+https://jmp2.uk/plex-697140a85d851f5e69414688-652875586425fdb1f32d2169.m3u8

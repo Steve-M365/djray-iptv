@@ -1,55 +1,137 @@
 #EXTM3U
 # DJRay - Australian TV
-# Total channels: 80
-# Generated: 2026-08-09 10:54:42
+# Total channels: 156
+# Generated: 2026-08-09 10:57:23
 
-# Australian TV (80 channels)
+# Australian TV (156 channels)
+#EXTINF:-1 tvg-id="mjh-10" tvg-name="10" tvg-logo="https://10play.com.au/ip/s3/2025/06/25/b18ae76555d114f7bfaf1c3bfa43dd3f-1384577.png" group-title="Australian TV",10
+https://i.mjh.nz/.r/10-wa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-forty-eight-hours" tvg-name="48 Hours" tvg-logo="https://10.com.au/ip/s3/2023/06/28/7dd910de29f31095b69e17f1da8f3f0e-1245997.png" group-title="Australian TV",48 Hours
 https://dai.google.com/ssai/event/fSgdoXm-R_aErKhotQBb7A/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-forty-eight-hours" tvg-name="48 Hours" tvg-logo="https://10.com.au/ip/s3/2023/06/28/7dd910de29f31095b69e17f1da8f3f0e-1245997.png?image-profile=logo" group-title="Australian TV",48 Hours
+https://i.mjh.nz/.r/10-forty-eight-hours.m3u8
 #EXTINF:-1 tvg-id="60MinutesGeo" tvg-name="60-Minutes-Geo" tvg-logo="https://imageresizer.static9.net.au/4bmD80tqY4eKHGYx1vGswjn7Vlk=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585173%2Fsquircle_60mins.png" group-title="Australian TV",60-Minutes-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-60-minutes-nsa.m3u8
+#EXTINF:-1 tvg-id="mjh-7flix-ade" tvg-name="7flix" tvg-logo="https://i.mjh.nz/.images/auto-7flix-ade-c6badc.png" group-title="Australian TV",7flix
+https://i.mjh.nz/.r/7flix-ade.m3u8
+#EXTINF:-1 tvg-id="mjh-7flix-bri" tvg-name="7flix" tvg-logo="https://i.mjh.nz/.images/auto-7flix-bri-c6badc.png" group-title="Australian TV",7flix
+https://i.mjh.nz/.r/7flix-bri.m3u8
+#EXTINF:-1 tvg-id="mjh-7flix-mel" tvg-name="7flix" tvg-logo="https://i.mjh.nz/.images/auto-7flix-mel-c6badc.png" group-title="Australian TV",7flix
+https://i.mjh.nz/.r/7flix-mel.m3u8
+#EXTINF:-1 tvg-id="mjh-7flix-per" tvg-name="7flix" tvg-logo="https://i.mjh.nz/.images/auto-7flix-per-c6badc.png" group-title="Australian TV",7flix
+https://i.mjh.nz/.r/7flix-per.m3u8
+#EXTINF:-1 tvg-id="mjh-7flix-syd" tvg-name="7flix" tvg-logo="https://i.mjh.nz/.images/auto-7flix-syd-c6badc.png" group-title="Australian TV",7flix
+https://i.mjh.nz/.r/7flix-syd.m3u8
+#EXTINF:-1 tvg-id="mjh-7flix-regional" tvg-name="7flix Regional" tvg-logo="https://i.mjh.nz/.images/auto-7flix-regional-c6badc.png" group-title="Australian TV",7flix Regional
+https://i.mjh.nz/.r/7flix-regional.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-ade" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-ade-360d60.png" group-title="Australian TV",7mate
+https://i.mjh.nz/.r/7mate-ade.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-bri" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-bri-360d60.png" group-title="Australian TV",7mate
+https://i.mjh.nz/.r/7mate-bri.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-mel" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-mel-360d60.png" group-title="Australian TV",7mate
+https://i.mjh.nz/.r/7mate-mel.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-per" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-per-360d60.png" group-title="Australian TV",7mate
+https://i.mjh.nz/.r/7mate-per.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-syd" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-syd-360d60.png" group-title="Australian TV",7mate
+https://i.mjh.nz/.r/7mate-syd.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-regional" tvg-name="7mate Regional" tvg-logo="https://i.mjh.nz/.images/auto-7mate-regional-360d60.png" group-title="Australian TV",7mate Regional
+https://i.mjh.nz/.r/7mate-regional.m3u8
+#EXTINF:-1 tvg-id="mjh-7two-ade" tvg-name="7two" tvg-logo="https://i.mjh.nz/.images/auto-7two-ade-701123.png" group-title="Australian TV",7two
+https://i.mjh.nz/.r/7two-ade.m3u8
+#EXTINF:-1 tvg-id="mjh-7two-bri" tvg-name="7two" tvg-logo="https://i.mjh.nz/.images/auto-7two-bri-701123.png" group-title="Australian TV",7two
+https://i.mjh.nz/.r/7two-bri.m3u8
+#EXTINF:-1 tvg-id="mjh-7two-mel" tvg-name="7two" tvg-logo="https://i.mjh.nz/.images/auto-7two-mel-701123.png" group-title="Australian TV",7two
+https://i.mjh.nz/.r/7two-mel.m3u8
+#EXTINF:-1 tvg-id="mjh-7two-per" tvg-name="7two" tvg-logo="https://i.mjh.nz/.images/auto-7two-per-701123.png" group-title="Australian TV",7two
+https://i.mjh.nz/.r/7two-per.m3u8
+#EXTINF:-1 tvg-id="mjh-7two-syd" tvg-name="7two" tvg-logo="https://i.mjh.nz/.images/auto-7two-syd-701123.png" group-title="Australian TV",7two
+https://i.mjh.nz/.r/7two-syd.m3u8
+#EXTINF:-1 tvg-id="mjh-7two-regional" tvg-name="7two Regional" tvg-logo="https://i.mjh.nz/.images/auto-7two-regional-701123.png" group-title="Australian TV",7two Regional
+https://i.mjh.nz/.r/7two-regional.m3u8
 #EXTINF:-1 tvg-id="mjh-10-eightoutof10cats" tvg-name="8 Out Of 10 Cats" tvg-logo="https://10.com.au/ip/s3/2024/11/18/03a9b9a1a42bcf2ce1bbb94a8fa47224-1350731.png" group-title="Australian TV",8 Out Of 10 Cats
 https://dai.google.com/ssai/event/gf9e9NZQSYukuBzMHqI7ow/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-eightoutof10cats" tvg-name="8 Out Of 10 Cats" tvg-logo="https://10.com.au/ip/s3/2024/11/18/03a9b9a1a42bcf2ce1bbb94a8fa47224-1350731.png?image-profile=logo" group-title="Australian TV",8 Out Of 10 Cats
+https://i.mjh.nz/.r/10-eightoutof10cats.m3u8
 #EXTINF:-1 tvg-id="9CrimeGeo" tvg-name="9 Crime-Geo" tvg-logo="https://imageresizer.static9.net.au/Lbj4az_ufsPsJSnDbtjAVQ2c5q4=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585343%2Fgroup-61566.png" group-title="Australian TV",9 Crime-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-9crime-nsa.m3u8
+#EXTINF:-1 tvg-id="mjh-gem" tvg-name="9Gem" tvg-logo="https://imageresizer.static9.net.au/d00389KKc5T4o5isRaDE9Pl9DWk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F620929%2F9gem-1.png" group-title="Australian TV",9Gem
+https://i.mjh.nz/.r/gem-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-go" tvg-name="9Go!" tvg-logo="https://imageresizer.static9.net.au/fcTwzkAJT4q81emfp2kYkgoxlDA=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574470%2F9go.png" group-title="Australian TV",9Go!
+https://i.mjh.nz/.r/go-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-life" tvg-name="9Life" tvg-logo="https://imageresizer.static9.net.au/wMK3kBDybfEoN2iqyDDflC91D1U=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574472%2F9life.png" group-title="Australian TV",9Life
+https://i.mjh.nz/.r/life-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-rush" tvg-name="9Rush" tvg-logo="https://imageresizer.static9.net.au/5B2ZDlD8Ji6dCecGQEfwy2U2m4Y=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574473%2F9rush.png" group-title="Australian TV",9Rush
+https://i.mjh.nz/.r/rush-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-abc-90-seconds-business" tvg-name="ABC Business in 90 Seconds" tvg-logo="https://live-production.wcms.abc-cdn.net.au/ae76d32898cca0be596b7f23c1bd41f2?impolicy=wcms_crop_resize&amp;cropH=630&amp;cropW=1119&amp;xPos=10&amp;yPos=0&amp;width=862&amp;height=485" group-title="Australian TV",ABC Business in 90 Seconds
+https://c.mjh.nz/business_in_90_seconds
+#EXTINF:-1 tvg-id="mjh-abc-90-seconds-weather" tvg-name="ABC Weather in 90 Seconds" tvg-logo="https://live-production.wcms.abc-cdn.net.au/d376e49724862f104d044ff6467f85d8?impolicy=wcms_crop_resize&amp;cropH=630&amp;cropW=1119&amp;xPos=10&amp;yPos=0&amp;width=862&amp;height=485" group-title="Australian TV",ABC Weather in 90 Seconds
+https://c.mjh.nz/weather_in_90_seconds
 #EXTINF:-1 tvg-id="mjh-10-adultanimation" tvg-name="Adult Animation" tvg-logo="https://10.com.au/ip/s3/2024/03/21/fb3a87d8a0126b81727106f43c2a2aef-1304705.png" group-title="Australian TV",Adult Animation
 https://dai.google.com/ssai/event/6885G93zTmyzbak-8UU-dw/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-americas-next-top-model" tvg-name="America's Next Top Model" tvg-logo="https://10.com.au/ip/s3/2023/06/28/8db83f030cafec640ddec14612d03daa-1246018.png" group-title="Australian TV",America's Next Top Model
 https://dai.google.com/ssai/event/b6iy1wuNTP-wuixixRXioA/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-anthonybourdain" tvg-name="Anthony Bourdain: Parts Unknown" tvg-logo="https://10.com.au/ip/s3/2025/05/26/cbf83588f02110ded81566ecc62e2f0e-1380501.png" group-title="Australian TV",Anthony Bourdain: Parts Unknown
 https://dai.google.com/ssai/event/Bq73CiC7S5yYOroR_-PlDg/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-anthonybourdain" tvg-name="Anthony Bourdain: Parts Unknown" tvg-logo="https://10.com.au/ip/s3/2025/05/26/cbf83588f02110ded81566ecc62e2f0e-1380501.png?image-profile=logo" group-title="Australian TV",Anthony Bourdain: Parts Unknown
+https://i.mjh.nz/.r/10-anthonybourdain.m3u8
 #EXTINF:-1 tvg-id="AntiquesRoadshowGeo" tvg-name="Antiques Roadshow-Geo" tvg-logo="https://imageresizer.static9.net.au/EJo7AUKjgcUyW1Uyq0kpDzpo4fg=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648315%2Fgroup-61774.png" group-title="Australian TV",Antiques Roadshow-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-bbc-antiques-roadshow-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-australias-next-top-model" tvg-name="Australia's Next Top Model" tvg-logo="https://10.com.au/ip/s3/2024/06/03/224a876a47cdb7e1a8b3bb1eeca17565-1318253.png" group-title="Australian TV",Australia's Next Top Model
 https://dai.google.com/ssai/event/VPHB6wr7SjmI29mKuM9b0A/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-becker" tvg-name="Becker" tvg-logo="https://10.com.au/ip/s3/2023/06/28/e0449ed804aaacb1de64f87d94912dd3-1246030.png" group-title="Australian TV",Becker
 https://dai.google.com/ssai/event/EeIWvRTXQ-2uYMHsz-BCWA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-becker" tvg-name="Becker" tvg-logo="https://10.com.au/ip/s3/2023/06/28/e0449ed804aaacb1de64f87d94912dd3-1246030.png?image-profile=logo" group-title="Australian TV",Becker
+https://i.mjh.nz/.r/10-becker.m3u8
 #EXTINF:-1 tvg-id="mjh-10-buzzfeed-food" tvg-name="BuzzFeed Food" tvg-logo="https://10.com.au/ip/s3/2024/10/02/67846aad09b5fe5efafd5ee005117475-1342134.png" group-title="Australian TV",BuzzFeed Food
 https://dai.google.com/ssai/event/s7IedTFcRQmkfATsOfo6Iw/master.m3u8
+#EXTINF:-1 tvg-id="mjh-channel-9" tvg-name="Channel 9" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Australian TV",Channel 9
+https://i.mjh.nz/.r/channel-9-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-channel-9-gold-coast" tvg-name="Channel 9 (Gold Coast)" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Australian TV",Channel 9 (Gold Coast)
+https://i.mjh.nz/.r/channel-9-gold-coast.m3u8
+#EXTINF:-1 tvg-id="mjh-channel-9-newcastle" tvg-name="Channel 9 (Newcastle)" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Australian TV",Channel 9 (Newcastle)
+https://i.mjh.nz/.r/channel-9-newcastle.m3u8
+#EXTINF:-1 tvg-id="mjh-channel-9-lismore" tvg-name="Channel 9 (Norther Rivers)" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Australian TV",Channel 9 (Norther Rivers)
+https://i.mjh.nz/.r/channel-9-lismore.m3u8
 #EXTINF:-1 tvg-id="ChicagoMedGeo" tvg-name="Chicago Med-Geo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/Chicago-med-55a6e7e8a11f6.png" group-title="Australian TV",Chicago Med-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-simulcast-bne-ch9-hls-r15-nsa.m3u8?pp=9now_live&iu=%2F133009657%2F9now%2Fweb%2Flive&yo.up=https%3A%2F%2F9now-livestreams-fhd-t.akamaized.net%2Fu%2Fprod%2Fsimulcast%2Fbne%2Fch9%2Fhls%2Fr1%2F&url=https%3A%2F%2Fwww.9now.com.au%2Flive%2Fchannel-9&vid=live-ch9-bne&cmsid=2474123&yo.t.pf=8000&yo.ks=false&yo.pbr=false&yo.br=false&yo.ap=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&channel=channel-9&market=brisbane&yo.eb.fb=aHR0cHM6Ly85bm93LWxpdmVzdHJlYW1zLWZoZC10LmFrYW1haXplZC5uZXQvdS9wcm9kL3NpbXVsY2FzdC9ibmUvY2g5L2hscy9yMS9pbmRleC5tM3U4&startOver=false&yo.cp=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&nuid=66a75dc3e6f24562a46717abbb11c20d&apid=39ff4bb1-f283-5213-88fc-24552bc4dff8&device_id=23cc5485-ef83-b873-4c4e-856c8d2a820f&deviceType=desktop&optout=0&telaria_tvid=&userAgentheader=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A140.0%29+Gecko%2F20100101+Firefox%2F140.0&oztam_session_id=6b4b675c-0008-4886-9789-fb181cecf551&vendorVersion=9now_web_1.6&yo.av=4&yo.ac=true&yo.lp=false&yo.lpa=dur
 #EXTINF:-1 tvg-id="ComedyGeo" tvg-name="Comedy-Geo" tvg-logo="https://imageresizer.static9.net.au/svfAToSOKdkf_Y00_Tr6HDppH_s=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648314%2Fgroup-61772.png" group-title="Australian TV",Comedy-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-bbc-comedy-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-cops" tvg-name="COPS" tvg-logo="https://10.com.au/ip/s3/2025/03/30/6fadf0873ac36ecacdc63ed8bba4cf3d-1371071.png" group-title="Australian TV",COPS
 https://dai.google.com/ssai/event/OXKmKfhSSaGi0E0G3pu7vQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-cops" tvg-name="COPS" tvg-logo="https://10.com.au/ip/s3/2025/03/30/6fadf0873ac36ecacdc63ed8bba4cf3d-1371071.png?image-profile=logo" group-title="Australian TV",COPS
+https://i.mjh.nz/.r/10-cops.m3u8
 #EXTINF:-1 tvg-id="mjh-10-crime-hunters" tvg-name="Crime Hunters" tvg-logo="https://10.com.au/ip/s3/2024/03/06/cb69de15e7b8989a218ad25b7f6547ef-1301820.png" group-title="Australian TV",Crime Hunters
 https://dai.google.com/ssai/event/wi89ITUMQyyPp3Jyp0cHcg/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-crime-hunters" tvg-name="Crime Hunters" tvg-logo="https://10.com.au/ip/s3/2024/03/06/cb69de15e7b8989a218ad25b7f6547ef-1301820.png?image-profile=logo" group-title="Australian TV",Crime Hunters
+https://i.mjh.nz/.r/10-crime-hunters.m3u8
 #EXTINF:-1 tvg-id="mjh-10-crime-time" tvg-name="Crime Time" tvg-logo="https://10.com.au/ip/s3/2024/09/25/c27b803a4128c5b097cd3a23e1be973c-1341004.png" group-title="Australian TV",Crime Time
 https://dai.google.com/ssai/event/oO7UNo45SCOmonWYG2j4nA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-crime-time" tvg-name="Crime Time" tvg-logo="https://10.com.au/ip/s3/2024/09/25/c27b803a4128c5b097cd3a23e1be973c-1341004.png?image-profile=logo" group-title="Australian TV",Crime Time
+https://i.mjh.nz/.r/10-crime-time.m3u8
 #EXTINF:-1 tvg-id="DanceMomsGeo" tvg-name="Dance Moms-Geo" tvg-logo="https://imageresizer.static9.net.au/Y-0wV1aWHwOk6Qs-REnmH0fTPvo=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585178%2Fsquircle_dancemoms.png" group-title="Australian TV",Dance Moms-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-dance-moms-nsa.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-sb03" tvg-name="Dateline" tvg-logo="https://image.pr.sbsod.com/8664060f-f5f6-598d-8d6a-8f7f59bc91c1" group-title="Australian TV",Dateline
+https://i.mjh.nz/.r/sbs-sb03.m3u8
 #EXTINF:-1 tvg-id="mjh-10-deadlywomen" tvg-name="Deadly Women" tvg-logo="https://10.com.au/ip/s3/2025/06/19/01e576c63918373cd03aa21ea8566f1e-1383812.png" group-title="Australian TV",Deadly Women
 https://dai.google.com/ssai/event/7ysI2XVSS_G3PH-QX2qikQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-deadlywomen" tvg-name="Deadly Women" tvg-logo="https://10.com.au/ip/s3/2025/06/19/01e576c63918373cd03aa21ea8566f1e-1383812.png?image-profile=logo" group-title="Australian TV",Deadly Women
+https://i.mjh.nz/.r/10-deadlywomen.m3u8
 #EXTINF:-1 tvg-id="mjh-10-diagnosismurder" tvg-name="Diagnosis Murder" tvg-logo="https://10.com.au/ip/s3/2023/06/28/5f85fc3d794a167630b935cb639abcc3-1246005.png" group-title="Australian TV",Diagnosis Murder
 https://dai.google.com/ssai/event/BlXqeUGwThGO7fVZRKkKBA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-diagnosismurder" tvg-name="Diagnosis Murder" tvg-logo="https://10.com.au/ip/s3/2023/06/28/5f85fc3d794a167630b935cb639abcc3-1246005.png?image-profile=logo" group-title="Australian TV",Diagnosis Murder
+https://i.mjh.nz/.r/10-diagnosismurder.m3u8
 #EXTINF:-1 tvg-id="DriveGeo" tvg-name="Drive-Geo" tvg-logo="https://imageresizer.static9.net.au/HOrnLcsfHg7q6TqJ_uXT9_bUfqc=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F07%2F702351%2Fdrive_squircle.png" group-title="Australian TV",Drive-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-drive-nsa.m3u8
 #EXTINF:-1 tvg-id="EarthGeo" tvg-name="Earth-Geo" tvg-logo="https://imageresizer.static9.net.au/RCL73LjNYZQlrN-nOQ2ycMAKqog=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648311%2Fgroup-61770.png" group-title="Australian TV",Earth-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-bbc-earth-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-embarrassing-bodies" tvg-name="Embarrassing Bodies" tvg-logo="https://10.com.au/ip/s3/2024/10/21/f315a8cda9494cc30e29fdba87430ff8-1345391.png" group-title="Australian TV",Embarrassing Bodies
 https://dai.google.com/ssai/event/zsH8Gm6CT7eFZkLJAq2WDQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-embarrassing-bodies" tvg-name="Embarrassing Bodies" tvg-logo="https://10.com.au/ip/s3/2024/10/21/f315a8cda9494cc30e29fdba87430ff8-1345391.png?image-profile=logo" group-title="Australian TV",Embarrassing Bodies
+https://i.mjh.nz/.r/10-embarrassing-bodies.m3u8
 #EXTINF:-1 tvg-id="Encore" tvg-name="Encore +" tvg-logo="https://image-cdn.metaxplay.tv/cmsMediaImage/202506/13733_720p_f_16x9.webp?v=1751269996" group-title="Australian TV",Encore +
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=662b6fa3521cdacd8c06dd45&AV_CHANNEL_NAME=ENCORE-+&AV_CONTENT_LANGUAGE=en&AV_CONTENT_RATING=TV-PG&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-5&AV_TITLE=ENCORE-+&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Drama&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=ENCORE-+&AV_CUSTOM17=Google--520678__86__13733__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13733
+#EXTINF:-1 tvg-id="mjh-sbs-sysdata_s_p_a_fifa_6" tvg-name="FIFA+" tvg-logo="https://image.pr.sbsod.com/82e2f8e9-238d-599f-84e7-891a54026c9f" group-title="Australian TV",FIFA+
+https://i.mjh.nz/.r/sbs-sysdata_s_p_a_fifa_6.m3u8
 #EXTINF:-1 tvg-id="FoodGeo" tvg-name="Food-Geo" tvg-logo="https://imageresizer.static9.net.au/fKSEeQeDTJP6KaEYCR3iGn9MOnw=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F12%2F652517%2Fgroup-61812.png" group-title="Australian TV",Food-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-bbc-food-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-fridaythe13th" tvg-name="Friday The 13th" tvg-logo="https://10.com.au/ip/s3/2024/08/02/4c533383981d959a2705f38c1f4bc22d-1331239.png" group-title="Australian TV",Friday The 13th
@@ -58,30 +140,48 @@ https://dai.google.com/ssai/event/4JWdwrbmR1S6kQ7mRzcI8A/master.m3u8
 https://amg01074-amg01074c12-metax-international-8797.playouts.now.amagi.tv/playlist/amg01074-fueltvfast-fueltvau-metaxinternational/playlist.m3u8?app_bundle=MX_APP_BUNDLE&app_name=MX_APP_NAME&app_store_url=MX_APP_STORE_URL&us_privacy=MX_US_PRIVACY&gdpr=MX_GDPR&gdpr_consent=MX_CONSENT&did=MX_DUID&dnt=MX_DNT&ic=IAB17-37&ifa_type=MX_IFA_TYPE&coppa=MX_COPPA&content_network=MetaXTV&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-13820&AV_CUSTOM17=Google--520678__188__13820__0__0__0____MP
 #EXTINF:-1 tvg-id="mjh-10-geckotv" tvg-name="Gecko TV" tvg-logo="https://10.com.au/ip/s3/2023/02/23/b81bfc3f4737696257ef326b0e68208e-1219777.png" group-title="Australian TV",Gecko TV
 https://dai.google.com/ssai/event/6zU39nI8QGGS1FYM0a7fMw/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-geckotv" tvg-name="Gecko TV" tvg-logo="https://10.com.au/ip/s3/2023/02/23/b81bfc3f4737696257ef326b0e68208e-1219777.png?image-profile=logo" group-title="Australian TV",Gecko TV
+https://i.mjh.nz/.r/10-geckotv.m3u8
 #EXTINF:-1 tvg-id="GemGeo" tvg-name="Gem-Geo" tvg-logo="https://imageresizer.static9.net.au/RHR_nh63Pf62d-I11GXC5a2Ni3k=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F620929%2F9gem-1.png" group-title="Australian TV",Gem-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-simulcast-bne-gem-hls-r15-nsa.m3u8?pp=9now_live&iu=%2F133009657%2F9now%2Fweb%2Flive&yo.up=https%3A%2F%2F9now-livestreams-fhd-t.akamaized.net%2Fu%2Fprod%2Fsimulcast%2Fbne%2Fgem%2Fhls%2Fr1%2F&url=https%3A%2F%2Fwww.9now.com.au%2Flive%2Fgem&vid=live-gem-bne&cmsid=2474123&yo.t.pf=8000&yo.ks=false&yo.pbr=false&yo.br=false&yo.ap=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&channel=gem&market=brisbane&yo.eb.fb=aHR0cHM6Ly85bm93LWxpdmVzdHJlYW1zLWZoZC10LmFrYW1haXplZC5uZXQvdS9wcm9kL3NpbXVsY2FzdC9ibmUvZ2VtL2hscy9yMS9pbmRleC5tM3U4&startOver=false&yo.cp=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&nuid=66a75dc3e6f24562a46717abbb11c20d&apid=39ff4bb1-f283-5213-88fc-24552bc4dff8&device_id=23cc5485-ef83-b873-4c4e-856c8d2a820f&deviceType=desktop&optout=0&telaria_tvid=&userAgentheader=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A140.0%29+Gecko%2F20100101+Firefox%2F140.0&oztam_session_id=6cfc7751-5c89-4d7d-ae0e-2fa7f1d88015&vendorVersion=9now_web_1.6&yo.av=4&yo.ac=true&yo.lp=false&yo.lpa=dur
 #EXTINF:-1 tvg-id="mjh-10-ghost_hunters" tvg-name="Ghost Hunters" tvg-logo="https://10.com.au/ip/s3/2024/02/20/6a0f5d5002748886ee7b1936f996a304-1298978.png" group-title="Australian TV",Ghost Hunters
 https://dai.google.com/ssai/event/R8D2Icp4Svyk2efJ3ohr6Q/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-ghosthunters" tvg-name="Ghost Hunters" tvg-logo="https://10.com.au/ip/s3/2024/02/20/6a0f5d5002748886ee7b1936f996a304-1298978.png?image-profile=logo" group-title="Australian TV",Ghost Hunters
+https://i.mjh.nz/.r/10-ghosthunters.m3u8
 #EXTINF:-1 tvg-id="GoGeo" tvg-name="Go-Geo" tvg-logo="https://imageresizer.static9.net.au/Se7u0XIKYBgU_TP8cN47cI3lTE4=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574470%2F9go.png" group-title="Australian TV",Go-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-simulcast-bne-go-hls-r13-nsa.m3u8?pp=9now_live&iu=%2F133009657%2F9now%2Fweb%2Flive&yo.up=https%3A%2F%2F9now-livestreams-fhd-t.akamaized.net%2Fu%2Fprod%2Fsimulcast%2Fbne%2Fgo%2Fhls%2Fr1%2F&url=https%3A%2F%2Fwww.9now.com.au%2Flive%2Fgo&vid=live-go-bne&cmsid=2474123&yo.t.pf=8000&yo.ks=false&yo.pbr=false&yo.br=false&yo.ap=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&channel=go&market=brisbane&yo.eb.fb=aHR0cHM6Ly85bm93LWxpdmVzdHJlYW1zLWZoZC10LmFrYW1haXplZC5uZXQvdS9wcm9kL3NpbXVsY2FzdC9ibmUvZ28vaGxzL3IxL2luZGV4Lm0zdTg%3D&startOver=false&yo.cp=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&nuid=66a75dc3e6f24562a46717abbb11c20d&apid=39ff4bb1-f283-5213-88fc-24552bc4dff8&device_id=23cc5485-ef83-b873-4c4e-856c8d2a820f&deviceType=desktop&optout=0&telaria_tvid=&userAgentheader=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A140.0%29+Gecko%2F20100101+Firefox%2F140.0&oztam_session_id=7f440b41-9934-4bde-8da7-9dd235b5c964&vendorVersion=9now_web_1.6&yo.av=4&yo.ac=true&yo.lp=false&yo.lpa=dur
 #EXTINF:-1 tvg-id="mjh-10-good-chef-bad-chef" tvg-name="Good Chef Bad Chef" tvg-logo="https://10.com.au/ip/s3/2024/04/15/7b0ed9d334694c671a73527302182339-1308941.png" group-title="Australian TV",Good Chef Bad Chef
 https://dai.google.com/ssai/event/6Xt-RLfjTu-Hx6UE_kzoLA/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-hardcorepawn" tvg-name="Hardcore Pawn" tvg-logo="https://10.com.au/ip/s3/2025/03/03/1d46b70035ba5c816af46c6d4ee079cd-1366514.png" group-title="Australian TV",Hardcore Pawn
 https://dai.google.com/ssai/event/WG94OC1uSjmBz9TiSxdJ5w/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-hardcorepawn" tvg-name="Hardcore Pawn" tvg-logo="https://10.com.au/ip/s3/2025/03/03/1d46b70035ba5c816af46c6d4ee079cd-1366514.png?image-profile=logo" group-title="Australian TV",Hardcore Pawn
+https://i.mjh.nz/.r/10-hardcorepawn.m3u8
 #EXTINF:-1 tvg-id="mjh-10-haunt-tv" tvg-name="Haunt TV" tvg-logo="https://10.com.au/ip/s3/2023/07/12/8cb62aeb9de0e12611b68059325da0f3-1248632.png" group-title="Australian TV",Haunt TV
 https://dai.google.com/ssai/event/0hhOsOdMToCB3JbS2528jQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-haunt-tv" tvg-name="Haunt TV" tvg-logo="https://10.com.au/ip/s3/2023/07/12/8cb62aeb9de0e12611b68059325da0f3-1248632.png?image-profile=logo" group-title="Australian TV",Haunt TV
+https://i.mjh.nz/.r/10-haunt-tv.m3u8
 #EXTINF:-1 tvg-id="mjh-10-haveyoubeenpayingattention" tvg-name="Have You Been Paying Attention?" tvg-logo="https://10.com.au/ip/s3/2024/12/17/20963e84ceedc64212b60c21c883e5c4-1356262.png" group-title="Australian TV",Have You Been Paying Attention?
 https://dai.google.com/ssai/event/eMP5QwtJR96r63DY9NlEiw/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-haveyoubeenpayingattention" tvg-name="Have You Been Paying Attention?" tvg-logo="https://10.com.au/ip/s3/2024/12/17/20963e84ceedc64212b60c21c883e5c4-1356262.png?image-profile=logo" group-title="Australian TV",Have You Been Paying Attention?
+https://i.mjh.nz/.r/10-haveyoubeenpayingattention.m3u8
+#EXTINF:-1 tvg-id="mjh-10-heartland" tvg-name="Heartland" tvg-logo="https://10.com.au/ip/s3/2026/02/01/8b5e285428d559ef6e3afdeebfe53a5d-1408387.png?image-profile=logo" group-title="Australian TV",Heartland
+https://i.mjh.nz/.r/10-heartland.m3u8
 #EXTINF:-1 tvg-id="mjh-10-highwaythruhell" tvg-name="Highway Thru Hell" tvg-logo="https://10.com.au/ip/s3/2025/06/19/3c941c6bd357c1bc3acc855f846e842c-1383806.png" group-title="Australian TV",Highway Thru Hell
 https://dai.google.com/ssai/event/hF4Ie2vMQFO3LpphDGzK1A/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-highwaythruhell" tvg-name="Highway Thru Hell" tvg-logo="https://10.com.au/ip/s3/2025/06/19/3c941c6bd357c1bc3acc855f846e842c-1383806.png?image-profile=logo" group-title="Australian TV",Highway Thru Hell
+https://i.mjh.nz/.r/10-highwaythruhell.m3u8
 #EXTINF:-1 tvg-id="HistoryGeo" tvg-name="History-Geo" tvg-logo="https://imageresizer.static9.net.au/0DqahpighEt1HMVb8On7IoT1eq0=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F04%2F684622%2Fh2_squircle.png" group-title="Australian TV",History-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-history2-nsa.m3u8
 #EXTINF:-1 tvg-id="HomeGardenGeo" tvg-name="Home & Garden-Geo" tvg-logo="https://imageresizer.static9.net.au/ZT6qfgSgCxhgoiZ-X677YP4JLx0=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F11%2F648313%2Fgroup-61771.png" group-title="Australian TV",Home & Garden-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-bbc-home-and-garden-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-houseofhorror" tvg-name="House Of Horror" tvg-logo="https://10.com.au/ip/s3/2025/09/16/39c1d247119513df469dddef69e469d0-1393967.png" group-title="Australian TV",House Of Horror
 https://dai.google.com/ssai/event/W30E4mWuQKiCoyW69j_APA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-sb02" tvg-name="Insight" tvg-logo="https://image.pr.sbsod.com/ac68f57a-4655-5dc2-b17e-2ca3505e5e6c" group-title="Australian TV",Insight
+https://i.mjh.nz/.r/sbs-sb02.m3u8
 #EXTINF:-1 tvg-id="mjh-10-judge-judy" tvg-name="Judge Judy" tvg-logo="https://10.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" group-title="Australian TV",Judge Judy
 https://dai.google.com/ssai/event/Lz_k3PqgS5C--gzfSd_Y6A/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-judge-judy" tvg-name="Judge Judy" tvg-logo="https://10.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png?image-profile=logo" group-title="Australian TV",Judge Judy
+https://i.mjh.nz/.r/10-judge-judy.m3u8
 #EXTINF:-1 tvg-id="LifeGeo" tvg-name="Life-Geo" tvg-logo="https://imageresizer.static9.net.au/6C2ReG6Wi7jwqGWOnfddmSdXFfY=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574472%2F9life.png" group-title="Australian TV",Life-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-simulcast-bne-life-hls-r13-nsa.m3u8?pp=9now_live&iu=%2F133009657%2F9now%2Fweb%2Flive&yo.up=https%3A%2F%2F9now-livestreams-fhd-t.akamaized.net%2Fu%2Fprod%2Fsimulcast%2Fbne%2Flife%2Fhls%2Fr1%2F&url=https%3A%2F%2Fwww.9now.com.au%2Flive%2Flife&vid=live-life-bne&cmsid=2474123&yo.t.pf=8000&yo.ks=false&yo.pbr=false&yo.br=false&yo.ap=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&channel=life&market=brisbane&yo.eb.fb=aHR0cHM6Ly85bm93LWxpdmVzdHJlYW1zLWZoZC10LmFrYW1haXplZC5uZXQvdS9wcm9kL3NpbXVsY2FzdC9ibmUvbGlmZS9obHMvcjEvaW5kZXgubTN1OA%3D%3D&startOver=false&yo.cp=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&nuid=66a75dc3e6f24562a46717abbb11c20d&apid=39ff4bb1-f283-5213-88fc-24552bc4dff8&device_id=23cc5485-ef83-b873-4c4e-856c8d2a820f&deviceType=desktop&optout=0&telaria_tvid=&userAgentheader=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A140.0%29+Gecko%2F20100101+Firefox%2F140.0&oztam_session_id=f0470329-0336-46b0-8474-8faf6bce2f14&vendorVersion=9now_web_1.6&yo.av=4&yo.ac=true&yo.lp=false&yo.lpa=dur
 #EXTINF:-1 tvg-id="LifetimeMovieNetworkGeo" tvg-name="Lifetime Movie Network-Geo" tvg-logo="https://imageresizer.static9.net.au/QqTJm7HsJc-VCZfk83rBM_b8X24=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F12%2F658518%2Fgroup-61484.png" group-title="Australian TV",Lifetime Movie Network-Geo
@@ -90,8 +190,12 @@ https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-chan
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-mfs-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-masterchef" tvg-name="MasterChef" tvg-logo="https://10.com.au/ip/s3/2022/09/02/3fff1b47f7c01770b7f0f319770d5362-1177252.png" group-title="Australian TV",MasterChef
 https://dai.google.com/ssai/event/-Xbq7rGcSey_sBmHdRiGOA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-masterchef" tvg-name="MasterChef" tvg-logo="https://10.com.au/ip/s3/2022/09/02/3fff1b47f7c01770b7f0f319770d5362-1177252.png?image-profile=logo" group-title="Australian TV",MasterChef
+https://i.mjh.nz/.r/10-masterchef.m3u8
 #EXTINF:-1 tvg-id="mjh-10-medical-emergency" tvg-name="Medical Emergency" tvg-logo="https://10.com.au/ip/s3/2023/06/28/115b6796134f1e983f41c224c31cc7c9-1246084.png" group-title="Australian TV",Medical Emergency
 https://dai.google.com/ssai/event/TkQrelvOQWCmdTZwLt1XMA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-medical-emergency" tvg-name="Medical Emergency" tvg-logo="https://10.com.au/ip/s3/2023/06/28/115b6796134f1e983f41c224c31cc7c9-1246084.png?image-profile=logo" group-title="Australian TV",Medical Emergency
+https://i.mjh.nz/.r/10-medical-emergency.m3u8
 #EXTINF:-1 tvg-id="Mercury" tvg-name="Mercury+" tvg-logo="https://image-cdn.metaxplay.tv/202202/5157__720p_f_16x9.webp" group-title="Australian TV",Mercury+
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=662b73210e4b3c455902bd18&AV_CHANNEL_NAME=Mercury+&AV_CONTENT_LANGUAGE=en&AV_CONTENT_RATING=TV-PG&cb=MX_CACHEBUSTER&AV_APPPKGNAME=MX_APP_BUNDLE&AV_APPNAME=MX_APP_NAME&AV_APPSTOREURL=MX_APP_STORE_URL&AV_WIDTH=MX_WIDTH&AV_HEIGHT=MX_HEIGHT&AV_LANGUAGE=MX_DEVICE_LANGUAGE&AV_IFA_TYPE=MX_IFA_TYPE&AV_CATEGORY=IAB1-5&AV_TITLE=Mercury+&AV_EPISODE=MX_CONTENT_EPISODE&AV_CONTENT_GENRE=Classic&AV_GDPR=MX_GDPR&AV_CONSENT=MX_CONSENT&AV_COPPA=MX_COPPA&AV_IDFA=MX_IFA&AV_CCPA=MX_US_PRIVACY&AV_CONTENT_CHANNEL=Mercury+&AV_CUSTOM17=Google--520678__86__5157__0__0__0____MP&AV_CUSTOM18=MX_GIVN&AV_CUSTOM19=pn%3D2v2lTwj4%26context%3Dmid-5157
 #EXTINF:-1 tvg-id="mjh-10-moviesphere" tvg-name="Moviesphere" tvg-logo="https://10.com.au/ip/s3/2022/12/05/6bb229de8fcf96e206e99ca455fc2267-1202912.png" group-title="Australian TV",Moviesphere
@@ -104,10 +208,16 @@ https://dai.google.com/ssai/event/4Y1HRKCDTBmbPatI8SGDNw/master.m3u8
 https://dai.google.com/ssai/event/_73ucMZaTzCHX0KQnLAHTg/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-mtvridiculousness" tvg-name="MTV Ridiculousness" tvg-logo="https://10.com.au/ip/s3/2024/02/19/6a7d740896d031b59c9d33d0e6dff544-1298686.png" group-title="Australian TV",MTV Ridiculousness
 https://dai.google.com/ssai/event/uAlQe9K7RdCudywMJ3cQGQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-mtvridiculousness" tvg-name="MTV Ridiculousness" tvg-logo="https://10.com.au/ip/s3/2024/02/19/6a7d740896d031b59c9d33d0e6dff544-1298686.png?image-profile=logo" group-title="Australian TV",MTV Ridiculousness
+https://i.mjh.nz/.r/10-mtvridiculousness.m3u8
+#EXTINF:-1 tvg-id="mjh-10-mtv-the-shores" tvg-name="MTV The Shores" tvg-logo="https://10.com.au/ip/s3/2023/07/11/3901f5c4522a0c36cfed8630ab781a5e-1248401.png?image-profile=logo" group-title="Australian TV",MTV The Shores
+https://i.mjh.nz/.r/10-mtv-the-shores.m3u8
 #EXTINF:-1 tvg-id="MysteryParanormalGeo" tvg-name="Mystery & Paranormal-Geo" tvg-logo="https://imageresizer.static9.net.au/iJfm9-BYbtPrCS38pB64vZiHLU4=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F04%2F685323%2Fmp_squircle.png" group-title="Australian TV",Mystery & Paranormal-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-mystery-and-paranormal-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-naturetime" tvg-name="NatureTime" tvg-logo="https://10.com.au/ip/s3/2023/07/12/7b0ce57edb70336a469f938d59645bbe-1248639.png" group-title="Australian TV",NatureTime
 https://dai.google.com/ssai/event/Gw-ZMKv9TWq0NKD_hup70g/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-nexttopmodel" tvg-name="Next Top Model" tvg-logo="https://10.com.au/ip/s3/2026/08/04/7b46b0620b6c96c6afcd7c47bf356f79-1448048.png?image-profile=logo" group-title="Australian TV",Next Top Model
+https://i.mjh.nz/.r/10-nexttopmodel.m3u8
 #EXTINF:-1 tvg-id="mjh-10-nick-jr" tvg-name="Nick Jr Club" tvg-logo="https://10.com.au/ip/s3/2024/06/06/d14509f218578984e3a6f6f34f0ee12c-1319009.png" group-title="Australian TV",Nick Jr Club
 https://dai.google.com/ssai/event/BNQotvteTASZaD7fBNKdbw/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-nickteen" tvg-name="NickTeen" tvg-logo="https://10.com.au/ip/s3/2024/06/04/ecc540be818b29d753e036e046028a27-1318595.png" group-title="Australian TV",NickTeen
@@ -116,20 +226,44 @@ https://dai.google.com/ssai/event/qGM7kLD1R8CLZMqKq_P5Vg/master.m3u8
 https://dai.google.com/ssai/event/srJbbHmDT-6UxEKb47pGbQ/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-nicktoons-90s" tvg-name="NickToons 90s" tvg-logo="https://10.com.au/ip/s3/2024/06/07/a1aaf63737e7d2076759dd850b58471a-1319376.png" group-title="Australian TV",NickToons 90s
 https://dai.google.com/ssai/event/6u_sxN5IRZ2W22tdrqhsTA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-5nsw" tvg-name="NITV" tvg-logo="https://image.pr.sbsod.com/00ff96cd-68c3-5219-b792-c0c2faec1fe6" group-title="Australian TV",NITV
+https://i.mjh.nz/.r/sbs-5nsw.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-7faa" tvg-name="Planet Luke Nguyen" tvg-logo="https://image.pr.sbsod.com/6c1ccae0-2ddb-5e67-ae24-a4e42f23b2a0" group-title="Australian TV",Planet Luke Nguyen
+https://i.mjh.nz/.r/sbs-7faa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-prisoner-cell-block-h" tvg-name="Prisoner: Cell Block H" tvg-logo="https://10.com.au/ip/s3/2022/09/26/b6430b0f79d6b4c9fc5c6ea295bbae03-1182444.png" group-title="Australian TV",Prisoner: Cell Block H
 https://dai.google.com/ssai/event/fyziAodMQgCd0jAE3mH3JA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-prisoner-cell-block-h" tvg-name="Prisoner: Cell Block H" tvg-logo="https://10.com.au/ip/s3/2022/09/26/b6430b0f79d6b4c9fc5c6ea295bbae03-1182444.png?image-profile=logo" group-title="Australian TV",Prisoner: Cell Block H
+https://i.mjh.nz/.r/10-prisoner-cell-block-h.m3u8
 #EXTINF:-1 tvg-id="mjh-10-projectrunway" tvg-name="Project Runway" tvg-logo="https://10.com.au/ip/s3/2025/03/18/9652b72f62d4dcb715e22ec6f972b1e7-1369332.png" group-title="Australian TV",Project Runway
 https://dai.google.com/ssai/event/HtXtLOQ2TS2MagSoIjEg8A/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-projectrunway" tvg-name="Project Runway" tvg-logo="https://10.com.au/ip/s3/2025/03/18/9652b72f62d4dcb715e22ec6f972b1e7-1369332.png?image-profile=logo" group-title="Australian TV",Project Runway
+https://i.mjh.nz/.r/10-projectrunway.m3u8
 #EXTINF:-1 tvg-id="RealEmergencyGeo" tvg-name="Real Emergency-Geo" tvg-logo="https://imageresizer.static9.net.au/GbBWJp74WM7oHNFO5TjcXeMMcdU=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2025%2F10%2F726130%2Frealemergencysquircle.png" group-title="Australian TV",Real Emergency-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-wtfn-real-emergency-nsa.m3u8
+#EXTINF:-1 tvg-id="mjh-10-rookieblue" tvg-name="rookie-blue" tvg-logo="https://10.com.au/ip/s3/2026/02/01/b4f014a58a872ecca3409d233c38f122-1408366.png?image-profile=logo" group-title="Australian TV",rookie-blue
+https://i.mjh.nz/.r/10-rookieblue.m3u8
 #EXTINF:-1 tvg-id="mjh-10-aussiedramapopup" tvg-name="Rush" tvg-logo="https://10.com.au/ip/s3/2023/01/24/082f00086b990e915cd774644d67484c-1213111.png" group-title="Australian TV",Rush
 https://dai.google.com/ssai/event/uDKRbOJFQrSFElWu49cdsg/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-aussiedramapopup" tvg-name="Rush" tvg-logo="https://10.com.au/ip/s3/2023/01/24/082f00086b990e915cd774644d67484c-1213111.png?image-profile=logo" group-title="Australian TV",Rush
+https://i.mjh.nz/.r/10-aussiedramapopup.m3u8
 #EXTINF:-1 tvg-id="RushGeo" tvg-name="Rush-Geo" tvg-logo="https://imageresizer.static9.net.au/c2hCxc8m3yIWNjxUF0iETpgQNdA=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F03%2F574473%2F9rush.png" group-title="Australian TV",Rush-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-simulcast-bne-rush-hls-r13-nsa.m3u8?pp=9now_live&iu=%2F133009657%2F9now%2Fweb%2Flive&yo.up=https%3A%2F%2F9now-livestreams-fhd-t.akamaized.net%2Fu%2Fprod%2Fsimulcast%2Fbne%2Frush%2Fhls%2Fr1%2F&url=https%3A%2F%2Fwww.9now.com.au%2Flive%2Frush&vid=live-rush-bne&cmsid=2474123&yo.t.pf=8000&yo.ks=false&yo.pbr=false&yo.br=false&yo.ap=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&channel=rush&market=brisbane&yo.eb.fb=aHR0cHM6Ly85bm93LWxpdmVzdHJlYW1zLWZoZC10LmFrYW1haXplZC5uZXQvdS9wcm9kL3NpbXVsY2FzdC9ibmUvcnVzaC9obHMvcjEvaW5kZXgubTN1OA%3D%3D&startOver=false&yo.cp=https%3A%2F%2Fp-9now-ys-v2.akamaized.net%2F&nuid=66a75dc3e6f24562a46717abbb11c20d&apid=39ff4bb1-f283-5213-88fc-24552bc4dff8&device_id=23cc5485-ef83-b873-4c4e-856c8d2a820f&deviceType=desktop&optout=0&telaria_tvid=&userAgentheader=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A140.0%29+Gecko%2F20100101+Firefox%2F140.0&oztam_session_id=c4e09975-38f5-4e75-a60d-d96e9f79e4bf&vendorVersion=9now_web_1.6&yo.av=4&yo.ac=true&yo.lp=false&yo.lpa=dur
+#EXTINF:-1 tvg-id="mjh-sbs-sbst" tvg-name="SBS" tvg-logo="https://image.pr.sbsod.com/b073959a-a63e-5b6a-a05a-157d615a4b8c" group-title="Australian TV",SBS
+https://i.mjh.nz/.r/sbs-sbst.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-sbs-pop-araby" tvg-name="SBS Arabic" tvg-logo="https://image.pr.sbsod.com/37ad5c21-7dc4-55a9-bfab-0e6d1d8ebcb3" group-title="Australian TV",SBS Arabic
+https://i.mjh.nz/.r/sbs-sbs-pop-araby.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-sbs-pop-desi" tvg-name="SBS South Asian" tvg-logo="https://image.pr.sbsod.com/4d5e3445-4705-5d55-81cf-3fc64a3ec2ff" group-title="Australian TV",SBS South Asian
+https://i.mjh.nz/.r/sbs-sbs-pop-desi.m3u8
+#EXTINF:-1 tvg-id="mjh-sbs-2syd" tvg-name="SBS VICELAND" tvg-logo="https://image.pr.sbsod.com/22f3c441-e7fd-565e-96bc-39b881c39500" group-title="Australian TV",SBS VICELAND
+https://i.mjh.nz/.r/sbs-2syd.m3u8
 #EXTINF:-1 tvg-id="SeinfledGeo" tvg-name="Seinfled-Geo" tvg-logo="https://imageresizer.static9.net.au/DwnA_HeXfrg0BLVVy_U_cHIN6bc=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F04%2F585342%2Fgroup-61657.png" group-title="Australian TV",Seinfled-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-seinfledtv-nsa.m3u8
+#EXTINF:-1 tvg-id="mjh-seven" tvg-name="Seven" tvg-logo="https://i.mjh.nz/.images/auto-seven-per-9608a4.png" group-title="Australian TV",Seven
+https://i.mjh.nz/.r/seven-per.m3u8
 #EXTINF:-1 tvg-id="mjh-10-documentaryshell" tvg-name="Sharks & Other Predators" tvg-logo="https://10.com.au/ip/s3/2025/04/27/ef0a0364c8a70872e6d5f7a4cf5d2585-1376360.png" group-title="Australian TV",Sharks & Other Predators
 https://dai.google.com/ssai/event/QO37sxmASZ6032TaU4XbaA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-shockwave" tvg-name="Shockwave" tvg-logo="https://10.com.au/ip/s3/2026/03/31/145f61f54f2e66b3bf4a2fefff5b267a-1421437.png?image-profile=logo" group-title="Australian TV",Shockwave
+https://i.mjh.nz/.r/10-shockwave.m3u8
 #EXTINF:-1 tvg-id="mjh-10-south-park" tvg-name="South Park" tvg-logo="https://10.com.au/ip/s3/2023/08/03/41a79ba6a28f011b379ea68d41c28ea0-1253591.png" group-title="Australian TV",South Park
 https://dai.google.com/ssai/event/H1yf0PwIQACoUfCqwSkjjQ/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-south-park-two" tvg-name="South Park: Stan Collection" tvg-logo="https://10.com.au/ip/s3/2025/09/02/e292ac83437a077bc592dde9cb7e80c6-1392447.png" group-title="Australian TV",South Park: Stan Collection
@@ -138,16 +272,22 @@ https://dai.google.com/ssai/event/cwts9WFlRiWyDJtPBB93cA/master.m3u8
 https://dai.google.com/ssai/event/1nOSQsd2Tty6ZD8yOg0aYA/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-thankgodyourehere" tvg-name="Thank God You're Here" tvg-logo="https://10.com.au/ip/s3/2025/08/19/9cde4af8ad28a81defc2e020775ff74f-1390978.png" group-title="Australian TV",Thank God You're Here
 https://dai.google.com/ssai/event/AFa01UMuT063vfoHyojt7/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-thankgodyourehere" tvg-name="Thank God You&#x27;re Here" tvg-logo="https://10.com.au/ip/s3/2025/08/19/9cde4af8ad28a81defc2e020775ff74f-1390978.png?image-profile=logo" group-title="Australian TV",Thank God You're Here
+https://i.mjh.nz/.r/10-thankgodyourehere.m3u8
 #EXTINF:-1 tvg-id="TheBlockGeo" tvg-name="The Block-Geo" tvg-logo="https://imageresizer.static9.net.au/Iot3hbLbUoNlIMvQ3_T7opfG0hU=/1920x0/filters:format(webp)/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F623508%2Ftheblock_squircle.png" group-title="Australian TV",The Block-Geo
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-the-block-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-cheapseats" tvg-name="The Cheap Seats" tvg-logo="https://10.com.au/ip/s3/2025/08/08/47006754904d1d36520e76157ecbfb41-1390280.png" group-title="Australian TV",The Cheap Seats
 https://dai.google.com/ssai/event/HWeCCtszQ96CEOVyjUtdGA/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-cheapseats" tvg-name="The Cheap Seats" tvg-logo="https://10.com.au/ip/s3/2025/08/08/47006754904d1d36520e76157ecbfb41-1390280.png?image-profile=logo" group-title="Australian TV",The Cheap Seats
+https://i.mjh.nz/.r/10-cheapseats.m3u8
 #EXTINF:-1 tvg-id="mjh-10-thedoghouse" tvg-name="The Dog House" tvg-logo="https://10.com.au/ip/s3/2023/09/20/ccfe09abf555996e0901c1ebe582d65a-1265121.png" group-title="Australian TV",The Dog House
 https://dai.google.com/ssai/event/AoUDD1cMQMWXgvwzpeK_qg/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-grahamnorton" tvg-name="The Graham Norton Show" tvg-logo="https://10.com.au/ip/s3/2023/07/12/bcb38e1591564d24894210f4abd02423-1248623.png" group-title="Australian TV",The Graham Norton Show
 https://dai.google.com/ssai/event/WazfGj4sR_2eMpzIi6CdhQ/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-theonlywayisessex" tvg-name="The Only Way Is Essex" tvg-logo="https://10.com.au/ip/s3/2024/10/21/644463c986545838587c1b800be3da68-1345463.png" group-title="Australian TV",The Only Way Is Essex
 https://dai.google.com/ssai/event/krsZpY39RO6h-8Lq8YccvQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-theonlywayisessex" tvg-name="The Only Way Is Essex" tvg-logo="https://10.com.au/ip/s3/2024/10/21/644463c986545838587c1b800be3da68-1345463.png?image-profile=logo" group-title="Australian TV",The Only Way Is Essex
+https://i.mjh.nz/.r/10-theonlywayisessex.m3u8
 #EXTINF:-1 tvg-id="mjh-10-the-twilight-zone" tvg-name="The Twilight Zone" tvg-logo="https://10.com.au/ip/s3/2023/06/28/c60c6fcc024a5e14036e5f446aa81eae-1246026.png" group-title="Australian TV",The Twilight Zone
 https://dai.google.com/ssai/event/7er3mnaZSb264KAl3QFy_Q/master.m3u8
 #EXTINF:-1 tvg-id="mjh-10-seasonalmovies" tvg-name="Thriller Movies" tvg-logo="https://10.com.au/ip/s3/2024/04/01/86e45216ee9df7d873e393dccb379d94-1306209.png" group-title="Australian TV",Thriller Movies
@@ -156,11 +296,23 @@ https://dai.google.com/ssai/event/y4cLpk6XT9iWyrwB7zoneQ/master.m3u8
 https://csm-e-nineext2au-eb.bln1.yospace.com/csm/extlive/nnaprd01,prod-fast-channels-bbc-top-gear-nsa.m3u8
 #EXTINF:-1 tvg-id="mjh-10-true-stories" tvg-name="True Stories" tvg-logo="https://10.com.au/ip/s3/2022/09/22/bf31efb3f5efe008cc774909b0cef282-1181809.png" group-title="Australian TV",True Stories
 https://dai.google.com/ssai/event/ObeG614fSKOcAMkorKZjyw/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-true-stories" tvg-name="True Stories" tvg-logo="https://10.com.au/ip/s3/2022/09/22/bf31efb3f5efe008cc774909b0cef282-1181809.png?image-profile=logo" group-title="Australian TV",True Stories
+https://i.mjh.nz/.r/10-true-stories.m3u8
 #EXTINF:-1 tvg-id="mjh-10-undercoverboss" tvg-name="Undercover Boss" tvg-logo="https://10.com.au/ip/s3/2024/10/21/45e53866fa7cd6757ddf34e52e7a9262-1345397.png" group-title="Australian TV",Undercover Boss
 https://dai.google.com/ssai/event/uSRPvxsiRtGFfNWPMLNijg/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-undercoverboss" tvg-name="Undercover Boss" tvg-logo="https://10.com.au/ip/s3/2024/10/21/45e53866fa7cd6757ddf34e52e7a9262-1345397.png?image-profile=logo" group-title="Australian TV",Undercover Boss
+https://i.mjh.nz/.r/10-undercoverboss.m3u8
 #EXTINF:-1 tvg-id="mjh-10-wicked-tuna" tvg-name="Wicked Tuna" tvg-logo="https://10.com.au/ip/s3/2022/09/02/2d667eb54bf0119b84b744f9569ee214-1177247.png" group-title="Australian TV",Wicked Tuna
 https://dai.google.com/ssai/event/l-N4-xRZTzikHGqTSZR5gQ/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-wicked-tuna" tvg-name="Wicked Tuna" tvg-logo="https://10.com.au/ip/s3/2022/09/02/2d667eb54bf0119b84b744f9569ee214-1177247.png?image-profile=logo" group-title="Australian TV",Wicked Tuna
+https://i.mjh.nz/.r/10-wicked-tuna.m3u8
+#EXTINF:-1 tvg-id="mjh-10-wildest" tvg-name="Wildest" tvg-logo="https://10.com.au/ip/s3/2026/04/28/230f46ab9b55bdb4f98a00f616d8b0a2-1424324.png?image-profile=logo" group-title="Australian TV",Wildest
+https://i.mjh.nz/.r/10-wildest.m3u8
 #EXTINF:-1 tvg-id="mjh-10-world-of-survivor" tvg-name="World Of Survivor" tvg-logo="https://10.com.au/ip/s3/2024/09/24/6a7955dee63fad795d40332b9cfbf8ce-1340644.png" group-title="Australian TV",World Of Survivor
 https://dai.google.com/ssai/event/98ajzpAtT6GqU0rh-KSoiw/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-world-of-survivor" tvg-name="World Of Survivor" tvg-logo="https://10.com.au/ip/s3/2024/09/24/6a7955dee63fad795d40332b9cfbf8ce-1340644.png?image-profile=logo" group-title="Australian TV",World Of Survivor
+https://i.mjh.nz/.r/10-world-of-survivor.m3u8
 #EXTINF:-1 tvg-id="mjh-10-youtv" tvg-name="YouTV" tvg-logo="https://10.com.au/ip/s3/2024/07/10/33f7c16e8ba1628d52844cb45b8eac4f-1326074.png" group-title="Australian TV",YouTV
 https://dai.google.com/ssai/event/r1G8HcWYQz25RGuF7yF48g/master.m3u8
+#EXTINF:-1 tvg-id="mjh-10-youtv" tvg-name="YouTV" tvg-logo="https://10.com.au/ip/s3/2024/07/10/33f7c16e8ba1628d52844cb45b8eac4f-1326074.png?image-profile=logo" group-title="Australian TV",YouTV
+https://i.mjh.nz/.r/10-youtv.m3u8
