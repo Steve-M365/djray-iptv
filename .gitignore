@@ -4,8 +4,12 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Output
-output/
+# Output (large files - regenerate with scripts)
+output/playlists/
+output/*.xml
+output/*.xml.gz
+output/playlist_urls.txt
+cache/
 
 # IDE
 .vscode/
