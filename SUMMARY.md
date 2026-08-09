@@ -1,10 +1,10 @@
-# ✅ Project Complete: Apsattv IPTV Aggregator
+# ✅ Project Complete: DJRay IPTV Aggregator
 
 ## 📦 What Was Built
 
 A complete system that aggregates **75+ playlists from apsattv.com** into a single master M3U with categorized sections, plus an EPG (XMLTV) generator.
 
-### Generated Files (In `apsattv-iptv/output/`)
+### Generated Files (In `djray-iptv/output/`)
 
 | File | Size | Description |
 |------|------|-------------|
@@ -70,7 +70,7 @@ Samsung Regional     — 17 playlists (ssungaus, ssungbelg, ssungbra, ssungden, 
 1. **Initialize Git & Push**
 
 ```bash
-cd apsattv-iptv
+cd djray-iptv
 git init
 git add .
 git commit -m "Initial deployment: apsattv IPTV aggregator"
@@ -145,7 +145,7 @@ Source playlists change frequently. Set up automated refresh:
 #### Option A: Cron Job
 ```bash
 crontab -e
-0 2 * * * cd /path/to/apsattv-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Daily update $(date +\%Y-\%m-\%d)" && git push
+0 2 * * * cd /path/to/djray-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Daily update $(date +\%Y-\%m-\%d)" && git push
 ```
 
 #### Option B: GitHub Actions
@@ -158,7 +158,7 @@ Add `.github/workflows/daily.yml` to your repo (see DEPLOY.md for full example).
 ### Check Output Files
 
 ```bash
-cd apsattv-iptv
+cd djray-iptv
 ls -lh output/
 # master.m3u ~3.5 MB
 # epg.xml    ~1.1 MB
@@ -229,7 +229,7 @@ python deploy.py
 
 ## 📦 What's Included
 
-The complete `apsattv-iptv/` folder contains:
+The complete `djray-iptv/` folder contains:
 - All source code (Python scripts)
 - Virtual environment (`venv/`)  
 - Output files (`output/master.m3u`, `output/epg.xml`)

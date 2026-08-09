@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Apsattv IPTV Web App - Customizable Playlist Manager
+DJRay IPTV Web App - Customizable Playlist Manager
 Pick and choose playlists, generate custom M3U, save preferences.
 """
 
@@ -302,7 +302,7 @@ if __name__ == "__main__":
     debug = os.environ.get("FLASK_DEBUG", "false").lower() == "true"
     
     print(f"\n{'='*60}")
-    print(f"Apsattv IPTV Hub - Customizable Playlist Manager")
+    print(f"DJRay IPTV Hub - Customizable Playlist Manager")
     print(f"{'='*60}")
     print(f"Dashboard:  http://localhost:{port}")
     print(f"Custom M3U: http://localhost:{port}/playlist/custom.m3u")

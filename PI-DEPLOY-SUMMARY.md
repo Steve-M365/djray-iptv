@@ -1,4 +1,4 @@
-# ✅ Deployment Complete: Apsattv IPTV on Raspberry Pi
+# ✅ Deployment Complete: DJRay IPTV on Raspberry Pi
 
 ## 🎉 Successfully Deployed!
 
@@ -78,7 +78,7 @@ Your Mac has the generator scripts. To update the Pi:
 
 ### Option A: One-command update (recommended)
 ```bash
-cd /Users/steve/scripts/apsattv-iptv
+cd /Users/steve/scripts/djray-iptv
 ./update-pi.sh
 ```
 This regenerates master.m3u and epg.xml, then copies to Pi automatically.
@@ -86,15 +86,15 @@ This regenerates master.m3u and epg.xml, then copies to Pi automatically.
 ### Option B: Manual copy
 ```bash
 # On Mac, after regenerating:
-scp /Users/steve/scripts/apsattv-iptv/output/master.m3u a-steve@192.168.1.142:~/iptv/
-scp /Users/steve/scripts/apsattv-iptv/output/epg.xml a-steve@192.168.1.142:~/iptv/
+scp /Users/steve/scripts/djray-iptv/output/master.m3u a-steve@192.168.1.142:~/iptv/
+scp /Users/steve/scripts/djray-iptv/output/epg.xml a-steve@192.168.1.142:~/iptv/
 ```
 No restart needed — Python HTTP server serves files live.
 
 ### Option C: Run generator on Pi (requires Python packages)
 ```bash
 ssh a-steve@192.168.1.142
-cd /home/a-steve/apsattv-iptv  # if you copy the whole folder
+cd /home/a-steve/djray-iptv  # if you copy the whole folder
 python3 main.py
 python3 epg_generator.py
 ```
@@ -133,7 +133,7 @@ Use these URLs in any player on your home network:
 ## 📖 Full Documentation
 
 On the Pi: `cat /home/a-steve/iptv/README.md`  
-Or on Mac: `open apsattv-iptv/PI-README.md`
+Or on Mac: `open djray-iptv/PI-README.md`
 
 Covers: troubleshooting, automation, external access, security.
 
@@ -195,7 +195,7 @@ curl -s http://192.168.1.142:8090/epg.xml | head -5
 | SSH to Pi | `ssh a-steve@192.168.1.142` |
 | Check service | `sudo systemctl status iptv-server` |
 | Restart service | `sudo systemctl restart iptv-server` |
-| Update from Mac | `./update-pi.sh` (in apsattv-iptv folder) |
+| Update from Mac | `./update-pi.sh` (in djray-iptv folder) |
 | View logs | `sudo journalctl -u iptv-server -f` |
 | Stop service | `sudo systemctl stop iptv-server` |
 

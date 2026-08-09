@@ -1,4 +1,4 @@
-# 🚀 Quick Start: Deploy Your Apsattv IPTV Service
+# 🚀 Quick Start: Deploy Your DJRay IPTV Service
 
 You have generated:
 - `output/master.m3u` — 3.5 MB playlist with **6,781 channels** across 8 categories
@@ -22,7 +22,7 @@ You have generated:
 gh auth login
 
 # Create and push repo
-cd apsattv-iptv
+cd djray-iptv
 git init
 git add .
 git commit -m "Deploy apsattv IPTV"
@@ -115,7 +115,7 @@ Source playlists change frequently. Set daily auto-update:
 ```bash
 crontab -e
 # Add:
-0 2 * * * cd /path/to/apsattv-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Update $(date +\%Y-\%m-\%d)" && git push 2>&1 >> /tmp/iptv-update.log
+0 2 * * * cd /path/to/djray-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Update $(date +\%Y-\%m-\%d)" && git push 2>&1 >> /tmp/iptv-update.log
 ```
 
 ### Using GitHub Actions (no server needed)
@@ -177,7 +177,7 @@ If you MUST use Google Sites (e.g. organization policy):
 ## File Reference
 
 ```
-apsattv-iptv/
+djray-iptv/
 ├── main.py                  # M3U generator (parallel fetch, 75 sources)
 ├── epg_generator.py         # EPG generator (iptv-org or EPGshare)
 ├── config.json              # EPG source, channel cleanup rules

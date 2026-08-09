@@ -3,7 +3,7 @@
 
 set -e
 
-OUTPUT_DIR="/tmp/opencode/apsattv-iptv/output"
+OUTPUT_DIR="/tmp/opencode/djray-iptv/output"
 PLAYLIST_DIR="$OUTPUT_DIR/playlists"
 MASTER_M3U="$OUTPUT_DIR/master.m3u"
 

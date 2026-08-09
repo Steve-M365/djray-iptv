@@ -1,5 +1,5 @@
 #!/bin/bash
-# Quick setup script for apsattv-iptv
+# Quick setup script for djray-iptv
 
 echo "=== Apsattv IPTV Setup ==="
 echo ""

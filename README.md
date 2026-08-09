@@ -114,7 +114,7 @@ GitHub Pages provides free static file hosting.
 #    Name it: apsattv-m3u (or your preferred name)
 
 # 2. Initialize git in your local folder
-cd apsattv-iptv
+cd djray-iptv
 git init
 git add .
 git commit -m "Initial commit: apsattv aggregator"
@@ -217,7 +217,7 @@ Set up a cron job to update playlists and EPG daily:
 crontab -e
 
 # Add this line to update daily at 2am:
-0 2 * * * cd /path/to/apsattv-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Daily update $(date +\%Y-\%m-\%d)" && git push 2>&1 >> /tmp/apsattv-update.log
+0 2 * * * cd /path/to/djray-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Daily update $(date +\%Y-\%m-\%d)" && git push 2>&1 >> /tmp/apsattv-update.log
 ```
 
 ## Notes

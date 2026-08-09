@@ -1,10 +1,10 @@
 #!/bin/bash
 # Quick update: Regenerate and copy files to Raspberry Pi
-# Run this from your Mac in the apsattv-iptv directory
+# Run this from your Mac in the djray-iptv directory
 
 set -e
 
-cd /Users/steve/scripts/apsattv-iptv
+cd /Users/steve/scripts/djray-iptv
 
 echo "=== Regenerating playlists ==="
 source venv/bin/activate

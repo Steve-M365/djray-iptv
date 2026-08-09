@@ -28,7 +28,7 @@ GitHub Pages serves static files with direct URLs. Perfect for M3U/EPG.
 #    Set to PUBLIC (required for Pages)
 
 # 3. Push your files
-cd apsattv-iptv
+cd djray-iptv
 git init
 git add .
 git commit -m "Initial commit"
@@ -65,7 +65,7 @@ EPG URL: `https://USER.github.io/apsattv-m3u/epg.xml`
 After making changes (rerunning the scripts):
 
 ```bash
-cd apsattv-iptv
+cd djray-iptv
 git add output/
 git commit -m "Update $(date +%Y-%m-%d)"
 git push
@@ -143,7 +143,7 @@ Set up daily auto-update (requires GitHub token with repo permissions):
 
 ```bash
 # Add to crontab: crontab -e
-0 2 * * * cd /path/to/apsattv-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Auto-update $(date +\%Y-\%m-\%d)" && git push
+0 2 * * * cd /path/to/djray-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Auto-update $(date +\%Y-\%m-\%d)" && git push
 ```
 
 Or use the included `deploy.py` script with GitHub CLI.

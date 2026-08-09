@@ -1,4 +1,4 @@
-# 🍓 Apsattv IPTV on Raspberry Pi
+# 🍓 DJRay IPTV on Raspberry Pi
 
 **Host:** pi4 (192.168.1.142)  
 **Service:** Python HTTP server on port 8090  
@@ -66,14 +66,14 @@ Playlist data is generated on your Mac and copied to the Pi.
 
 ### From Mac (after regenerating)
 ```bash
-scp /Users/steve/scripts/apsattv-iptv/output/master.m3u a-steve@192.168.1.142:~/iptv/
-scp /Users/steve/scripts/apsattv-iptv/output/epg.xml a-steve@192.168.1.142:~/iptv/
+scp /Users/steve/scripts/djray-iptv/output/master.m3u a-steve@192.168.1.142:~/iptv/
+scp /Users/steve/scripts/djray-iptv/output/epg.xml a-steve@192.168.1.142:~/iptv/
 ```
 Files are served automatically (no restart needed).
 
 ### On Pi (if generator installed there)
 ```bash
-cd /home/a-steve/apsattv-iptv
+cd /home/a-steve/djray-iptv
 python3 main.py
 python3 epg_generator.py
 # Files automatically appear in ~/iptv/
@@ -160,7 +160,7 @@ crontab -e
 ### Or update from Mac automatically
 Add to Mac crontab:
 ```bash
-0 3 * * * scp /Users/steve/scripts/apsattv-iptv/output/*.m3u a-steve@192.168.1.142:~/iptv/ && scp /Users/steve/scripts/apsattv-iptv/output/epg.xml a-steve@192.168.1.142:~/iptv/
+0 3 * * * scp /Users/steve/scripts/djray-iptv/output/*.m3u a-steve@192.168.1.142:~/iptv/ && scp /Users/steve/scripts/djray-iptv/output/epg.xml a-steve@192.168.1.142:~/iptv/
 ```
 
 ---

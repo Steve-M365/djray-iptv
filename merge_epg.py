@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import datetime
 import sys
 
-OUTPUT_DIR = Path("/tmp/opencode/apsattv-iptv/output")
+OUTPUT_DIR = Path("/tmp/opencode/djray-iptv/output")
 MERGED_FILE = OUTPUT_DIR / "epg.xml"
 
 # EPG sources in priority order (first match wins)
@@ -78,7 +78,7 @@ def merge_epg():
     
     # Build merged XML
     root = ET.Element("tv")
-    root.set("generator-info-name", "Apsattv IPTV Hub")
+    root.set("generator-info-name", "DJRay IPTV Hub")
     root.set("source-info-name", "Multiple sources merged")
     
     # Add channels

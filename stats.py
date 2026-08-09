@@ -1,4 +1,4 @@
-with open("/Users/steve/scripts/apsattv-iptv/output/master.m3u") as f:
+with open("/Users/steve/scripts/djray-iptv/output/master.m3u") as f:
     content = f.read()
 
 lines = content.split("\n")
