@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="mjh-7afl-fast" tvg-name="7AFL" tvg-logo="https://i.mjh.nz/.images/auto-7afl-fast-e8fdb6.png" group-title="Vortexo | Australia | Sports",7AFL
+https://i.mjh.nz/.r/7afl-fast.m3u8
+#EXTINF:-1 tvg-id="mjh-first-nations-tv" tvg-name="First Nations TV" tvg-logo="https://i.mjh.nz/.images/first-nations-tv.png" group-title="Vortexo | Australia | Entertainment",First Nations TV
+https://i.mjh.nz/.r/first-nations-tv.m3u8
+#EXTINF:-1 tvg-id="mjh-seven" tvg-name="Seven" tvg-logo="https://i.mjh.nz/.images/auto-seven-per-9608a4.png" group-title="Vortexo | Australia | Entertainment",Seven
+https://i.mjh.nz/.r/seven-per.m3u8
 #EXTINF:-1 tvg-id="mjh-7mate-ade" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-ade-360d60.png" group-title="Vortexo | Australia | Entertainment",7mate
 https://i.mjh.nz/.r/7mate-ade.m3u8
 #EXTINF:-1 tvg-id="mjh-7mate-bri" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-bri-360d60.png" group-title="Vortexo | Australia | Entertainment",7mate
@@ -9,21 +15,15 @@ https://i.mjh.nz/.r/7mate-mel.m3u8
 https://i.mjh.nz/.r/7mate-per.m3u8
 #EXTINF:-1 tvg-id="mjh-7mate-syd" tvg-name="7mate" tvg-logo="https://i.mjh.nz/.images/auto-7mate-syd-360d60.png" group-title="Vortexo | Australia | Entertainment",7mate
 https://i.mjh.nz/.r/7mate-syd.m3u8
-#EXTINF:-1 tvg-id="mjh-7mate-regional" tvg-name="7mate Regional" tvg-logo="https://i.mjh.nz/.images/auto-7mate-regional-360d60.png" group-title="Vortexo | Australia | Entertainment",7mate Regional
-https://i.mjh.nz/.r/7mate-regional.m3u8
-#EXTINF:-1 tvg-id="mjh-gem" tvg-name="9Gem" tvg-logo="https://imageresizer.static9.net.au/d00389KKc5T4o5isRaDE9Pl9DWk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F620929%2F9gem-1.png" group-title="Vortexo | Australia | Entertainment",9Gem
-https://i.mjh.nz/.r/gem-wa.m3u8
 #EXTINF:-1 tvg-id="mjh-channel-9" tvg-name="Channel 9" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Vortexo | Australia | Entertainment",Channel 9
 https://i.mjh.nz/.r/channel-9-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-gem" tvg-name="9Gem" tvg-logo="https://imageresizer.static9.net.au/d00389KKc5T4o5isRaDE9Pl9DWk=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F08%2F620929%2F9gem-1.png" group-title="Vortexo | Australia | Entertainment",9Gem
+https://i.mjh.nz/.r/gem-wa.m3u8
+#EXTINF:-1 tvg-id="mjh-7mate-regional" tvg-name="7mate Regional" tvg-logo="https://i.mjh.nz/.images/auto-7mate-regional-360d60.png" group-title="Vortexo | Australia | Entertainment",7mate Regional
+https://i.mjh.nz/.r/7mate-regional.m3u8
 #EXTINF:-1 tvg-id="mjh-channel-9-gold-coast" tvg-name="Channel 9 (Gold Coast)" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Vortexo | Australia | Entertainment",Channel 9 (Gold Coast)
 https://i.mjh.nz/.r/channel-9-gold-coast.m3u8
 #EXTINF:-1 tvg-id="mjh-channel-9-newcastle" tvg-name="Channel 9 (Newcastle)" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Vortexo | Australia | Entertainment",Channel 9 (Newcastle)
 https://i.mjh.nz/.r/channel-9-newcastle.m3u8
 #EXTINF:-1 tvg-id="mjh-channel-9-lismore" tvg-name="Channel 9 (Norther Rivers)" tvg-logo="https://imageresizer.static9.net.au/lx1XIWcrYZRtnfJOqvxNn9CshDI=/768x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2024%2F09%2F630608%2F9nine-1.png" group-title="Vortexo | Australia | Entertainment",Channel 9 (Norther Rivers)
 https://i.mjh.nz/.r/channel-9-lismore.m3u8
-#EXTINF:-1 tvg-id="mjh-first-nations-tv" tvg-name="First Nations TV" tvg-logo="https://i.mjh.nz/.images/first-nations-tv.png" group-title="Vortexo | Australia | Entertainment",First Nations TV
-https://i.mjh.nz/.r/first-nations-tv.m3u8
-#EXTINF:-1 tvg-id="mjh-seven" tvg-name="Seven" tvg-logo="https://i.mjh.nz/.images/auto-seven-per-9608a4.png" group-title="Vortexo | Australia | Entertainment",Seven
-https://i.mjh.nz/.r/seven-per.m3u8
-#EXTINF:-1 tvg-id="mjh-7afl-fast" tvg-name="7AFL" tvg-logo="https://i.mjh.nz/.images/auto-7afl-fast-e8fdb6.png" group-title="Vortexo | Australia | Sports",7AFL
-https://i.mjh.nz/.r/7afl-fast.m3u8
