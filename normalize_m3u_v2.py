@@ -619,8 +619,8 @@ def normalize_channels(channels):
                 if sub in XUMO_TYPES:
                     ch.channel_type = XUMO_TYPES[sub]
 
-        # Build new group-title: Source | Country | Type
-        ch.group_title = f"{ch.source_name} | {ch.country} | {ch.channel_type}"
+        # Build new group-title: Source\Country\Type (TiviMate hierarchical)
+        ch.group_title = f"{ch.source_name}\\{ch.country}\\{ch.channel_type}"
 
         # Add tvg-id if missing
         if not ch.tvg_id:
@@ -815,7 +815,7 @@ def build_sport_playlist(channels, filename, name_pattern, epg_based=False):
     with open(out_file, "w") as f:
         f.write("#EXTM3U\n")
         for ch in matched:
-            extinf = f'#EXTINF:-1 tvg-id="{ch.tvg_id}" tvg-name="{ch.tvg_name}" tvg-logo="{ch.tvg_logo}" group-title="{ch.source_name} | {ch.country} | {ch.channel_type}",{ch.name}'
+            extinf = f'#EXTINF:-1 tvg-id="{ch.tvg_id}" tvg-name="{ch.tvg_name}" tvg-logo="{ch.tvg_logo}" group-title="{ch.source_name}\\{ch.country}\\{ch.channel_type}",{ch.name}'
             f.write(extinf + "\n")
             f.write(ch.url + "\n")
 
