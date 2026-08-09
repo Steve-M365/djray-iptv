@@ -1,8 +1,0 @@
-#EXTM3U
-# DJRay - En Espanol,Kids
-# Total channels: 1
-# Generated: 2026-08-09 10:57:23
-
-# En Espanol,Kids (1 channels)
-#EXTINF:-1 tvg-id="043" tvg-name="Adventures of Sonic (ES)" tvg-logo="https://s3.amazonaws.com/mtdb.galxy.prod/storage/live-tv/channel-logos/jegTgSivoGidB9ylOXDMn4LQPxqRFigpRjRjjLz0.png" group-title="En Espanol,Kids",Kids",Adventures of Sonic (ES)
-https://stream-us-east-1.getpublica.com/playlist.m3u8?avod=1&live=1&hls_marker=1&network_id=2260&pod_duration=121&min_ad_duration=6&max_ad_duration=120&cb=[CACHEBUSTER]&content_context=1&did=[DID]&ip=[IP]&ua=[%UA%]&player_height=[HEIGHT]&player_width=[WIDTH]&app_name=GalxyTV&app_bundle=[APP_BUNDLE]&app_category=IAB1-7&app_domain=www.galxy.tv&app_store_url=https%3A%2F%2Fwww.galxy.tv&content_cat=IAB1-7%2CIAB1%2CIAB9-30&content_channel=Adventures%20of%20Sonic%20the%20Hedgehog&content_genre=kids%2Ccartoon%2Canimation&content_language=es%2CEspanol&content_network=GalxyTV&content_keywords=kids%2Ccartoon%2Canimation%2Csonic%2C nostalgia%2Csega%2Crobotnik%2Cfast%2Cblue%2Cfurball%2Cgalxy%2CTails&content_rating=TV-G&us_privacy=[US_PRIVACY]&consent=[CONSENT]&is_lat=[LIMITED_AD_TRACKING]&ifa_type=[IFA_TYPE]
