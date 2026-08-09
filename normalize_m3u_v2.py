@@ -755,6 +755,12 @@ def main():
         country_str = ", ".join(f"{c}({n})" for c, n in sorted(countries.items(), key=lambda x: -x[1])[:5])
         print(f"  {source_name}: {count} channels → {source_file.name} [{country_str}]")
 
+    # Build sport-specific playlists from EPG
+    print("\nBuilding sport-specific playlists...")
+    build_sport_playlist(normalized, "formula1", re.compile(r'\b(?:f1|formula\s*1|formula\s*one)\b', re.IGNORECASE))
+    build_sport_playlist(normalized, "afl", re.compile(r'\b(?:afl|australian football|footy|7afl|fox footy)\b', re.IGNORECASE),
+                         epg_based=True)
+
     # Summary
     print("\n" + "=" * 60)
     print("  SUMMARY")
@@ -768,6 +774,52 @@ def main():
         types = set(c.channel_type for c in channels)
         print(f"    {source_name}: {len(channels)} channels ({len(countries)} countries, {len(types)} types)")
     print("=" * 60)
+
+
+def build_sport_playlist(channels, filename, name_pattern, epg_based=False):
+    """Build a sport-specific playlist by matching channel names (and optionally EPG data)."""
+    import gzip as gz
+
+    matched = []
+    seen_urls = set()
+
+    # Match by channel name
+    for ch in channels:
+        if name_pattern.search(ch.name) and ch.url not in seen_urls:
+            matched.append(ch)
+            seen_urls.add(ch.url)
+
+    # For AFL, also match via EPG programme data
+    if epg_based:
+        epg_file = OUTPUT_DIR / "epg.xml.gz"
+        if epg_file.exists():
+            try:
+                with gz.open(epg_file, "rt") as f:
+                    epg = f.read()
+                progs = re.findall(
+                    r'<programme[^>]*channel="([^"]+)"[^>]*>.*?<title[^>]*>([^<]+)</title>',
+                    epg, re.DOTALL
+                )
+                epg_ids = set()
+                for ch_id, title in progs:
+                    if name_pattern.search(title):
+                        epg_ids.add(ch_id)
+                for ch in channels:
+                    if hasattr(ch, 'tvg_id') and ch.tvg_id in epg_ids and ch.url not in seen_urls:
+                        matched.append(ch)
+                        seen_urls.add(ch.url)
+            except Exception:
+                pass
+
+    out_file = OUTPUT_DIR / "sources" / f"{filename}.m3u"
+    with open(out_file, "w") as f:
+        f.write("#EXTM3U\n")
+        for ch in matched:
+            extinf = f'#EXTINF:-1 tvg-id="{ch.tvg_id}" tvg-name="{ch.tvg_name}" tvg-logo="{ch.tvg_logo}" group-title="{ch.source_name} | {ch.country} | {ch.channel_type}",{ch.name}'
+            f.write(extinf + "\n")
+            f.write(ch.url + "\n")
+
+    print(f"  {filename}.m3u: {len(matched)} channels → {out_file.name}")
 
 
 if __name__ == "__main__":
