@@ -289,12 +289,67 @@
         </header>
 
         <nav class="player-nav">
+            <a href="#easy-input">Easy Input Methods</a>
             <a href="#prerequisites">Prerequisites</a>
             <a href="#tivimate">TiviMate</a>
             <a href="#smarters">IPTV Smarters</a>
             <a href="#kodi">Kodi + PVR</a>
             <a href="#urls">Quick URLs</a>
         </nav>
+
+        <!-- EASY INPUT -->
+        <div class="section" id="easy-input">
+            <h2>Easy Input Methods — No Typing Required</h2>
+            <p>Typing long URLs with a TV remote is painful. Here are the easiest ways to get the URLs into your player.</p>
+
+            <h3>Method 1: QR Code (Recommended)</h3>
+            <p>Open your phone's camera, point it at the QR code below, and tap the link. Then share it to your TV.</p>
+
+            <div class="preset-grid">
+                <div class="preset-card" style="text-align: center;">
+                    <h4>All Channels M3U</h4>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u" alt="QR Code" style="margin: 0.75rem auto; display: block; border-radius: 8px;">
+                    <p style="font-size: 0.75rem;">Scan with phone camera</p>
+                    <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u', this)">Copy URL</button>
+                </div>
+                <div class="preset-card" style="text-align: center;">
+                    <h4>EPG (TV Guide)</h4>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz" alt="QR Code" style="margin: 0.75rem auto; display: block; border-radius: 8px;">
+                    <p style="font-size: 0.75rem;">Scan with phone camera</p>
+                    <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz', this)">Copy URL</button>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>How to transfer from phone to TV:</strong>
+                <ol style="margin-top: 0.5rem;">
+                    <li>Scan QR code with your phone camera</li>
+                    <li>Copy the URL from your phone's browser</li>
+                    <li>Use one of these methods to send to your TV:
+                        <ul>
+                            <li><strong>Amazon Fire TV Remote app</strong> (iOS/Android) — paste into the text field, sends directly to your Fire TV</li>
+                            <li><strong>Google TV app</strong> — use the remote keyboard feature</li>
+                            <li><strong>Send Files to TV</strong> app — install on both phone and TV</li>
+                            <li><strong>TV Quick Keyboard</strong> app — type on phone, appears on TV</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <h3>Method 2: Fire TV Remote App (Fastest)</h3>
+            <ol>
+                <li>Install <strong>"Amazon Fire TV"</strong> app on your phone (iOS/Android)</li>
+                <li>Open the app and connect to your Fire TV</li>
+                <li>Tap the <strong>keyboard icon</strong> in the app</li>
+                <li>Type/paste the URL on your phone — it appears on your TV instantly</li>
+            </ol>
+
+            <h3>Method 3: Voice Input</h3>
+            <p>Some Fire TV remotes support voice dictation. Press and hold the <strong>microphone button</strong> on your remote and say the URL. Works best with short URLs.</p>
+
+            <h3>Method 4: Unlinked Code (One-Time Setup)</h3>
+            <p>Install the <strong>Unlinked</strong> app on your Fire TV, then enter a library code to install IPTV players without typing URLs. You still need to add the playlist URLs once, but the player apps install with one click.</p>
+        </div>
 
         <!-- PREREQUISITES -->
         <div class="section" id="prerequisites">
