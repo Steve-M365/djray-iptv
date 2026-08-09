@@ -1,6 +1,6 @@
 # Apsattv.com IPTV Aggregator
 
-Aggregates all 75+ playlists from apsattv.com into a single master M3U playlist with categorized sections, and generates an EPG (Electronic Program Guide).
+Aggregates all 75+ playlists from apsattv.com into a single master M3U playlist with categorized sections, and generates an EPG (Electronic Program Guide). Includes a web dashboard for TiviMate and other IPTV players.
 
 ## Features
 
@@ -10,8 +10,12 @@ Aggregates all 75+ playlists from apsattv.com into a single master M3U playlist 
 - EPG generation from free XMLTV providers
 - Channel deduplication
 - Channel name normalization for better EPG matching
+- **Web dashboard** with TiviMate-compatible URLs
+- **Auto-refresh** every 6 hours (configurable)
 
 ## Quick Start
+
+### Option 1: Web App (Recommended)
 
 ```bash
 # 1. Install dependencies
@@ -19,10 +23,30 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-# 2. Generate master M3U
+# 2. Run the web app
+python app.py
+
+# 3. Open browser
+# Dashboard: http://localhost:5000
+# M3U URL:   http://localhost:5000/playlist/master.m3u
+# EPG URL:   http://localhost:5000/epg/epg.xml
+```
+
+### Option 2: Docker
+
+```bash
+docker compose up -d
+
+# Access at http://localhost:5000
+```
+
+### Option 3: CLI Only
+
+```bash
+# 1. Generate master M3U
 python main.py
 
-# 3. Generate EPG (edit config.json first - see EPG Setup below)
+# 2. Generate EPG (edit config.json first)
 python epg_generator.py
 
 # Output files are in output/ directory:

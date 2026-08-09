@@ -1,0 +1,14 @@
+services:
+  apsattv:
+    build: .
+    container_name: apsattv-iptv
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_DEBUG=false
+      - PORT=5000
+      - REFRESH_INTERVAL_HOURS=6
+    volumes:
+      - ./output:/app/output
+      - ./cache:/app/cache
+    restart: unless-stopped
