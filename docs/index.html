@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJRay IPTV Hub</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #242836;
+            --border: #2d3148;
+            --text: #e4e6f0;
+            --text-muted: #8b8fa3;
+            --accent: #6c5ce7;
+            --accent-hover: #7c6df7;
+            --success: #00b894;
+            --warning: #fdcb6e;
+            --danger: #e17055;
+            --radius: 10px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), #a29bfe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        header p { color: var(--text-muted); font-size: 1.1rem; }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .stat {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem 1.5rem;
+            text-align: center;
+            min-width: 140px;
+        }
+        .stat .value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .stat .label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* URL Output */
+        .url-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .url-box h2 {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .url-row {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .url-row:last-child { margin-bottom: 0; }
+        .url-input {
+            flex: 1;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.75rem 1rem;
+            color: var(--text);
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.85rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .url-label {
+            min-width: 80px;
+            display: flex;
+            align-items: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.75rem 1.25rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+        .btn:hover { background: var(--accent-hover); }
+        .btn.success { background: var(--success); }
+        .btn.small { padding: 0.5rem 0.75rem; font-size: 0.8rem; }
+
+        /* Presets */
+        .presets {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+        .preset-btn {
+            background: var(--surface2);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .preset-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .preset-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+        /* Search */
+        .search-box {
+            width: 100%;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.75rem 1rem;
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+        .search-box::placeholder { color: var(--text-muted); }
+        .search-box:focus { outline: none; border-color: var(--accent); }
+
+        /* Source Grid */
+        .sources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 0.75rem;
+        }
+        .source-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .source-card:hover { border-color: var(--accent); }
+        .source-card.selected { border-color: var(--accent); background: rgba(108, 92, 231, 0.1); }
+        .source-card input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent);
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .source-info { flex: 1; min-width: 0; }
+        .source-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .source-meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 0.25rem;
+        }
+        .source-meta .channels {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        .source-countries {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--success);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        .toast.show { opacity: 1; transform: translateY(0); }
+
+        @media (max-width: 640px) {
+            .container { padding: 1rem; }
+            header h1 { font-size: 1.8rem; }
+            .sources-grid { grid-template-columns: 1fr; }
+            .url-row { flex-direction: column; }
+            .url-label { min-width: auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DJRay IPTV Hub</h1>
+            <p>28,380+ free channels from 42 sources across 163 countries</p>
+            <div class="stats">
+                <div class="stat"><div class="value" id="totalChannels">28,380</div><div class="label">Channels</div></div>
+                <div class="stat"><div class="value" id="totalSources">42</div><div class="label">Sources</div></div>
+                <div class="stat"><div class="value" id="totalCountries">163</div><div class="label">Countries</div></div>
+            </div>
+        </header>
+
+        <div class="url-box">
+            <h2>TiviMate / IPTV Player URL</h2>
+            <div class="url-row">
+                <span class="url-label">M3U:</span>
+                <input type="text" class="url-input" id="m3uUrl" readonly>
+                <button class="btn" onclick="copyUrl('m3uUrl')">Copy</button>
+            </div>
+            <div class="url-row">
+                <span class="url-label">EPG:</span>
+                <input type="text" class="url-input" id="epgUrl" readonly>
+                <button class="btn small" onclick="copyUrl('epgUrl')">Copy</button>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap;">
+            <input type="text" class="search-box" id="search" placeholder="Search sources..." style="flex: 1; min-width: 200px; margin-bottom: 0;">
+            <button class="preset-btn" onclick="selectAll()">Select All</button>
+            <button class="preset-btn" onclick="selectNone()">Clear</button>
+        </div>
+
+        <div class="presets" id="presets">
+            <button class="preset-btn" data-preset="australian">Australian</button>
+            <button class="preset-btn" data-preset="us">US Only</button>
+            <button class="preset-btn" data-preset="sports">Sports</button>
+            <button class="preset-btn" data-preset="free">Free Streams</button>
+            <button class="preset-btn" data-preset="fast">FAST Channels</button>
+            <button class="preset-btn" data-preset="world">World TV</button>
+        </div>
+
+        <div id="sources-container" class="loading">
+            <div class="spinner"></div>
+            Loading sources from GitHub...
+        </div>
+
+        <footer>
+            <p>Powered by <a href="https://github.com/Steve-M365/djray-iptv">DJRay IPTV</a> &mdash; Aggregated from apsattv, dearbulut, Samsung TV Plus, LG, Roku, Pluto TV, and more.</p>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast">Copied!</div>
+
+    <script>
+        const REPO = 'Steve-M365/djray-iptv';
+        const BRANCH = 'master';
+        const RAW_BASE = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/output/sources`;
+        const EPG_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/output/epg.xml.gz`;
+
+        // Source metadata (name, channels, countries, category)
+        const SOURCES = [
+            { file: 'dearbulut.m3u', name: 'dearbulut', channels: 9637, countries: 163, category: 'world' },
+            { file: 'vortexo.m3u', name: 'Vortexo (Pluto TV)', channels: 4264, countries: 1, category: 'fast' },
+            { file: 'apsattv.m3u', name: 'apsattv', channels: 4065, countries: 31, category: 'world' },
+            { file: 'lg_channels.m3u', name: 'LG Channels', channels: 1268, countries: 29, category: 'fast' },
+            { file: 'tcl_tv.m3u', name: 'TCL TV', channels: 1129, countries: 3, category: 'fast' },
+            { file: 'daddylive.m3u', name: 'DaddyLive', channels: 1020, countries: 1, category: 'free' },
+            { file: 'vidaa.m3u', name: 'Vidaa', channels: 788, countries: 1, category: 'fast' },
+            { file: 'samsung_tv_plus.m3u', name: 'Samsung TV Plus', channels: 717, countries: 16, category: 'fast' },
+            { file: 'roku.m3u', name: 'Roku', channels: 646, countries: 1, category: 'fast' },
+            { file: 'whaletv.m3u', name: 'WhaleTV', channels: 491, countries: 2, category: 'fast' },
+            { file: 'localnow.m3u', name: 'LocalNow', channels: 447, countries: 1, category: 'fast' },
+            { file: 'vizio.m3u', name: 'Vizio WatchFree+', channels: 429, countries: 1, category: 'fast' },
+            { file: 'xumo.m3u', name: 'Xumo Play', channels: 387, countries: 1, category: 'fast' },
+            { file: 'rakuten_tv.m3u', name: 'Rakuten TV', channels: 304, countries: 3, category: 'fast' },
+            { file: 'redeitv.m3u', name: 'RedeiTV', channels: 268, countries: 1, category: 'world' },
+            { file: 'xiaomi.m3u', name: 'Xiaomi', channels: 249, countries: 1, category: 'fast' },
+            { file: 'metax.m3u', name: 'MetaX', channels: 232, countries: 1, category: 'fast' },
+            { file: 'orka_tv.m3u', name: 'Orka TV', channels: 195, countries: 1, category: 'world' },
+            { file: 'tubi.m3u', name: 'Tubi', channels: 179, countries: 1, category: 'fast' },
+            { file: 'tablo.m3u', name: 'Tablo', channels: 164, countries: 1, category: 'free' },
+            { file: 'movieark.m3u', name: 'MovieArk', channels: 146, countries: 1, category: 'world' },
+            { file: 'hp_tv.m3u', name: 'HP TV+', channels: 134, countries: 1, category: 'free' },
+            { file: 'freelivesports.m3u', name: 'FreeLiveSports', channels: 125, countries: 1, category: 'sports' },
+            { file: 'sportstv.m3u', name: 'SportsTV', channels: 124, countries: 1, category: 'sports' },
+            { file: 'soultv.m3u', name: 'SoulTV', channels: 121, countries: 1, category: 'world' },
+            { file: 'rewarded_tv.m3u', name: 'Rewarded.tv', channels: 89, countries: 1, category: 'free' },
+            { file: 'freetv.m3u', name: 'FreeTV', channels: 84, countries: 1, category: 'free' },
+            { file: 'iptv-org_sports.m3u', name: 'iptv-org Sports', channels: 84, countries: 1, category: 'sports' },
+            { file: 'kogan_tv.m3u', name: 'Kogan TV+', channels: 82, countries: 1, category: 'fast' },
+            { file: 'klowdtv.m3u', name: 'KlowdTV', channels: 78, countries: 1, category: 'free' },
+            { file: 'iptv-org_australia.m3u', name: 'iptv-org Australia', channels: 75, countries: 1, category: 'australian' },
+            { file: 'amazon_fire_tv.m3u', name: 'Amazon Fire TV', channels: 57, countries: 1, category: 'fast' },
+            { file: '10fast.m3u', name: '10FAST', channels: 55, countries: 1, category: 'australian' },
+            { file: 'galaxy_tv.m3u', name: 'Galaxy TV', channels: 49, countries: 1, category: 'free' },
+            { file: 'zeasn.m3u', name: 'Zeasn', channels: 45, countries: 1, category: 'fast' },
+            { file: '9fast.m3u', name: '9FAST', channels: 30, countries: 1, category: 'australian' },
+            { file: 'cineverse.m3u', name: 'Cineverse', channels: 29, countries: 1, category: 'free' },
+            { file: 'olhosnatv.m3u', name: 'OlhosnaTV', channels: 29, countries: 1, category: 'world' },
+            { file: 'igocast.m3u', name: 'IGOCast', channels: 25, countries: 1, category: 'free' },
+            { file: 'fetch_tv.m3u', name: 'Fetch TV', channels: 17, countries: 1, category: 'australian' },
+            { file: 'freemoviesplus.m3u', name: 'FreeMoviesPlus', channels: 16, countries: 1, category: 'free' },
+            { file: 'veely.m3u', name: 'Veely', channels: 7, countries: 1, category: 'free' },
+        ];
+
+        const PRESETS = {
+            australian: ['dearbulut.m3u', 'vortexo.m3u', 'apsattv.m3u', 'iptv-org_australia.m3u', '10fast.m3u', '9fast.m3u', 'kogan_tv.m3u', 'freetv.m3u', 'fetch_tv.m3u'],
+            us: ['dearbulut.m3u', 'daddylive.m3u', 'localnow.m3u', 'xumo.m3u', 'roku.m3u', 'vidaa.m3u', 'vizio.m3u', 'tablo.m3u', 'freelivesports.m3u', 'tubi.m3u'],
+            sports: ['freelivesports.m3u', 'sportstv.m3u', 'iptv-org_sports.m3u', 'daddylive.m3u'],
+            free: ['daddylive.m3u', 'tablo.m3u', 'hp_tv.m3u', 'rewarded_tv.m3u', 'freetv.m3u', 'klowdtv.m3u', 'cineverse.m3u', 'igocast.m3u', 'freemoviesplus.m3u', 'veely.m3u', 'galaxy_tv.m3u'],
+            fast: ['vortexo.m3u', 'lg_channels.m3u', 'tcl_tv.m3u', 'samsung_tv_plus.m3u', 'roku.m3u', 'vidaa.m3u', 'whaletv.m3u', 'localnow.m3u', 'vizio.m3u', 'xumo.m3u', 'rakuten_tv.m3u', 'tubi.m3u', 'xiaomi.m3u', 'metax.m3u', 'amazon_fire_tv.m3u', 'kogan_tv.m3u', 'zeasn.m3u'],
+            world: ['dearbulut.m3u', 'apsattv.m3u', 'redeitv.m3u', 'orka_tv.m3u', 'movieark.m3u', 'soultv.m3u', 'olhosnatv.m3u'],
+        };
+
+        const AUSTRALIAN_SOURCES = ['vortexo.m3u', 'apsattv.m3u', 'iptv-org_australia.m3u', '10fast.m3u', '9fast.m3u', 'kogan_tv.m3u', 'freetv.m3u', 'fetch_tv.m3u', 'dearbulut.m3u'];
+
+        let selectedFiles = new Set();
+
+        function renderSources(filter = '') {
+            const container = document.getElementById('sources-container');
+            const filtered = SOURCES.filter(s =>
+                s.name.toLowerCase().includes(filter.toLowerCase()) ||
+                s.file.toLowerCase().includes(filter.toLowerCase())
+            );
+
+            container.innerHTML = '';
+            container.className = 'sources-grid';
+
+            filtered.forEach(source => {
+                const card = document.createElement('div');
+                card.className = `source-card ${selectedFiles.has(source.file) ? 'selected' : ''}`;
+                card.innerHTML = `
+                    <input type="checkbox" ${selectedFiles.has(source.file) ? 'checked' : ''} 
+                           onchange="toggleSource('${source.file}', this.checked)">
+                    <div class="source-info">
+                        <div class="source-name">${source.name}</div>
+                        <div class="source-meta">
+                            <span class="channels">${source.channels.toLocaleString()} channels</span>
+                            <span>${source.countries} ${source.countries === 1 ? 'country' : 'countries'}</span>
+                        </div>
+                        <div class="source-countries">${source.file}</div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function toggleSource(file, checked) {
+            if (checked) {
+                selectedFiles.add(file);
+            } else {
+                selectedFiles.delete(file);
+            }
+            updateUrl();
+            renderSources(document.getElementById('search').value);
+        }
+
+        function selectAll() {
+            SOURCES.forEach(s => selectedFiles.add(s.file));
+            updateUrl();
+            renderSources(document.getElementById('search').value);
+        }
+
+        function selectNone() {
+            selectedFiles.clear();
+            updateUrl();
+            renderSources(document.getElementById('search').value);
+        }
+
+        function selectPreset(preset) {
+            selectedFiles.clear();
+            (PRESETS[preset] || []).forEach(f => selectedFiles.add(f));
+            updateUrl();
+            renderSources(document.getElementById('search').value);
+
+            document.querySelectorAll('.preset-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.preset === preset);
+            });
+        }
+
+        function updateUrl() {
+            const files = Array.from(selectedFiles);
+            if (files.length === 0) {
+                document.getElementById('m3uUrl').value = 'Select sources above to generate URL';
+                return;
+            }
+            const m3uUrl = `${RAW_BASE}/${files[0]}`;
+            document.getElementById('m3uUrl').value = files.length === 1 ? m3uUrl : `Selected: ${files.length} sources (${files.slice(0, 3).join(', ')}${files.length > 3 ? '...' : ''})`;
+            document.getElementById('epgUrl').value = EPG_URL;
+        }
+
+        function copyUrl(inputId) {
+            const input = document.getElementById(inputId);
+            let text = input.value;
+
+            // If multiple files selected, copy all URLs
+            if (selectedFiles.size > 1 && inputId === 'm3uUrl') {
+                text = Array.from(selectedFiles).map(f => `${RAW_BASE}/${f}`).join('\n');
+            }
+
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById('toast');
+                toast.textContent = selectedFiles.size > 1 ? `Copied ${selectedFiles.size} URLs!` : 'Copied!';
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 2000);
+            });
+        }
+
+        // Search
+        document.getElementById('search').addEventListener('input', (e) => {
+            renderSources(e.target.value);
+        });
+
+        // Presets
+        document.querySelectorAll('.preset-btn[data-preset]').forEach(btn => {
+            btn.addEventListener('click', () => selectPreset(btn.dataset.preset));
+        });
+
+        // Init
+        renderSources();
+        document.getElementById('epgUrl').value = EPG_URL;
+    </script>
+</body>
+</html>
