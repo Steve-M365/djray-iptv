@@ -4,10 +4,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Output (large files - regenerate with scripts)
+# Output (regenerate with scripts)
 output/playlists/
-output/*.xml
-output/*.xml.gz
+output/epg.xml
 output/playlist_urls.txt
 cache/
 
