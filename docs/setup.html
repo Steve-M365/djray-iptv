@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJRay IPTV — Setup Guide</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #242836;
+            --border: #2d3148;
+            --text: #e4e6f0;
+            --text-muted: #8b8fa3;
+            --accent: #6c5ce7;
+            --accent-hover: #7c6df7;
+            --success: #00b894;
+            --warning: #fdcb6e;
+            --danger: #e17055;
+            --radius: 10px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), #a29bfe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        header p { color: var(--text-muted); margin-top: 0.5rem; }
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .back-link:hover { text-decoration: underline; }
+
+        /* Navigation */
+        .player-nav {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .player-nav a {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.6rem 1.2rem;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .player-nav a:hover { border-color: var(--accent); color: var(--accent); }
+
+        /* Sections */
+        .section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        .section h3 {
+            font-size: 1.1rem;
+            margin: 1.5rem 0 0.75rem;
+            color: var(--text);
+        }
+        .section p { margin-bottom: 0.75rem; }
+        .section ol, .section ul {
+            margin: 0.5rem 0 1rem 1.5rem;
+        }
+        .section li { margin-bottom: 0.5rem; }
+
+        /* Steps */
+        .step {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            align-items: flex-start;
+        }
+        .step-num {
+            background: var(--accent);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+        .step-content { flex: 1; }
+        .step-content strong { color: var(--text); }
+
+        /* Code blocks */
+        .code-block {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1rem;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.85rem;
+            overflow-x: auto;
+            margin: 0.75rem 0;
+            position: relative;
+        }
+        .code-block .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.75rem;
+            cursor: pointer;
+        }
+        .code-block .copy-btn:hover { background: var(--accent-hover); }
+
+        /* URL boxes */
+        .url-box {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.75rem 1rem;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.8rem;
+            word-break: break-all;
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+        .url-box .copy-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.75rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .url-box .copy-btn:hover { background: var(--accent-hover); }
+
+        /* Alerts */
+        .alert {
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        .alert-info {
+            background: rgba(108, 92, 231, 0.1);
+            border: 1px solid rgba(108, 92, 231, 0.3);
+            color: #a29bfe;
+        }
+        .alert-success {
+            background: rgba(0, 184, 148, 0.1);
+            border: 1px solid rgba(0, 184, 148, 0.3);
+            color: var(--success);
+        }
+        .alert-warning {
+            background: rgba(253, 203, 110, 0.1);
+            border: 1px solid rgba(253, 203, 110, 0.3);
+            color: var(--warning);
+        }
+
+        /* Preset cards */
+        .preset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .preset-card {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.25rem;
+        }
+        .preset-card h4 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .preset-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+        .preset-card .channels {
+            font-size: 0.8rem;
+            color: var(--success);
+            font-weight: 600;
+        }
+
+        /* Player icons */
+        .player-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .player-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        .player-icon.tivimate { background: linear-gradient(135deg, #1e90ff, #00bfff); }
+        .player-icon.smarters { background: linear-gradient(135deg, #ff6b35, #f7931e); }
+        .player-icon.kodi { background: linear-gradient(135deg, #17a2b8, #20c997); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--success);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        .toast.show { opacity: 1; transform: translateY(0); }
+
+        @media (max-width: 640px) {
+            .container { padding: 1rem; }
+            .section { padding: 1.25rem; }
+            .step { flex-direction: column; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DJRay IPTV Setup Guide</h1>
+            <p>Get 28,380+ free channels running on your Fire TV, Android TV, or streaming device</p>
+            <a href="index.html" class="back-link">&larr; Back to Source Selector</a>
+        </header>
+
+        <nav class="player-nav">
+            <a href="#prerequisites">Prerequisites</a>
+            <a href="#tivimate">TiviMate</a>
+            <a href="#smarters">IPTV Smarters</a>
+            <a href="#kodi">Kodi + PVR</a>
+            <a href="#urls">Quick URLs</a>
+        </nav>
+
+        <!-- PREREQUISITES -->
+        <div class="section" id="prerequisites">
+            <h2>Prerequisites</h2>
+            <p>Before installing any player, you need to set up your device for sideloading.</p>
+
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                    <strong>Install Downloader</strong><br>
+                    Open the Amazon Appstore or Google Play Store on your device. Search for <strong>"Downloader"</strong> by AFTVnews and install it.
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                    <strong>Enable Unknown Sources</strong><br>
+                    Go to <strong>Settings → My Fire TV → Developer Options → Install Unknown Apps</strong>. Turn ON for Downloader.<br>
+                    <em>(If you don't see Developer Options, go to Settings → My Fire TV → About → click "Fire TV" 7 times to enable it.)</em>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                    <strong>Install Unlinked (Optional)</strong><br>
+                    Open Downloader, enter code <strong>250931</strong> to access the TROYPOINT Toolbox. Download and install Unlinked. Then enable Unknown Sources for Unlinked too.<br>
+                    <em>Unlinked makes it easy to install and update IPTV players.</em>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>Note:</strong> If you can't find the Downloader app, it may not be available in your region. You can also download APKs directly from the official websites below.
+            </div>
+        </div>
+
+        <!-- TIVIMATE -->
+        <div class="section" id="tivimate">
+            <div class="player-header">
+                <div class="player-icon tivimate">📺</div>
+                <div>
+                    <h2 style="margin-bottom: 0;">TiviMate</h2>
+                    <p style="margin: 0; color: var(--text-muted); font-size: 0.9rem;">Recommended — Best EPG support and user experience</p>
+                </div>
+            </div>
+
+            <h3>Install</h3>
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                    <strong>Download TiviMate</strong><br>
+                    Option A: Install from Google Play Store (if available)<br>
+                    Option B: In Downloader, enter: <span class="url-box"><span>https://tivimates.com/tiviapk</span><button class="copy-btn" onclick="copyText('https://tivimates.com/tiviapk', this)">Copy</button></span>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                    <strong>Install and open TiviMate</strong><br>
+                    Grant all permissions when prompted.
+                </div>
+            </div>
+
+            <h3>Add DJRay Playlists</h3>
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                    <strong>Add M3U Playlist</strong><br>
+                    Open TiviMate → <strong>Settings → Playlists → Add playlist → M3U playlist</strong>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">4</div>
+                <div class="step-content">
+                    <strong>Paste the M3U URL</strong><br>
+                    Choose a playlist below and copy the URL:
+                    <div class="preset-grid">
+                        <div class="preset-card">
+                            <h4>All Channels</h4>
+                            <p>28,380 channels from 42 sources worldwide</p>
+                            <div class="url-box">
+                                <span style="font-size: 0.7rem;">raw.githubusercontent.com/.../master.m3u</span>
+                            </div>
+                            <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u', this)" style="margin-top: 0.5rem;">Copy Full URL</button>
+                        </div>
+                        <div class="preset-card">
+                            <h4>DaddyLive</h4>
+                            <p>1,020 live channels, sports & events</p>
+                            <div class="url-box">
+                                <span style="font-size: 0.7rem;">raw.githubusercontent.com/.../daddylive.m3u</span>
+                            </div>
+                            <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/sources/daddylive.m3u', this)" style="margin-top: 0.5rem;">Copy Full URL</button>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">
+                        <a href="index.html" style="color: var(--accent);">Browse all 42 sources →</a> to pick specific playlists.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">5</div>
+                <div class="step-content">
+                    <strong>Add EPG (TV Guide)</strong><br>
+                    In TiviMate: <strong>Settings → EPG → Add EPG source</strong>
+                    <div class="url-box">
+                        <span>https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz</span>
+                        <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz', this)">Copy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">6</div>
+                <div class="step-content">
+                    <strong>Done!</strong> TiviMate will load channels. Groups appear as <em>Source | Country | Type</em> (e.g., "Samsung TV Plus | Australia | News").
+                </div>
+            </div>
+
+            <div class="alert alert-success">
+                <strong>Tip:</strong> In TiviMate, go to <strong>Settings → Appearance → Groups</strong> to show/hide group categories. You can also long-press a group to move channels between groups.
+            </div>
+        </div>
+
+        <!-- IPTV SMARTERS -->
+        <div class="section" id="smarters">
+            <div class="player-header">
+                <div class="player-icon smarters">🔥</div>
+                <div>
+                    <h2 style="margin-bottom: 0;">IPTV Smarters</h2>
+                    <p style="margin: 0; color: var(--text-muted); font-size: 0.9rem;">Free, multi-platform, great for beginners</p>
+                </div>
+            </div>
+
+            <h3>Install</h3>
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                    <strong>Download IPTV Smarters</strong><br>
+                    Option A: Install from Google Play Store<br>
+                    Option B: In Downloader, enter: <span class="url-box"><span>https://iptvsmarters.com/smarters4-0.apk</span><button class="copy-btn" onclick="copyText('https://iptvsmarters.com/smarters4-0.apk', this)">Copy</button></span>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                    <strong>Install and open</strong><br>
+                    Select <strong>"M3U Playlist"</strong> when asked for playlist type.
+                </div>
+            </div>
+
+            <h3>Add DJRay Playlists</h3>
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                    <strong>Enter playlist details:</strong><br>
+                    <ul>
+                        <li><strong>Playlist Name:</strong> DJRay IPTV</li>
+                        <li><strong>Playlist Type:</strong> M3U URL</li>
+                        <li><strong>M3U URL:</strong> Paste one of the URLs below</li>
+                    </ul>
+
+                    <div class="preset-grid">
+                        <div class="preset-card">
+                            <h4>All Channels</h4>
+                            <p>28,380 channels worldwide</p>
+                            <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u', this)">Copy M3U URL</button>
+                        </div>
+                        <div class="preset-card">
+                            <h4>EPG (TV Guide)</h4>
+                            <p>5,787 channels with programme data</p>
+                            <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz', this)">Copy EPG URL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">4</div>
+                <div class="step-content">
+                    <strong>Add EPG source (optional)</strong><br>
+                    In IPTV Smarters: <strong>Settings → EPG → Add EPG</strong> → Paste the EPG URL above.
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">5</div>
+                <div class="step-content">
+                    <strong>Done!</strong> Tap <strong>"Login"</strong> and channels will load.
+                </div>
+            </div>
+
+            <div class="alert alert-warning">
+                <strong>Note:</strong> IPTV Smarters free version has ads. The Pro version removes ads and adds features like multi-screen.
+            </div>
+        </div>
+
+        <!-- KODI + PVR -->
+        <div class="section" id="kodi">
+            <div class="player-header">
+                <div class="player-icon kodi">🎯</div>
+                <div>
+                    <h2 style="margin-bottom: 0;">Kodi + PVR IPTV Simple Client</h2>
+                    <p style="margin: 0; color: var(--text-muted); font-size: 0.9rem;">Highly customizable, open source, great for power users</p>
+                </div>
+            </div>
+
+            <h3>Install Kodi</h3>
+            <div class="step">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                    <strong>Download Kodi</strong><br>
+                    Install from Google Play Store or Amazon Appstore. Or in Downloader, enter: <span class="url-box"><span>https://kodi.tv/download</span><button class="copy-btn" onclick="copyText('https://kodi.tv/download', this)">Copy</button></span>
+                </div>
+            </div>
+
+            <h3>Configure PVR IPTV Simple Client</h3>
+            <div class="step">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                    <strong>Open Kodi → Settings → Add-ons → Install from repository</strong><br>
+                    Select <strong>Kodi Add-on Repository → PVR clients → PVR IPTV Simple Client</strong> → Install
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                    <strong>Configure the add-on</strong><br>
+                    Go to <strong>My add-ons → PVR clients → PVR IPTV Simple Client → Configure</strong><br>
+                    Under <strong>General</strong>:
+                    <ul>
+                        <li><strong>M3U Play List URL:</strong> Paste the DJRay M3U URL</li>
+                        <li><strong>Auto Reload Playlist:</strong> Set to 10 minutes</li>
+                    </ul>
+                    Under <strong>EPG Settings</strong>:
+                    <ul>
+                        <li><strong>XMLTV URL:</strong> Paste the DJRay EPG URL</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="preset-grid">
+                <div class="preset-card">
+                    <h4>M3U URL</h4>
+                    <p>28,380 channels worldwide</p>
+                    <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u', this)">Copy M3U URL</button>
+                </div>
+                <div class="preset-card">
+                    <h4>EPG URL</h4>
+                    <p>TV guide data</p>
+                    <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz', this)">Copy EPG URL</button>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">4</div>
+                <div class="step-content">
+                    <strong>Enable the add-on</strong><br>
+                    After configuring, enable PVR IPTV Simple Client. Kodi will prompt you to reload TV — click <strong>"Yes"</strong>.
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">5</div>
+                <div class="step-content">
+                    <strong>Done!</strong> Channels appear under <strong>TV → Channels</strong> in Kodi's main menu.
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>Tip:</strong> In Kodi, go to <strong>Settings → Media → Library</strong> and enable "Show song information" for a better experience. You can also install the "PVR Manager" add-on for a more polished TV experience.
+            </div>
+        </div>
+
+        <!-- QUICK URLS -->
+        <div class="section" id="urls">
+            <h2>Quick Setup URLs</h2>
+            <p>Copy these URLs directly into your IPTV player. No app or account needed.</p>
+
+            <h3>M3U Playlists</h3>
+            <div class="url-box">
+                <span><strong>All Channels:</strong> https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u</span>
+                <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/master.m3u', this)">Copy</button>
+            </div>
+
+            <h3 style="margin-top: 1.5rem;">EPG (TV Guide)</h3>
+            <div class="url-box">
+                <span><strong>EPG:</strong> https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz</span>
+                <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/epg.xml.gz', this)">Copy</button>
+            </div>
+
+            <h3 style="margin-top: 1.5rem;">Popular Source Playlists</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+                Use these for a curated selection instead of all 28K channels.
+            </p>
+
+            <div class="url-box">
+                <span><strong>DaddyLive (1,020 channels):</strong> .../sources/daddylive.m3u</span>
+                <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/sources/daddylive.m3u', this)">Copy</button>
+            </div>
+            <div class="url-box">
+                <span><strong>dearbulut (9,637 channels):</strong> .../sources/dearbulut.m3u</span>
+                <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/sources/dearbulut.m3u', this)">Copy</button>
+            </div>
+            <div class="url-box">
+                <span><strong>Vortexo/Pluto TV (4,264 channels):</strong> .../sources/vortexo.m3u</span>
+                <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/sources/vortexo.m3u', this)">Copy</button>
+            </div>
+            <div class="url-box">
+                <span><strong>Samsung TV Plus (717 channels):</strong> .../sources/samsung_tv_plus.m3u</span>
+                <button class="copy-btn" onclick="copyText('https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/sources/samsung_tv_plus.m3u', this)">Copy</button>
+            </div>
+
+            <p style="font-size: 0.85rem; margin-top: 1rem;">
+                <a href="index.html" style="color: var(--accent);">Browse all 42 sources →</a>
+            </p>
+        </div>
+
+        <!-- TROUBLESHOOTING -->
+        <div class="section" id="troubleshooting">
+            <h2>Troubleshooting</h2>
+
+            <h3>Channels not loading?</h3>
+            <ul>
+                <li>Check your internet connection</li>
+                <li>Make sure the URL is correct (no extra spaces)</li>
+                <li>Try a different playlist — some channels may be geo-blocked</li>
+                <li>Restart the app</li>
+            </ul>
+
+            <h3>EPG not showing?</h3>
+            <ul>
+                <li>EPG data may take a few minutes to load after adding the URL</li>
+                <li>Try refreshing the EPG in the app settings</li>
+                <li>Not all channels have EPG data — this is normal</li>
+            </ul>
+
+            <h3>Buffering issues?</h3>
+            <ul>
+                <li>Try a playlist with fewer channels (e.g., DaddyLive or Samsung TV Plus)</li>
+                <li>Check your internet speed — 5+ Mbps recommended</li>
+                <li>Some streams may be geo-blocked in your region</li>
+            </ul>
+
+            <h3>How do I update channels?</h3>
+            <ul>
+                <li>The playlists auto-update — new channels appear automatically</li>
+                <li>In TiviMate: Settings → Playlists → select playlist → Update</li>
+                <li>In IPTV Smarters: Pull down to refresh</li>
+                <li>In Kodi: PVR IPTV Simple Client auto-reloads every 10 minutes</li>
+            </ul>
+
+            <div class="alert alert-info">
+                <strong>Need help?</strong> Visit <a href="https://github.com/Steve-M365/djray-iptv" style="color: var(--accent);">github.com/Steve-M365/djray-iptv</a> for the latest playlists and updates.
+            </div>
+        </div>
+
+        <footer>
+            <p>DJRay IPTV Hub &mdash; 28,380+ free channels from 42 sources across 163 countries</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="index.html">Source Selector</a> &middot;
+                <a href="https://github.com/Steve-M365/djray-iptv">GitHub</a>
+            </p>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast">Copied!</div>
+
+    <script>
+        function copyText(text, btn) {
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById('toast');
+                toast.textContent = 'Copied!';
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 2000);
+            });
+        }
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('.player-nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                const href = link.getAttribute('href');
+                if (href.startsWith('#')) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
