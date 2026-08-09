@@ -18,7 +18,6 @@
       --accent: #00d4aa;
       --accent-glow: rgba(0, 212, 170, 0.12);
       --accent-2: #6366f1;
-      --danger: #ef4444;
       --success: #22c55e;
       --warning: #f59e0b;
     }
@@ -30,10 +29,8 @@
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
-      overflow-x: hidden;
     }
 
-    /* Ambient background */
     body::before {
       content: '';
       position: fixed;
@@ -46,379 +43,270 @@
       z-index: 0;
     }
 
-    body::after {
-      content: '';
-      position: fixed;
-      bottom: -30%;
-      right: -10%;
-      width: 60%;
-      height: 60%;
-      background: radial-gradient(ellipse, rgba(99, 102, 241, 0.06) 0%, transparent 60%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
     .container {
-      max-width: 1200px;
+      max-width: 1400px;
       margin: 0 auto;
       padding: 32px 24px;
       position: relative;
       z-index: 1;
     }
 
-    /* Header */
     header {
       text-align: center;
-      margin-bottom: 48px;
-      padding-top: 20px;
+      margin-bottom: 40px;
     }
 
     .logo {
       font-family: 'Space Mono', monospace;
-      font-size: 2.8rem;
+      font-size: 2.4rem;
       font-weight: 700;
-      letter-spacing: -0.04em;
-      margin-bottom: 8px;
       background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-    }
-
-    .tagline {
-      font-size: 1rem;
-      color: var(--text-dim);
-      font-weight: 300;
-      letter-spacing: 0.5px;
-    }
-
-    /* Stats Grid */
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-bottom: 40px;
-    }
-
-    .stat-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      text-align: center;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .stat-card:hover {
-      border-color: var(--accent);
-      box-shadow: 0 8px 32px rgba(0, 212, 170, 0.08);
-      transform: translateY(-2px);
-    }
-
-    .stat-value {
-      font-family: 'Space Mono', monospace;
-      font-size: 2.2rem;
-      font-weight: 700;
-      color: var(--accent);
-      margin-bottom: 4px;
-    }
-
-    .stat-label {
-      font-size: 0.85rem;
-      color: var(--text-dim);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    /* URL Cards */
-    .urls {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      margin-bottom: 40px;
-    }
-
-    .url-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .url-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-2));
-    }
-
-    .url-label {
-      font-size: 0.8rem;
-      color: var(--text-dim);
-      text-transform: uppercase;
-      letter-spacing: 1px;
       margin-bottom: 8px;
     }
 
-    .url-value {
-      font-family: 'Space Mono', monospace;
-      font-size: 0.9rem;
-      color: var(--text);
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px 16px;
-      word-break: break-all;
-      margin-bottom: 12px;
+    .tagline {
+      color: var(--text-dim);
+      font-size: 0.95rem;
     }
 
-    .copy-btn {
-      background: var(--accent);
-      color: var(--bg);
-      border: none;
-      border-radius: 8px;
-      padding: 10px 20px;
-      font-family: 'Space Mono', monospace;
-      font-size: 0.85rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      width: 100%;
+    /* Presets */
+    .presets {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 32px;
     }
 
-    .copy-btn:hover {
-      background: #00eabb;
-      transform: translateY(-1px);
-    }
-
-    .copy-btn:active {
-      transform: translateY(0);
-    }
-
-    .copy-btn.copied {
-      background: var(--success);
-    }
-
-    /* TiviMate Instructions */
-    .instructions {
+    .preset-btn {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 32px;
-      margin-bottom: 40px;
+      border-radius: 10px;
+      padding: 10px 18px;
+      color: var(--text);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
     }
 
-    .instructions h2 {
-      font-size: 1.2rem;
+    .preset-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .preset-btn.active {
+      background: var(--accent);
+      color: var(--bg);
+      border-color: var(--accent);
+    }
+
+    /* Main Layout */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 24px;
+    }
+
+    @media (max-width: 1024px) {
+      .main-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Playlist Grid */
+    .section-title {
+      font-size: 1.1rem;
       font-weight: 600;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       display: flex;
       align-items: center;
       gap: 10px;
     }
 
-    .instructions h2 span {
+    .section-title span {
       color: var(--accent);
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-    }
-
-    .step {
-      display: flex;
-      gap: 14px;
-    }
-
-    .step-num {
-      width: 32px;
-      height: 32px;
-      min-width: 32px;
-      background: var(--accent);
-      color: var(--bg);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       font-family: 'Space Mono', monospace;
-      font-weight: 700;
-      font-size: 0.9rem;
     }
 
-    .step-content h3 {
-      font-size: 0.95rem;
-      font-weight: 600;
-      margin-bottom: 4px;
-    }
-
-    .step-content p {
-      font-size: 0.85rem;
-      color: var(--text-dim);
-      line-height: 1.5;
-    }
-
-    /* Search & Filter */
-    .search-section {
-      margin-bottom: 24px;
-      display: flex;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .search-input {
-      flex: 1;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 14px 18px;
-      color: var(--text);
-      font-family: 'Outfit', sans-serif;
-      font-size: 0.95rem;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-
-    .search-input:focus {
-      border-color: var(--accent);
-    }
-
-    .search-input::placeholder {
-      color: var(--text-dim);
-    }
-
-    .refresh-btn {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 14px 20px;
-      color: var(--text);
-      font-family: 'Space Mono', monospace;
-      font-size: 0.85rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      white-space: nowrap;
-    }
-
-    .refresh-btn:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    .refresh-btn:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
-    /* Channel Grid */
-    .channel-grid {
+    .playlist-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 12px;
-      margin-bottom: 40px;
     }
 
-    .channel-card {
+    .playlist-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 16px;
-      display: flex;
-      align-items: center;
-      gap: 14px;
+      cursor: pointer;
       transition: all 0.2s;
+      position: relative;
     }
 
-    .channel-card:hover {
+    .playlist-card:hover {
       border-color: var(--accent);
-      background: var(--surface-2);
+      transform: translateY(-2px);
     }
 
-    .channel-icon {
-      width: 40px;
-      height: 40px;
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
+    .playlist-card.selected {
+      border-color: var(--accent);
+      background: rgba(0, 212, 170, 0.05);
+    }
+
+    .playlist-card.selected::before {
+      content: '✓';
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 24px;
+      height: 24px;
+      background: var(--accent);
+      color: var(--bg);
+      border-radius: 6px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-
-    .channel-info {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .channel-name {
-      font-size: 0.9rem;
-      font-weight: 500;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .channel-source {
-      font-size: 0.75rem;
-      color: var(--text-dim);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    /* Loading */
-    .loading {
-      text-align: center;
-      padding: 60px;
-      color: var(--text-dim);
-    }
-
-    .spinner {
-      width: 32px;
-      height: 32px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin: 0 auto 16px;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
-    /* Empty State */
-    .empty {
-      text-align: center;
-      padding: 60px;
-      color: var(--text-dim);
-    }
-
-    .empty-icon {
-      font-size: 3rem;
-      margin-bottom: 16px;
-      opacity: 0.5;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 40px 0;
-      color: var(--text-dim);
       font-size: 0.8rem;
+      font-weight: 700;
     }
 
-    footer a {
+    .playlist-name {
+      font-weight: 500;
+      margin-bottom: 4px;
+      padding-right: 30px;
+    }
+
+    .playlist-meta {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+
+    .playlist-channels {
+      font-family: 'Space Mono', monospace;
       color: var(--accent);
-      text-decoration: none;
+      font-size: 0.85rem;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      position: sticky;
+      top: 24px;
+      height: fit-content;
+    }
+
+    .sidebar-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+
+    .sidebar-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .selected-list {
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    .selected-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+
+    .selected-item:last-child {
+      border-bottom: none;
+    }
+
+    .remove-btn {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 4px;
+    }
+
+    .remove-btn:hover {
+      color: var(--warning);
+    }
+
+    .total-channels {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin: 16px 0;
+    }
+
+    .url-box {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      word-break: break-all;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .copy-btn {
+      width: 100%;
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 8px;
+    }
+
+    .copy-btn:hover {
+      background: #00eabb;
+    }
+
+    .copy-btn.secondary {
+      background: var(--surface-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .copy-btn.secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* Search */
+    .search-input {
+      width: 100%;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.9rem;
+      outline: none;
+      margin-bottom: 16px;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
     }
 
     /* Toast */
@@ -443,212 +331,200 @@
       transform: translateY(0);
     }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-      .stats { grid-template-columns: 1fr; }
-      .urls { grid-template-columns: 1fr; }
-      .steps { grid-template-columns: 1fr; }
-      .logo { font-size: 2rem; }
-      .search-section { flex-direction: column; }
+    /* Empty state */
+    .empty {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-dim);
     }
+
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+    }
+
+    footer a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <div class="logo">apsattv</div>
-      <div class="tagline">IPTV Hub for TiviMate & Other Players</div>
+      <div class="tagline">Pick your playlists. Build your lineup.</div>
     </header>
 
-    <!-- Stats -->
-    <div class="stats">
-      <div class="stat-card">
-        <div class="stat-value" id="channel-count">{{ channel_count }}</div>
-        <div class="stat-label">Channels</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" id="playlist-count">{{ playlist_count }}</div>
-        <div class="stat-label">Playlists</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" id="last-refresh">
-          {% if last_refresh %}
-            {{ last_refresh.strftime('%d %b %H:%M') }}
-          {% else %}
-            Never
-          {% endif %}
-        </div>
-        <div class="stat-label">Last Refresh</div>
-      </div>
+    <!-- Presets -->
+    <div class="presets">
+      <button class="preset-btn" onclick="applyPreset('f1')">F1 Only</button>
+      <button class="preset-btn" onclick="applyPreset('afl')">AFL</button>
+      <button class="preset-btn" onclick="applyPreset('sports')">Sports</button>
+      <button class="preset-btn" onclick="applyPreset('au_tv')">AU TV</button>
+      <button class="preset-btn" onclick="applyPreset('daddylive')">DaddyLive</button>
+      <button class="preset-btn" onclick="applyPreset('apsattv_all')">All apsattv</button>
+      <button class="preset-btn" onclick="applyPreset('custom')">Custom</button>
     </div>
 
-    <!-- TiviMate URLs -->
-    <div class="urls">
-      <div class="url-card">
-        <div class="url-label">M3U Playlist URL</div>
-        <div class="url-value" id="m3u-url">{{ request.host_url }}playlist/master.m3u</div>
-        <button class="copy-btn" onclick="copyUrl('m3u')">Copy M3U URL</button>
-      </div>
-      <div class="url-card">
-        <div class="url-label">EPG / XMLTV URL</div>
-        <div class="url-value" id="epg-url">{{ request.host_url }}epg/epg.xml</div>
-        <button class="copy-btn" onclick="copyUrl('epg')">Copy EPG URL</button>
-      </div>
-    </div>
-
-    <!-- TiviMate Instructions -->
-    <div class="instructions">
-      <h2><span>01</span> Setup in TiviMate</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <div class="step-content">
-            <h3>Open TiviMate</h3>
-            <p>Go to Settings (gear icon) → Playlists</p>
+    <div class="main-grid">
+      <!-- Playlist Grid -->
+      <div>
+        <div class="section-title"><span>01</span> Available Playlists</div>
+        <input type="text" class="search-input" id="search" placeholder="Search playlists..." oninput="filterPlaylists()">
+        <div class="playlist-grid" id="playlist-grid">
+          {% for p in playlists %}
+          <div class="playlist-card {% if p.id in config.selected_playlists %}selected{% endif %}" 
+               data-id="{{ p.id }}" 
+               data-name="{{ p.name|lower }}"
+               onclick="togglePlaylist('{{ p.id }}')">
+            <div class="playlist-name">{{ p.name }}</div>
+            <div class="playlist-meta">
+              <span class="playlist-channels">{{ p.channels }}</span> channels
+            </div>
           </div>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <div class="step-content">
-            <h3>Add M3U Playlist</h3>
-            <p>Tap "Add playlist" → Choose "M3U" → Paste the M3U URL above</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <div class="step-content">
-            <h3>Add EPG Source</h3>
-            <p>Go to EPG → Add source → Paste the EPG URL above</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num">4</div>
-          <div class="step-content">
-            <h3>Refresh & Enjoy</h3>
-            <p>Tap refresh to load all 75+ playlists and channels</p>
-          </div>
+          {% endfor %}
         </div>
       </div>
-    </div>
 
-    <!-- Search -->
-    <div class="search-section">
-      <input type="text" class="search-input" id="search" placeholder="Search channels..." oninput="filterChannels()">
-      <button class="refresh-btn" id="refresh-btn" onclick="refreshPlaylists()">Refresh</button>
-    </div>
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-card">
+          <div class="sidebar-title">Your Playlist</div>
+          <div class="selected-list" id="selected-list">
+            {% for p_id in config.selected_playlists %}
+            {% set pl = playlists|selectattr('id', 'equalto', p_id)|first %}
+            {% if pl %}
+            <div class="selected-item" data-id="{{ pl.id }}">
+              <span>{{ pl.name }}</span>
+              <button class="remove-btn" onclick="togglePlaylist('{{ pl.id }}')">×</button>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% if not config.selected_playlists %}
+            <div class="empty">No playlists selected</div>
+            {% endif %}
+          </div>
+          <div class="total-channels" id="total-channels">0 channels</div>
 
-    <!-- Channel Grid -->
-    <div id="channels-container" class="channel-grid">
-      <div class="loading">
-        <div class="spinner"></div>
-        Loading channels...
+          <div class="section-title" style="margin-top: 16px; font-size: 0.9rem;"><span>02</span> TiviMate URL</div>
+          <div class="url-box" id="m3u-url">{{ request.host_url }}playlist/custom.m3u</div>
+          <button class="copy-btn" onclick="copyUrl('m3u')">Copy Custom M3U URL</button>
+          <button class="copy-btn secondary" onclick="copyUrl('m3u_full')">Copy Full M3U URL</button>
+          <button class="copy-btn secondary" onclick="copyUrl('epg')">Copy EPG URL</button>
+        </div>
       </div>
     </div>
 
     <footer>
-      Data from <a href="https://apsattv.com/streams.html" target="_blank">apsattv.com</a> • 
-      Auto-refreshes every 6 hours
+      Data from <a href="https://apsattv.com/streams.html" target="_blank">apsattv.com</a> + 
+      <a href="https://github.com/iptv-org/iptv" target="_blank">iptv-org</a> + 
+      DaddyLive
     </footer>
   </div>
 
-  <div class="toast" id="toast">Copied!</div>
+  <div class="toast" id="toast"></div>
 
   <script>
-    // Load channels on page load
-    document.addEventListener('DOMContentLoaded', loadChannels);
+    let selectedPlaylists = {{ config.selected_playlists|tojson }};
 
-    async function loadChannels() {
-      const container = document.getElementById('channels-container');
-      try {
-        const response = await fetch('/api/channels');
-        const channels = await response.json();
+    function togglePlaylist(id) {
+      const idx = selectedPlaylists.indexOf(id);
+      if (idx === -1) {
+        selectedPlaylists.push(id);
+      } else {
+        selectedPlaylists.splice(idx, 1);
+      }
+      updateUI();
+      saveConfig();
+    }
 
-        if (channels.length === 0) {
-          container.innerHTML = `
-            <div class="empty">
-              <div class="empty-icon">📺</div>
-              <p>No channels loaded yet</p>
-            </div>
-          `;
-          return;
+    function updateUI() {
+      // Update card states
+      document.querySelectorAll('.playlist-card').forEach(card => {
+        const id = card.dataset.id;
+        card.classList.toggle('selected', selectedPlaylists.includes(id));
+      });
+
+      // Update selected list
+      const list = document.getElementById('selected-list');
+      if (selectedPlaylists.length === 0) {
+        list.innerHTML = '<div class="empty">No playlists selected</div>';
+      } else {
+        list.innerHTML = selectedPlaylists.map(id => {
+          const card = document.querySelector(`.playlist-card[data-id="${id}"]`);
+          const name = card ? card.querySelector('.playlist-name').textContent : id;
+          return `<div class="selected-item" data-id="${id}">
+            <span>${name}</span>
+            <button class="remove-btn" onclick="togglePlaylist('${id}')">×</button>
+          </div>`;
+        }).join('');
+      }
+
+      // Update total
+      let total = 0;
+      selectedPlaylists.forEach(id => {
+        const card = document.querySelector(`.playlist-card[data-id="${id}"]`);
+        if (card) {
+          const ch = parseInt(card.querySelector('.playlist-channels').textContent) || 0;
+          total += ch;
         }
+      });
+      document.getElementById('total-channels').textContent = total.toLocaleString() + ' channels';
+    }
 
-        const icons = ['📺', '🎬', '⚽', 'NEWS', '🎵', '🌍', '🎮', '🎭'];
-        container.innerHTML = channels.map((ch, i) => `
-          <div class="channel-card" data-name="${ch.name.toLowerCase()}" data-source="${(ch.playlist_source || '').toLowerCase()}">
-            <div class="channel-icon">${icons[i % icons.length]}</div>
-            <div class="channel-info">
-              <div class="channel-name">${escapeHtml(ch.name)}</div>
-              <div class="channel-source">${escapeHtml(ch.playlist_source || 'Unknown')}</div>
-            </div>
-          </div>
-        `).join('');
+    function filterPlaylists() {
+      const query = document.getElementById('search').value.toLowerCase();
+      document.querySelectorAll('.playlist-card').forEach(card => {
+        const name = card.dataset.name;
+        card.style.display = name.includes(query) ? '' : 'none';
+      });
+    }
+
+    async function applyPreset(presetId) {
+      try {
+        const resp = await fetch(`/api/preset/${presetId}`, { method: 'POST' });
+        const data = await resp.json();
+        
+        if (data.preset) {
+          selectedPlaylists = data.preset.playlists || [];
+          updateUI();
+          
+          // Update preset buttons
+          document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.classList.remove('active');
+          });
+          event.target.classList.add('active');
+          
+          showToast(`Applied: ${data.preset.name}`);
+        }
       } catch (e) {
-        container.innerHTML = `
-          <div class="empty">
-            <div class="empty-icon">⚠️</div>
-            <p>Error loading channels</p>
-          </div>
-        `;
+        showToast('Error applying preset');
       }
     }
 
-    function filterChannels() {
-      const query = document.getElementById('search').value.toLowerCase();
-      const cards = document.querySelectorAll('.channel-card');
-      cards.forEach(card => {
-        const name = card.dataset.name;
-        const source = card.dataset.source;
-        card.style.display = (name.includes(query) || source.includes(query)) ? '' : 'none';
-      });
+    async function saveConfig() {
+      try {
+        await fetch('/api/config', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            selected_playlists: selectedPlaylists,
+            active_preset: 'custom'
+          })
+        });
+      } catch (e) {
+        console.error('Save failed:', e);
+      }
     }
 
     async function copyUrl(type) {
       try {
-        const response = await fetch(`/copy-url/${type}`);
-        const data = await response.json();
+        const resp = await fetch(`/copy-url/${type}`);
+        const data = await resp.json();
         await navigator.clipboard.writeText(data.url);
-
-        const btn = event.target;
-        btn.classList.add('copied');
-        btn.textContent = 'Copied!';
-        showToast(`${type.toUpperCase()} URL copied!`);
-        setTimeout(() => {
-          btn.classList.remove('copied');
-          btn.textContent = `Copy ${type.toUpperCase()} URL`;
-        }, 2000);
+        showToast('Copied!');
       } catch (e) {
         showToast('Failed to copy');
-      }
-    }
-
-    async function refreshPlaylists() {
-      const btn = document.getElementById('refresh-btn');
-      btn.disabled = true;
-      btn.textContent = 'Refreshing...';
-
-      try {
-        await fetch('/api/refresh', { method: 'POST' });
-        showToast('Refresh started');
-        // Poll for completion
-        const poll = setInterval(async () => {
-          const response = await fetch('/api/stats');
-          const stats = await response.json();
-          if (!stats.refresh_in_progress) {
-            clearInterval(poll);
-            btn.disabled = false;
-            btn.textContent = 'Refresh';
-            document.getElementById('channel-count').textContent = stats.channel_count;
-            document.getElementById('playlist-count').textContent = stats.playlist_count;
-            document.getElementById('last-refresh').textContent = new Date().toLocaleDateString('en-AU', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
-            loadChannels();
-            showToast('Refresh complete!');
-          }
-        }, 3000);
-      } catch (e) {
-        btn.disabled = false;
-        btn.textContent = 'Refresh';
-        showToast('Refresh failed');
       }
     }
 
@@ -656,14 +532,11 @@
       const toast = document.getElementById('toast');
       toast.textContent = msg;
       toast.classList.add('show');
-      setTimeout(() => toast.classList.remove('show'), 2500);
+      setTimeout(() => toast.classList.remove('show'), 2000);
     }
 
-    function escapeHtml(text) {
-      const div = document.createElement('div');
-      div.textContent = text;
-      return div.innerHTML;
-    }
+    // Initialize
+    updateUI();
   </script>
 </body>
 </html>

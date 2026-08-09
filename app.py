@@ -1,146 +1,175 @@
 #!/usr/bin/env python3
 """
-Apsattv IPTV Web App
-Serves M3U playlists and EPG for TiviMate and other IPTV players.
+Apsattv IPTV Web App - Customizable Playlist Manager
+Pick and choose playlists, generate custom M3U, save preferences.
 """
 
 import json
 import os
+import re
 import threading
 import time
 from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, Response, jsonify, render_template, request, send_file
-from apscheduler.schedulers.background import BackgroundScheduler
-
-from main import (
-    CACHE_DIR,
-    CATEGORY_ORDER,
-    CHANNEL_LIST,
-    CONFIG_FILE,
-    EPG_FILE,
-    EXTERNAL_PLAYLISTS,
-    MASTER_M3U,
-    OUTPUT_DIR,
-    categorize_playlist,
-    extract_playlist_urls,
-    fetch_m3u_content_with_retry,
-    fetch_page,
-    generate_master_m3u,
-    load_config,
-    parse_m3u_channels,
-    process_single_playlist,
-    save_channel_index,
-    APSV_URL,
-)
-from epg_generator import (
-    fetch_epgshare,
-    fetch_iptvorg_epg,
-    fetch_manual_epg,
-    filter_epg_by_channels,
-    load_channels,
-    write_epg,
-)
+from flask import Flask, jsonify, render_template, request, send_file
 
 app = Flask(__name__)
 
-# Global state
-last_refresh = None
-refresh_in_progress = False
-channel_count = 0
-playlist_count = 0
+# Paths
+OUTPUT_DIR = Path("output")
+PLAYLIST_DIR = OUTPUT_DIR / "playlists"
+USER_CONFIG = Path("user_config.json")
+
+# Default presets
+PRESETS = {
+    "f1": {
+        "name": "Formula 1 Only",
+        "description": "F1 channels from DaddyLive and iptv-org",
+        "playlists": ["daddylive_hd"],
+        "patterns": ["f1", "formula"]
+    },
+    "afl": {
+        "name": "AFL / Australian Footy",
+        "description": "AFL and Australian football channels",
+        "playlists": ["au_iptvorg"],
+        "patterns": ["afl", "fox footy", "channel 7", "7mate", "channel 9", "channel 10"]
+    },
+    "sports": {
+        "name": "All Sports",
+        "description": "Sports channels from all sources",
+        "playlists": ["sports_iptvorg", "daddylive_hd"],
+        "patterns": []
+    },
+    "au_tv": {
+        "name": "Australian TV",
+        "description": "Australian free-to-air and streaming",
+        "playlists": ["au_iptvorg", "vortexo_au"],
+        "patterns": []
+    },
+    "daddylive": {
+        "name": "DaddyLive Full",
+        "description": "All 1270+ DaddyLive 24/7 channels",
+        "playlists": ["daddylive_hd"],
+        "patterns": []
+    },
+    "apsattv_all": {
+        "name": "apsattv Complete",
+        "description": "All 90+ apsattv.com playlists",
+        "playlists": ["*"],
+        "patterns": []
+    },
+    "custom": {
+        "name": "Custom Selection",
+        "description": "Pick your own playlists",
+        "playlists": [],
+        "patterns": []
+    }
+}
 
 
-def load_stats():
-    """Load stats from output files."""
-    global last_refresh, channel_count, playlist_count
-
-    if CHANNEL_LIST.exists():
-        with open(CHANNEL_LIST) as f:
-            channels = json.load(f)
-            channel_count = len(channels)
-
-    if MASTER_M3U.exists():
-        with open(MASTER_M3U) as f:
-            content = f.read()
-            playlist_count = content.count("# Playlist:")
-
-    if MASTER_M3U.exists():
-        last_refresh = datetime.fromtimestamp(MASTER_M3U.stat().st_mtime)
+def load_user_config():
+    """Load user preferences."""
+    if USER_CONFIG.exists():
+        with open(USER_CONFIG) as f:
+            return json.load(f)
+    return {
+        "selected_playlists": [],
+        "selected_patterns": [],
+        "active_preset": "custom"
+    }
 
 
-def refresh_playlists():
-    """Background refresh of playlists and EPG."""
-    global refresh_in_progress
-    if refresh_in_progress:
-        return {"status": "already_running"}
+def save_user_config(config):
+    """Save user preferences."""
+    with open(USER_CONFIG, "w") as f:
+        json.dump(config, f, indent=2)
 
-    refresh_in_progress = True
-    try:
-        print(f"[{datetime.now()}] Starting playlist refresh...")
 
-        # 1. Fetch and generate master M3U
-        config = load_config()
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+def get_available_playlists():
+    """Get list of all available playlists with channel counts."""
+    playlists = []
+    
+    if not PLAYLIST_DIR.exists():
+        return playlists
+    
+    for f in sorted(PLAYLIST_DIR.glob("*.m3u")):
+        # Count channels
+        content = f.read_text(errors='ignore')
+        channels = len(re.findall(r'^#EXTINF:', content, re.MULTILINE))
+        
+        playlists.append({
+            "id": f.stem,
+            "name": f.stem.replace("_", " ").title(),
+            "file": f.name,
+            "channels": channels,
+            "selected": False
+        })
+    
+    # Add special playlists
+    special = [
+        {"id": "daddylive_hd", "name": "DaddyLive 24/7", "channels": 1270},
+        {"id": "sports_iptvorg", "name": "Sports (iptv-org)", "channels": 493},
+        {"id": "au_iptvorg", "name": "Australian TV (iptv-org)", "channels": 79},
+        {"id": "vortexo_au", "name": "Australian TV (Vortexo)", "channels": 5676},
+    ]
+    
+    for s in special:
+        if not any(p["id"] == s["id"] for p in playlists):
+            playlists.insert(0, s)
+    
+    return playlists
 
-        html = fetch_page(APSV_URL)
-        urls_with_names = extract_playlist_urls(html)
 
-        categorized = {cat: [] for cat in CATEGORY_ORDER}
-        all_channels = []
+def get_playlist_content(playlist_id):
+    """Get content of a specific playlist."""
+    # Check for .m3u file
+    m3u_file = PLAYLIST_DIR / f"{playlist_id}.m3u"
+    if m3u_file.exists():
+        return m3u_file.read_text(errors='ignore')
+    return None
 
-        from concurrent.futures import ThreadPoolExecutor, as_completed
 
-        with ThreadPoolExecutor(max_workers=15) as executor:
-            future_to_playlist = {
-                executor.submit(process_single_playlist, url, name): (url, name)
-                for url, name in urls_with_names
-            }
-
-            for future in as_completed(future_to_playlist):
-                try:
-                    category, url, display_name, parsed_channels = future.result()
-                    categorized[category].append((url, display_name, parsed_channels))
-                    all_channels.extend(parsed_channels)
-                except Exception as e:
-                    url, name = future_to_playlist[future]
-                    print(f"  Error processing {url}: {e}")
-
-        generate_master_m3u(categorized)
-        save_channel_index(all_channels)
-
-        # 2. Generate EPG
-        if CONFIG_FILE.exists():
-            config = load_config()
-            source = config.get("epg", {}).get("source", "iptvorg")
-
-            channels = load_channels()
-            if source == "epgshare":
-                api_key = config.get("epg", {}).get("api_key", "")
-                if api_key:
-                    epg_root = fetch_epgshare(api_key, channels)
-                    filtered_epg = filter_epg_by_channels(epg_root, channels)
-                    write_epg(filtered_epg)
-            elif source == "iptvorg":
-                epg_root = fetch_iptvorg_epg(channels)
-                filtered_epg = filter_epg_by_channels(epg_root, channels)
-                write_epg(filtered_epg)
-            elif source == "manual":
-                url = config.get("epg", {}).get("xmltv_url", "")
-                if url:
-                    epg_root = fetch_manual_epg(url)
-                    filtered_epg = filter_epg_by_channels(epg_root, channels)
-                    write_epg(filtered_epg)
-
-        load_stats()
-        print(f"[{datetime.now()}] Refresh complete!")
-        return {"status": "success"}
-    except Exception as e:
-        print(f"Refresh error: {e}")
-        return {"status": "error", "error": str(e)}
-    finally:
-        refresh_in_progress = False
+def build_custom_m3u(config):
+    """Build a custom M3U based on user selection."""
+    selected = config.get("selected_playlists", [])
+    patterns = config.get("selected_patterns", [])
+    
+    if not selected and not patterns:
+        # Return empty playlist
+        return "#EXTM3U\n# No playlists selected\n"
+    
+    lines = ["#EXTM3U", "# Custom Playlist", f"# Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"]
+    total_channels = 0
+    
+    for playlist_id in selected:
+        content = get_playlist_content(playlist_id)
+        if content:
+            # Count channels
+            channels = len(re.findall(r'^#EXTINF:', content, re.MULTILINE))
+            total_channels += channels
+            
+            lines.append(f"\n# {playlist_id} ({channels} channels)")
+            lines.append(content)
+    
+    # Filter by patterns if any
+    if patterns:
+        filtered_lines = []
+        for line in lines:
+            if line.startswith("#EXTINF:"):
+                # Check if channel matches any pattern
+                if any(p.lower() in line.lower() for p in patterns):
+                    filtered_lines.append(line)
+                    # Get the next line (URL)
+                    idx = lines.index(line) + 1
+                    if idx < len(lines):
+                        filtered_lines.append(lines[idx])
+            elif not line.startswith("#"):
+                filtered_lines.append(line)
+        lines = filtered_lines
+    
+    lines.insert(3, f"# Total channels: {total_channels}")
+    return "\n".join(lines)
 
 
 # ========== ROUTES ==========
@@ -148,127 +177,116 @@ def refresh_playlists():
 
 @app.route("/")
 def index():
-    """Main dashboard."""
-    load_stats()
-    return render_template(
-        "index.html",
-        last_refresh=last_refresh,
-        channel_count=channel_count,
-        playlist_count=playlist_count,
-        categories=CATEGORY_ORDER,
-    )
+    """Main dashboard with playlist selector."""
+    playlists = get_available_playlists()
+    config = load_user_config()
+    return render_template("index.html", playlists=playlists, presets=PRESETS, config=config)
+
+
+@app.route("/api/playlists")
+def api_playlists():
+    """Get available playlists."""
+    return jsonify(get_available_playlists())
+
+
+@app.route("/api/config", methods=["GET"])
+def api_get_config():
+    """Get user configuration."""
+    return jsonify(load_user_config())
+
+
+@app.route("/api/config", methods=["POST"])
+def api_save_config():
+    """Save user configuration."""
+    config = request.json
+    save_user_config(config)
+    return jsonify({"status": "saved"})
+
+
+@app.route("/api/preset/<preset_id>", methods=["POST"])
+def api_apply_preset(preset_id):
+    """Apply a preset configuration."""
+    if preset_id not in PRESETS:
+        return jsonify({"error": "Invalid preset"}), 400
+    
+    preset = PRESETS[preset_id]
+    config = load_user_config()
+    config["selected_playlists"] = preset.get("playlists", [])
+    config["selected_patterns"] = preset.get("patterns", [])
+    config["active_preset"] = preset_id
+    save_user_config(config)
+    return jsonify({"status": "applied", "preset": preset})
+
+
+@app.route("/playlist/custom.m3u")
+@app.route("/custom.m3u")
+def serve_custom_m3u():
+    """Serve custom M3U based on user selection."""
+    config = load_user_config()
+    m3u_content = build_custom_m3u(config)
+    
+    return m3u_content, 200, {
+        "Content-Type": "audio/x-mpegurl",
+        "Content-Disposition": "attachment; filename=custom_playlist.m3u"
+    }
 
 
 @app.route("/playlist/master.m3u")
 @app.route("/master.m3u")
 def serve_master_m3u():
-    """Serve the master M3U playlist (TiviMate compatible)."""
-    if not MASTER_M3U.exists():
-        refresh_playlists()
-    return send_file(MASTER_M3U, mimetype="audio/x-mpegurl")
+    """Serve the full master M3U."""
+    master_file = OUTPUT_DIR / "master.m3u"
+    if master_file.exists():
+        return send_file(master_file, mimetype="audio/x-mpegurl")
+    return "#EXTM3U\n# No master playlist available\n", 200, {"Content-Type": "audio/x-mpegurl"}
 
 
 @app.route("/epg/epg.xml")
 @app.route("/epg.xml")
 def serve_epg():
-    """Serve the EPG XML (TiviMate compatible)."""
-    if not EPG_FILE.exists():
-        refresh_playlists()
-    return send_file(EPG_FILE, mimetype="application/xml")
+    """Serve the EPG XML."""
+    epg_file = OUTPUT_DIR / "epg.xml"
+    if epg_file.exists():
+        return send_file(epg_file, mimetype="application/xml")
+    return "# No EPG available\n", 404
 
 
-@app.route("/api/stats")
-def api_stats():
-    """API endpoint for stats."""
-    load_stats()
-    return jsonify(
-        {
-            "last_refresh": last_refresh.isoformat() if last_refresh else None,
-            "channel_count": channel_count,
-            "playlist_count": playlist_count,
-            "refresh_in_progress": refresh_in_progress,
-        }
-    )
-
-
-@app.route("/api/channels")
-def api_channels():
-    """API endpoint for channel list."""
-    if not CHANNEL_LIST.exists():
-        return jsonify([])
-
-    with open(CHANNEL_LIST) as f:
-        channels = json.load(f)
-
-    # Filter by search query
-    query = request.args.get("q", "").lower()
-    if query:
-        channels = [ch for ch in channels if query in ch["name"].lower()]
-
-    # Filter by category
-    category = request.args.get("category")
-    if category:
-        # Load master M3U to get category info
-        if MASTER_M3U.exists():
-            with open(MASTER_M3U) as f:
-                content = f.read()
-            # Parse categories from M3U comments
-            # For now, just return all
-            pass
-
-    return jsonify(channels[:100])  # Limit to 100 for performance
-
-
-@app.route("/api/playlists")
-def api_playlists():
-    """API endpoint for playlist categories."""
-    if not MASTER_M3U.exists():
-        return jsonify({})
-
-    with open(MASTER_M3U) as f:
-        content = f.read()
-
-    # Parse playlist info from comments
-    playlists = {}
-    current_category = None
-    current_playlist = None
-
-    for line in content.split("\n"):
-        if line.startswith("# --- ") and line.endswith(" ---"):
-            current_category = line[6:-4].strip()
-            playlists[current_category] = []
-        elif line.startswith("# Playlist: "):
-            name = line[13:].strip()
-            current_playlist = {"name": name, "channels": 0}
-        elif line.startswith("# Channels: ") and current_playlist:
-            current_playlist["channels"] = int(line[13:].strip())
-            if current_category:
-                playlists[current_category].append(current_playlist)
-            current_playlist = None
-
-    return jsonify(playlists)
-
-
-@app.route("/api/refresh", methods=["POST"])
-def api_refresh():
-    """Trigger a refresh of playlists and EPG."""
-    if refresh_in_progress:
-        return jsonify({"status": "already_running"})
-
-    # Run refresh in background thread
-    thread = threading.Thread(target=refresh_playlists)
-    thread.daemon = True
-    thread.start()
-
-    return jsonify({"status": "started"})
+@app.route("/api/preview", methods=["POST"])
+def api_preview():
+    """Preview a playlist before selecting."""
+    data = request.json
+    playlist_id = data.get("playlist_id")
+    
+    content = get_playlist_content(playlist_id)
+    if content:
+        # Extract first 20 channels
+        lines = content.split("\n")
+        preview_lines = []
+        count = 0
+        for line in lines:
+            preview_lines.append(line)
+            if line.startswith("#EXTINF:"):
+                count += 1
+                if count >= 20:
+                    break
+        
+        return jsonify({
+            "id": playlist_id,
+            "content": "\n".join(preview_lines),
+            "total_channels": len(re.findall(r'^#EXTINF:', content, re.MULTILINE))
+        })
+    
+    return jsonify({"error": "Playlist not found"}), 404
 
 
 @app.route("/copy-url/<path:url_type>")
 def copy_url(url_type):
-    """Return a copyable URL for TiviMate."""
+    """Return copyable URL for TiviMate."""
     base_url = request.host_url.rstrip("/")
-
+    
     if url_type == "m3u":
+        return jsonify({"url": f"{base_url}/playlist/custom.m3u"})
+    elif url_type == "m3u_full":
         return jsonify({"url": f"{base_url}/playlist/master.m3u"})
     elif url_type == "epg":
         return jsonify({"url": f"{base_url}/epg/epg.xml"})
@@ -276,70 +294,20 @@ def copy_url(url_type):
         return jsonify({"error": "Invalid URL type"}), 400
 
 
-# ========== SETUP ==========
-
-
-def setup_app():
-    """Initial setup."""
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    load_stats()
-
-    # Generate initial files if they don't exist
-    if not MASTER_M3U.exists():
-        print("Initial playlist generation...")
-        refresh_playlists()
-    elif not EPG_FILE.exists():
-        print("Initial EPG generation...")
-        config = load_config()
-        source = config.get("epg", {}).get("source", "iptvorg")
-        channels = load_channels()
-
-        if source == "epgshare":
-            api_key = config.get("epg", {}).get("api_key", "")
-            if api_key:
-                epg_root = fetch_epgshare(api_key, channels)
-                filtered_epg = filter_epg_by_channels(epg_root, channels)
-                write_epg(filtered_epg)
-        elif source == "iptvorg":
-            epg_root = fetch_iptvorg_epg(channels)
-            filtered_epg = filter_epg_by_channels(epg_root, channels)
-            write_epg(filtered_epg)
-        elif source == "manual":
-            url = config.get("epg", {}).get("xmltv_url", "")
-            if url:
-                epg_root = fetch_manual_epg(url)
-                filtered_epg = filter_epg_by_channels(epg_root, channels)
-                write_epg(filtered_epg)
-
-
-def start_scheduler():
-    """Start the background scheduler for auto-refresh."""
-    scheduler = BackgroundScheduler()
-    scheduler.add_job(
-        refresh_playlists,
-        "interval",
-        hours=int(os.environ.get("REFRESH_INTERVAL_HOURS", "6")),
-        id="playlist_refresh",
-    )
-    scheduler.start()
-    print(
-        f"Auto-refresh scheduled every {os.environ.get('REFRESH_INTERVAL_HOURS', '6')} hours"
-    )
-
-
 if __name__ == "__main__":
-    setup_app()
-    start_scheduler()
-
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    PLAYLIST_DIR.mkdir(parents=True, exist_ok=True)
+    
     port = int(os.environ.get("PORT", "5000"))
     debug = os.environ.get("FLASK_DEBUG", "false").lower() == "true"
-
+    
     print(f"\n{'='*60}")
-    print(f"Apsattv IPTV Web App")
+    print(f"Apsattv IPTV Hub - Customizable Playlist Manager")
     print(f"{'='*60}")
     print(f"Dashboard:  http://localhost:{port}")
-    print(f"M3U URL:    http://localhost:{port}/playlist/master.m3u")
-    print(f"EPG URL:    http://localhost:{port}/epg/epg.xml")
+    print(f"Custom M3U: http://localhost:{port}/playlist/custom.m3u")
+    print(f"Full M3U:   http://localhost:{port}/playlist/master.m3u")
+    print(f"EPG:        http://localhost:{port}/epg/epg.xml")
     print(f"{'='*60}\n")
-
+    
     app.run(host="0.0.0.0", port=port, debug=debug)
