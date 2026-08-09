@@ -116,6 +116,7 @@ SOURCE_MAP = {
     "metax": ("MetaX", "International"),
     "rok": ("Roku", "United States"),
     "mjh_au_sydney": ("MJH", "Australia"),
+    "dearbulut_best": ("dearbulut", None),  # Country from tvg-country attribute
 }
 
 # TV platforms with multi-country support (detect country from URL/channel)
@@ -143,6 +144,63 @@ LG_COUNTRIES = {
     "pe": "Peru", "ph": "Philippines", "pl": "Poland", "pt": "Portugal",
     "se": "Sweden", "sg": "Singapore", "tr": "Turkey", "tw": "Taiwan",
     "us": "United States", "za": "South Africa",
+}
+
+# 2-letter country code to name mapping (for tvg-country attribute)
+COUNTRY_CODES = {
+    "AD": "Andorra", "AE": "United Arab Emirates", "AF": "Afghanistan",
+    "AG": "Antigua and Barbuda", "AL": "Albania", "AM": "Armenia",
+    "AO": "Angola", "AR": "Argentina", "AT": "Austria", "AU": "Australia",
+    "AZ": "Azerbaijan", "BA": "Bosnia and Herzegovina", "BB": "Barbados",
+    "BD": "Bangladesh", "BE": "Belgium", "BF": "Burkina Faso",
+    "BG": "Bulgaria", "BH": "Bahrain", "BI": "Burundi", "BJ": "Benin",
+    "BN": "Brunei", "BO": "Bolivia", "BR": "Brazil", "BS": "Bahamas",
+    "BT": "Bhutan", "BW": "Botswana", "BY": "Belarus", "BZ": "Belize",
+    "CA": "Canada", "CD": "Democratic Republic of the Congo",
+    "CF": "Central African Republic", "CG": "Congo", "CH": "Switzerland",
+    "CI": "Ivory Coast", "CL": "Chile", "CM": "Cameroon", "CN": "China",
+    "CO": "Colombia", "CR": "Costa Rica", "CU": "Cuba", "CV": "Cape Verde",
+    "CY": "Cyprus", "CZ": "Czech Republic", "DE": "Germany", "DJ": "Djibouti",
+    "DK": "Denmark", "DM": "Dominica", "DO": "Dominican Republic", "DZ": "Algeria",
+    "EC": "Ecuador", "EE": "Estonia", "EG": "Egypt", "ER": "Eritrea",
+    "ES": "Spain", "ET": "Ethiopia", "FI": "Finland", "FJ": "Fiji",
+    "FR": "France", "GA": "Gabon", "GB": "United Kingdom", "GD": "Grenada",
+    "GE": "Georgia", "GH": "Ghana", "GM": "Gambia", "GN": "Guinea",
+    "GQ": "Equatorial Guinea", "GR": "Greece", "GT": "Guatemala",
+    "GW": "Guinea-Bissau", "GY": "Guyana", "HN": "Honduras", "HR": "Croatia",
+    "HT": "Haiti", "HU": "Hungary", "ID": "Indonesia", "IE": "Ireland",
+    "IL": "Israel", "IN": "India", "IQ": "Iraq", "IR": "Iran",
+    "IS": "Iceland", "IT": "Italy", "JM": "Jamaica", "JO": "Jordan",
+    "JP": "Japan", "KE": "Kenya", "KG": "Kyrgyzstan", "KH": "Cambodia",
+    "KI": "Kiribati", "KM": "Comoros", "KN": "Saint Kitts and Nevis",
+    "KP": "North Korea", "KR": "South Korea", "KW": "Kuwait",
+    "KZ": "Kazakhstan", "LA": "Laos", "LB": "Lebanon", "LC": "Saint Lucia",
+    "LI": "Liechtenstein", "LK": "Sri Lanka", "LR": "Liberia", "LS": "Lesotho",
+    "LT": "Lithuania", "LU": "Luxembourg", "LV": "Latvia", "LY": "Libya",
+    "MA": "Morocco", "MC": "Monaco", "MD": "Moldova", "ME": "Montenegro",
+    "MG": "Madagascar", "MK": "North Macedonia", "ML": "Mali",
+    "MM": "Myanmar", "MN": "Mongolia", "MR": "Mauritania", "MT": "Malta",
+    "MU": "Mauritius", "MV": "Maldives", "MW": "Malawi", "MX": "Mexico",
+    "MY": "Malaysia", "MZ": "Mozambique", "NA": "Namibia", "NE": "Niger",
+    "NG": "Nigeria", "NI": "Nicaragua", "NL": "Netherlands", "NO": "Norway",
+    "NP": "Nepal", "NR": "Nauru", "NZ": "New Zealand", "OM": "Oman",
+    "PA": "Panama", "PE": "Peru", "PG": "Papua New Guinea", "PH": "Philippines",
+    "PK": "Pakistan", "PL": "Poland", "PT": "Portugal", "PY": "Paraguay",
+    "QA": "Qatar", "RO": "Romania", "RS": "Serbia", "RU": "Russia",
+    "RW": "Rwanda", "SA": "Saudi Arabia", "SB": "Solomon Islands",
+    "SC": "Seychelles", "SD": "Sudan", "SE": "Sweden", "SG": "Singapore",
+    "SI": "Slovenia", "SK": "Slovakia", "SL": "Sierra Leone", "SM": "San Marino",
+    "SN": "Senegal", "SO": "Somalia", "SR": "Suriname", "SS": "South Sudan",
+    "SV": "El Salvador", "SY": "Syria", "SZ": "Eswatini", "TD": "Chad",
+    "TG": "Togo", "TH": "Thailand", "TJ": "Tajikistan", "TL": "East Timor",
+    "TM": "Turkmenistan", "TN": "Tunisia", "TO": "Tonga",
+    "TR": "Turkey", "TT": "Trinidad and Tobago", "TV": "Tuvalu",
+    "TW": "Taiwan", "TZ": "Tanzania", "UA": "Ukraine", "UG": "Uganda",
+    "US": "United States", "UY": "Uruguay", "UZ": "Uzbekistan",
+    "VA": "Vatican City", "VC": "Saint Vincent and the Grenadines",
+    "VE": "Venezuela", "VN": "Vietnam", "VU": "Vanuatu", "WS": "Samoa",
+    "XK": "Kosovo", "YE": "Yemen", "ZA": "South Africa", "ZM": "Zambia",
+    "ZW": "Zimbabwe",
 }
 
 # Channel name country patterns (e.g., "CNN (Australia)")
@@ -288,6 +346,8 @@ class Channel:
         self.tvg_id = ""
         self.tvg_name = ""
         self.tvg_logo = ""
+        self.tvg_country = ""
+        self.tvg_language = ""
         self.group_title = ""
         self.url = ""
         self.name = ""
@@ -428,6 +488,14 @@ def parse_m3u(filepath):
             if logo_match:
                 ch.tvg_logo = logo_match.group(1)
 
+            country_match = re.search(r'tvg-country="([^"]*)"', line)
+            if country_match:
+                ch.tvg_country = country_match.group(1).upper()
+
+            lang_match = re.search(r'tvg-language="([^"]*)"', line)
+            if lang_match:
+                ch.tvg_language = lang_match.group(1)
+
             group_match = re.search(r'group-title="([^"]*)"', line)
             if group_match:
                 ch.group_title = group_match.group(1)
@@ -514,8 +582,14 @@ def normalize_channels(channels):
         source_name, default_country = get_source_info(ch.source)
         ch.source_name = source_name
 
-        # Detect country (priority: filename > URL > channel name > default)
+        # Detect country (priority: tvg-country > filename > URL > channel name > default)
         country = default_country
+
+        # For dearbulut and similar sources with tvg-country attribute
+        if country is None and ch.tvg_country:
+            code = ch.tvg_country.upper()
+            if code in COUNTRY_CODES:
+                country = COUNTRY_CODES[code]
 
         # For multi-country sources, try URL detection
         if country is None:
