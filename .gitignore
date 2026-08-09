@@ -16,3 +16,10 @@ cache/
 
 # Logs
 *.log
+
+# Source EPG files (large, regenerated)
+output/daddylive_epg.xml
+output/mjh_*.xml
+output/mjh_*.xml.gz
+output/vortexo_*.xml
+output/vortexo_*.xml.gz
