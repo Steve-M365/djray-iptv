@@ -1,0 +1,11 @@
+[Unit]
+Description=DJRay IPTV Weekly Playlist Rebuild
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/tmp/opencode/apsattv-iptv
+ExecStart=/tmp/opencode/apsattv-iptv/rebuild.sh
+StandardOutput=append:/tmp/opencode/apsattv-iptv/rebuild.log
+StandardError=append:/tmp/opencode/apsattv-iptv/rebuild.log
