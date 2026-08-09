@@ -1,7 +1,7 @@
 #EXTM3U
 # Tablo
-# Total channels: 165
-# Generated: 2026-08-09 11:11:16
+# Total channels: 164
+# Generated: 2026-08-09 11:15:47
 
 # United States | Documentary (11 channels)
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" group-title="Tablo | United States | Documentary",Discovery
@@ -27,7 +27,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadetravel-tab
 #EXTINF:-1 tvg-id="TravelandAdventure" tvg-name="Travel and Adventure" group-title="Tablo | United States | Documentary",Travel and Adventure
 https://amg00136-wbd-amg00136c27-tablo-us-7192.playouts.now.amagi.tv/playlist.m3u8
 
-# United States | Entertainment (118 channels)
+# United States | Entertainment (117 channels)
 #EXTINF:-1 tvg-id="AllRealityWEtv" tvg-name="All Reality WE tv" group-title="Tablo | United States | Entertainment",All Reality WE tv
 https://amc-absolutereality-1-us.tablo.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AllWeddingsWETv" tvg-name="All Weddings WE Tv" group-title="Tablo | United States | Entertainment",All Weddings WE Tv
@@ -96,8 +96,6 @@ https://amg00136-wbd-amg00136c16-tablo-us-7100.playouts.now.amagi.tv/playlist.m3
 https://amg00136-wbd-amg00136c24-tablo-us-7198.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ION" tvg-name="ION" group-title="Tablo | United States | Entertainment",ION
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ion-tablo/playlist.m3u8
-#EXTINF:-1 tvg-id="IONMystery" tvg-name="ION Mystery" group-title="Tablo | United States | Entertainment",ION Mystery
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="IONPlus" tvg-name="ION Plus" group-title="Tablo | United States | Entertainment",ION Plus
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="JoelOsteenNetwork" tvg-name="Joel Osteen Network" group-title="Tablo | United States | Entertainment",Joel Osteen Network

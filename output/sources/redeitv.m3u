@@ -1,9 +1,9 @@
 #EXTM3U
 # RedeiTV
-# Total channels: 294
-# Generated: 2026-08-09 11:11:16
+# Total channels: 268
+# Generated: 2026-08-09 11:15:47
 
-# Brazil | Entertainment (283 channels)
+# Brazil | Entertainment (259 channels)
 #EXTINF:-1 tvg-id="MaisUm" tvg-name="+MaisUm" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/137/2023/08/IMG-20220508-WA0121-1-e1692619875326.jpg" group-title="RedeiTV | Brazil | Entertainment",+MaisUm
 https://stream.ichibantv.com:3230/stream/play.m3u8
 #EXTINF:-1 tvg-id="40gtv" tvg-name="40gtv" tvg-logo="https://s3minio.webativa.com.br/redeitv/40gtv.png" group-title="RedeiTV | Brazil | Entertainment",40gtv
@@ -24,12 +24,8 @@ https://video01.kshost.com.br/grezzana1839/grezzana1839/playlist.m3u8
 https://stmv2.samcast.com.br/agitomax/agitomax/playlist.m3u8
 #EXTINF:-1 tvg-id="AlphaChannel" tvg-name="Alpha Channel" tvg-logo="https://s3minio.webativa.com.br/redeitv/alpha-channel.png" group-title="RedeiTV | Brazil | Entertainment",Alpha Channel
 https://isaocorp.cloudecast.com/alphachannel/index.m3u8
-#EXTINF:-1 tvg-id="AmazonSat" tvg-name="Amazon Sat" tvg-logo="https://s3minio.webativa.com.br/redeitv/amazon-sat.png" group-title="RedeiTV | Brazil | Entertainment",Amazon Sat
-https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 #EXTINF:-1 tvg-id="ANTENA10" tvg-name="ANTENA 10" tvg-logo="https://s3minio.webativa.com.br/redeitv/antena-10.png" group-title="RedeiTV | Brazil | Entertainment",ANTENA 10
 https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ArarunaTV" tvg-name="ArarunaTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/02/ararunatv.jpg" group-title="RedeiTV | Brazil | Entertainment",ArarunaTV
-https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 #EXTINF:-1 tvg-id="AstralTV" tvg-name="Astral TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/astral-tv.png" group-title="RedeiTV | Brazil | Entertainment",Astral TV
 https://isaocorp.cloudecast.com/astraltv/index.m3u8
 #EXTINF:-1 tvg-id="AUGETV" tvg-name="AUGE TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/2322/2024/07/IMG-20240718-WA0065.jpg" group-title="RedeiTV | Brazil | Entertainment",AUGE TV
@@ -38,8 +34,6 @@ https://video01.logicahost.com.br/canalaugetv/canalaugetv/playlist.m3u8
 https://cdn.live.br1.jmvstream.com/webtv/txsneccr/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="AWTV" tvg-name="AWTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/24/2023/07/AWTV-LOGO-ALPHA5_VALE.png" group-title="RedeiTV | Brazil | Entertainment",AWTV
 https://awtv.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="BDCTV" tvg-name="BDC TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/07/BDC-TV-800x450-2.png" group-title="RedeiTV | Brazil | Entertainment",BDC TV
-https://video01.kshost.com.br/bdctv/bdctv/playlist.m3u8
 #EXTINF:-1 tvg-id="BEMMAISTV" tvg-name="BEM MAIS TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/bem-mais-tv.png" group-title="RedeiTV | Brazil | Entertainment",BEM MAIS TV
 https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 #EXTINF:-1 tvg-id="BSTV" tvg-name="BSTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/bstv.png" group-title="RedeiTV | Brazil | Entertainment",BSTV
@@ -72,16 +66,12 @@ https://stmv2.samcast.com.br/carla7379/carla7379/playlist.m3u8
 https://5c483b9d1019c.streamlock.net:443/8054/8054/playlist.m3u8
 #EXTINF:-1 tvg-id="CloudingTV" tvg-name="Clouding TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/clouding-tv.png" group-title="RedeiTV | Brazil | Entertainment",Clouding TV
 https://stmv.webtvninjas.com.br/abner5597/abner5597/playlist.m3u8
-#EXTINF:-1 tvg-id="ClubeWebTV" tvg-name="Clube Web TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/clube-web-tv.png" group-title="RedeiTV | Brazil | Entertainment",Clube Web TV
-https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
 #EXTINF:-1 tvg-id="CNU" tvg-name="CNU" tvg-logo="https://s3minio.webativa.com.br/redeitv/cnu.png" group-title="RedeiTV | Brazil | Entertainment",CNU
 https://br5093.streamingdevideo.com.br/wbgpymgwys/wbgpymgwys/playlist.m3u8
 #EXTINF:-1 tvg-id="COMBrasil" tvg-name="COM Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/com-brasil.png" group-title="RedeiTV | Brazil | Entertainment",COM Brasil
 https://br5093.streamingdevideo.com.br:8081/abc/abc/playlist.m3u8
 #EXTINF:-1 tvg-id="CreativeTVBrasil" tvg-name="Creative TV Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/creative-tv-brasil.png" group-title="RedeiTV | Brazil | Entertainment",Creative TV Brasil
 https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
-#EXTINF:-1 tvg-id="DTV" tvg-name="D+TV" tvg-logo="https://i.ibb.co/xC1nTt2/802.jpg" group-title="RedeiTV | Brazil | Entertainment",D+TV
-https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
 #EXTINF:-1 tvg-id="DeoPLayTV" tvg-name="DeoPLay TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/deoplay-tv.png" group-title="RedeiTV | Brazil | Entertainment",DeoPLay TV
 https://video01.logicahost.com.br/deoplay/deoplay/playlist.m3u8
 #EXTINF:-1 tvg-id="ExtremoOrientalTV" tvg-name="Extremo Oriental TV" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/581/2024/01/capa_eotv.png" group-title="RedeiTV | Brazil | Entertainment",Extremo Oriental TV
@@ -94,8 +84,6 @@ https://video03.logicahost.com.br/tvsaobernardo/tvsaobernardo/playlist.m3u8
 https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/playlist.m3u8
 #EXTINF:-1 tvg-id="FOZTV" tvg-name="FOZ TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/foz-tv.png" group-title="RedeiTV | Brazil | Entertainment",FOZ TV
 https://videostreamingserver.septecloud.com.br/memfs/6154fa08-b4c2-4e8f-aba8-1c5a38399d47.m3u8
-#EXTINF:-1 tvg-id="Geekdot" tvg-name="Geekdot" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/133/2023/08/geekdot_itv.png" group-title="RedeiTV | Brazil | Entertainment",Geekdot
-https://stream.ichibantv.com:3764/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="GERALTV" tvg-name="GERAL TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/geral-tv-hd.png" group-title="RedeiTV | Brazil | Entertainment",GERAL TV
 https://srv4.zcast.com.br/sbctv/sbctv/playlist.m3u8
 #EXTINF:-1 tvg-id="GramadoTV" tvg-name="Gramado TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/gramado-tv.png" group-title="RedeiTV | Brazil | Entertainment",Gramado TV
@@ -182,8 +170,6 @@ https://br5093.streamingdevideo.com.br/jztykfkpnu/jztykfkpnu/playlist.m3u8
 https://isaocorp.cloudecast.com/metropole/index.m3u8
 #EXTINF:-1 tvg-id="RedeQDMdeTeleviso" tvg-name="Rede QDM de Televisão" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/145/2023/08/IMG-20230328-WA0040-e1692190261211.jpg" group-title="RedeiTV | Brazil | Entertainment",Rede QDM de Televisão
 https://video03.logicahost.com.br/tvkidmais01/tvkidmais01/playlist.m3u8
-#EXTINF:-1 tvg-id="REDESPTV" tvg-name="REDE SPTV" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/02/rede-sptv.jpg" group-title="RedeiTV | Brazil | Entertainment",REDE SPTV
-https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 #EXTINF:-1 tvg-id="REDETVE" tvg-name="REDE TV.E" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-tve.png" group-title="RedeiTV | Brazil | Entertainment",REDE TV.E
 https://stmv6.voxtvhd.com.br/romilson/romilson/playlist.m3u8
 #EXTINF:-1 tvg-id="REDETVS" tvg-name="REDE TVS" tvg-logo="https://s3minio.webativa.com.br/redeitv/rede-tvs.png" group-title="RedeiTV | Brazil | Entertainment",REDE TVS
@@ -198,8 +184,6 @@ https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
 #EXTINF:-1 tvg-id="ReisenClubeTV" tvg-name="Reisen Clube TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/reisen-clube-tv.png" group-title="RedeiTV | Brazil | Entertainment",Reisen Clube TV
 https://pop.uniquetv.com.br/reisenclubetv/video.m3u8
-#EXTINF:-1 tvg-id="RITTV" tvg-name="RITTV" tvg-logo="https://s3minio.webativa.com.br/redeitv/rittv.png" group-title="RedeiTV | Brazil | Entertainment",RITTV
-https://acesso.ecast.site:3648/live/ritlive.m3u8
 #EXTINF:-1 tvg-id="RSPlay" tvg-name="RS Play" tvg-logo="https://s3minio.webativa.com.br/redeitv/rs-play.png" group-title="RedeiTV | Brazil | Entertainment",RS Play
 https://tv03.zas.media:1936/rsplay/rsplay/playlist.m3u8
 #EXTINF:-1 tvg-id="RdioeTVLivreBrasil" tvg-name="Rádio e TV Livre Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/radio-e-tv-livre-brasil.png" group-title="RedeiTV | Brazil | Entertainment",Rádio e TV Livre Brasil
@@ -208,16 +192,8 @@ https://video03.logicahost.com.br/tvlivrebrasil/tvlivrebrasil/playlist.m3u8
 https://v01.taaqui.org/radioforromix/radioforromix/chunklist_w1050354422.m3u8
 #EXTINF:-1 tvg-id="SBCTV" tvg-name="SBC TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbc-tv.png" group-title="RedeiTV | Brazil | Entertainment",SBC TV
 https://video01.kshost.com.br/rede4871/rede4871/playlist.m3u8
-#EXTINF:-1 tvg-id="SBTCuiab" tvg-name="SBT Cuiabá" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-cuiaba.png" group-title="RedeiTV | Brazil | Entertainment",SBT Cuiabá
-https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8
-#EXTINF:-1 tvg-id="SBTNovaMutum" tvg-name="SBT Nova Mutum" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-nova-mutum.png" group-title="RedeiTV | Brazil | Entertainment",SBT Nova Mutum
-https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
 #EXTINF:-1 tvg-id="SBTPar" tvg-name="SBT Pará" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-para.png" group-title="RedeiTV | Brazil | Entertainment",SBT Pará
 https://www.youtube.com/live/FvKPA40VCOc?si=dfGq0kEXMU9I6Ox-
-#EXTINF:-1 tvg-id="SBTRondonpolis" tvg-name="SBT Rondonópolis" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-rondonopolis.png" group-title="RedeiTV | Brazil | Entertainment",SBT Rondonópolis
-https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8
-#EXTINF:-1 tvg-id="SBTSinop" tvg-name="SBT Sinop" tvg-logo="https://s3minio.webativa.com.br/redeitv/sbt-sinop.png" group-title="RedeiTV | Brazil | Entertainment",SBT Sinop
-https://video09.logicahost.com.br/sbtsinop/sbtsinop/playlist.m3u8
 #EXTINF:-1 tvg-id="SevenTv" tvg-name="Seven Tv" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/136/2023/09/Arte-Para-Site-Terceiros-Seven-Tv-2023.jpg" group-title="RedeiTV | Brazil | Entertainment",Seven Tv
 https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
 #EXTINF:-1 tvg-id="SIC" tvg-name="SIC" tvg-logo="https://redeitv.online/roku/imgcanais/sic-png-2.png?alt=media&token=fe9e5ef8-61af-4c6a-a7d0-e4885d76e8b3" group-title="RedeiTV | Brazil | Entertainment",SIC
@@ -234,8 +210,6 @@ https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8
 https://stmv2.samcast.com.br/canalsummittv/canalsummittv/playlist.m3u8
 #EXTINF:-1 tvg-id="SriesClassic" tvg-name="Séries Classic" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/84/2023/09/Logo-Series-800X450-2.png" group-title="RedeiTV | Brazil | Entertainment",Séries Classic
 https://video10.logicahost.com.br/serieclassic/serieclassic/playlist.m3u8
-#EXTINF:-1 tvg-id="TBO" tvg-name="TBO" tvg-logo="https://redeitv.online/roku/imgcanais/tv-tbo.jpg?alt=media&token=e5b667f1-9f59-4024-adda-3fce4f106a8a" group-title="RedeiTV | Brazil | Entertainment",TBO
-https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TheJetSons" tvg-name="The JetSons" tvg-logo="https://redeitv.online/roku/imgcanais/the_jetsons.jpg?alt=media&token=654e8255-c585-4de5-89f6-3ac02a271c2c" group-title="RedeiTV | Brazil | Entertainment",The JetSons
 https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
 #EXTINF:-1 tvg-id="TopDemaisTV" tvg-name="Top Demais TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-demaistv.png" group-title="RedeiTV | Brazil | Entertainment",Top Demais TV
@@ -258,8 +232,6 @@ https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
 https://video03.logicahost.com.br/tv247online/tv247online/playlist.m3u8
 #EXTINF:-1 tvg-id="TV3Fronteiras" tvg-name="TV 3 Fronteiras" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-3-fronteiras.png" group-title="RedeiTV | Brazil | Entertainment",TV 3 Fronteiras
 https://isaocorp.cloudecast.com/tv3fronteiras/index.m3u8
-#EXTINF:-1 tvg-id="TVAFOLHA" tvg-name="TV A FOLHA" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/241/2023/09/tv-e1694173039734.png" group-title="RedeiTV | Brazil | Entertainment",TV A FOLHA
-https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
 #EXTINF:-1 tvg-id="TvAdoradorGospel" tvg-name="Tv Adorador Gospel" tvg-logo="https://redeitv.online/roku/imgcanais/tv-adorador-gospel.jpg?alt=media&token=fdf0f1fd-f5bc-4077-b8f8-a9c8490f57eb" group-title="RedeiTV | Brazil | Entertainment",Tv Adorador Gospel
 https://stmv1.voxtvhd.com.br/tvadoradorgospel/tvadoradorgospel/playlist.m3u8
 #EXTINF:-1 tvg-id="TVALA" tvg-name="TV ALA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-ala.png" group-title="RedeiTV | Brazil | Entertainment",TV ALA
@@ -308,8 +280,6 @@ https://video08.logicahost.com.br/tvc21/tvc21/playlist.m3u8
 https://cdn.live.br1.jmvstream.com/webtv/ifulrbjz/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCidadeRiodeJaneiro" tvg-name="TV Cidade Rio de Janeiro" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-cidade-rio-de-janeiro.png" group-title="RedeiTV | Brazil | Entertainment",TV Cidade Rio de Janeiro
 https://stream.ichibantv.com:3809/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="TVCidadeVerde" tvg-name="TV Cidade Verde" tvg-logo="https://i.ibb.co/nnnyG3k/029.jpg" group-title="RedeiTV | Brazil | Entertainment",TV Cidade Verde
-https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8
 #EXTINF:-1 tvg-id="TvcidadeverdeCuiab" tvg-name="Tv cidade verde Cuiabá" tvg-logo="https://redeitv.com.br/wp-content/uploads/2023/11/Logotipo_da_Rede_Cidade_Verde-1.png" group-title="RedeiTV | Brazil | Entertainment",Tv cidade verde Cuiabá
 https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 #EXTINF:-1 tvg-id="TVComBrasil" tvg-name="TV Com Brasil" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-com-brasil.png" group-title="RedeiTV | Brazil | Entertainment",TV Com Brasil
@@ -328,8 +298,6 @@ https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
 https://video04.logicahost.com.br/camaralins/camaralins/playlist.m3u8
 #EXTINF:-1 tvg-id="TVDaPesca" tvg-name="TV Da Pesca" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-da-pesca.png" group-title="RedeiTV | Brazil | Entertainment",TV Da Pesca
 https://isaocorp.cloudecast.com/tvdapesca/index.m3u8
-#EXTINF:-1 tvg-id="TVDifusoraLeste" tvg-name="TV Difusora Leste" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/203/2024/07/252810197_2927661030712377_3852608683659475570_n-e1721651897706.png" group-title="RedeiTV | Brazil | Entertainment",TV Difusora Leste
-https://stream.amsolution.net.br:8443/live/60d0a8ea6b884/index.m3u8
 #EXTINF:-1 tvg-id="TVDifusoraSoLus" tvg-name="TV Difusora São Luís" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/203/2024/07/245792697_3958664411025416_3600284647331741374_n-e1721651722307.png" group-title="RedeiTV | Brazil | Entertainment",TV Difusora São Luís
 https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8
 #EXTINF:-1 tvg-id="TVDIFUSO" tvg-name="TV DIFUSÃO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-difusao.png" group-title="RedeiTV | Brazil | Entertainment",TV DIFUSÃO
@@ -386,8 +354,6 @@ https://srv3.zcast.com.br/tvlagoadantas/tvlagoadantas/playlist.m3u8
 https://video01.kshost.com.br/tvlagos/tvlagos/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLiberdade" tvg-name="TV Liberdade" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/84/2024/07/TV-Liberdade-800x450-1.png" group-title="RedeiTV | Brazil | Entertainment",TV Liberdade
 https://video01.kshost.com.br/eberson6273/eberson6273/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLIFEAMRICA" tvg-name="TV LIFE AMÉRICA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-life-america.png" group-title="RedeiTV | Brazil | Entertainment",TV LIFE AMÉRICA
-https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
 #EXTINF:-1 tvg-id="TVMaisMarlia" tvg-name="TV Mais Marília" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mais-marilia.png" group-title="RedeiTV | Brazil | Entertainment",TV Mais Marília
 https://video01.logicahost.com.br/tvmais/tvmais/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMANABRASIL" tvg-name="TV MANA BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1288/2024/03/LOGO_TV_MANA_BRASIL_V4-1.jpg" group-title="RedeiTV | Brazil | Entertainment",TV MANA BRASIL
@@ -396,8 +362,6 @@ https://w1.manasat.com:443/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
 https://srv4.zcast.com.br/flavio8792/flavio8792/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMarRioGrande" tvg-name="TV Mar Rio Grande" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mar-rio-grande.png" group-title="RedeiTV | Brazil | Entertainment",TV Mar Rio Grande
 https://video04.logicahost.com.br/tvmarzonasul/tvmarzonasul/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMarajoara" tvg-name="TV Marajoara" tvg-logo="https://i.ibb.co/zJTmHFm/018.jpg" group-title="RedeiTV | Brazil | Entertainment",TV Marajoara
-https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMARCHETI" tvg-name="TV MARCHETI" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/95/2023/07/logo-tv-projeto-e1690460421190.jpg" group-title="RedeiTV | Brazil | Entertainment",TV MARCHETI
 https://Stmv1.samcast.com.br/junior4319/junior4319/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMEGABRASIL" tvg-name="TV MEGA BRASIL" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1367/2024/04/BackgroundEraser_20230923_191810870-e1712923742793.png" group-title="RedeiTV | Brazil | Entertainment",TV MEGA BRASIL
@@ -410,8 +374,6 @@ https://stmv4.voxtvhd.com.br/tvmetropolesobral/tvmetropolesobral/playlist.m3u8
 https://video04.logicahost.com.br/redemetropolitana/redemetropolitana/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMETROPOLITANABELM" tvg-name="TV METROPOLITANA - BELÉM" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropolitana-belem.png" group-title="RedeiTV | Brazil | Entertainment",TV METROPOLITANA - BELÉM
 https://video09.logicahost.com.br/tvmpara/tvmpara/chunklist_w1770665011.m3u8
-#EXTINF:-1 tvg-id="TVMETROPOLITANARIO" tvg-name="TV METROPOLITANA RIO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-metropolitana-rio.png" group-title="RedeiTV | Brazil | Entertainment",TV METROPOLITANA RIO
-https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMetrpole" tvg-name="TV Metrópole" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/844/2024/02/images-1.jpeg" group-title="RedeiTV | Brazil | Entertainment",TV Metrópole
 https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/chunklist_w545902318.m3u8
 #EXTINF:-1 tvg-id="TVMIRAFM" tvg-name="TV MIRA FM" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mira-fm.png" group-title="RedeiTV | Brazil | Entertainment",TV MIRA FM
@@ -444,14 +406,10 @@ https://video08.logicahost.com.br/tvolhodagua/tvolhodagua/playlist.m3u8
 https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8
 #EXTINF:-1 tvg-id="TVONE" tvg-name="TV ONE" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-one.png" group-title="RedeiTV | Brazil | Entertainment",TV ONE
 https://video08.logicahost.com.br/redeonebrasil/redeonebrasil/playlist.m3u8
-#EXTINF:-1 tvg-id="TvPadreCicero" tvg-name="Tv Padre Cicero" tvg-logo="https://i.ibb.co/hZwzXDY/008.jpg" group-title="RedeiTV | Brazil | Entertainment",Tv Padre Cicero
-https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPaiEterno" tvg-name="TV Pai Eterno" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-pai-eterno.png" group-title="RedeiTV | Brazil | Entertainment",TV Pai Eterno
 https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1170674421.m3u8
 #EXTINF:-1 tvg-id="TVParadise" tvg-name="TV Paradise" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-paradise.png" group-title="RedeiTV | Brazil | Entertainment",TV Paradise
 https://stmv5.samcast.com.br/marcos3057/marcos3057/playlist.m3u8
-#EXTINF:-1 tvg-id="TVParanTurismo" tvg-name="TV Paraná Turismo" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-parana-turismo.png" group-title="RedeiTV | Brazil | Entertainment",TV Paraná Turismo
-http://200.189.113.201/hls/tve.m3u8
 #EXTINF:-1 tvg-id="TVPLANALTO" tvg-name="TV PLANALTO" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-planalto.png" group-title="RedeiTV | Brazil | Entertainment",TV PLANALTO
 https://pop.uniquetv.com.br/tvplanaltonorte/video.m3u8
 #EXTINF:-1 tvg-id="TvPontadaSerra" tvg-name="Tv Ponta da Serra" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-ponta-da-serra.png" group-title="RedeiTV | Brazil | Entertainment",Tv Ponta da Serra
@@ -480,8 +438,6 @@ https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
 https://stmv7.samcast.com.br/tvsertao/tvsertao/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSONORA" tvg-name="TV SONORA" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-sonora.jpeg" group-title="RedeiTV | Brazil | Entertainment",TV SONORA
 https://video01.kshost.com.br/xavier4499/xavier4499/playlist.m3u8
-#EXTINF:-1 tvg-id="TVTHATHI" tvg-name="TV THATHI" tvg-logo="http://redeitv.online/roku/thumb/live.jpeg" group-title="RedeiTV | Brazil | Entertainment",TV THATHI
-https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
 #EXTINF:-1 tvg-id="TVTROPICALRECORD" tvg-name="TV TROPICAL RECORD" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/1450/2024/04/TV-TROPICAL-800x450-1.png" group-title="RedeiTV | Brazil | Entertainment",TV TROPICAL RECORD
 https://video07.logicahost.com.br/portaldatropical/portaldatropical/chunklist_w1310062622.m3u8
 #EXTINF:-1 tvg-id="TVTUDO" tvg-name="TV TUDO" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/08/TV-Tudo.png" group-title="RedeiTV | Brazil | Entertainment",TV TUDO
@@ -508,8 +464,6 @@ https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
 https://video01.logicahost.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
 #EXTINF:-1 tvg-id="TVD" tvg-name="TVD" tvg-logo="https://redeitv.com.br/wp-content/uploads/jet-engine-forms/126/2023/08/TVD-ok-outro.jpg" group-title="RedeiTV | Brazil | Entertainment",TVD
 https://tvdescalvadoitv.acessaradios.com.br/tvdescalvadoitv/tvdescalvadoitv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVERS" tvg-name="TVE RS" tvg-logo="https://s3minio.webativa.com.br/redeitv/tve-rs.png" group-title="RedeiTV | Brazil | Entertainment",TVE RS
-https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 #EXTINF:-1 tvg-id="TVI" tvg-name="TVI" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvi.png" group-title="RedeiTV | Brazil | Entertainment",TVI
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
 #EXTINF:-1 tvg-id="TVIInternacional" tvg-name="TVI Internacional" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvi-internacional.png" group-title="RedeiTV | Brazil | Entertainment",TVI Internacional
@@ -532,8 +486,6 @@ https://stmv.webtvninjas.com.br/tvportalweb/tvportalweb/playlist.m3u8
 https://srv6.zcast.com.br/lupercio1654/lupercio1654/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSLITORALNORTE" tvg-name="TVS LITORAL NORTE" tvg-logo="https://s3minio.webativa.com.br/redeitv/tvs-litoral-norte.png" group-title="RedeiTV | Brazil | Entertainment",TVS LITORAL NORTE
 https://video01.kshost.com.br/rede1220/rede1220/playlist.m3u8
-#EXTINF:-1 tvg-id="UMATV" tvg-name="UMA TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/uma-tv.png" group-title="RedeiTV | Brazil | Entertainment",UMA TV
-https://umatv.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="UnifCristo" tvg-name="Unifé Cristão" tvg-logo="https://s3minio.webativa.com.br/redeitv/unife-cristao.png" group-title="RedeiTV | Brazil | Entertainment",Unifé Cristão
 https://iframe.dacast.com/live/24b61c472d976075ed46ad1eb530e6ae/fdc85437d7631afb59fe3767dcc464dd
 #EXTINF:-1 tvg-id="UniqueTV" tvg-name="Unique TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/unique-tv.png" group-title="RedeiTV | Brazil | Entertainment",Unique TV
@@ -577,17 +529,13 @@ https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
 #EXTINF:-1 tvg-id="MinistrioInfantilTVMITVKids" tvg-name="Ministério Infantil TV - MITV (Kids)" tvg-logo="https://s3minio.webativa.com.br/redeitv/ministerio-infantil-tv-mitv-kids.png" group-title="RedeiTV | Brazil | Kids",Ministério Infantil TV - MITV (Kids)
 https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 
-# Brazil | Lifestyle (5 channels)
+# Brazil | Lifestyle (3 channels)
 #EXTINF:-1 tvg-id="01TVItapetingaSP" tvg-name="01 TV Itapetinga SP" tvg-logo="https://s3minio.webativa.com.br/redeitv/01-tv-itapetinga-sp.png" group-title="RedeiTV | Brazil | Lifestyle",01 TV Itapetinga SP
 https://Stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
 #EXTINF:-1 tvg-id="NovaTviPetrpolis" tvg-name="Nova Tvi Petrópolis" tvg-logo="https://s3minio.webativa.com.br/redeitv/nova-tvi-petropolis.jpeg" group-title="RedeiTV | Brazil | Lifestyle",Nova Tvi Petrópolis
 https://stmv8.samcast.com.br/novatvi2098/novatvi2098/playlist.m3u8
-#EXTINF:-1 tvg-id="PetloversTV" tvg-name="Petlovers TV" tvg-logo="https://s3minio.webativa.com.br/redeitv/petlovers-tv.png" group-title="RedeiTV | Brazil | Lifestyle",Petlovers TV
-https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMAISPET" tvg-name="TV MAIS PET" tvg-logo="https://s3minio.webativa.com.br/redeitv/tv-mais-pet.png" group-title="RedeiTV | Brazil | Lifestyle",TV MAIS PET
 https://isaocorp.cloudecast.com/tvmaispet/index.m3u8
-#EXTINF:-1 tvg-id="TVPETRPOLIS" tvg-name="TV PETRÓPOLIS" tvg-logo="https://redeitv.com.br/wp-content/uploads/2024/04/Novo-Projeto.png" group-title="RedeiTV | Brazil | Lifestyle",TV PETRÓPOLIS
-https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8
 
 # Brazil | Movies (2 channels)
 #EXTINF:-1 tvg-id="CineClssicosDoCinema" tvg-name="Cine Clássicos Do Cinema" tvg-logo="https://s3minio.webativa.com.br/redeitv/cine-classicos-do-cinema.png" group-title="RedeiTV | Brazil | Movies",Cine Clássicos Do Cinema

@@ -1,7 +1,7 @@
 #EXTM3U
 # Xiaomi
-# Total channels: 253
-# Generated: 2026-08-09 11:11:16
+# Total channels: 249
+# Generated: 2026-08-09 11:15:47
 
 # International | Documentary (10 channels)
 #EXTINF:-1 tvg-id="LoveCrimeandHistory" tvg-name="Love Crime and History" group-title="Xiaomi | International | Documentary",Love Crime and History
@@ -25,7 +25,7 @@ https://travelxp-travelxp-5-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelXPFR" tvg-name="Travel XP (FR)" group-title="Xiaomi | International | Documentary",Travel XP (FR)
 https://travelxp-travelxp-4-fr.xiaomi.wurl.tv/playlist.m3u8
 
-# International | Entertainment (195 channels)
+# International | Entertainment (192 channels)
 #EXTINF:-1 tvg-id="123GoES" tvg-name="123 Go! (ES)" group-title="Xiaomi | International | Entertainment",123 Go! (ES)
 https://amg02051-soulpublishing-amg02051c9-xiaomi-international-385.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123gospanish-xiaomiinternational/playlist.m3u8
 #EXTINF:-1 tvg-id="123GoEnglishIN" tvg-name="123 Go! English (IN)" group-title="Xiaomi | International | Entertainment",123 Go! English (IN)
@@ -194,8 +194,6 @@ https://amg02393-awpg-amg02393c3-xiaomi-international-2303.playouts.now.amagi.tv
 https://amg02393-awpg-amg02393c2-xiaomi-international-2300.playouts.now.amagi.tv/playlist/amg02393-awpg-lesanges--xiaomiinternational/playlist.m3u8
 #EXTINF:-1 tvg-id="LovestoriesTVEU" tvg-name="Lovestories TV (EU)" group-title="Xiaomi | International | Entertainment",Lovestories TV (EU)
 https://lovestoriestv-lovestoriestv-1-eu.xiaomi.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MangoTVINGeo" tvg-name="Mango TV (IN) Geo" group-title="Xiaomi | International | Entertainment",Mango TV (IN) Geo
-https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
 #EXTINF:-1 tvg-id="MasterchefBrasilGeo" tvg-name="Masterchef Brasil Geo" group-title="Xiaomi | International | Entertainment",Masterchef Brasil Geo
 https://amg00627-amg00627c9-xiaomi-international-4915.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MavTVGeo" tvg-name="Mav TV Geo" group-title="Xiaomi | International | Entertainment",Mav TV Geo
@@ -240,8 +238,6 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenen-xiaom
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenfr-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-id="NarutoGeo" tvg-name="Naruto Geo" group-title="Xiaomi | International | Entertainment",Naruto Geo
 https://amg00609-palatinmedia-amg00609c1-xiaomi-international-544.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-naruto-xiaomiinternational/playlist.m3u8
-#EXTINF:-1 tvg-id="NEWKPOPEU" tvg-name="NEW KPOP (EU)" group-title="Xiaomi | International | Entertainment",NEW KPOP (EU)
-https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTVEU" tvg-name="Ninja Kidz TV (EU)" group-title="Xiaomi | International | Entertainment",Ninja Kidz TV (EU)
 https://playworksdigital-ninjakidztv-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NoseyotherEU" tvg-name="Nosey other (EU)" group-title="Xiaomi | International | Entertainment",Nosey other (EU)
@@ -268,8 +264,6 @@ https://amg01258-raycom-amg01258c1-xiaomi-international-907.playouts.now.amagi.t
 https://lightning-pulse-xiaomi.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="QuiveutgagnerdesmillionsGeo" tvg-name="Qui veut gagner des millions Geo" group-title="Xiaomi | International | Entertainment",Qui veut gagner des millions Geo
 https://amg02393-awpg-amg02393c1-xiaomi-international-2301.playouts.now.amagi.tv/playlist/amg02393-awpg-quiveutgagnerdesmillions-xiaomiinternational/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenVikiEU" tvg-name="Rakuten Viki (EU)" group-title="Xiaomi | International | Entertainment",Rakuten Viki (EU)
-https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RCNMasEU" tvg-name="RCN Mas (EU)" group-title="Xiaomi | International | Entertainment",RCN Mas (EU)
 https://rcntv-rcnmas-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RealNoseyEU" tvg-name="Real Nosey (EU)" group-title="Xiaomi | International | Entertainment",Real Nosey (EU)
@@ -457,7 +451,7 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-watch4movies-
 #EXTINF:-1 tvg-id="WedoMovies" tvg-name="Wedo Movies" group-title="Xiaomi | International | Movies",Wedo Movies
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-movies4free-xiaomi/playlist.m3u8
 
-# International | Music (7 channels)
+# International | Music (6 channels)
 #EXTINF:-1 tvg-id="LatidoMusicGeo" tvg-name="Latido Music Geo" group-title="Xiaomi | International | Music",Latido Music Geo
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00274-vidaprimo-latidomusic-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-id="SagaMusicAsia" tvg-name="Saga Music (Asia)" group-title="Xiaomi | International | Music",Saga Music (Asia)
@@ -470,8 +464,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/p
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatina-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceUrban" tvg-name="Trace Urban" group-title="Xiaomi | International | Music",Trace Urban
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-id="YRFMusicAsia" tvg-name="YRF Music (Asia)" group-title="Xiaomi | International | Music",YRF Music (Asia)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 
 # International | News (14 channels)
 #EXTINF:-1 tvg-id="ABPNewsAsia" tvg-name="ABP News (Asia)" group-title="Xiaomi | International | News",ABP News (Asia)

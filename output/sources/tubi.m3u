@@ -1,13 +1,11 @@
 #EXTM3U
 # Tubi
-# Total channels: 180
-# Generated: 2026-08-09 11:11:16
+# Total channels: 179
+# Generated: 2026-08-09 11:15:47
 
-# United States | Documentary (5 channels)
+# United States | Documentary (4 channels)
 #EXTINF:-1 tvg-id="400000059" tvg-name="Classic Doctor Who" tvg-logo="https://canvas-lb.tubitv.com/opts/xKIf6J3HCq8sfQ==/2d6dbfc0-0fca-4d2c-abcc-bce692499401/CHgQeDoFMS4xLjlAAQ==" group-title="Tubi | United States | Documentary",Classic Doctor Who
 https://live-manifest.production-public.tubi.io/live/2bff0b10-6665-46f2-b205-bb384129c6c1/playlist.m3u8
-#EXTINF:-1 tvg-id="400000108" tvg-name="Discovery Turbo TV" tvg-logo="https://canvas-lb.tubitv.com/opts/TA-WoDn6tYKtCQ==/e1fddeac-4117-45e8-a880-d46000b4fcda/CHgQeDoFMS4xLjlAAQ==" group-title="Tubi | United States | Documentary",Discovery Turbo TV
-https://live-manifest.production-public.tubi.io/live/e7be5ad5-9044-4151-95d4-a9aae10ab0a5/playlist.m3u8
 #EXTINF:-1 tvg-id="700418" tvg-name="Love Nature" tvg-logo="https://canvas-lb.tubitv.com/opts/0iGeAKWjBWGBjg==/1c502e7b-e295-4f49-a248-cbe59b17d0f1/CHgQeDoFMS4xLjlAAQ==" group-title="Tubi | United States | Documentary",Love Nature
 https://live-manifest.production-public.tubi.io/live/470abd8a-dea0-41a1-98bc-bf7f98671ab5/playlist.m3u8
 #EXTINF:-1 tvg-id="656575" tvg-name="Mystery Science Theater 3000" tvg-logo="https://canvas-lb.tubitv.com/opts/g-dtAd_wR8w64w==/62dc5afa-c235-41ae-904e-e77b6c93e93e/CHgQeDoFMS4xLjlAAQ==" group-title="Tubi | United States | Documentary",Mystery Science Theater 3000

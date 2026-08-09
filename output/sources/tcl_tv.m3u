@@ -1,7 +1,7 @@
 #EXTM3U
 # TCL TV
-# Total channels: 1132
-# Generated: 2026-08-09 11:11:16
+# Total channels: 1129
+# Generated: 2026-08-09 11:15:47
 
 # Australia | Documentary (1 channels)
 #EXTINF:-1 tvg-id="PBSScienceAUTCL" tvg-name="PBS Science (AU) -TCL" group-title="TCL TV | Australia | Documentary",PBS Science (AU) -TCL
@@ -197,7 +197,7 @@ https://travelxp-travelxp-2-de.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelXPUSTCL" tvg-name="Travel XP .US -TCL" group-title="TCL TV | Unknown | Documentary",Travel XP .US -TCL
 https://travelxp-travelxp-1-us.tcl.wurl.tv/playlist.m3u8
 
-# Unknown | Entertainment (811 channels)
+# Unknown | Entertainment (809 channels)
 #EXTINF:-1 tvg-id="123GoEnglishTCLGeo" tvg-name="123 Go English -TCL (Geo)" group-title="TCL TV | Unknown | Entertainment",123 Go English -TCL (Geo)
 https://amg02051-soulpublishing-amg02051c17-tclideo-northamerica-527.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-tclideonorthamerica/playlist.m3u8
 #EXTINF:-1 tvg-id="48Hours" tvg-name="48 Hours" group-title="TCL TV | Unknown | Entertainment",48 Hours
@@ -1634,8 +1634,6 @@ https://amg01220-amg01220c1-tclideo-na-4970.playouts.now.amagi.tv/playlist/amg01
 https://dai.google.com/linear/hls/event/ydKcHHYQSt27vbSP38xMVw/master.m3u8?imafw__fw_app_bundle=%5BAPP+ID%5D&imafw__fw_did=%5Bidtype%3AdeviceID%5D&imafw__fw_is_lat=%5BLIMITED+AD+TRACKING%5D&imafw__fw_us_privacy=%5BCCPA+STRING%5D&imafw__fw_vcid2=%5Bunique_identifier%5D&imafw_csid=%5BSITE+SECTION%5D&is_lat=%5BLIMITED+AD+TRACKING%5D
 #EXTINF:-1 tvg-id="UnSiGrandSoleil" tvg-name="Un Si Grand Soleil" group-title="TCL TV | Unknown | Entertainment",Un Si Grand Soleil
 https://d3f4oii5n0oeqi.cloudfront.net/11701/88884590/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=88884590&ads.xumo_streamId=88884590&declaredCC1Language=en&ads.caid=FilmRiseCA&ads.csid=tcl2_ca_unsigrandesoleil_ssai&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads.appName=%5BAPP_NAME%5D&ads.appVersion=%5BAPP_VERSION%5D&ads._fw_app_bundle=%5BTCL_APP_BUNDLE%5D&ads.genre=Action%252CAdventure%252CComedy%252CCrime%252CDrama%252CFamily%252CFantasy%252CHorror%252CMystery%252CRomance%252CSci-Fi%252CThriller%252CWar%252CWestern%252CSuperhero&ads._fw_content_category=IAB1-5&ads._fw_content_genre=television&ads._fw_content_language=fr&ads._fw_content_rating=tv-14&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_coppa=0&ads._fw_is_lat=%5BLMT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_h_x_country=US&ads._fw_player_width=%5BPLAYER_WIDTH%5D&ads._fw_player_height=%5BPLAYER_HEIGHT%5D&ads.xumo_contentId=5&ads.xumo_contentName=FilmRiseCA&ads.xumo_providerId=5&ads.xumo_providerName=FilmRiseCA&ads.xumo_channelName=FilmRiseCA&ads._fw_app_store_url=%5BTCL_APP_STORE_URL%5D
-#EXTINF:-1 tvg-id="UnbeatenTCL" tvg-name="Unbeaten -TCL" group-title="TCL TV | Unknown | Entertainment",Unbeaten -TCL
-https://unbeaten-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="UnitedFightAllianceAUTCL" tvg-name="United Fight Alliance -AU -TCL" group-title="TCL TV | Unknown | Entertainment",United Fight Alliance -AU -TCL
 https://brawlcall-unitedfightalliance-1-au.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="UnitedFightAllianceSATCL" tvg-name="United Fight Alliance -SA -TCL" group-title="TCL TV | Unknown | Entertainment",United Fight Alliance -SA -TCL
@@ -1814,8 +1812,6 @@ https://amg00111-amg00111c2-tclideo-na-3217.playouts.now.amagi.tv/playlist/amg00
 https://amg00119-amg00119c1-tclideo-na-6764.playouts.now.amagi.tv/playlist/amg00119-yahoofinancefast-yahoofinance-tclideona/playlist.m3u8?device[did]=REPLACE_ME&device[dnt]=REPLACE_ME&gender=REPLACE_ME&app_bundle=REPLACE_ME&app_name=REPLACE_ME&app_store_url=REPLACE_ME&url=REPLACE_ME&genre=REPLACE_ME&ic=REPLACE_ME&us_privacy=REPLACE_ME&gdpr=REPLACE_ME&gdpr_consent=REPLACE_ME&coppa=0&schain=REPLACE_ME&device_make=REPLACE_ME&device_model=REPLACE_ME&ifa_type=REPLACE_ME
 #EXTINF:-1 tvg-id="YaquelaveriteTCL" tvg-name="Yaquelaverite -TCL" group-title="TCL TV | Unknown | Entertainment",Yaquelaverite -TCL
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-yaquelaverite-tcl/playlist.m3u8
-#EXTINF:-1 tvg-id="YoungHollywoodTCL" tvg-name="Young Hollywood -TCL" group-title="TCL TV | Unknown | Entertainment",Young Hollywood -TCL
-https://younghollywood-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZNation" tvg-name="Z Nation" group-title="TCL TV | Unknown | Entertainment",Z Nation
 https://d3f4oii5n0oeqi.cloudfront.net/11701/88884552/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=88884552&ads.xumo_streamId=88884552&declaredCC1Language=en&ads.caid=ZNation&ads.csid=tcl2_us_znation_ssai&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads.appName=%5BAPP_NAME%5D&ads.appVersion=%5BAPP_VERSION%5D&ads._fw_app_bundle=%5BTCL_APP_BUNDLE%5D&ads.genre=Action%252CAdventure%252CComedy%252CCrime%252CDrama%252CFamily%252CFantasy%252CHorror%252CMystery%252CRomance%252CSci-Fi%252CThriller%252CWar%252CWestern%252CSuperhero&ads._fw_content_category=IAB1-5&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_coppa=0&ads._fw_is_lat=%5BLMT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_h_x_country=US&ads._fw_player_width=%5BPLAYER_WIDTH%5D&ads._fw_player_height=%5BPLAYER_HEIGHT%5D&ads.xumo_contentId=5&ads.xumo_contentName=ZNation&ads.xumo_providerId=5&ads.xumo_providerName=ZNation&ads.xumo_channelName=ZNation&ads._fw_app_store_url=%5BTCL_APP_STORE_URL%5D
 #EXTINF:-1 tvg-id="ZonaTUDN" tvg-name="Zona TUDN" group-title="TCL TV | Unknown | Entertainment",Zona TUDN
@@ -1897,7 +1893,7 @@ https://pitch5-thehomestylechannel-1-us.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TodaysHomeOwnerTCL" tvg-name="Today's Home Owner -TCL" group-title="TCL TV | Unknown | Lifestyle",Today's Home Owner -TCL
 https://janson-todayshomeowner-1-us.tcl.wurl.tv/playlist.m3u8
 
-# Unknown | Movies (84 channels)
+# Unknown | Movies (83 channels)
 #EXTINF:-1 tvg-id="ActionHollywoodMoviesTCL" tvg-name="Action Hollywood Movies -TCL" group-title="TCL TV | Unknown | Movies",Action Hollywood Movies -TCL
 https://amg01076-lightning-amg01076c4-tcl-us-2469.playouts.now.amagi.tv/playlist/amg01076-lightning-actionhollywood-tclus/playlist.m3u8
 #EXTINF:-1 tvg-id="ActionHollywoodMoviesTCL" tvg-name="Action Hollywood Movies -TCL" group-title="TCL TV | Unknown | Movies",Action Hollywood Movies -TCL
@@ -2020,8 +2016,6 @@ https://amg00353-amg00353c27-tcl-us-6386.playouts.now.amagi.tv/playlist.m3u8
 https://amg00353-amg00353c29-tcl-us-6383.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork" tvg-name="MyTime Movie Network" group-title="TCL TV | Unknown | Movies",MyTime Movie Network
 https://amg00500-studiocity-amg00500c1-tclideo-northamerica-958.playouts.now.amagi.tv/playlist/amg00500-studiocitypicturesfast-mytimemovienetworkus-tclideonorthamerica/playlist.m3u8?device[did]=REPLACE_ME&device[dnt]=REPLACE_ME&gender=REPLACE_ME&app_bundle=REPLACE_ME&app_name=REPLACE_ME&app_store_url=REPLACE_ME&url=REPLACE_ME&genre=REPLACE_ME&ic=REPLACE_ME&us_privacy=REPLACE_ME&gdpr=REPLACE_ME&gdpr_consent=REPLACE_ME&coppa=REPLACE_ME&schain=REPLACE_ME&ifa_type=REPLACEME&device_make=REPLACE_ME&device_model=REPLACE_ME
-#EXTINF:-1 tvg-id="MytimeMovieNetworkTCL" tvg-name="Mytime Movie Network -TCL" group-title="TCL TV | Unknown | Movies",Mytime Movie Network -TCL
-https://mytime-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MytimeMovieNetworkc2TCLGeo" tvg-name="Mytime Movie Network c2 -TCL (Geo)" group-title="TCL TV | Unknown | Movies",Mytime Movie Network c2 -TCL (Geo)
 https://amg00500-amg00500c2-tcl-us-3572.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MytimeMovieNetworkc6Englishtex" tvg-name="Mytime Movie Network c6 English text and cc -TCL (Geo)" group-title="TCL TV | Unknown | Movies",Mytime Movie Network c6 English text and cc -TCL (Geo)

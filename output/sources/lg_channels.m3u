@@ -1,7 +1,7 @@
 #EXTM3U
 # LG Channels
-# Total channels: 1278
-# Generated: 2026-08-09 11:11:16
+# Total channels: 1268
+# Generated: 2026-08-09 11:15:47
 
 # Argentina | Entertainment (12 channels)
 #EXTINF:-1 tvg-id="123GoSpanishAR" tvg-name="123 Go Spanish (AR)" group-title="LG Channels | Argentina | Entertainment",123 Go Spanish (AR)
@@ -971,13 +971,11 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannel
 #EXTINF:-1 tvg-id="WedoSportsDE" tvg-name="Wedo Sports (DE)" group-title="LG Channels | Germany | Sports",Wedo Sports (DE)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedosports-lgde/playlist.m3u8
 
-# India | Entertainment (18 channels)
+# India | Entertainment (17 channels)
 #EXTINF:-1 tvg-id="123GoEnglishINGeo" tvg-name="123 Go! English (IN) Geo" group-title="LG Channels | India | Entertainment",123 Go! English (IN) Geo
 https://amg02051-soulpublishing-amg02051c17-lg-in-1190.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-lgin/playlist.m3u8
 #EXTINF:-1 tvg-id="APBAsmitaINGeo" tvg-name="APB Asmita (IN) Geo" group-title="LG Channels | India | Entertainment",APB Asmita (IN) Geo
 https://amg01043-abpnewsnetwork-amg01043c2-lg-in-2042.playouts.now.amagi.tv/playlist/amg01043-abpnewsnetwork-abpasmita-lgin/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UKadakINGeo" tvg-name="B4U Kadak (IN) Geo" group-title="LG Channels | India | Entertainment",B4U Kadak (IN) Geo
-https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BrightsideEnglishINGeo" tvg-name="Brightside English (IN) Geo" group-title="LG Channels | India | Entertainment",Brightside English (IN) Geo
 https://amg02051-soulpublishing-amg02051c8-lg-in-1012.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsideenglish-lgin/playlist.m3u8
 #EXTINF:-1 tvg-id="ClubbingTVINGeo" tvg-name="Clubbing TV (IN) Geo" group-title="LG Channels | India | Entertainment",Clubbing TV (IN) Geo
@@ -1012,10 +1010,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01106-associatedbroad-tv9telugu-lgi
 # India | Lifestyle (1 channels)
 #EXTINF:-1 tvg-id="SmartHealthyGreenLivingINGeo" tvg-name="Smart Healthy Green Living (IN) Geo" group-title="LG Channels | India | Lifestyle",Smart Healthy Green Living (IN) Geo
 https://amg16109-shgliving-amg16109c1-lg-in-2094.playouts.now.amagi.tv/playlist/amg16109-shglivingnetwork-smarthealthygreenliving-lgin/playlist.m3u8
-
-# India | Movies (1 channels)
-#EXTINF:-1 tvg-id="B4UMoviesINGeo" tvg-name="B4U Movies (IN) Geo" group-title="LG Channels | India | Movies",B4U Movies (IN) Geo
-https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
 
 # India | Music (1 channels)
 #EXTINF:-1 tvg-id="B4UMusicINGeo" tvg-name="B4U Music (IN) Geo" group-title="LG Channels | India | Music",B4U Music (IN) Geo
@@ -1727,7 +1721,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadetravel-lgu
 #EXTINF:-1 tvg-id="TuDiscoveryUSGeo" tvg-name="Tu Discovery (US) Geo" group-title="LG Channels | United States | Documentary",Tu Discovery (US) Geo
 https://amg00136-wbd-amg00136c59-lg-us-5702.playouts.now.amagi.tv/playlist.m3u8
 
-# United States | Entertainment (364 channels)
+# United States | Entertainment (358 channels)
 #EXTINF:-1 tvg-id="5ABCUSGeo" tvg-name="5 ABC (US) Geo" group-title="LG Channels | United States | Entertainment",5 ABC (US) Geo
 https://amg01438-ewscripps-amg01438c1-lg-us-4351.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="7ABCUSGeo" tvg-name="7 ABC (US) Geo" group-title="LG Channels | United States | Entertainment",7 ABC (US) Geo
@@ -1864,16 +1858,8 @@ https://amg01438-ewscripps-amg01438c4-lg-us-4348.playouts.now.amagi.tv/playlist.
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kcpq-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="KDFWUS" tvg-name="KDFW (US)" group-title="LG Channels | United States | Entertainment",KDFW (US)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kdfw-lgus/playlist.m3u8
-#EXTINF:-1 tvg-id="KMSPUS" tvg-name="KMSP (US)" group-title="LG Channels | United States | Entertainment",KMSP (US)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kmsp-lgus/playlist.m3u8
-#EXTINF:-1 tvg-id="KRIVUS" tvg-name="KRIV (US)" group-title="LG Channels | United States | Entertainment",KRIV (US)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8
-#EXTINF:-1 tvg-id="KSAZUS" tvg-name="KSAZ (US)" group-title="LG Channels | United States | Entertainment",KSAZ (US)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="KSBY6USGeo" tvg-name="KSBY 6 (US) Geo" group-title="LG Channels | United States | Entertainment",KSBY 6 (US) Geo
 https://amg01438-ewscripps-amg01438c17-lg-us-4336.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="KTBCUS" tvg-name="KTBC (US)" group-title="LG Channels | United States | Entertainment",KTBC (US)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="KTTVUS" tvg-name="KTTV (US)" group-title="LG Channels | United States | Entertainment",KTTV (US)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kttv-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="KTVUUS" tvg-name="KTVU (US)" group-title="LG Channels | United States | Entertainment",KTVU (US)
@@ -2438,12 +2424,8 @@ https://waypointtv-lg-us.amagi.tv/playlist.m3u8
 https://amg00497-lgus-amg00497c2-lg-us-2230.playouts.now.amagi.tv/playlist/amg00497-lgelectronicsusafast-wickedtuna-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="WipeoutXtraUSGeo" tvg-name="Wipeout Xtra (US) Geo" group-title="LG Channels | United States | Entertainment",Wipeout Xtra (US) Geo
 https://banijay-wipeoutxtra-lg-us.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="WITIUS" tvg-name="WITI (US)" group-title="LG Channels | United States | Entertainment",WITI (US)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="WJBKUS" tvg-name="WJBK (US)" group-title="LG Channels | United States | Entertainment",WJBK (US)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wjbk-lgus/playlist.m3u8
-#EXTINF:-1 tvg-id="WNYWUS" tvg-name="WNYW (US)" group-title="LG Channels | United States | Entertainment",WNYW (US)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="WOFLUS" tvg-name="WOFL (US)" group-title="LG Channels | United States | Entertainment",WOFL (US)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wofl-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTourUSGeo" tvg-name="World Poker Tour (US) Geo" group-title="LG Channels | United States | Entertainment",World Poker Tour (US) Geo
@@ -2533,13 +2515,11 @@ https://scripps-newsy-3-us.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="scrippsnewsonly" tvg-name="scripps news? only?" group-title="LG Channels | United States | News",scripps news? only?
 https://amg01438-ewscripps-amg01438c35-lg-us-4318.playouts.now.amagi.tv/playlist.m3u8
 
-# United States | Sports (5 channels)
+# United States | Sports (4 channels)
 #EXTINF:-1 tvg-id="BoxingUSGeo" tvg-name="Boxing (US) Geo" group-title="LG Channels | United States | Sports",Boxing (US) Geo
 https://amg00136-wbd-amg00136c41-lg-us-3570.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BRSportsUSGeo" tvg-name="BR Sports (US) Geo" group-title="LG Channels | United States | Sports",BR Sports (US) Geo
 https://amg00136-wbd-amg00136c43-lg-us-5711.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="F1TVUSGeo" tvg-name="F1 TV (US) Geo" group-title="LG Channels | United States | Sports",F1 TV (US) Geo
-https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SportsgridUSalt" tvg-name="Sportsgrid (US) alt" group-title="LG Channels | United States | Sports",Sportsgrid (US) alt
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/sportsgri-sportsgrid-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="SportsgridUSGeo" tvg-name="Sportsgrid (US) Geo" group-title="LG Channels | United States | Sports",Sportsgrid (US) Geo
@@ -2561,7 +2541,7 @@ https://travelxp-travelxp-1-gb.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WedoBigDocsGB" tvg-name="Wedo Big Docs (GB)" group-title="LG Channels | Unknown | Documentary",Wedo Big Docs (GB)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedobigdocs-lggb/playlist.m3u8
 
-# Unknown | Entertainment (91 channels)
+# Unknown | Entertainment (90 channels)
 #EXTINF:-1 tvg-id="AirandSpaceGB" tvg-name="Air and Space (GB)" group-title="LG Channels | Unknown | Entertainment",Air and Space (GB)
 https://wingspan-airandspace-1-gb.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ArirangKpop" tvg-name="Arirang K-pop" group-title="LG Channels | Unknown | Entertainment",Arirang K-pop
@@ -2732,8 +2712,6 @@ https://watchmojo-1-gb.lg.wurl.tv/playlist.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="WeeklyIdol" tvg-name="Weekly Idol" group-title="LG Channels | Unknown | Entertainment",Weekly Idol
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5466
-#EXTINF:-1 tvg-id="WFLD" tvg-name="WFLD" group-title="LG Channels | Unknown | Entertainment",WFLD
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="WipeoutXtraGB" tvg-name="Wipeout Xtra (GB)" group-title="LG Channels | Unknown | Entertainment",Wipeout Xtra (GB)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="WomensNetwork" tvg-name="Womens Network" group-title="LG Channels | Unknown | Entertainment",Womens Network

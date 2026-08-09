@@ -1,7 +1,7 @@
 #EXTM3U
 # KlowdTV
-# Total channels: 80
-# Generated: 2026-08-09 11:11:16
+# Total channels: 78
+# Generated: 2026-08-09 11:15:47
 
 # United States | Documentary (2 channels)
 #EXTINF:-1 tvg-id="GOTraveller" tvg-name="GO Traveller" group-title="KlowdTV | United States | Documentary",GO Traveller
@@ -9,7 +9,7 @@ https://api-ott.gotraveler.com/loggingmediaurlpassthrough/a.m3u8?&version=12&id=
 #EXTINF:-1 tvg-id="LoveNatureGEOUSA" tvg-name="LoveNature (GEO USA)" group-title="KlowdTV | United States | Documentary",LoveNature (GEO USA)
 https://bamus-klowdtv.amagi.tv/hls/amagi_hls_data_klowdtvAA-bam-us-klowdtv/CDN/playlist.m3u8
 
-# United States | Entertainment (55 channels)
+# United States | Entertainment (53 channels)
 #EXTINF:-1 tvg-id="911Encore" tvg-name="911 Encore" group-title="KlowdTV | United States | Entertainment",911 Encore
 https://amg00283-anthymtv-911network-ono-p7py5.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ActionHollywoodGEOUSA" tvg-name="Action Hollywood (GEO USA)" group-title="KlowdTV | United States | Entertainment",Action Hollywood (GEO USA)
@@ -34,8 +34,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01570-carbontv-carbontv-klowdtv/pla
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/cine_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CircleTVGEOUSA" tvg-name="Circle TV (GEO USA)" group-title="KlowdTV | United States | Entertainment",Circle TV (GEO USA)
 https://circle-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CMC" tvg-name="CMC" group-title="KlowdTV | United States | Entertainment",CMC
-https://cmc-kowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CourtTV" tvg-name="Court TV" group-title="KlowdTV | United States | Entertainment",Court TV
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live3/courttv_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="DarkCorners" tvg-name="Dark Corners" group-title="KlowdTV | United States | Entertainment",Dark Corners
@@ -118,8 +116,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=5290
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01290-wildearthmediap-wildearth-klowdtv/playlist.m3u8
 #EXTINF:-1 tvg-id="WIONGEOUSA" tvg-name="WION (GEO USA)" group-title="KlowdTV | United States | Entertainment",WION (GEO USA)
 https://wion-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Wired2FishGEOUSA" tvg-name="Wired 2 Fish (GEO USA)" group-title="KlowdTV | United States | Entertainment",Wired 2 Fish (GEO USA)
-https://wire2fish-klowdtv.amagi.tv/playlist.m3u8
 
 # United States | Lifestyle (2 channels)
 #EXTINF:-1 tvg-id="CookingPanda" tvg-name="Cooking Panda" group-title="KlowdTV | United States | Lifestyle",Cooking Panda

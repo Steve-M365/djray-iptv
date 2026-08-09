@@ -1,7 +1,7 @@
 #EXTM3U
 # WhaleTV
-# Total channels: 493
-# Generated: 2026-08-09 11:11:16
+# Total channels: 491
+# Generated: 2026-08-09 11:15:47
 
 # International | Documentary (20 channels)
 #EXTINF:-1 tvg-id="adventureearth" tvg-name="Adventure Earth" group-title="WhaleTV | International | Documentary",Adventure Earth
@@ -45,7 +45,7 @@ https://93911e4c07db418694a8851781cba9f2.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="travelxp_en-uk-it" tvg-name="Travelxp" group-title="WhaleTV | International | Documentary",Travelxp
 https://db1af1cdc82e4dac81c84426749ff9c4.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_TravelXP/playlist.m3u8?ads.wurl_channel=473&ads.wurl_name=TravelXP&ads.coppa=0&ads.device_id=63027e9f-f3d0-4fc2-add3-9039b3f2344c&ads.dnt=0&ads.lmt=&ads.us_privacy=1YNN&ads.gdpr=0&ads.consent=&ads.app_name=Whale+TV%2B&ads.app_store=Browser&ads.url=&ads.device_make=&ads.device_model=&ads.tv_language=&ads.tv_vendor=&ads.brand_name=&ads.tv_model=&ads.language=&ads.gender=F%2CM&ads.age=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49&ads.duration=&ads.content_producer_name=WURL_MediaWorldwide_TravelxpEN-UK-IT&ads.content_custom_1_param=WURL&ads.rlaxx_session_id=&ads.height=&ads.width=&ads.rlaxx_iab_category=IAB1&ads.rlaxx_content_category=IAB20%2CIAB20-1%2CIAB20-3%2CIAB8&ads.rlaxx_genre=Travel&ads.rlaxx_rating=12%2B&ads.livestream=1&ads.max_ad_duration=30&ads.min_ad_duration=5&ads.tag_id=106485&ads.channel_number=0112&ads.placement=1&ads.autoplay=1&ads.mute=0&ads.skip=0
 
-# International | Entertainment (254 channels)
+# International | Entertainment (252 channels)
 #EXTINF:-1 tvg-id="123go_en" tvg-name="123 GO!" group-title="WhaleTV | International | Entertainment",123 GO!
 https://amg02051-amg02051c17-rlaxx-us-6636.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-rlaxxus/playlist.m3u8?tag_id=104037&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0440&content_producer_name=AmagiConnect_ADME_123GoEN&content_categories=IAB1%2CIAB1-7%2CIAB10-2%2CIAB19-29%2CIAB14-6&content_custom_1_param=Amagi&content_custom_2_param=F&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&sid=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
 #EXTINF:-1 tvg-id="123go_es" tvg-name="123 GO!" group-title="WhaleTV | International | Entertainment",123 GO!
@@ -470,10 +470,6 @@ https://amg01821-lovetv-amg01821c2-rlaxx-gb-10445.playouts.now.amagi.tv/ts-eu-w1
 https://amg01821-lovetv-amg01821c4-rlaxx-gb-10448.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-trailersfr-rlaxxgb/playlist.m3u8?tag_id=138630&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0482&content_producer_name=Amagi_LoveTV_TrailersFR&content_categories=IAB1-5%2CIAB1-7%2CIAB19-29&content_custom_1_param=Amagi&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&sid=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
 #EXTINF:-1 tvg-id="trailers_it" tvg-name="Trailers" group-title="WhaleTV | International | Entertainment",Trailers
 https://amg01821-lovetv-amg01821c3-rlaxx-gb-10453.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-trailersit-rlaxxgb/playlist.m3u8?tag_id=138629&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0481&content_producer_name=Amagi_LoveTV_TrailersIT&content_categories=IAB1-5%2CIAB1-7%2CIAB19-29&content_custom_1_param=Amagi&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&sid=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
-#EXTINF:-1 tvg-id="trtarabi" tvg-name="TRT Arabi" group-title="WhaleTV | International | Entertainment",TRT Arabi
-https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="trtworld" tvg-name="TRT World" group-title="WhaleTV | International | Entertainment",TRT World
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="trufatv" tvg-name="Trufa TV" group-title="WhaleTV | International | Entertainment",Trufa TV
 https://streams2.sofast.tv/ptnr-whaletv/title-TRUFA-SPA_WHALETV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8f54fa10-d929-437e-9c15-2a8cb88e6137/manifest.m3u8?ads.tag_id=153048&ads.app_name=Whale+TV%2B&ads.app_store=Browser&ads.ic=IAB1&ads.url=&ads.channel_name=Trufa+TV&ads.wtv_channel_id=0565&ads.content_id=&ads.content_genre=Food+and+Drink&ads.content_title=&ads.content_series=&ads.content_season=&ads.content_episode=&ads.language=&ads.content_len=&ads.rating=12%2B&ads.content_producer_name=SoFast_SoFast_TrufaTV&ads.content_categories=IAB8%2CIAB6%2CIAB19-29&ads.content_custom_1_param=SoFast&ads.content_custom_2_param=F%2CM&ads.content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&ads.tv_language=&ads.device_make=&ads.tv_vendor=&ads.brand_name=&ads.device_model=&ads.tv_model=&ads.gdpr=0&ads.gdpr_consent=&ads.did=600af77f-9f99-4285-91f5-6b6627d6e86c&ads.dnt=0&ads.lmt=&ads.coppa=0&ads.us_privacy=1YNN&ads.min_dur=5&ads.max_dur=30&ads.sid=600af77f-9f99-4285-91f5-6b6627d6e86c&ads.h=&ads.w=&ads.placement=1&ads.ap=1&ads.mute=0&ads.skip=0
 #EXTINF:-1 tvg-id="ubisofttvbrasil" tvg-name="Ubisoft TV Brasil" group-title="WhaleTV | International | Entertainment",Ubisoft TV Brasil

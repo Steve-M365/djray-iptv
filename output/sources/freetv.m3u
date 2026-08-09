@@ -1,7 +1,7 @@
 #EXTM3U
 # FreeTV
-# Total channels: 85
-# Generated: 2026-08-09 11:11:16
+# Total channels: 84
+# Generated: 2026-08-09 11:15:47
 
 # Australia | Documentary (4 channels)
 #EXTINF:-1 tvg-id="Docurama" tvg-name="Docurama" group-title="FreeTV | Australia | Documentary",Docurama
@@ -13,7 +13,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-lovenaturespn-freet
 #EXTINF:-1 tvg-id="LovenatureusSpanishGeo" tvg-name="Lovenatureus Spanish (Geo)" group-title="FreeTV | Australia | Documentary",Lovenatureus Spanish (Geo)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-lovenatureusspa-freetv/playlist.m3u8
 
-# Australia | Entertainment (62 channels)
+# Australia | Entertainment (61 channels)
 #EXTINF:-1 tvg-id="123GOGeo" tvg-name="123 GO! (Geo)" group-title="FreeTV | Australia | Entertainment",123 GO! (Geo)
 https://amg02051-soulpublishing-amg02051c17-freetv-us-358.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-freetvus/playlist.m3u8
 #EXTINF:-1 tvg-id="AdventuresofSonictheHedgehogCh" tvg-name="Adventures of Sonic the Hedgehog Channel" group-title="FreeTV | Australia | Entertainment",Adventures of Sonic the Hedgehog Channel
@@ -120,8 +120,6 @@ https://amg02051-soulpublishing-amg02051c12-freetv-us-365.playouts.now.amagi.tv/
 https://amg02051-soulpublishing-amg02051c5-freetv-us-362.playouts.now.amagi.tv/playlist/amg02051-admecyltd-teenveeenglish-freetvus/playlist.m3u8
 #EXTINF:-1 tvg-id="TheMeateater" tvg-name="The Meateater" group-title="FreeTV | Australia | Entertainment",The Meateater
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01786-themeateater-meateater-freetv/playlist.m3u8
-#EXTINF:-1 tvg-id="ThePalmBeachesTV" tvg-name="The Palm Beaches TV" group-title="FreeTV | Australia | Entertainment",The Palm Beaches TV
-https://live.feed.thepalmbeaches.tv/index.m3u8
 #EXTINF:-1 tvg-id="TopCine" tvg-name="Top Cine" group-title="FreeTV | Australia | Entertainment",Top Cine
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinefreetv-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="TotalcrimeGeo" tvg-name="Totalcrime (Geo)" group-title="FreeTV | Australia | Entertainment",Totalcrime (Geo)
