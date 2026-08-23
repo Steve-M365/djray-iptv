@@ -73,6 +73,7 @@ CATEGORIES = {
         "rewardedtv.m3u",
         "hp.m3u",
     ],
+    "Diggz Playlists": lambda url: "diggz" in url.lower(),
     "Specialized": [
         "vidaa.m3u",
         "igocast.m3u",
@@ -116,6 +117,11 @@ CATEGORY_ORDER = [
 ]
 
 EXTERNAL_PLAYLISTS = {
+    "https://raw.githubusercontent.com/Diggz/iptv-channels/main/diggz_all.m3u": "Diggz: All Channels",
+    "https://raw.githubusercontent.com/Diggz/iptv-channels/main/diggz_us.m3u": "Diggz: US Channels",
+    "https://raw.githubusercontent.com/Diggz/iptv-channels/main/diggz_uk.m3u": "Diggz: UK Channels",
+    "https://raw.githubusercontent.com/Diggz/iptv-channels/main/diggz_global.m3u": "Diggz: Global Channels",
+    # Existing entries...
     "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/tubi_all.m3u": "External: Tubi TV",
     "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u": "External: Roku Channel",
     # Sports playlists (from iptv-org GitHub)
