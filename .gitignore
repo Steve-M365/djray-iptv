@@ -5,7 +5,7 @@ __pycache__/
 .DS_Store
 
 # Output (regenerate with scripts)
-output/
+docs/output/
 output/epg.xml
 output/playlist_urls.txt
 cache/
