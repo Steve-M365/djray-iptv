@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T02:41:01Z",
+  "generated": "2026-11-15T02:55:44Z",
   "master_channels": 22611,
   "sources": [
     {
@@ -963,21 +963,51 @@
     }
   ],
   "presets": {
-    "australia": 2823,
-    "sports": 1033,
-    "news": 1442,
-    "movies": 966,
-    "kids": 229,
-    "us": 3686,
-    "uk": 293,
-    "f1": 8,
-    "afl": 5,
-    "daddylive-sports": 224
+    "australia": {
+      "title": "Australia - all channels",
+      "channels": 2823
+    },
+    "sports": {
+      "title": "All sports",
+      "channels": 1033
+    },
+    "news": {
+      "title": "All news",
+      "channels": 1442
+    },
+    "movies": {
+      "title": "All movies",
+      "channels": 966
+    },
+    "kids": {
+      "title": "All kids",
+      "channels": 229
+    },
+    "us": {
+      "title": "United States",
+      "channels": 3686
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "channels": 293
+    },
+    "f1": {
+      "title": "Formula 1",
+      "channels": 8
+    },
+    "afl": {
+      "title": "AFL",
+      "channels": 5
+    },
+    "daddylive-sports": {
+      "title": "DaddyLive sports (web player required)",
+      "channels": 224
+    }
   },
   "coverage": {
-    "generated": "2026-11-15T02:41:01Z",
+    "generated": "2026-11-15T02:55:43Z",
     "epg_channels": 3660,
-    "programmes": 212096,
+    "programmes": 212012,
     "matched_channels": 4175,
     "total_channels": 23531,
     "coverage_pct": 17.7,

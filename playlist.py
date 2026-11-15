@@ -58,6 +58,20 @@ COUNTRY_ORDER = [
     "Australia", "New Zealand", "International", "United States",
     "United Kingdom", "Canada", "Ireland", "Other Countries",
 ]
+
+# Short labels for TV UIs; TiviMate truncates long group names.
+COUNTRY_LABELS = {
+    "United States": "US",
+    "United Kingdom": "UK",
+    "New Zealand": "NZ",
+    "Other Countries": "Other",
+    "United Arab Emirates": "UAE",
+    "South Africa": "SA",
+    "Dominican Republic": "DR",
+    "Papua New Guinea": "PNG",
+}
+COUNTRY_LABEL_TO_NAME = {v: k for k, v in COUNTRY_LABELS.items()}
+COUNTRY_LABEL_TO_NAME.update({k: k for k in COUNTRY_ORDER})
 TYPE_ORDER = [
     "Sports", "News", "Movies", "Kids", "Music", "Documentary",
     "Lifestyle", "Entertainment", "Other",
@@ -374,9 +388,13 @@ def infer_type(ch: Channel) -> str:
     return "Entertainment"
 
 
+def country_label(country: str) -> str:
+    return COUNTRY_LABELS.get(country, country)
+
+
 def group_country(ch: Channel) -> str:
-    """TiviMate flat group: 'Country | Type'."""
-    return f"{ch.country} | {ch.ctype}"
+    """TiviMate flat group: 'Country | Type', with a short country label."""
+    return f"{country_label(ch.country)} | {ch.ctype}"
 
 
 def group_type(ch: Channel) -> str:
@@ -511,10 +529,11 @@ def _sorted_groups(groups: dict[str, list[Channel]], grouping: str) -> list[str]
     def key(g: str) -> tuple:
         if grouping == "country":
             head = g.split(" \u00b7 ")[0]
-            country, _, ctype = head.partition(" | ")
+            label, _, ctype = head.partition(" | ")
+            country = COUNTRY_LABEL_TO_NAME.get(label, label)
             cidx = COUNTRY_ORDER.index(country) if country in COUNTRY_ORDER else len(COUNTRY_ORDER)
             tidx = TYPE_ORDER.index(ctype) if ctype in TYPE_ORDER else len(TYPE_ORDER)
-            return (cidx, country.lower(), tidx, g.lower())
+            return (cidx, label.lower(), tidx, g.lower())
         idx = TYPE_ORDER.index(g) if g in TYPE_ORDER else len(TYPE_ORDER)
         return (idx, g.lower())
 

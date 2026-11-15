@@ -214,7 +214,10 @@ def main() -> int:
                 "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 "master_channels": count,
                 "sources": sources_meta,
-                "presets": preset_counts,
+                "presets": {
+                    name: {"title": pl.PRESETS[name]["title"], "channels": count}
+                    for name, count in preset_counts.items()
+                },
                 "coverage": coverage,
             },
             indent=2,
