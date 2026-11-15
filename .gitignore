@@ -4,7 +4,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Output (regenerate with scripts)
+# Generated build inputs / caches (outputs are published by CI)
+output/playlists/
+output/epg-cache/
+output/.staging/
 docs/output/
 output/epg.xml
 output/playlist_urls.txt
@@ -16,6 +19,11 @@ cache/
 
 # Logs
 *.log
+
+# Local
+user_config.json
+rebuild.log
+.pytest_cache/
 
 # Source EPG files (large, regenerated)
 output/daddylive_epg.xml

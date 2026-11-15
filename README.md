@@ -1,258 +1,214 @@
-# Apsattv.com IPTV Aggregator
+# DJRay IPTV
 
-Aggregates all 75+ playlists from apsattv.com into a single master M3U playlist with categorized sections, and generates an EPG (Electronic Program Guide). Includes a web dashboard for TiviMate and other IPTV players.
+A self-hosted IPTV catalogue: ~22k channels from apsattv.com plus a handful of
+additional sources, organised into **flat, TiviMate-friendly groups**, with a
+real EPG where free guide data exists.
 
-## Features
+TiviMate has **no nested groups** — every folder is a single `group-title`. This
+project therefore emits one short label per folder (`Australia | Sports`,
+`United States | News`, …) and orders the groups so the ones you use appear
+first. Anything deeper is done with presets (small, focused playlists).
 
-- Single master.m3u with all playlists from apsattv.com
-- Organized by category (LG, Samsung, Australian, Brazilian, Platform-specific, etc.)
-- Auto-downloads latest playlists from source
-- EPG generation from free XMLTV providers
-- Channel deduplication
-- Channel name normalization for better EPG matching
-- **Web dashboard** with TiviMate-compatible URLs
-- **Auto-refresh** every 6 hours (configurable)
+---
 
-## Quick Start
+## TiviMate setup
 
-### Option 1: Web App (Recommended)
+| What | URL |
+|---|---|
+| Everything | `https://steve-m365.github.io/djray-iptv/output/master.m3u` |
+| EPG | `https://steve-m365.github.io/djray-iptv/output/epg.xml.gz` |
+| Australia only | `https://steve-m365.github.io/djray-iptv/output/presets/australia.m3u` |
+| Sports only | `https://steve-m365.github.io/djray-iptv/output/presets/sports.m3u` |
+| Single source | `https://steve-m365.github.io/djray-iptv/output/sources/<source>.m3u` |
+
+1. TiviMate → **Settings → Playlists → Add playlist → M3U URL**, paste a playlist URL.
+2. TiviMate → **Settings → EPG → Add EPG**, paste the `epg.xml.gz` URL.
+3. In **Manage groups**, hide the folders you never watch — there are ~90.
+
+> The `raw.githubusercontent.com/.../master/output/...` URLs still work while the
+> generated files remain committed to `master`. The Pages URLs above are the
+> target for the CI publishing flow described below.
+
+---
+
+## What gets generated
+
+```
+output/
+├── master.m3u          # everything, grouped "<Country> | <Type>"
+├── sources/*.m3u       # one file per source, grouped by type
+├── presets/*.m3u       # australia, sports, news, movies, kids, us, uk, f1, afl
+├── epg.xml.gz          # XMLTV guide, pruned to channels in this catalogue
+├── sources.json        # metadata for the web dashboard
+├── coverage.json       # EPG coverage per source
+└── manifest.json       # per-source fetch/validation results
+```
+
+Last local build (15 Nov 2026):
+
+| Metric | Value |
+|---|---|
+| Sources validated | 116 / 117 playlists |
+| Raw channels | 33,372 |
+| Published channels | 22,611 |
+| Flat groups | 90 (max 3,127, median 159) |
+| EPG channels | 3,660 · 212k programmes |
+| EPG coverage, all channels | 17.7% |
+| EPG coverage, Australia preset | **85%** |
+| EPG coverage, Vortexo / Roku | **96.4% / 91.8%** |
+
+Coverage is honest rather than universal: most of this catalogue is FAST
+channels, and many FAST services publish no free guide. Mainstream linear
+channels (ABC, Sky, CNN, Fox Sports, …) and the Samsung/Pluto/Plex/Roku backed
+streams are covered.
+
+---
+
+## How the pipeline works
+
+```
+fetch.py  →  output/playlists/*.m3u + manifest.json (validated)
+build.py  →  parse → normalise → EPG match → write playlists + metadata
+epg.py    →  download guides, match on tvg-id then name, prune, gzip
+```
+
+Only `build.py` writes to `output/`. Every other script is either an input
+(fetch) or archived (see `legacy/`).
+
+Key behaviours:
+
+- **Validation** — each source must return HTTP 200, non-HTML content and at
+  least one `#EXTINF`; failures are listed in `manifest.json`.
+- **Junk filtering** — URLs containing `[APP_NAME]`/`[DEVICE_ID]` ad-template
+  parameters, non-HTTP entries and empty names are dropped.
+- **Deduplication** — exact URLs are collapsed; same-name/same-country channels
+  are collapsed *after* EPG matching so the version with guide data wins.
+- **Parsing** — `#EXTVLCOPT`, `#EXTGRP` and `#KODIPROP` between `#EXTINF` and
+  the URL are preserved rather than treated as end-of-entry.
+- **Safety guard** — the build refuses to write anything if it produces fewer
+  than 1,000 channels or fewer than 3 working sources, so an upstream outage
+  cannot publish an empty playlist.
+
+### Commands
 
 ```bash
-# 1. Install dependencies
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# 2. Run the web app
-python app.py
+python build.py              # fetch + build + EPG
+python build.py --no-fetch   # re-normalise the existing downloads
+python build.py --no-epg     # fast iteration on grouping
+./rebuild.sh                 # thin wrapper around build.py
 
-# 3. Open browser
-# Dashboard: http://localhost:5000
-# M3U URL:   http://localhost:5000/playlist/master.m3u
-# EPG URL:   http://localhost:5000/epg/epg.xml
+python app.py                # dashboard on http://127.0.0.1:5000
+docker compose up -d         # gunicorn, non-root, read-only catalog mount
 ```
 
-### Option 2: Docker
+---
 
-```bash
-docker compose up -d
+## Sources
 
-# Access at http://localhost:5000
-```
+`sources.json` is the only place to configure inputs.
 
-### Option 3: CLI Only
+- **apsattv** — the streams page is scraped on every build, so new playlists are
+  picked up automatically. 117 playlists discovered, 116 valid
+  (`rakuten-jp.m3u` is a dead link on apsattv).
+- **External** — Tubi and Roku playlists are fetched from their upstream repos.
+- **Seeds** (`seeds/*.m3u.gz`) — `dearbulut`, `vortexo` and `daddylive` have no
+  stable public refresh URL. They are committed snapshots so CI can rebuild.
+  Put a URL in `sources.json → external[].url` to refresh them instead.
+- **DaddyLive is web-only.** Its entries are `watch.php` player pages, not HLS
+  streams. TiviMate cannot play them without a resolver, so they are excluded
+  from `master.m3u` and exposed only as
+  `output/presets/daddylive-sports.m3u` (224 sports entries, clearly labelled).
 
-```bash
-# 1. Generate master M3U
-python main.py
+Source naming and country detection live in `playlist.py` (`SERVICES`,
+`COUNTRY_CODES`, `source_for`). apsattv files are decoded from their naming
+scheme: `aulg` → Australia, `ssungaus` → Samsung Australia, `rakuten_fr` →
+Rakuten France, and so on.
 
-# 2. Generate EPG (edit config.json first)
-python epg_generator.py
+---
 
-# Output files are in output/ directory:
-#   output/master.m3u  - your complete playlist
-#   output/epg.xml     - EPG data (XMLTV format)
-```
+## EPG
 
-## Files
+Guides come from:
 
-- `main.py` - Fetches playlists and generates master.m3u
-- `epg_generator.py` - Generates EPG from configured source
-- `config.json` - Configuration (EPG source, matching rules)
-- `output/master.m3u` - Generated master playlist
-- `output/epg.xml` - Generated EPG
-- `output/channels.json` - Channel index (for reference)
+- **epgshare01** per-country rips (AU, NZ, UK, US, CA, IE, ZA, DE, FR, ES, IT,
+  BR, IN, SE, NL, PL, PT, DK, NO, FI, AT, CH, MX, AR, CL, CO, PE, JP, KR, TR, GR)
+- **i.mjh.nz** aggregated and per-service guides (Samsung TV Plus, Pluto TV,
+  Plex, Roku, PBS, plus combined AU/global)
 
-## EPG Setup
+Matching order: exact `tvg-id` → provider-independent core id
+(`samsungtvplus-abc123` ↔ `abc123`) → exact normalised display name within the
+guide's country. No fuzzy guessing, so a channel either has the correct guide or
+no guide. Matched channels are rewritten to the guide's id so players link them.
 
-Choose one EPG provider in `config.json`:
+To add a guide, append to `sources.json → epg.sources`:
 
-### Option 1: EPGshare (Recommended)
-- Sign up at https://epgshare.com (free tier available)
-- Get your API key from dashboard
-- Edit `config.json`:
 ```json
-{
-  "epg": {
-    "source": "epgshare",
-    "api_key": "YOUR_API_KEY_HERE"
-  }
-}
-```
-EPGshare provides 7-day schedules for most IPTV channels worldwide.
-
-### Option 2: IPTV.org (Free, but limited)
-No API key required. Sources community-maintained EPG lists:
-```json
-{
-  "epg": {
-    "source": "iptvorg"
-  }
-}
-```
-Note: Coverage may be less comprehensive.
-
-### Option 3: Manual XMLTV URL
-Use your own XMLTV source:
-```json
-{
-  "epg": {
-    "source": "manual",
-    "xmltv_url": "https://example.com/epg.xml"
-  }
-}
+{"id": "my-guide", "url": "https://example.com/guide.xml.gz", "countries": ["Australia"]}
 ```
 
-## Hosting on GitHub Pages
+Use `"id_only": true` for guides whose ids are the only reliable link (no name
+matching, avoiding false positives).
 
-GitHub Pages provides free static file hosting.
+---
 
-### One-Time Setup
+## Publishing
+
+`.github/workflows/rebuild.yml` runs daily at 15:00 UTC (≈1–2 am Melbourne):
+
+1. runs `pytest`
+2. runs `build.py` (fetch, validate, normalise, EPG)
+3. copies `docs/index.html`, `docs/setup.html` and `output/` into a `public/` tree
+4. force-pushes that tree to the `gh-pages` branch
+
+**One-time Pages switch** (Settings → Pages): set *Source* to **Deploy from a
+branch**, branch `gh-pages`, folder `/`. Once that is live, the Pages URLs above
+are the canonical ones.
+
+To stop committing generated files to `master` (recommended once Pages is on
+`gh-pages`):
 
 ```bash
-# 1. Create a new GitHub repository (public)
-#    Name it: apsattv-m3u (or your preferred name)
-
-# 2. Initialize git in your local folder
-cd djray-iptv
-git init
-git add .
-git commit -m "Initial commit: apsattv aggregator"
-
-# 3. Add remote and push
-git remote add origin https://github.com/YOUR_USERNAME/apsattv-m3u.git
-git branch -M main
-git push -u origin main
-
-# 4. Enable GitHub Pages
-#    Go to repo Settings → Pages → Source: Deploy from a branch
-#    Select branch: main, folder: / (root)
-#    Save. Your site will be at: https://YOUR_USERNAME.github.io/apsattv-m3u/
+git rm -r --cached output docs/output
+git commit -m "chore: stop committing generated catalog"
 ```
 
-### Updating Your Playlists
+`output/` and `docs/output/` are already ignored, so builds will no longer dirty
+the working tree. Raw GitHub URLs stop working at that point — switch TiviMate
+to the Pages URLs.
 
-After updating (rerunning `python main.py` and `python epg_generator.py`):
+The Flask app is a convenience for LAN use. It binds `127.0.0.1` by default; the
+Docker image sets `HOST=0.0.0.0` behind gunicorn. There is no authentication.
+
+---
+
+## Repository layout
+
+```
+app.py                 Flask app (serves catalog, merges selected sources)
+build.py               orchestrator + master grouping/presets
+fetch.py               apsattv discovery, download, validation, manifest
+playlist.py            Channel model, M3U parser, normaliser, writers
+epg.py                 guide fetching, id/name matching, pruning
+sources.json           source + EPG configuration
+seeds/                 committed snapshots for sources without refresh URLs
+tests/                 pytest suite (parser, dedupe, grouping, EPG matching)
+templates/             Flask dashboard
+docs/                  static site published to Pages
+legacy/                archived v1 pipeline (isolated output, unsupported)
+```
+
+## Tests
 
 ```bash
-git add output/
-git commit -m "Update playlists and EPG - $(date +%Y-%m-%d)"
-git push
+pytest -q     # 15 tests, no network required
 ```
 
-GitHub Pages will automatically update within minutes.
+## Legal
 
-## M3U Structure
-
-The generated `master.m3u` contains:
-
-```
-#EXTM3U
-#EXTINF:-1,--- Main Playlists ---
-#EXTINF:-1,LG Channels (all regions combined)
-http://www.apsattv.com/lg.m3u
-...
-
-#EXTINF:-1,--- LG Regional ---
-#EXTINF:-1,AE LG (UAE)
-http://www.apsattv.com/aelg.m3u
-...
-
-#EXTINF:-1,--- Samsung Regional ---
-#EXTINF:-1,Samsung Australia
-http://www.apsattv.com/ssungaus.m3u
-...
-
-#EXTINF:-1,--- Australian ---
-#EXTINF:-1,10 Play Australia
-http://www.apsattv.com/10fast.m3u
-...
-```
-
-Each section contains the original channel list from that playlist.
-
-### Accessing the Playlist
-
-Your final M3U URL will be:
-```
-https://YOUR_USERNAME.github.io/apsattv-m3u/master.m3u
-```
-
-Use this URL in any IPTV player:
-- **VLC**: Media → Open Network Stream
-- **Kodi**: TV → Enter M3U URL
-- **OTT Navigator**: Add playlist URL
-- **Smart TVs**: Use built-in IPTV apps (Samsung/LG/Android)
-
-## EPG Configuration
-
-The EPG is generated by matching channel names from the M3U with EPG provider data.
-
-### Channel Matching
-
-- Exact match on normalized channel names
-- Case-insensitive, removes quality tags (HD/SD) and region suffixes
-- Configurable via `config.json` → `channels.name_cleanup`
-
-Example cleanup:
-```json
-{
-  "channels": {
-    "name_cleanup": {
-      "Channel 5 UK": "Channel 5",
-      "BBC One HD": "BBC One"
-    }
-  }
-}
-```
-
-Matching tries normalized names first, then fuzzy match (edit distance ≤ 2) if configured.
-
-## Automation (Optional)
-
-Set up a cron job to update playlists and EPG daily:
-
-```bash
-# Edit crontab
-crontab -e
-
-# Add this line to update daily at 2am:
-0 2 * * * cd /path/to/djray-iptv && /usr/bin/python3 main.py && /usr/bin/python3 epg_generator.py && git add output/ && git commit -m "Daily update $(date +\%Y-\%m-\%d)" && git push 2>&1 >> /tmp/apsattv-update.log
-```
-
-## Notes
-
-- Playlists are fetched directly from apsattv.com (no modification)
-- EPG coverage depends on your chosen provider; not all channels may have guide data
-- Some channels may be geo-blocked; use a VPN if needed
-- Update frequency: Source playlists change often; consider daily updates
-
-## Troubleshooting
-
-**"No EPG data"**
-- Verify EPG provider is configured with valid API key
-- Check `epg.xml` file size (should be >1KB)
-- Some channels may not have EPG coverage
-
-**"GitHub Pages 404"**
-- Ensure `output/` files are committed and pushed
-- Check Pages settings: branch=main, folder=/ (root)
-- Wait 1-5 minutes after push
-
-**"Some playlists fail to download"**
-- Source URLs may be temporarily down
-- Script logs errors but continues; check output for missing channels
-- apsattv.com occasionally updates/removes playlists
-
-**Channel names don't match EPG**
-- Add name cleanup rules in `config.json`
-- Manually check `output/channels.json` to see normalized names
-
-## License
-
-Playlists belong to their respective providers. This aggregator is for personal use only.
-
-## Credits
-
-- Source: https://apsattv.com/streams.html
-- EPG: EPGshare.com (or other configured provider)
+The code is MIT licensed. The playlists, streams and guide data belong to their
+respective providers; this repository only aggregates publicly listed links and
+is intended for personal use. Publicly redistributing provider streams may
+breach their terms of service in your jurisdiction.

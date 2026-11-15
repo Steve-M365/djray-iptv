@@ -1,313 +1,192 @@
 #!/usr/bin/env python3
 """
-DJRay IPTV Web App - Customizable Playlist Manager
-Pick and choose playlists, generate custom M3U, save preferences.
+DJRay IPTV web app.
+
+Serves the generated catalog and builds merged playlists on demand:
+
+  /                       dashboard
+  /api/sources            source metadata (generated)
+  /custom.m3u?sources=a,b merged playlist for the chosen sources
+  /presets/<name>.m3u     pre-built preset
+  /master.m3u             everything
+  /epg.xml                gzipped XMLTV guide
 """
+
+from __future__ import annotations
 
 import json
 import os
 import re
-import threading
-import time
-from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, jsonify, render_template, request, send_file
+from flask import Flask, abort, jsonify, render_template, request, send_file
+
+ROOT = Path(__file__).resolve().parent
+OUTPUT = ROOT / "output"
+SOURCES_DIR = OUTPUT / "sources"
+PRESETS_DIR = OUTPUT / "presets"
+SOURCES_META = OUTPUT / "sources.json"
+USER_CONFIG = ROOT / "user_config.json"
 
 app = Flask(__name__)
-
-# Paths
-OUTPUT_DIR = Path("output")
-PLAYLIST_DIR = OUTPUT_DIR / "playlists"
-USER_CONFIG = Path("user_config.json")
-
-# Default presets
-PRESETS = {
-    "f1": {
-        "name": "Formula 1 Only",
-        "description": "F1 channels from DaddyLive and iptv-org",
-        "playlists": ["daddylive_hd"],
-        "patterns": ["f1", "formula"]
-    },
-    "afl": {
-        "name": "AFL / Australian Footy",
-        "description": "AFL and Australian football channels",
-        "playlists": ["au_iptvorg"],
-        "patterns": ["afl", "fox footy", "channel 7", "7mate", "channel 9", "channel 10"]
-    },
-    "sports": {
-        "name": "All Sports",
-        "description": "Sports channels from all sources",
-        "playlists": ["sports_iptvorg", "daddylive_hd"],
-        "patterns": []
-    },
-    "au_tv": {
-        "name": "Australian TV",
-        "description": "Australian free-to-air and streaming",
-        "playlists": ["au_iptvorg", "vortexo_au"],
-        "patterns": []
-    },
-    "daddylive": {
-        "name": "DaddyLive Full",
-        "description": "All 1270+ DaddyLive 24/7 channels",
-        "playlists": ["daddylive_hd"],
-        "patterns": []
-    },
-    "apsattv_all": {
-        "name": "apsattv Complete",
-        "description": "All 90+ apsattv.com playlists",
-        "playlists": ["*"],
-        "patterns": []
-    },
-    "custom": {
-        "name": "Custom Selection",
-        "description": "Pick your own playlists",
-        "playlists": [],
-        "patterns": []
-    }
-}
+app.config["MAX_CONTENT_LENGTH"] = 64 * 1024
 
 
-def load_user_config():
-    """Load user preferences."""
+def load_meta() -> dict:
+    if not SOURCES_META.exists():
+        return {"sources": [], "presets": {}, "coverage": {}, "master_channels": 0}
+    return json.loads(SOURCES_META.read_text(encoding="utf-8"))
+
+
+def load_user_config() -> dict:
+    default = {"selected_sources": [], "selected_preset": ""}
     if USER_CONFIG.exists():
-        with open(USER_CONFIG) as f:
-            return json.load(f)
-    return {
-        "selected_playlists": [],
-        "selected_patterns": [],
-        "active_preset": "custom"
+        try:
+            data = json.loads(USER_CONFIG.read_text(encoding="utf-8"))
+            return {k: data.get(k, v) for k, v in default.items()}
+        except (json.JSONDecodeError, OSError):
+            return default
+    return default
+
+
+def save_user_config(config: dict) -> None:
+    clean = {
+        "selected_sources": [
+            s[:80] for s in config.get("selected_sources", [])[:50] if isinstance(s, str)
+        ],
+        "selected_preset": (
+            config["selected_preset"][:50]
+            if isinstance(config.get("selected_preset"), str)
+            else ""
+        ),
+    }
+    USER_CONFIG.write_text(json.dumps(clean, indent=2), encoding="utf-8")
+
+
+def valid_source(stem: str) -> Path | None:
+    """Resolve a source id to a file, rejecting path traversal."""
+    if not re.fullmatch(r"[A-Za-z0-9_-]{1,80}", stem or ""):
+        return None
+    path = SOURCES_DIR / f"{stem}.m3u"
+    return path if path.is_file() else None
+
+
+def merge_playlists(paths: list[Path]) -> str:
+    lines = ["#EXTM3U", "# DJRay IPTV merged playlist"]
+    seen: set[str] = set()
+    total = 0
+    for path in paths:
+        for raw in path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            line = raw.strip()
+            if not line or line.upper().startswith(("#EXTM3U", "# DJRAY", "# TOTAL", "# GROUPS", "# REGENERATED")):
+                continue
+            if line.startswith("#"):
+                lines.append(line)
+            elif line.lower().startswith(("http://", "https://")):
+                if line not in seen:
+                    seen.add(line)
+                    lines.append(line)
+                    total += 1
+            else:
+                lines.append(line)
+    lines.insert(2, f"# Total channels: {total}")
+    return "\n".join(lines) + "\n"
+
+
+def m3u_response(body: str, filename: str):
+    return body, 200, {
+        "Content-Type": "audio/x-mpegurl",
+        "Content-Disposition": f"attachment; filename={filename}",
     }
 
 
-def save_user_config(config):
-    """Save user preferences."""
-    with open(USER_CONFIG, "w") as f:
-        json.dump(config, f, indent=2)
-
-
-def get_available_playlists():
-    """Get list of all available playlists with channel counts."""
-    playlists = []
-    
-    if not PLAYLIST_DIR.exists():
-        return playlists
-    
-    for f in sorted(PLAYLIST_DIR.glob("*.m3u")):
-        # Count channels
-        content = f.read_text(errors='ignore')
-        channels = len(re.findall(r'^#EXTINF:', content, re.MULTILINE))
-        
-        playlists.append({
-            "id": f.stem,
-            "name": f.stem.replace("_", " ").title(),
-            "file": f.name,
-            "channels": channels,
-            "selected": False
-        })
-    
-    # Add special playlists
-    special = [
-        {"id": "daddylive_hd", "name": "DaddyLive 24/7", "channels": 1270},
-        {"id": "sports_iptvorg", "name": "Sports (iptv-org)", "channels": 493},
-        {"id": "au_iptvorg", "name": "Australian TV (iptv-org)", "channels": 79},
-        {"id": "vortexo_au", "name": "Australian TV (Vortexo)", "channels": 5676},
-    ]
-    
-    for s in special:
-        if not any(p["id"] == s["id"] for p in playlists):
-            playlists.insert(0, s)
-    
-    return playlists
-
-
-def get_playlist_content(playlist_id):
-    """Get content of a specific playlist."""
-    # Check for .m3u file
-    m3u_file = PLAYLIST_DIR / f"{playlist_id}.m3u"
-    if m3u_file.exists():
-        return m3u_file.read_text(errors='ignore')
-    return None
-
-
-def build_custom_m3u(config):
-    """Build a custom M3U based on user selection."""
-    selected = config.get("selected_playlists", [])
-    patterns = config.get("selected_patterns", [])
-    
-    if not selected and not patterns:
-        # Return empty playlist
-        return "#EXTM3U\n# No playlists selected\n"
-    
-    lines = ["#EXTM3U", "# Custom Playlist", f"# Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"]
-    total_channels = 0
-    
-    for playlist_id in selected:
-        content = get_playlist_content(playlist_id)
-        if content:
-            # Count channels
-            channels = len(re.findall(r'^#EXTINF:', content, re.MULTILINE))
-            total_channels += channels
-            
-            lines.append(f"\n# {playlist_id} ({channels} channels)")
-            lines.append(content)
-    
-    # Filter by patterns if any
-    if patterns:
-        filtered_lines = []
-        for line in lines:
-            if line.startswith("#EXTINF:"):
-                # Check if channel matches any pattern
-                if any(p.lower() in line.lower() for p in patterns):
-                    filtered_lines.append(line)
-                    # Get the next line (URL)
-                    idx = lines.index(line) + 1
-                    if idx < len(lines):
-                        filtered_lines.append(lines[idx])
-            elif not line.startswith("#"):
-                filtered_lines.append(line)
-        lines = filtered_lines
-    
-    lines.insert(3, f"# Total channels: {total_channels}")
-    return "\n".join(lines)
-
-
-# ========== ROUTES ==========
-
-
-@app.route("/")
+@app.get("/")
 def index():
-    """Main dashboard with playlist selector."""
-    playlists = get_available_playlists()
-    config = load_user_config()
-    return render_template("index.html", playlists=playlists, presets=PRESETS, config=config)
+    meta = load_meta()
+    return render_template(
+        "index.html",
+        meta=meta,
+        config=load_user_config(),
+    )
 
 
-@app.route("/api/playlists")
-def api_playlists():
-    """Get available playlists."""
-    return jsonify(get_available_playlists())
+@app.get("/api/sources")
+def api_sources():
+    return jsonify(load_meta())
 
 
-@app.route("/api/config", methods=["GET"])
+@app.get("/api/config")
 def api_get_config():
-    """Get user configuration."""
     return jsonify(load_user_config())
 
 
-@app.route("/api/config", methods=["POST"])
+@app.post("/api/config")
 def api_save_config():
-    """Save user configuration."""
-    config = request.json
-    save_user_config(config)
+    payload = request.get_json(silent=True)
+    if not isinstance(payload, dict):
+        return jsonify({"error": "invalid JSON"}), 400
+    save_user_config(payload)
     return jsonify({"status": "saved"})
 
 
-@app.route("/api/preset/<preset_id>", methods=["POST"])
-def api_apply_preset(preset_id):
-    """Apply a preset configuration."""
-    if preset_id not in PRESETS:
-        return jsonify({"error": "Invalid preset"}), 400
-    
-    preset = PRESETS[preset_id]
-    config = load_user_config()
-    config["selected_playlists"] = preset.get("playlists", [])
-    config["selected_patterns"] = preset.get("patterns", [])
-    config["active_preset"] = preset_id
-    save_user_config(config)
-    return jsonify({"status": "applied", "preset": preset})
+@app.get("/custom.m3u")
+def serve_custom():
+    requested = [s for s in request.args.get("sources", "").split(",") if s]
+    preset = request.args.get("preset", "")
+    if preset:
+        path = PRESETS_DIR / f"{re.sub(r'[^A-Za-z0-9_-]', '', preset)}.m3u"
+        if path.is_file():
+            return send_file(path, mimetype="audio/x-mpegurl")
+        abort(404)
+    if not requested:
+        requested = load_user_config().get("selected_sources", [])
+    paths = [p for p in (valid_source(s) for s in requested) if p]
+    if not paths:
+        abort(404)
+    return m3u_response(merge_playlists(paths), "djray-custom.m3u")
 
 
-@app.route("/playlist/custom.m3u")
-@app.route("/custom.m3u")
-def serve_custom_m3u():
-    """Serve custom M3U based on user selection."""
-    config = load_user_config()
-    m3u_content = build_custom_m3u(config)
-    
-    return m3u_content, 200, {
-        "Content-Type": "audio/x-mpegurl",
-        "Content-Disposition": "attachment; filename=custom_playlist.m3u"
-    }
+@app.get("/presets/<name>.m3u")
+def serve_preset(name: str):
+    if not re.fullmatch(r"[A-Za-z0-9_-]{1,40}", name):
+        abort(404)
+    path = PRESETS_DIR / f"{name}.m3u"
+    if not path.is_file():
+        abort(404)
+    return send_file(path, mimetype="audio/x-mpegurl")
 
 
-@app.route("/playlist/master.m3u")
-@app.route("/master.m3u")
-def serve_master_m3u():
-    """Serve the full master M3U."""
-    master_file = OUTPUT_DIR / "master.m3u"
-    if master_file.exists():
-        return send_file(master_file, mimetype="audio/x-mpegurl")
-    return "#EXTM3U\n# No master playlist available\n", 200, {"Content-Type": "audio/x-mpegurl"}
+@app.get("/master.m3u")
+@app.get("/playlist/master.m3u")
+def serve_master():
+    path = OUTPUT / "master.m3u"
+    if path.is_file():
+        return send_file(path, mimetype="audio/x-mpegurl")
+    abort(404)
 
 
-@app.route("/epg/epg.xml")
-@app.route("/epg.xml")
+@app.get("/epg.xml")
+@app.get("/epg/epg.xml")
 def serve_epg():
-    """Serve the EPG XML."""
-    epg_file = OUTPUT_DIR / "epg.xml"
-    if epg_file.exists():
-        return send_file(epg_file, mimetype="application/xml")
-    return "# No EPG available\n", 404
+    for name, mime in (("epg.xml.gz", "application/gzip"), ("epg.xml", "application/xml")):
+        path = OUTPUT / name
+        if path.is_file():
+            return send_file(path, mimetype=mime, as_attachment=False)
+    abort(404)
 
 
-@app.route("/api/preview", methods=["POST"])
-def api_preview():
-    """Preview a playlist before selecting."""
-    data = request.json
-    playlist_id = data.get("playlist_id")
-    
-    content = get_playlist_content(playlist_id)
-    if content:
-        # Extract first 20 channels
-        lines = content.split("\n")
-        preview_lines = []
-        count = 0
-        for line in lines:
-            preview_lines.append(line)
-            if line.startswith("#EXTINF:"):
-                count += 1
-                if count >= 20:
-                    break
-        
-        return jsonify({
-            "id": playlist_id,
-            "content": "\n".join(preview_lines),
-            "total_channels": len(re.findall(r'^#EXTINF:', content, re.MULTILINE))
-        })
-    
-    return jsonify({"error": "Playlist not found"}), 404
-
-
-@app.route("/copy-url/<path:url_type>")
-def copy_url(url_type):
-    """Return copyable URL for TiviMate."""
-    base_url = request.host_url.rstrip("/")
-    
-    if url_type == "m3u":
-        return jsonify({"url": f"{base_url}/playlist/custom.m3u"})
-    elif url_type == "m3u_full":
-        return jsonify({"url": f"{base_url}/playlist/master.m3u"})
-    elif url_type == "epg":
-        return jsonify({"url": f"{base_url}/epg/epg.xml"})
-    else:
-        return jsonify({"error": "Invalid URL type"}), 400
+@app.get("/output/<path:name>")
+def serve_output(name: str):
+    target = (OUTPUT / name).resolve()
+    if OUTPUT.resolve() not in target.parents or not target.is_file():
+        abort(404)
+    return send_file(target)
 
 
 if __name__ == "__main__":
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    PLAYLIST_DIR.mkdir(parents=True, exist_ok=True)
-    
+    OUTPUT.mkdir(exist_ok=True)
     port = int(os.environ.get("PORT", "5000"))
+    host = os.environ.get("HOST", "127.0.0.1")
     debug = os.environ.get("FLASK_DEBUG", "false").lower() == "true"
-    
-    print(f"\n{'='*60}")
-    print(f"DJRay IPTV Hub - Customizable Playlist Manager")
-    print(f"{'='*60}")
-    print(f"Dashboard:  http://localhost:{port}")
-    print(f"Custom M3U: http://localhost:{port}/playlist/custom.m3u")
-    print(f"Full M3U:   http://localhost:{port}/playlist/master.m3u")
-    print(f"EPG:        http://localhost:{port}/epg/epg.xml")
-    print(f"{'='*60}\n")
-    
-    app.run(host="0.0.0.0", port=port, debug=debug)
+    print(f"DJRay IPTV: http://{host}:{port}")
+    app.run(host=host, port=port, debug=debug)
