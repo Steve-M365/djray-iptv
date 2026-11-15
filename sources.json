@@ -1,0 +1,314 @@
+{
+  "_comment": "Pipeline configuration. Edit this file, not the generated playlists.",
+  "apsattv": {
+    "url": "https://www.apsattv.com/streams.html",
+    "enabled": true
+  },
+  "external": [
+    {
+      "id": "tubi_all",
+      "name": "Tubi",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/tubi_all.m3u",
+      "country": "United States"
+    },
+    {
+      "id": "roku_all",
+      "name": "Roku Channel",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u",
+      "country": "United States"
+    },
+    {
+      "id": "dearbulut",
+      "name": "dearbulut",
+      "url": "",
+      "seed": "seeds/dearbulut.m3u.gz",
+      "country": "International",
+      "_note": "No stable public refresh URL. To keep this source fresh, put a raw playlist URL in 'url' and it will be fetched instead of the seed."
+    },
+    {
+      "id": "vortexo",
+      "name": "Vortexo",
+      "url": "",
+      "seed": "seeds/vortexo.m3u.gz",
+      "country": "United States",
+      "_note": "Pluto TV based. Seed snapshot only unless a refresh URL is configured."
+    },
+    {
+      "id": "daddylive",
+      "name": "DaddyLive",
+      "url": "",
+      "seed": "seeds/daddylive.m3u.gz",
+      "country": "International",
+      "web_only": true,
+      "_note": "DaddyLive entries are watch.php player pages, not direct HLS. TiviMate cannot open them without a resolver, so they are excluded from the master playlist and exposed only as presets/daddylive-sports.m3u."
+    }
+  ],
+  "epg": {
+    "sources": [
+      {
+        "id": "mjh-pbs",
+        "url": "https://i.mjh.nz/PBS/all.xml.gz",
+        "countries": [],
+        "id_only": true
+      },
+      {
+        "id": "mjh-roku",
+        "url": "https://i.mjh.nz/Roku/all.xml.gz",
+        "countries": [],
+        "id_only": true
+      },
+      {
+        "id": "mjh-plex",
+        "url": "https://i.mjh.nz/Plex/all.xml.gz",
+        "countries": [],
+        "id_only": true
+      },
+      {
+        "id": "mjh-pluto",
+        "url": "https://i.mjh.nz/PlutoTV/all.xml.gz",
+        "countries": [],
+        "id_only": true
+      },
+      {
+        "id": "mjh-samsung",
+        "url": "https://i.mjh.nz/SamsungTVPlus/all.xml.gz",
+        "countries": [],
+        "id_only": true
+      },
+      {
+        "id": "mjh-au",
+        "url": "https://i.mjh.nz/au/all/epg.xml.gz",
+        "countries": [
+          "Australia"
+        ]
+      },
+      {
+        "id": "mjh-all",
+        "url": "https://i.mjh.nz/all/epg.xml.gz",
+        "countries": []
+      },
+      {
+        "id": "au",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz",
+        "countries": [
+          "Australia"
+        ]
+      },
+      {
+        "id": "nz",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz",
+        "countries": [
+          "New Zealand"
+        ]
+      },
+      {
+        "id": "uk",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+        "countries": [
+          "United Kingdom",
+          "Ireland"
+        ]
+      },
+      {
+        "id": "us",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "id": "ca",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+        "countries": [
+          "Canada"
+        ]
+      },
+      {
+        "id": "za",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz",
+        "countries": [
+          "South Africa"
+        ]
+      },
+      {
+        "id": "ie",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz",
+        "countries": [
+          "Ireland"
+        ]
+      },
+      {
+        "id": "de",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
+        "countries": [
+          "Germany"
+        ]
+      },
+      {
+        "id": "fr",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
+        "countries": [
+          "France"
+        ]
+      },
+      {
+        "id": "es",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
+        "countries": [
+          "Spain"
+        ]
+      },
+      {
+        "id": "it",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
+        "countries": [
+          "Italy"
+        ]
+      },
+      {
+        "id": "br",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
+        "countries": [
+          "Brazil"
+        ]
+      },
+      {
+        "id": "in",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "id": "se",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz",
+        "countries": [
+          "Sweden"
+        ]
+      },
+      {
+        "id": "nl",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
+        "countries": [
+          "Netherlands"
+        ]
+      },
+      {
+        "id": "pl",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
+        "countries": [
+          "Poland"
+        ]
+      },
+      {
+        "id": "pt",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+        "countries": [
+          "Portugal"
+        ]
+      },
+      {
+        "id": "dk",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
+        "countries": [
+          "Denmark"
+        ]
+      },
+      {
+        "id": "no",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz",
+        "countries": [
+          "Norway"
+        ]
+      },
+      {
+        "id": "fi",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz",
+        "countries": [
+          "Finland"
+        ]
+      },
+      {
+        "id": "at",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz",
+        "countries": [
+          "Austria"
+        ]
+      },
+      {
+        "id": "ch",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
+        "countries": [
+          "Switzerland"
+        ]
+      },
+      {
+        "id": "mx",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
+        "countries": [
+          "Mexico"
+        ]
+      },
+      {
+        "id": "ar",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz",
+        "countries": [
+          "Argentina"
+        ]
+      },
+      {
+        "id": "cl",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz",
+        "countries": [
+          "Chile"
+        ]
+      },
+      {
+        "id": "co",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
+        "countries": [
+          "Colombia"
+        ]
+      },
+      {
+        "id": "pe",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz",
+        "countries": [
+          "Peru"
+        ]
+      },
+      {
+        "id": "jp",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz",
+        "countries": [
+          "Japan"
+        ]
+      },
+      {
+        "id": "kr",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz",
+        "countries": [
+          "South Korea"
+        ]
+      },
+      {
+        "id": "tr",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
+        "countries": [
+          "Turkey"
+        ]
+      },
+      {
+        "id": "gr",
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz",
+        "countries": [
+          "Greece"
+        ]
+      }
+    ]
+  },
+  "grouping": {
+    "master": "country",
+    "sources": "type"
+  }
+}

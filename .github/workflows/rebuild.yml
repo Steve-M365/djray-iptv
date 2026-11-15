@@ -1,0 +1,55 @@
+name: Rebuild catalog
+
+on:
+  schedule:
+    # 15:00 UTC = 01:00/02:00 Melbourne, so the guide is fresh each morning.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Build playlists and EPG
+        run: python build.py
+
+      - name: Assemble Pages site
+        run: |
+          mkdir -p public/output
+          # Never publish raw downloads or the EPG cache.
+          rsync -a --exclude 'playlists' --exclude 'epg-cache' output/ public/output/
+          cp docs/index.html docs/setup.html public/
+          touch public/.nojekyll
+          du -sh public
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: public
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
+          commit_message: "deploy: ${{ github.run_id }}"

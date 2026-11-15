@@ -1,11 +1,15 @@
 [Unit]
-Description=DJRay IPTV Weekly Playlist Rebuild
+Description=DJRay IPTV daily playlist rebuild
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=/tmp/opencode/apsattv-iptv
-ExecStart=/tmp/opencode/apsattv-iptv/rebuild.sh
-StandardOutput=append:/tmp/opencode/apsattv-iptv/rebuild.log
-StandardError=append:/tmp/opencode/apsattv-iptv/rebuild.log
+# Adjust to wherever you cloned the repository (default: ~/scripts/djray-iptv).
+WorkingDirectory=%h/scripts/djray-iptv
+ExecStart=%h/scripts/djray-iptv/rebuild.sh
+StandardOutput=append:%h/scripts/djray-iptv/rebuild.log
+StandardError=append:%h/scripts/djray-iptv/rebuild.log
+
+[Install]
+WantedBy=multi-user.target

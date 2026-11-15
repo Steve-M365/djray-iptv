@@ -1,542 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DJRay IPTV Hub</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #08090d;
-      --surface: #0f1117;
-      --surface-2: #161921;
-      --border: #1e2230;
-      --text: #e8eaf0;
-      --text-dim: #5a6080;
-      --accent: #00d4aa;
-      --accent-glow: rgba(0, 212, 170, 0.12);
-      --accent-2: #6366f1;
-      --success: #22c55e;
-      --warning: #f59e0b;
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Outfit', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-    }
-
-    body::before {
-      content: '';
-      position: fixed;
-      top: -40%;
-      left: -20%;
-      width: 80%;
-      height: 80%;
-      background: radial-gradient(ellipse, var(--accent-glow) 0%, transparent 60%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 32px 24px;
-      position: relative;
-      z-index: 1;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .logo {
-      font-family: 'Space Mono', monospace;
-      font-size: 2.4rem;
-      font-weight: 700;
-      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 8px;
-    }
-
-    .tagline {
-      color: var(--text-dim);
-      font-size: 0.95rem;
-    }
-
-    /* Presets */
-    .presets {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 32px;
-    }
-
-    .preset-btn {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 18px;
-      color: var(--text);
-      font-family: 'Space Mono', monospace;
-      font-size: 0.8rem;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .preset-btn:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    .preset-btn.active {
-      background: var(--accent);
-      color: var(--bg);
-      border-color: var(--accent);
-    }
-
-    /* Main Layout */
-    .main-grid {
-      display: grid;
-      grid-template-columns: 1fr 380px;
-      gap: 24px;
-    }
-
-    @media (max-width: 1024px) {
-      .main-grid { grid-template-columns: 1fr; }
-    }
-
-    /* Playlist Grid */
-    .section-title {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .section-title span {
-      color: var(--accent);
-      font-family: 'Space Mono', monospace;
-    }
-
-    .playlist-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 12px;
-    }
-
-    .playlist-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 16px;
-      cursor: pointer;
-      transition: all 0.2s;
-      position: relative;
-    }
-
-    .playlist-card:hover {
-      border-color: var(--accent);
-      transform: translateY(-2px);
-    }
-
-    .playlist-card.selected {
-      border-color: var(--accent);
-      background: rgba(0, 212, 170, 0.05);
-    }
-
-    .playlist-card.selected::before {
-      content: '✓';
-      position: absolute;
-      top: 12px;
-      right: 12px;
-      width: 24px;
-      height: 24px;
-      background: var(--accent);
-      color: var(--bg);
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-      font-weight: 700;
-    }
-
-    .playlist-name {
-      font-weight: 500;
-      margin-bottom: 4px;
-      padding-right: 30px;
-    }
-
-    .playlist-meta {
-      font-size: 0.8rem;
-      color: var(--text-dim);
-    }
-
-    .playlist-channels {
-      font-family: 'Space Mono', monospace;
-      color: var(--accent);
-      font-size: 0.85rem;
-    }
-
-    /* Sidebar */
-    .sidebar {
-      position: sticky;
-      top: 24px;
-      height: fit-content;
-    }
-
-    .sidebar-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 16px;
-    }
-
-    .sidebar-title {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 16px;
-    }
-
-    .selected-list {
-      max-height: 300px;
-      overflow-y: auto;
-    }
-
-    .selected-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 8px 0;
-      border-bottom: 1px solid var(--border);
-      font-size: 0.85rem;
-    }
-
-    .selected-item:last-child {
-      border-bottom: none;
-    }
-
-    .remove-btn {
-      background: none;
-      border: none;
-      color: var(--text-dim);
-      cursor: pointer;
-      font-size: 1.1rem;
-      padding: 4px;
-    }
-
-    .remove-btn:hover {
-      color: var(--warning);
-    }
-
-    .total-channels {
-      font-family: 'Space Mono', monospace;
-      font-size: 1.4rem;
-      color: var(--accent);
-      margin: 16px 0;
-    }
-
-    .url-box {
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px;
-      font-family: 'Space Mono', monospace;
-      font-size: 0.75rem;
-      word-break: break-all;
-      margin-bottom: 12px;
-      color: var(--text);
-    }
-
-    .copy-btn {
-      width: 100%;
-      background: var(--accent);
-      color: var(--bg);
-      border: none;
-      border-radius: 8px;
-      padding: 12px;
-      font-family: 'Space Mono', monospace;
-      font-size: 0.85rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s;
-      margin-bottom: 8px;
-    }
-
-    .copy-btn:hover {
-      background: #00eabb;
-    }
-
-    .copy-btn.secondary {
-      background: var(--surface-2);
-      color: var(--text);
-      border: 1px solid var(--border);
-    }
-
-    .copy-btn.secondary:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    /* Search */
-    .search-input {
-      width: 100%;
-      background: var(--surface-2);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 14px;
-      color: var(--text);
-      font-family: 'Outfit', sans-serif;
-      font-size: 0.9rem;
-      outline: none;
-      margin-bottom: 16px;
-    }
-
-    .search-input:focus {
-      border-color: var(--accent);
-    }
-
-    /* Toast */
-    .toast {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      background: var(--success);
-      color: var(--bg);
-      padding: 12px 20px;
-      border-radius: 8px;
-      font-family: 'Space Mono', monospace;
-      font-size: 0.85rem;
-      opacity: 0;
-      transform: translateY(10px);
-      transition: all 0.3s;
-      z-index: 1000;
-    }
-
-    .toast.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* Empty state */
-    .empty {
-      text-align: center;
-      padding: 40px;
-      color: var(--text-dim);
-    }
-
-    footer {
-      text-align: center;
-      padding: 40px 0;
-      color: var(--text-dim);
-      font-size: 0.8rem;
-    }
-
-    footer a { color: var(--accent); text-decoration: none; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DJRay IPTV</title>
+<style>
+  :root{
+    --bg:#0b0d12; --panel:#12151d; --panel2:#171b25; --line:#242938;
+    --text:#e9ebf2; --dim:#8b93a7; --accent:#3ddc97; --accent2:#f2b544; --danger:#ef5b5b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent);text-decoration:none}
+  header{padding:2.2rem 1.2rem 1rem;text-align:center}
+  h1{margin:0;font-size:clamp(1.8rem,5vw,2.6rem);letter-spacing:-.02em}
+  h1 span{color:var(--accent)}
+  .sub{color:var(--dim);margin-top:.4rem}
+  .stats{display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap;margin-top:1.2rem}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:.7rem 1.1rem;min-width:120px}
+  .stat b{display:block;font-size:1.3rem;color:var(--accent)}
+  .stat small{color:var(--dim);text-transform:uppercase;letter-spacing:.08em;font-size:.65rem}
+  main{max-width:1080px;margin:0 auto;padding:1rem 1.2rem 4rem}
+  section{margin-top:2.2rem}
+  h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);
+    border-bottom:1px solid var(--line);padding-bottom:.5rem;margin:0 0 1rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.7rem}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:.9rem 1rem;display:flex;flex-direction:column;gap:.35rem;position:relative;
+    transition:border-color .15s,transform .15s}
+  .card:hover{border-color:var(--accent);transform:translateY(-1px)}
+  .card .name{font-weight:600}
+  .card .meta{color:var(--dim);font-size:.78rem;display:flex;gap:.6rem;flex-wrap:wrap}
+  .pill{border:1px solid var(--line);border-radius:999px;padding:.05rem .45rem;font-size:.68rem;color:var(--dim)}
+  .pill.ok{color:var(--accent);border-color:rgba(61,220,151,.35)}
+  .actions{display:flex;gap:.5rem;margin-top:.5rem}
+  button,.btn{background:var(--panel2);color:var(--text);border:1px solid var(--line);
+    border-radius:8px;padding:.35rem .7rem;font-size:.75rem;cursor:pointer;font-family:inherit}
+  button:hover,.btn:hover{border-color:var(--accent);color:var(--accent)}
+  .urlrow{display:flex;gap:.5rem;align-items:center;background:var(--panel);border:1px solid var(--line);
+    border-radius:10px;padding:.55rem .8rem;margin-bottom:.5rem;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.74rem;color:var(--dim);overflow:auto;white-space:nowrap}
+  .urlrow span{flex:1;overflow:hidden;text-overflow:ellipsis}
+  .note{background:rgba(242,181,68,.08);border:1px solid rgba(242,181,68,.3);border-radius:10px;
+    padding:.8rem 1rem;font-size:.82rem;color:#e8d6b0;margin-top:1rem}
+  table{width:100%;border-collapse:collapse;font-size:.82rem}
+  th,td{text-align:left;padding:.5rem .4rem;border-bottom:1px solid var(--line)}
+  th{color:var(--dim);text-transform:uppercase;letter-spacing:.08em;font-size:.65rem}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .bar{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-top:.25rem}
+  .bar i{display:block;height:100%;background:var(--accent)}
+  .toast{position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%) translateY(20px);
+    background:var(--accent);color:#06110c;padding:.55rem .9rem;border-radius:8px;font-size:.78rem;
+    opacity:0;transition:.2s;pointer-events:none}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  footer{text-align:center;color:var(--dim);font-size:.72rem;margin-top:3rem}
+  code{background:var(--panel2);padding:.1rem .3rem;border-radius:4px;font-size:.8em}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="logo">apsattv</div>
-      <div class="tagline">Pick your playlists. Build your lineup.</div>
-    </header>
-
-    <!-- Presets -->
-    <div class="presets">
-      <button class="preset-btn" onclick="applyPreset('f1')">F1 Only</button>
-      <button class="preset-btn" onclick="applyPreset('afl')">AFL</button>
-      <button class="preset-btn" onclick="applyPreset('sports')">Sports</button>
-      <button class="preset-btn" onclick="applyPreset('au_tv')">AU TV</button>
-      <button class="preset-btn" onclick="applyPreset('daddylive')">DaddyLive</button>
-      <button class="preset-btn" onclick="applyPreset('apsattv_all')">All apsattv</button>
-      <button class="preset-btn" onclick="applyPreset('custom')">Custom</button>
-    </div>
-
-    <div class="main-grid">
-      <!-- Playlist Grid -->
-      <div>
-        <div class="section-title"><span>01</span> Available Playlists</div>
-        <input type="text" class="search-input" id="search" placeholder="Search playlists..." oninput="filterPlaylists()">
-        <div class="playlist-grid" id="playlist-grid">
-          {% for p in playlists %}
-          <div class="playlist-card {% if p.id in config.selected_playlists %}selected{% endif %}" 
-               data-id="{{ p.id }}" 
-               data-name="{{ p.name|lower }}"
-               onclick="togglePlaylist('{{ p.id }}')">
-            <div class="playlist-name">{{ p.name }}</div>
-            <div class="playlist-meta">
-              <span class="playlist-channels">{{ p.channels }}</span> channels
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-
-      <!-- Sidebar -->
-      <div class="sidebar">
-        <div class="sidebar-card">
-          <div class="sidebar-title">Your Playlist</div>
-          <div class="selected-list" id="selected-list">
-            {% for p_id in config.selected_playlists %}
-            {% set pl = playlists|selectattr('id', 'equalto', p_id)|first %}
-            {% if pl %}
-            <div class="selected-item" data-id="{{ pl.id }}">
-              <span>{{ pl.name }}</span>
-              <button class="remove-btn" onclick="togglePlaylist('{{ pl.id }}')">×</button>
-            </div>
-            {% endif %}
-            {% endfor %}
-            {% if not config.selected_playlists %}
-            <div class="empty">No playlists selected</div>
-            {% endif %}
-          </div>
-          <div class="total-channels" id="total-channels">0 channels</div>
-
-          <div class="section-title" style="margin-top: 16px; font-size: 0.9rem;"><span>02</span> TiviMate URL</div>
-          <div class="url-box" id="m3u-url">{{ request.host_url }}playlist/custom.m3u</div>
-          <button class="copy-btn" onclick="copyUrl('m3u')">Copy Custom M3U URL</button>
-          <button class="copy-btn secondary" onclick="copyUrl('m3u_full')">Copy Full M3U URL</button>
-          <button class="copy-btn secondary" onclick="copyUrl('epg')">Copy EPG URL</button>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      Data from <a href="https://apsattv.com/streams.html" target="_blank">apsattv.com</a> + 
-      <a href="https://github.com/iptv-org/iptv" target="_blank">iptv-org</a> + 
-      DaddyLive
-    </footer>
+<header>
+  <h1>DJRay <span>IPTV</span></h1>
+  <div class="sub">TiviMate-ready playlists · flat groups · real EPG</div>
+  <div class="stats">
+    <div class="stat"><b>{{ meta.master_channels }}</b><small>channels</small></div>
+    <div class="stat"><b>{{ meta.sources|length }}</b><small>sources</small></div>
+    <div class="stat"><b>{{ meta.presets|length }}</b><small>presets</small></div>
+    <div class="stat"><b>{{ meta.coverage.coverage_pct|default(0) }}%</b><small>EPG covered</small></div>
   </div>
+</header>
 
-  <div class="toast" id="toast"></div>
+<main>
+  <section>
+    <h2>Your TiviMate URLs</h2>
+    <div class="urlrow"><span>{{ request.url_root.rstrip('/') }}/master.m3u</span><button data-copy="{{ request.url_root.rstrip('/') }}/master.m3u">Copy</button></div>
+    <div class="urlrow"><span>{{ request.url_root.rstrip('/') }}/epg.xml</span><button data-copy="{{ request.url_root.rstrip('/') }}/epg.xml">Copy</button></div>
+    <div class="note">
+      TiviMate does not support nested groups. Every group below is a single flat
+      label like <code>Australia | Sports</code>, and groups appear in a curated order.
+    </div>
+  </section>
 
-  <script>
-    let selectedPlaylists = {{ config.selected_playlists|tojson }};
+  <section>
+    <h2>Presets</h2>
+    <div class="grid">
+      {% for name, count in meta.presets.items() %}
+      <div class="card">
+        <div class="name">{{ name.replace('-', ' ')|title }}</div>
+        <div class="meta"><span>{{ count }} channels</span></div>
+        <div class="actions">
+          <button data-copy="{{ request.url_root.rstrip('/') }}/presets/{{ name }}.m3u">Copy URL</button>
+          <a class="btn" href="/presets/{{ name }}.m3u">Download</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 
-    function togglePlaylist(id) {
-      const idx = selectedPlaylists.indexOf(id);
-      if (idx === -1) {
-        selectedPlaylists.push(id);
-      } else {
-        selectedPlaylists.splice(idx, 1);
-      }
-      updateUI();
-      saveConfig();
-    }
+  <section>
+    <h2>Merge your own</h2>
+    <form action="/custom.m3u" method="get">
+      <div class="grid">
+        {% for s in meta.sources %}
+        <label class="card">
+          <span><input type="checkbox" name="sources" value="{{ s.id }}"> <b>{{ s.name }}</b></span>
+          <span class="meta">
+            <span>{{ s.channels }} channels</span>
+            <span class="pill {{ 'ok' if s.coverage_pct >= 50 else '' }}">{{ s.coverage_pct }}% EPG</span>
+          </span>
+        </label>
+        {% endfor %}
+      </div>
+      <div class="actions" style="margin-top:1rem">
+        <button type="submit">Build merged playlist</button>
+      </div>
+    </form>
+  </section>
 
-    function updateUI() {
-      // Update card states
-      document.querySelectorAll('.playlist-card').forEach(card => {
-        const id = card.dataset.id;
-        card.classList.toggle('selected', selectedPlaylists.includes(id));
-      });
+  <section>
+    <h2>Sources</h2>
+    <table>
+      <thead><tr><th>Source</th><th class="num">Channels</th><th class="num">Countries</th><th class="num">EPG</th><th></th></tr></thead>
+      <tbody>
+      {% for s in meta.sources %}
+        <tr>
+          <td>{{ s.name }}{% if s.web_only %} <span class="pill">web only</span>{% endif %}</td>
+          <td class="num">{{ s.channels }}</td>
+          <td class="num">{{ s.countries|length }}</td>
+          <td class="num">{{ s.coverage_pct }}%
+            <div class="bar"><i style="width:{{ [s.coverage_pct, 100]|min }}%"></i></div>
+          </td>
+          <td><button data-copy="{{ request.url_root.rstrip('/') }}/output/{{ s.file }}">Copy</button></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
 
-      // Update selected list
-      const list = document.getElementById('selected-list');
-      if (selectedPlaylists.length === 0) {
-        list.innerHTML = '<div class="empty">No playlists selected</div>';
-      } else {
-        list.innerHTML = selectedPlaylists.map(id => {
-          const card = document.querySelector(`.playlist-card[data-id="${id}"]`);
-          const name = card ? card.querySelector('.playlist-name').textContent : id;
-          return `<div class="selected-item" data-id="${id}">
-            <span>${name}</span>
-            <button class="remove-btn" onclick="togglePlaylist('${id}')">×</button>
-          </div>`;
-        }).join('');
-      }
+  <footer>
+    Generated {{ meta.generated }} · <a href="/api/sources">API</a>
+  </footer>
+</main>
 
-      // Update total
-      let total = 0;
-      selectedPlaylists.forEach(id => {
-        const card = document.querySelector(`.playlist-card[data-id="${id}"]`);
-        if (card) {
-          const ch = parseInt(card.querySelector('.playlist-channels').textContent) || 0;
-          total += ch;
-        }
-      });
-      document.getElementById('total-channels').textContent = total.toLocaleString() + ' channels';
-    }
-
-    function filterPlaylists() {
-      const query = document.getElementById('search').value.toLowerCase();
-      document.querySelectorAll('.playlist-card').forEach(card => {
-        const name = card.dataset.name;
-        card.style.display = name.includes(query) ? '' : 'none';
-      });
-    }
-
-    async function applyPreset(presetId) {
-      try {
-        const resp = await fetch(`/api/preset/${presetId}`, { method: 'POST' });
-        const data = await resp.json();
-        
-        if (data.preset) {
-          selectedPlaylists = data.preset.playlists || [];
-          updateUI();
-          
-          // Update preset buttons
-          document.querySelectorAll('.preset-btn').forEach(btn => {
-            btn.classList.remove('active');
-          });
-          event.target.classList.add('active');
-          
-          showToast(`Applied: ${data.preset.name}`);
-        }
-      } catch (e) {
-        showToast('Error applying preset');
-      }
-    }
-
-    async function saveConfig() {
-      try {
-        await fetch('/api/config', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            selected_playlists: selectedPlaylists,
-            active_preset: 'custom'
-          })
-        });
-      } catch (e) {
-        console.error('Save failed:', e);
-      }
-    }
-
-    async function copyUrl(type) {
-      try {
-        const resp = await fetch(`/copy-url/${type}`);
-        const data = await resp.json();
-        await navigator.clipboard.writeText(data.url);
-        showToast('Copied!');
-      } catch (e) {
-        showToast('Failed to copy');
-      }
-    }
-
-    function showToast(msg) {
-      const toast = document.getElementById('toast');
-      toast.textContent = msg;
-      toast.classList.add('show');
-      setTimeout(() => toast.classList.remove('show'), 2000);
-    }
-
-    // Initialize
-    updateUI();
-  </script>
+<div class="toast" id="toast"></div>
+<script>
+  const toast = (m) => {
+    const el = document.getElementById('toast');
+    el.textContent = m; el.classList.add('show');
+    setTimeout(() => el.classList.remove('show'), 1600);
+  };
+  document.querySelectorAll('[data-copy]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(btn.dataset.copy); toast('Copied'); }
+      catch { toast('Copy failed'); }
+    });
+  });
+</script>
 </body>
 </html>

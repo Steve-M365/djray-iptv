@@ -1,0 +1,17 @@
+# Git and generated data never belong in the image
+.git
+.gitignore
+.github
+output
+legacy
+docs
+seeds/*.m3u
+venv
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+cache
+user_config.json
+*.log
+*.md
