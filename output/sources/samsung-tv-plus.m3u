@@ -272,204 +272,204 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/ldsAAAAAA-wonder-samsungau/playlist.m3
 #EXTINF:-1 tvg-id="ssungaus.zee-one-australia" tvg-name="Zee One (Australia)" group-title="Australia | Entertainment",Zee One (Australia)
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
 
-# New Zealand | Sports (3 channels)
-#EXTINF:-1 tvg-id="ssungnz.dazn-womens-sports-nz" tvg-name="DAZN Womens Sports (NZ)" group-title="New Zealand | Sports",DAZN Womens Sports (NZ)
+# NZ | Sports (3 channels)
+#EXTINF:-1 tvg-id="ssungnz.dazn-womens-sports-nz" tvg-name="DAZN Womens Sports (NZ)" group-title="NZ | Sports",DAZN Womens Sports (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00451-dazn-daznwomensport-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.mav-tv-motorsports-network-nz" tvg-name="Mav TV Motorsports Network (NZ)" group-title="New Zealand | Sports",Mav TV Motorsports Network (NZ)
+#EXTINF:-1 tvg-id="ssungnz.mav-tv-motorsports-network-nz" tvg-name="Mav TV Motorsports Network (NZ)" group-title="NZ | Sports",Mav TV Motorsports Network (NZ)
 https://amg00378-mavtv-amg00378c2-samsung-nz-1791.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.trace-sports-stars-nz" tvg-name="Trace Sports Stars (NZ)" group-title="New Zealand | Sports",Trace Sports Stars (NZ)
+#EXTINF:-1 tvg-id="ssungnz.trace-sports-stars-nz" tvg-name="Trace Sports Stars (NZ)" group-title="NZ | Sports",Trace Sports Stars (NZ)
 https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
 
-# New Zealand | News (6 channels)
-#EXTINF:-1 tvg-id="ssungnz.bloomberg-originals-nz" tvg-name="Bloomberg Originals (NZ)" group-title="New Zealand | News",Bloomberg Originals (NZ)
+# NZ | News (6 channels)
+#EXTINF:-1 tvg-id="ssungnz.bloomberg-originals-nz" tvg-name="Bloomberg Originals (NZ)" group-title="NZ | News",Bloomberg Originals (NZ)
 https://bloomberg-quicktake-4-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-bloomberg-tv" tvg-name="Bloomberg TV (NZ)" group-title="New Zealand | News",Bloomberg TV (NZ)
+#EXTINF:-1 tvg-id="mjh-bloomberg-tv" tvg-name="Bloomberg TV (NZ)" group-title="NZ | News",Bloomberg TV (NZ)
 https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.breaking-news-by-lead-story-nz" tvg-name="Breaking News by Lead Story (NZ)" group-title="New Zealand | News",Breaking News by Lead Story (NZ)
+#EXTINF:-1 tvg-id="ssungnz.breaking-news-by-lead-story-nz" tvg-name="Breaking News by Lead Story (NZ)" group-title="NZ | News",Breaking News by Lead Story (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02703-leadstory-leadstory-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.euronews-world-nz" tvg-name="EuroNews World (NZ)" group-title="New Zealand | News",EuroNews World (NZ)
+#EXTINF:-1 tvg-id="ssungnz.euronews-world-nz" tvg-name="EuroNews World (NZ)" group-title="NZ | News",EuroNews World (NZ)
 https://euronews-euronews-world-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-sbs-france24" tvg-name="France 24 (NZ)" group-title="New Zealand | News",France 24 (NZ)
+#EXTINF:-1 tvg-id="mjh-sbs-france24" tvg-name="France 24 (NZ)" group-title="NZ | News",France 24 (NZ)
 https://amg00106-amg00106c1-samsung-nz-4151.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.gb-news-nz" tvg-name="GB News (NZ)" group-title="New Zealand | News",GB News (NZ)
+#EXTINF:-1 tvg-id="ssungnz.gb-news-nz" tvg-name="GB News (NZ)" group-title="NZ | News",GB News (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
 
-# New Zealand | Movies (3 channels)
-#EXTINF:-1 tvg-id="ssungnz.action-hollywood-movies-nz" tvg-name="Action Hollywood Movies (NZ)" group-title="New Zealand | Movies",Action Hollywood Movies (NZ)
+# NZ | Movies (3 channels)
+#EXTINF:-1 tvg-id="ssungnz.action-hollywood-movies-nz" tvg-name="Action Hollywood Movies (NZ)" group-title="NZ | Movies",Action Hollywood Movies (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.filmrise-unsolved-mysterys-us-temp" tvg-name="Filmrise Unsolved Mysterys (US) Temp" group-title="New Zealand | Movies",Filmrise Unsolved Mysterys (US) Temp
+#EXTINF:-1 tvg-id="ssungnz.filmrise-unsolved-mysterys-us-temp" tvg-name="Filmrise Unsolved Mysterys (US) Temp" group-title="NZ | Movies",Filmrise Unsolved Mysterys (US) Temp
 https://d2srpl61ng5l7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-c1yeqep17tx1z/master.m3u8
-#EXTINF:-1 tvg-id="mjh-10-moviesphere" tvg-name="Moviesphere (NZ)" group-title="New Zealand | Movies",Moviesphere (NZ)
+#EXTINF:-1 tvg-id="mjh-10-moviesphere" tvg-name="Moviesphere (NZ)" group-title="NZ | Movies",Moviesphere (NZ)
 https://amg00353-amg00353c32-samsung-nz-3588.playouts.now.amagi.tv/playlist.m3u8
 
-# New Zealand | Kids (1 channels)
-#EXTINF:-1 tvg-id="ssungnz.kartoon-channel-nz" tvg-name="Kartoon Channel (NZ)" group-title="New Zealand | Kids",Kartoon Channel (NZ)
+# NZ | Kids (1 channels)
+#EXTINF:-1 tvg-id="ssungnz.kartoon-channel-nz" tvg-name="Kartoon Channel (NZ)" group-title="NZ | Kids",Kartoon Channel (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
 
-# New Zealand | Music (8 channels)
-#EXTINF:-1 tvg-id="ssungnz.trace-urban-nz" tvg-name="Trace Urban (NZ)" group-title="New Zealand | Music",Trace Urban (NZ)
+# NZ | Music (8 channels)
+#EXTINF:-1 tvg-id="ssungnz.trace-urban-nz" tvg-name="Trace Urban (NZ)" group-title="NZ | Music",Trace Urban (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-2k-nz" tvg-name="Vevo 2K (NZ)" group-title="New Zealand | Music",Vevo 2K (NZ)
+#EXTINF:-1 tvg-id="ssungnz.vevo-2k-nz" tvg-name="Vevo 2K (NZ)" group-title="NZ | Music",Vevo 2K (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo2kau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-70-s-nz" tvg-name="Vevo 70's (NZ)" group-title="New Zealand | Music",Vevo 70's (NZ)
+#EXTINF:-1 tvg-id="ssungnz.vevo-70-s-nz" tvg-name="Vevo 70's (NZ)" group-title="NZ | Music",Vevo 70's (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo70saunz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-80-s-nz" tvg-name="Vevo 80's (NZ)" group-title="New Zealand | Music",Vevo 80's (NZ)
+#EXTINF:-1 tvg-id="ssungnz.vevo-80-s-nz" tvg-name="Vevo 80's (NZ)" group-title="NZ | Music",Vevo 80's (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo80saunz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-christmas-nz-unlisted" tvg-name="Vevo Christmas (NZ) Unlisted" group-title="New Zealand | Music",Vevo Christmas (NZ) Unlisted
+#EXTINF:-1 tvg-id="ssungnz.vevo-christmas-nz-unlisted" tvg-name="Vevo Christmas (NZ) Unlisted" group-title="NZ | Music",Vevo Christmas (NZ) Unlisted
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevochristmasau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-country-nz" tvg-name="Vevo Country (NZ)" group-title="New Zealand | Music",Vevo Country (NZ)
+#EXTINF:-1 tvg-id="ssungnz.vevo-country-nz" tvg-name="Vevo Country (NZ)" group-title="NZ | Music",Vevo Country (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevocountryau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-pop-nz" tvg-name="Vevo Pop (NZ)" group-title="New Zealand | Music",Vevo Pop (NZ)
+#EXTINF:-1 tvg-id="ssungnz.vevo-pop-nz" tvg-name="Vevo Pop (NZ)" group-title="NZ | Music",Vevo Pop (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.vevo-retro-rock-nz" tvg-name="Vevo Retro Rock (NZ)" group-title="New Zealand | Music",Vevo Retro Rock (NZ)
+#EXTINF:-1 tvg-id="ssungnz.vevo-retro-rock-nz" tvg-name="Vevo Retro Rock (NZ)" group-title="NZ | Music",Vevo Retro Rock (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevoretrorockau-samsungnz/playlist.m3u8
 
-# New Zealand | Documentary (8 channels)
-#EXTINF:-1 tvg-id="ssungnz.evolution-earth-substitute" tvg-name="Evolution Earth (Substitute)" group-title="New Zealand | Documentary",Evolution Earth (Substitute)
+# NZ | Documentary (8 channels)
+#EXTINF:-1 tvg-id="ssungnz.evolution-earth-substitute" tvg-name="Evolution Earth (Substitute)" group-title="NZ | Documentary",Evolution Earth (Substitute)
 https://d3em2dvvzq3oj4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-23j2wegjm8ftd/Evolution_Earth.m3u8
-#EXTINF:-1 tvg-id="ssungnz.history-and-warfare-now-nz" tvg-name="History and Warfare Now (NZ)" group-title="New Zealand | Documentary",History and Warfare Now (NZ)
+#EXTINF:-1 tvg-id="ssungnz.history-and-warfare-now-nz" tvg-name="History and Warfare Now (NZ)" group-title="NZ | Documentary",History and Warfare Now (NZ)
 https://amg00376-magellan-amg00376c19-samsung-nz-1735.playouts.now.amagi.tv/playlist/amg00376-magellantv-historyandwarfarenowaunzin-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.history-hit-nz" tvg-name="History Hit (NZ)" group-title="New Zealand | Documentary",History Hit (NZ)
+#EXTINF:-1 tvg-id="ssungnz.history-hit-nz" tvg-name="History Hit (NZ)" group-title="NZ | Documentary",History Hit (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.naturetime-nz" tvg-name="NatureTime (NZ)" group-title="New Zealand | Documentary",NatureTime (NZ)
+#EXTINF:-1 tvg-id="ssungnz.naturetime-nz" tvg-name="NatureTime (NZ)" group-title="NZ | Documentary",NatureTime (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovenatureau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.pbs-history-nz" tvg-name="PBS History (NZ)" group-title="New Zealand | Documentary",PBS History (NZ)
+#EXTINF:-1 tvg-id="ssungnz.pbs-history-nz" tvg-name="PBS History (NZ)" group-title="NZ | Documentary",PBS History (NZ)
 https://amg02333-pbs-amg02333c1-samsung-nz-1254.playouts.now.amagi.tv/playlist/amg02333-pbsdistributionfast-pbshistory-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Real.Crime.nz" tvg-name="Real Crime (NZ)" group-title="New Zealand | Documentary",Real Crime (NZ)
+#EXTINF:-1 tvg-id="Real.Crime.nz" tvg-name="Real Crime (NZ)" group-title="NZ | Documentary",Real Crime (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realcrimebetanz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.stingray-naturescape" tvg-name="Stingray Naturescape" group-title="New Zealand | Documentary",Stingray Naturescape
+#EXTINF:-1 tvg-id="ssungnz.stingray-naturescape" tvg-name="Stingray Naturescape" group-title="NZ | Documentary",Stingray Naturescape
 https://1fdcca9feb9c4e75bda1c6b0339175fe.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_StingrayNaturescape/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.true-crime-now-nz" tvg-name="True Crime Now (NZ)" group-title="New Zealand | Documentary",True Crime Now (NZ)
+#EXTINF:-1 tvg-id="ssungnz.true-crime-now-nz" tvg-name="True Crime Now (NZ)" group-title="NZ | Documentary",True Crime Now (NZ)
 https://amg00376-magellan-amg00376c12-samsung-nz-1727.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungnz/playlist.m3u8
 
-# New Zealand | Lifestyle (8 channels)
-#EXTINF:-1 tvg-id="ssungnz.dog-the-bounty-hunter-us-temp" tvg-name="Dog the Bounty Hunter (US) Temp" group-title="New Zealand | Lifestyle",Dog the Bounty Hunter (US) Temp
+# NZ | Lifestyle (8 channels)
+#EXTINF:-1 tvg-id="ssungnz.dog-the-bounty-hunter-us-temp" tvg-name="Dog the Bounty Hunter (US) Temp" group-title="NZ | Lifestyle",Dog the Bounty Hunter (US) Temp
 https://d1byedgxiy4prw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wpx9zt6n0ikix/DogTheBountyHunter_US.m3u8
-#EXTINF:-1 tvg-id="ssungnz.gusto-tv-nz" tvg-name="Gusto TV (NZ)" group-title="New Zealand | Lifestyle",Gusto TV (NZ)
+#EXTINF:-1 tvg-id="ssungnz.gusto-tv-nz" tvg-name="Gusto TV (NZ)" group-title="NZ | Lifestyle",Gusto TV (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.homeful-channel-nz" tvg-name="Homeful Channel (NZ)" group-title="New Zealand | Lifestyle",Homeful Channel (NZ)
+#EXTINF:-1 tvg-id="ssungnz.homeful-channel-nz" tvg-name="Homeful Channel (NZ)" group-title="NZ | Lifestyle",Homeful Channel (NZ)
 https://amg00090-blueantcanada-amg00090c4-samsung-nz-820.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.homes-under-the-hammer-nz" tvg-name="Homes under the Hammer (NZ)" group-title="New Zealand | Lifestyle",Homes under the Hammer (NZ)
+#EXTINF:-1 tvg-id="ssungnz.homes-under-the-hammer-nz" tvg-name="Homes under the Hammer (NZ)" group-title="NZ | Lifestyle",Homes under the Hammer (NZ)
 https://all3media-homes-under-the-hammer-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.motorvision-tv-nz" tvg-name="Motorvision.TV (NZ)" group-title="New Zealand | Lifestyle",Motorvision.TV (NZ)
+#EXTINF:-1 tvg-id="ssungnz.motorvision-tv-nz" tvg-name="Motorvision.TV (NZ)" group-title="NZ | Lifestyle",Motorvision.TV (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.pet-club-tv-nz" tvg-name="Pet Club TV (NZ)" group-title="New Zealand | Lifestyle",Pet Club TV (NZ)
+#EXTINF:-1 tvg-id="ssungnz.pet-club-tv-nz" tvg-name="Pet Club TV (NZ)" group-title="NZ | Lifestyle",Pet Club TV (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.tiny-house-nation-us-temp" tvg-name="Tiny House Nation (US) Temp" group-title="New Zealand | Lifestyle",Tiny House Nation (US) Temp
+#EXTINF:-1 tvg-id="ssungnz.tiny-house-nation-us-temp" tvg-name="Tiny House Nation (US) Temp" group-title="NZ | Lifestyle",Tiny House Nation (US) Temp
 https://disyw7xcmhink.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-26mfabjsursqh/v1/aenetworks_tinyhousenation_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USAJ3400020KC
-#EXTINF:-1 tvg-id="ssungnz.travel-xp-nz" tvg-name="Travel XP (NZ)" group-title="New Zealand | Lifestyle",Travel XP (NZ)
+#EXTINF:-1 tvg-id="ssungnz.travel-xp-nz" tvg-name="Travel XP (NZ)" group-title="NZ | Lifestyle",Travel XP (NZ)
 https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 
-# New Zealand | Entertainment (55 channels)
-#EXTINF:-1 tvg-id="mjh-10-eightoutof10cats" tvg-name="8 Out of 10 Cats (NZ)" group-title="New Zealand | Entertainment",8 Out of 10 Cats (NZ)
+# NZ | Entertainment (55 channels)
+#EXTINF:-1 tvg-id="mjh-10-eightoutof10cats" tvg-name="8 Out of 10 Cats (NZ)" group-title="NZ | Entertainment",8 Out of 10 Cats (NZ)
 https://amg00627-amg00627c37-samsung-nz-4295.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-ausbiz-fast" tvg-name="Ausbiz TV (NZ)" group-title="New Zealand | Entertainment",Ausbiz TV (NZ)
+#EXTINF:-1 tvg-id="mjh-ausbiz-fast" tvg-name="Ausbiz TV (NZ)" group-title="NZ | Entertainment",Ausbiz TV (NZ)
 https://ausbiztv-ausbiz-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.ax-men-us-temp" tvg-name="Ax Men (US) Temp" group-title="New Zealand | Entertainment",Ax Men (US) Temp
+#EXTINF:-1 tvg-id="ssungnz.ax-men-us-temp" tvg-name="Ax Men (US) Temp" group-title="NZ | Entertainment",Ax Men (US) Temp
 https://d2lh33kbymwmlp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9zc7g27a4n839/v1/aenetworks_axmen_1/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.baywatch-nz" tvg-name="Baywatch (NZ)" group-title="New Zealand | Entertainment",Baywatch (NZ)
+#EXTINF:-1 tvg-id="ssungnz.baywatch-nz" tvg-name="Baywatch (NZ)" group-title="NZ | Entertainment",Baywatch (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00145-fremantlemedian-baywatch-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-cas24-fast" tvg-name="Bondi Vet (NZ)" group-title="New Zealand | Entertainment",Bondi Vet (NZ)
+#EXTINF:-1 tvg-id="mjh-cas24-fast" tvg-name="Bondi Vet (NZ)" group-title="NZ | Entertainment",Bondi Vet (NZ)
 https://wtfn-bondivet-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.deal-or-no-deal-nz" tvg-name="Deal or No Deal (NZ)" group-title="New Zealand | Entertainment",Deal or No Deal (NZ)
+#EXTINF:-1 tvg-id="ssungnz.deal-or-no-deal-nz" tvg-name="Deal or No Deal (NZ)" group-title="NZ | Entertainment",Deal or No Deal (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-dealornodeal-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.dr-g-medical-examiner-nz" tvg-name="Dr G Medical Examiner (NZ)" group-title="New Zealand | Entertainment",Dr G Medical Examiner (NZ)
+#EXTINF:-1 tvg-id="ssungnz.dr-g-medical-examiner-nz" tvg-name="Dr G Medical Examiner (NZ)" group-title="NZ | Entertainment",Dr G Medical Examiner (NZ)
 https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_nz_drgmedicalexaminer_002.m3u8
-#EXTINF:-1 tvg-id="ssungnz.drybar-comedy-nz" tvg-name="Drybar Comedy (NZ)" group-title="New Zealand | Entertainment",Drybar Comedy (NZ)
+#EXTINF:-1 tvg-id="ssungnz.drybar-comedy-nz" tvg-name="Drybar Comedy (NZ)" group-title="NZ | Entertainment",Drybar Comedy (NZ)
 https://drybar-drybarcomedy-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.duck-dynasty-us-temp" tvg-name="Duck Dynasty (US) Temp" group-title="New Zealand | Entertainment",Duck Dynasty (US) Temp
+#EXTINF:-1 tvg-id="ssungnz.duck-dynasty-us-temp" tvg-name="Duck Dynasty (US) Temp" group-title="NZ | Entertainment",Duck Dynasty (US) Temp
 https://d27ibzhjiawl1m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4rfei5g9dayw8-ssai-prd/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.duck-tv-nz" tvg-name="Duck TV (NZ)" group-title="New Zealand | Entertainment",Duck TV (NZ)
+#EXTINF:-1 tvg-id="ssungnz.duck-tv-nz" tvg-name="Duck TV (NZ)" group-title="NZ | Entertainment",Duck TV (NZ)
 https://d2lqf4qmkxuiyv.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.dude-perfect-nz" tvg-name="Dude Perfect (NZ)" group-title="New Zealand | Entertainment",Dude Perfect (NZ)
+#EXTINF:-1 tvg-id="ssungnz.dude-perfect-nz" tvg-name="Dude Perfect (NZ)" group-title="NZ | Entertainment",Dude Perfect (NZ)
 https://kidoodle-tv-dudeperfect-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.dust-alien-nation-nz-not-listed" tvg-name="Dust Alien Nation (NZ) Not listed" group-title="New Zealand | Entertainment",Dust Alien Nation (NZ) Not listed
+#EXTINF:-1 tvg-id="ssungnz.dust-alien-nation-nz-not-listed" tvg-name="Dust Alien Nation (NZ) Not listed" group-title="NZ | Entertainment",Dust Alien Nation (NZ) Not listed
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00219-gunpowdersky-dustintlnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.eggheads-nz" tvg-name="Eggheads (NZ)" group-title="New Zealand | Entertainment",Eggheads (NZ)
+#EXTINF:-1 tvg-id="ssungnz.eggheads-nz" tvg-name="Eggheads (NZ)" group-title="NZ | Entertainment",Eggheads (NZ)
 https://amg00654-itv-amg00654c18-samsung-nz-4373.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.entertainment-hub-nz" tvg-name="Entertainment Hub (NZ)" group-title="New Zealand | Entertainment",Entertainment Hub (NZ)
+#EXTINF:-1 tvg-id="ssungnz.entertainment-hub-nz" tvg-name="Entertainment Hub (NZ)" group-title="NZ | Entertainment",Entertainment Hub (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01447-samsungau-enthubnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.fear-factor-nz" tvg-name="Fear Factor (NZ)" group-title="New Zealand | Entertainment",Fear Factor (NZ)
+#EXTINF:-1 tvg-id="ssungnz.fear-factor-nz" tvg-name="Fear Factor (NZ)" group-title="NZ | Entertainment",Fear Factor (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-fearfactor-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.fifa-plus-nz" tvg-name="Fifa Plus (NZ)" group-title="New Zealand | Entertainment",Fifa Plus (NZ)
+#EXTINF:-1 tvg-id="ssungnz.fifa-plus-nz" tvg-name="Fifa Plus (NZ)" group-title="NZ | Entertainment",Fifa Plus (NZ)
 https://d4d7299f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1uel9GSUZBUGx1c19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.fireplace-tv" tvg-name="Fireplace TV" group-title="New Zealand | Entertainment",Fireplace TV
+#EXTINF:-1 tvg-id="ssungnz.fireplace-tv" tvg-name="Fireplace TV" group-title="NZ | Entertainment",Fireplace TV
 https://d27omhseb6pn06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5dtvkvuar6h4t/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.four-in-a-bed-nz" tvg-name="Four in a Bed (NZ)" group-title="New Zealand | Entertainment",Four in a Bed (NZ)
+#EXTINF:-1 tvg-id="ssungnz.four-in-a-bed-nz" tvg-name="Four in a Bed (NZ)" group-title="NZ | Entertainment",Four in a Bed (NZ)
 https://all3media-four-in-a-bed-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.fuel-tv-nz" tvg-name="Fuel TV (NZ)" group-title="New Zealand | Entertainment",Fuel TV (NZ)
+#EXTINF:-1 tvg-id="ssungnz.fuel-tv-nz" tvg-name="Fuel TV (NZ)" group-title="NZ | Entertainment",Fuel TV (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvnz-samsungnz/playliist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.grace-and-frankie-nz" tvg-name="Grace and Frankie (NZ)" group-title="New Zealand | Entertainment",Grace and Frankie (NZ)
+#EXTINF:-1 tvg-id="ssungnz.grace-and-frankie-nz" tvg-name="Grace and Frankie (NZ)" group-title="NZ | Entertainment",Grace and Frankie (NZ)
 https://amg00353-amg00353c24-samsung-nz-2985.playouts.now.amagi.tv/playlist/amg00353-lionsgatetvfast-graceandfrankie-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-10-hardcorepawn" tvg-name="Hardcore Pawn (NZ)" group-title="New Zealand | Entertainment",Hardcore Pawn (NZ)
+#EXTINF:-1 tvg-id="mjh-10-hardcorepawn" tvg-name="Hardcore Pawn (NZ)" group-title="NZ | Entertainment",Hardcore Pawn (NZ)
 https://amg00627-banijay-amg00627c8-samsung-nz-1828.playouts.now.amagi.tv/playlist/amg00627-banijayfast-hardcorepawn-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-10-haunt-tv" tvg-name="Haunt TV (NZ)" group-title="New Zealand | Entertainment",Haunt TV (NZ)
+#EXTINF:-1 tvg-id="mjh-10-haunt-tv" tvg-name="Haunt TV (NZ)" group-title="NZ | Entertainment",Haunt TV (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01446-blueantmediacan-haunttvaus-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="mjh-10-highwaythruhell" tvg-name="Highway Thru Hell (NZ)" group-title="New Zealand | Entertainment",Highway Thru Hell (NZ)
+#EXTINF:-1 tvg-id="mjh-10-highwaythruhell" tvg-name="Highway Thru Hell (NZ)" group-title="NZ | Entertainment",Highway Thru Hell (NZ)
 https://amg00627-amg00627c15-samsung-nz-2900.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.horse-and-country-free-nz" tvg-name="Horse and Country Free (NZ)" group-title="New Zealand | Entertainment",Horse and Country Free (NZ)
+#EXTINF:-1 tvg-id="ssungnz.horse-and-country-free-nz" tvg-name="Horse and Country Free (NZ)" group-title="NZ | Entertainment",Horse and Country Free (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.hot-ones-nz" tvg-name="Hot Ones (NZ)" group-title="New Zealand | Entertainment",Hot Ones (NZ)
+#EXTINF:-1 tvg-id="ssungnz.hot-ones-nz" tvg-name="Hot Ones (NZ)" group-title="NZ | Entertainment",Hot Ones (NZ)
 https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_nz_hotones_002.m3u8
-#EXTINF:-1 tvg-id="ssungnz.infast-nz" tvg-name="INFAST (NZ)" group-title="New Zealand | Entertainment",INFAST (NZ)
+#EXTINF:-1 tvg-id="ssungnz.infast-nz" tvg-name="INFAST (NZ)" group-title="NZ | Entertainment",INFAST (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.introuble-nz" tvg-name="INTROUBLE (NZ)" group-title="New Zealand | Entertainment",INTROUBLE (NZ)
+#EXTINF:-1 tvg-id="ssungnz.introuble-nz" tvg-name="INTROUBLE (NZ)" group-title="NZ | Entertainment",INTROUBLE (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-introublenz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.inwild-nz" tvg-name="INWILD (NZ)" group-title="New Zealand | Entertainment",INWILD (NZ)
+#EXTINF:-1 tvg-id="ssungnz.inwild-nz" tvg-name="INWILD (NZ)" group-title="NZ | Entertainment",INWILD (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwildnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.inwonder-nz" tvg-name="INWONDER (NZ)" group-title="New Zealand | Entertainment",INWONDER (NZ)
+#EXTINF:-1 tvg-id="ssungnz.inwonder-nz" tvg-name="INWONDER (NZ)" group-title="NZ | Entertainment",INWONDER (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwondernz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.kidoodle-tv-nz" tvg-name="Kidoodle.tv (NZ)" group-title="New Zealand | Entertainment",Kidoodle.tv (NZ)
+#EXTINF:-1 tvg-id="ssungnz.kidoodle-tv-nz" tvg-name="Kidoodle.tv (NZ)" group-title="NZ | Entertainment",Kidoodle.tv (NZ)
 https://kidoodle-tv-kidoodletv-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.life-downunder-nz" tvg-name="Life Downunder (NZ)" group-title="New Zealand | Entertainment",Life Downunder (NZ)
+#EXTINF:-1 tvg-id="ssungnz.life-downunder-nz" tvg-name="Life Downunder (NZ)" group-title="NZ | Entertainment",Life Downunder (NZ)
 https://wtfn-lifedownunder-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.little-women-l-a-us-temp" tvg-name="Little Women L.A (US) Temp" group-title="New Zealand | Entertainment",Little Women L.A (US) Temp
+#EXTINF:-1 tvg-id="ssungnz.little-women-l-a-us-temp" tvg-name="Little Women L.A (US) Temp" group-title="NZ | Entertainment",Little Women L.A (US) Temp
 https://d3uuxmvz9qi6a1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2322wi60v1e15/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBD170000771
-#EXTINF:-1 tvg-id="ssungnz.modern-marvels-us-temp" tvg-name="Modern Marvels (US) Temp" group-title="New Zealand | Entertainment",Modern Marvels (US) Temp
+#EXTINF:-1 tvg-id="ssungnz.modern-marvels-us-temp" tvg-name="Modern Marvels (US) Temp" group-title="NZ | Entertainment",Modern Marvels (US) Temp
 https://d39yivx9sx3dvl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n0w8n4cenw1oz/v1/aenetworks_modernmarvels_1/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.mtrsprt-1-nz" tvg-name="Mtrsprt 1 (NZ)" group-title="New Zealand | Entertainment",Mtrsprt 1 (NZ)
+#EXTINF:-1 tvg-id="ssungnz.mtrsprt-1-nz" tvg-name="Mtrsprt 1 (NZ)" group-title="NZ | Entertainment",Mtrsprt 1 (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.nosey-nz" tvg-name="Nosey (NZ)" group-title="New Zealand | Entertainment",Nosey (NZ)
+#EXTINF:-1 tvg-id="ssungnz.nosey-nz" tvg-name="Nosey (NZ)" group-title="NZ | Entertainment",Nosey (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-noseyintlnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.now-70-s-nz" tvg-name="Now 70's (NZ)" group-title="New Zealand | Entertainment",Now 70's (NZ)
+#EXTINF:-1 tvg-id="ssungnz.now-70-s-nz" tvg-name="Now 70's (NZ)" group-title="NZ | Entertainment",Now 70's (NZ)
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.now-90-s-nz" tvg-name="Now 90's (NZ)" group-title="New Zealand | Entertainment",Now 90's (NZ)
+#EXTINF:-1 tvg-id="ssungnz.now-90-s-nz" tvg-name="Now 90's (NZ)" group-title="NZ | Entertainment",Now 90's (NZ)
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.outdoor-channel-nz" tvg-name="Outdoor Channel (NZ)" group-title="New Zealand | Entertainment",Outdoor Channel (NZ)
+#EXTINF:-1 tvg-id="ssungnz.outdoor-channel-nz" tvg-name="Outdoor Channel (NZ)" group-title="NZ | Entertainment",Outdoor Channel (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.pga-tour-nz" tvg-name="PGA Tour (NZ)" group-title="New Zealand | Entertainment",PGA Tour (NZ)
+#EXTINF:-1 tvg-id="ssungnz.pga-tour-nz" tvg-name="PGA Tour (NZ)" group-title="NZ | Entertainment",PGA Tour (NZ)
 https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_nz_pgatour_001.m3u8
-#EXTINF:-1 tvg-id="ssungnz.powernation-nz" tvg-name="Powernation (NZ)" group-title="New Zealand | Entertainment",Powernation (NZ)
+#EXTINF:-1 tvg-id="ssungnz.powernation-nz" tvg-name="Powernation (NZ)" group-title="NZ | Entertainment",Powernation (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01258-raycomsports-powernationnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.pulse-tv-nz" tvg-name="Pulse TV (NZ)" group-title="New Zealand | Entertainment",Pulse TV (NZ)
+#EXTINF:-1 tvg-id="ssungnz.pulse-tv-nz" tvg-name="Pulse TV (NZ)" group-title="NZ | Entertainment",Pulse TV (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-pulse-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.rcm-nz" tvg-name="RCM (NZ)" group-title="New Zealand | Entertainment",RCM (NZ)
+#EXTINF:-1 tvg-id="ssungnz.rcm-nz" tvg-name="RCM (NZ)" group-title="NZ | Entertainment",RCM (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.real-life-nz-not-listed" tvg-name="Real Life (NZ) Not listed" group-title="New Zealand | Entertainment",Real Life (NZ) Not listed
+#EXTINF:-1 tvg-id="ssungnz.real-life-nz-not-listed" tvg-name="Real Life (NZ) Not listed" group-title="NZ | Entertainment",Real Life (NZ) Not listed
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-reallifenz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.real-stories-nz-not-listed" tvg-name="Real Stories (NZ) Not listed" group-title="New Zealand | Entertainment",Real Stories (NZ) Not listed
+#EXTINF:-1 tvg-id="ssungnz.real-stories-nz-not-listed" tvg-name="Real Stories (NZ) Not listed" group-title="NZ | Entertainment",Real Stories (NZ) Not listed
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realstoriesnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.real-wild-nz" tvg-name="Real Wild (NZ)" group-title="New Zealand | Entertainment",Real Wild (NZ)
+#EXTINF:-1 tvg-id="ssungnz.real-wild-nz" tvg-name="Real Wild (NZ)" group-title="NZ | Entertainment",Real Wild (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.ryan-and-friends-nz" tvg-name="Ryan and Friends (NZ)" group-title="New Zealand | Entertainment",Ryan and Friends (NZ)
+#EXTINF:-1 tvg-id="ssungnz.ryan-and-friends-nz" tvg-name="Ryan and Friends (NZ)" group-title="NZ | Entertainment",Ryan and Friends (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-ryanandfriends-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.stingray-holidayscapes" tvg-name="Stingray Holidayscapes" group-title="New Zealand | Entertainment",Stingray Holidayscapes
+#EXTINF:-1 tvg-id="ssungnz.stingray-holidayscapes" tvg-name="Stingray Holidayscapes" group-title="NZ | Entertainment",Stingray Holidayscapes
 https://d10cyxntpn0bwm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-udbgiwo3vva3o/master.m3u8
-#EXTINF:-1 tvg-id="ssungnz.surfer-nz" tvg-name="Surfer (NZ)" group-title="New Zealand | Entertainment",Surfer (NZ)
+#EXTINF:-1 tvg-id="ssungnz.surfer-nz" tvg-name="Surfer (NZ)" group-title="NZ | Entertainment",Surfer (NZ)
 https://amg13231-actve-amg13231c4-samsung-nz-3093.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.tastemade-nz" tvg-name="Tastemade (NZ)" group-title="New Zealand | Entertainment",Tastemade (NZ)
+#EXTINF:-1 tvg-id="ssungnz.tastemade-nz" tvg-name="Tastemade (NZ)" group-title="NZ | Entertainment",Tastemade (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmintlaus-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.the-biggest-loser-nz" tvg-name="The Biggest Loser (NZ)" group-title="New Zealand | Entertainment",The Biggest Loser (NZ)
+#EXTINF:-1 tvg-id="ssungnz.the-biggest-loser-nz" tvg-name="The Biggest Loser (NZ)" group-title="NZ | Entertainment",The Biggest Loser (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-biggestloser-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.the-chatshow-channel-nz-not-listed" tvg-name="The Chatshow Channel (NZ) Not listed" group-title="New Zealand | Entertainment",The Chatshow Channel (NZ) Not listed
+#EXTINF:-1 tvg-id="ssungnz.the-chatshow-channel-nz-not-listed" tvg-name="The Chatshow Channel (NZ) Not listed" group-title="NZ | Entertainment",The Chatshow Channel (NZ) Not listed
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.the-design-network-nz" tvg-name="The Design Network (NZ)" group-title="New Zealand | Entertainment",The Design Network (NZ)
+#EXTINF:-1 tvg-id="ssungnz.the-design-network-nz" tvg-name="The Design Network (NZ)" group-title="NZ | Entertainment",The Design Network (NZ)
 https://thedesignnetwork-tdn-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.waterbear-nz" tvg-name="Waterbear (NZ)" group-title="New Zealand | Entertainment",Waterbear (NZ)
+#EXTINF:-1 tvg-id="ssungnz.waterbear-nz" tvg-name="Waterbear (NZ)" group-title="NZ | Entertainment",Waterbear (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.wipeout-xtra-nz" tvg-name="Wipeout Xtra (NZ)" group-title="New Zealand | Entertainment",Wipeout Xtra (NZ)
+#EXTINF:-1 tvg-id="ssungnz.wipeout-xtra-nz" tvg-name="Wipeout Xtra (NZ)" group-title="NZ | Entertainment",Wipeout Xtra (NZ)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ssungnz.wonder-nz" tvg-name="Wonder (NZ)" group-title="New Zealand | Entertainment",Wonder (NZ)
+#EXTINF:-1 tvg-id="ssungnz.wonder-nz" tvg-name="Wonder (NZ)" group-title="NZ | Entertainment",Wonder (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8
 
 # Ireland | Sports (1 channels)

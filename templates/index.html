@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0d12'/%3E%3Cpath d='M12 8l12 8-12 8z' fill='%233ddc97'/%3E%3C/svg%3E">
 <title>DJRay IPTV</title>
 <style>
   :root{
@@ -85,10 +86,12 @@
   <section>
     <h2>Presets</h2>
     <div class="grid">
-      {% for name, count in meta.presets.items() %}
+      {% for name, preset in meta.presets.items() %}
+      {% set ptitle = preset.title if preset is mapping else name.replace('-', ' ')|title %}
+      {% set pcount = preset.channels if preset is mapping else preset %}
       <div class="card">
-        <div class="name">{{ name.replace('-', ' ')|title }}</div>
-        <div class="meta"><span>{{ count }} channels</span></div>
+        <div class="name">{{ ptitle }}</div>
+        <div class="meta"><span>{{ pcount }} channels</span></div>
         <div class="actions">
           <button data-copy="{{ request.url_root.rstrip('/') }}/presets/{{ name }}.m3u">Copy URL</button>
           <a class="btn" href="/presets/{{ name }}.m3u">Download</a>

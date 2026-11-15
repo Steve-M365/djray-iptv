@@ -76,9 +76,18 @@ def test_write_playlist_groups_and_order(tmp_path: Path):
     text = target.read_text()
     assert count == 3
     assert text.startswith("#EXTM3U")
-    assert text.index("Australia | Sports") < text.index("United States | News")
+    assert text.index("Australia | Sports") < text.index("US | News")
     # channels sorted alphabetically inside a group
     assert text.index("Alpha") < text.index("Zed")
+
+
+def test_country_labels_are_short():
+    assert pl.country_label("United States") == "US"
+    assert pl.country_label("United Kingdom") == "UK"
+    assert pl.country_label("Other Countries") == "Other"
+    assert pl.country_label("Australia") == "Australia"
+    ch = chan(country="United States", ctype="News")
+    assert pl.group_country(ch) == "US | News"
 
 
 def test_preset_matches_afl_and_f1():

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0d12'/%3E%3Cpath d='M12 8l12 8-12 8z' fill='%233ddc97'/%3E%3C/svg%3E">
 <title>DJRay IPTV Hub</title>
 <style>
   :root{
@@ -162,12 +163,16 @@ async function load() {
   const presets = document.getElementById('presets');
   const entries = Object.entries(meta.presets || {});
   presets.innerHTML = entries.length ? '' : '<p class="muted">No presets generated yet.</p>';
-  entries.forEach(([name, count]) => {
+  entries.forEach(([name, value]) => {
     const url = urlFor(`presets/${name}.m3u`);
+    const title = (value && typeof value === 'object' && value.title)
+      ? value.title
+      : name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    const count = (value && typeof value === 'object') ? value.channels : value;
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-      <div class="name">${esc(name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()))}</div>
+      <div class="name">${esc(title)}</div>
       <div class="meta"><span>${Number(count).toLocaleString()} channels</span></div>
       <div class="actions">
         <button data-url="${esc(url)}">Copy URL</button>
