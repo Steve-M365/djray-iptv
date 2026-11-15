@@ -4,14 +4,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Generated build inputs / caches (outputs are published by CI)
-output/playlists/
-output/epg-cache/
-output/.staging/
+# Generated catalog (built locally, published to gh-pages by CI)
+output/
 docs/output/
-output/epg.xml
-output/playlist_urls.txt
-cache/
 
 # IDE
 .vscode/

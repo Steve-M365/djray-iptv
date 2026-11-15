@@ -25,9 +25,9 @@ first. Anything deeper is done with presets (small, focused playlists).
 2. TiviMate → **Settings → EPG → Add EPG**, paste the `epg.xml.gz` URL.
 3. In **Manage groups**, hide the folders you never watch — there are ~90.
 
-> The `raw.githubusercontent.com/.../master/output/...` URLs still work while the
-> generated files remain committed to `master`. The Pages URLs above are the
-> target for the CI publishing flow described below.
+> These Pages URLs are canonical. Generated playlists are **not committed** to
+> `master`; CI rebuilds them daily and publishes to `gh-pages`. `raw.githubusercontent.com`
+> URLs for `output/` no longer exist.
 
 ---
 
@@ -161,23 +161,15 @@ matching, avoiding false positives).
 1. runs `pytest`
 2. runs `build.py` (fetch, validate, normalise, EPG)
 3. copies `docs/index.html`, `docs/setup.html` and `output/` into a `public/` tree
+   (excluding raw downloads and the EPG cache)
 4. force-pushes that tree to the `gh-pages` branch
 
-**One-time Pages switch** (Settings → Pages): set *Source* to **Deploy from a
-branch**, branch `gh-pages`, folder `/`. Once that is live, the Pages URLs above
-are the canonical ones.
+Pages is configured as *Deploy from a branch* → `gh-pages` → `/`. Because the
+branch is recreated each run, history does not grow with 14 MB guides.
 
-To stop committing generated files to `master` (recommended once Pages is on
-`gh-pages`):
-
-```bash
-git rm -r --cached output docs/output
-git commit -m "chore: stop committing generated catalog"
-```
-
-`output/` and `docs/output/` are already ignored, so builds will no longer dirty
-the working tree. Raw GitHub URLs stop working at that point — switch TiviMate
-to the Pages URLs.
+Generated files are deliberately untracked: `output/` is in `.gitignore` and is
+only produced by `build.py`. To publish manually, run the **Rebuild catalog**
+workflow from the Actions tab.
 
 The Flask app is a convenience for LAN use. It binds `127.0.0.1` by default; the
 Docker image sets `HOST=0.0.0.0` behind gunicorn. There is no authentication.
