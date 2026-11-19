@@ -1,0 +1,1218 @@
+{
+  "generated": "2026-11-19T22:35:27Z",
+  "master_channels": 22719,
+  "sources": [
+    {
+      "name": "dearbulut",
+      "file": "sources/dearbulut.m3u",
+      "channels": 9567,
+      "countries": [
+        "Afghanistan",
+        "Albania",
+        "Algeria",
+        "Andorra",
+        "Angola",
+        "Antigua and Barbuda",
+        "Argentina",
+        "Armenia",
+        "Australia",
+        "Austria",
+        "Azerbaijan",
+        "Bahamas",
+        "Bahrain",
+        "Bangladesh",
+        "Barbados",
+        "Belarus",
+        "Belgium",
+        "Belize",
+        "Benin",
+        "Bolivia",
+        "Bosnia and Herzegovina",
+        "Brazil",
+        "Brunei",
+        "Bulgaria",
+        "Burkina Faso",
+        "Cambodia",
+        "Cameroon",
+        "Canada",
+        "Cape Verde",
+        "Chad",
+        "Chile",
+        "China",
+        "Colombia",
+        "Congo",
+        "Costa Rica",
+        "Croatia",
+        "Cuba",
+        "Cyprus",
+        "Czech Republic",
+        "Democratic Republic of the Congo",
+        "Denmark",
+        "Dominican Republic",
+        "Ecuador",
+        "Egypt",
+        "El Salvador",
+        "Equatorial Guinea",
+        "Eritrea",
+        "Estonia",
+        "Ethiopia",
+        "Finland",
+        "France",
+        "Gambia",
+        "Georgia",
+        "Germany",
+        "Ghana",
+        "Greece",
+        "Guatemala",
+        "Guinea",
+        "Guyana",
+        "Haiti",
+        "Honduras",
+        "Hungary",
+        "Iceland",
+        "India",
+        "Indonesia",
+        "International",
+        "Iran",
+        "Iraq",
+        "Ireland",
+        "Israel",
+        "Italy",
+        "Ivory Coast",
+        "Jamaica",
+        "Japan",
+        "Jordan",
+        "Kazakhstan",
+        "Kenya",
+        "Kosovo",
+        "Kuwait",
+        "Kyrgyzstan",
+        "Laos",
+        "Latvia",
+        "Lebanon",
+        "Libya",
+        "Lithuania",
+        "Luxembourg",
+        "Malaysia",
+        "Maldives",
+        "Mali",
+        "Malta",
+        "Mexico",
+        "Moldova",
+        "Monaco",
+        "Mongolia",
+        "Montenegro",
+        "Morocco",
+        "Mozambique",
+        "Myanmar",
+        "Namibia",
+        "Nepal",
+        "Netherlands",
+        "New Zealand",
+        "Nicaragua",
+        "Niger",
+        "Nigeria",
+        "North Korea",
+        "North Macedonia",
+        "Norway",
+        "Oman",
+        "Pakistan",
+        "Panama",
+        "Papua New Guinea",
+        "Paraguay",
+        "Peru",
+        "Philippines",
+        "Poland",
+        "Portugal",
+        "Qatar",
+        "Romania",
+        "Russia",
+        "Rwanda",
+        "Saint Kitts and Nevis",
+        "Saint Lucia",
+        "Saint Vincent and the Grenadines",
+        "Samoa",
+        "San Marino",
+        "Saudi Arabia",
+        "Senegal",
+        "Serbia",
+        "Sierra Leone",
+        "Singapore",
+        "Slovakia",
+        "Slovenia",
+        "Somalia",
+        "South Africa",
+        "South Korea",
+        "Spain",
+        "Sri Lanka",
+        "Sudan",
+        "Suriname",
+        "Sweden",
+        "Switzerland",
+        "Syria",
+        "Taiwan",
+        "Tajikistan",
+        "Tanzania",
+        "Thailand",
+        "Togo",
+        "Trinidad and Tobago",
+        "Tunisia",
+        "Turkey",
+        "Turkmenistan",
+        "Uganda",
+        "Ukraine",
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States",
+        "Uruguay",
+        "Uzbekistan",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "Zimbabwe"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 10.9
+    },
+    {
+      "name": "Rakuten TV",
+      "file": "sources/rakuten-tv.m3u",
+      "channels": 2752,
+      "countries": [
+        "Albania",
+        "Austria",
+        "Belgium",
+        "Bulgaria",
+        "Croatia",
+        "Czech Republic",
+        "Denmark",
+        "Estonia",
+        "Finland",
+        "France",
+        "Germany",
+        "Greece",
+        "Ireland",
+        "Italy",
+        "Lithuania",
+        "Netherlands",
+        "Norway",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Serbia",
+        "Slovakia",
+        "Spain",
+        "Sweden",
+        "Switzerland",
+        "United Kingdom"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 7.8
+    },
+    {
+      "name": "Vortexo",
+      "file": "sources/vortexo.m3u",
+      "channels": 2392,
+      "countries": [
+        "Australia"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 96.4
+    },
+    {
+      "name": "LG Channels",
+      "file": "sources/lg-channels.m3u",
+      "channels": 1260,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "apsattv",
+      "file": "sources/apsattv.m3u",
+      "channels": 1220,
+      "countries": [
+        "Argentina",
+        "Australia",
+        "Austria",
+        "Belgium",
+        "Brazil",
+        "Canada",
+        "Chile",
+        "Colombia",
+        "Denmark",
+        "Finland",
+        "France",
+        "Germany",
+        "India",
+        "Ireland",
+        "Italy",
+        "Japan",
+        "Luxembourg",
+        "Mexico",
+        "Netherlands",
+        "New Zealand",
+        "Norway",
+        "Peru",
+        "Poland",
+        "Portugal",
+        "Singapore",
+        "South Korea",
+        "Spain",
+        "Sweden",
+        "Switzerland",
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "DaddyLive",
+      "file": "sources/daddylive.m3u",
+      "channels": 920,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": true,
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "TCL TV",
+      "file": "sources/tcl-tv.m3u",
+      "channels": 877,
+      "countries": [
+        "Brazil",
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "Samsung TV Plus",
+      "file": "sources/samsung-tv-plus.m3u",
+      "channels": 732,
+      "countries": [
+        "Australia",
+        "Belgium",
+        "Brazil",
+        "Denmark",
+        "Finland",
+        "Ireland",
+        "Luxembourg",
+        "Mexico",
+        "Netherlands",
+        "New Zealand",
+        "Norway",
+        "Philippines",
+        "Portugal",
+        "Singapore",
+        "Sweden",
+        "Thailand"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "LocalNow",
+      "file": "sources/localnow.m3u",
+      "channels": 442,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "Vidaa",
+      "file": "sources/vidaa.m3u",
+      "channels": 442,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "Roku Channel",
+      "file": "sources/roku-channel.m3u",
+      "channels": 359,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 92.8
+    },
+    {
+      "name": "DistroTV",
+      "file": "sources/distrotv.m3u",
+      "channels": 323,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "WhaleTV",
+      "file": "sources/whaletv.m3u",
+      "channels": 256,
+      "countries": [
+        "International",
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 5.5
+    },
+    {
+      "name": "RedeiTV",
+      "file": "sources/redeitv.m3u",
+      "channels": 245,
+      "countries": [
+        "Brazil"
+      ],
+      "types": [
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Vizio WatchFree+",
+      "file": "sources/vizio-watchfree.m3u",
+      "channels": 231,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "Xiaomi",
+      "file": "sources/xiaomi.m3u",
+      "channels": 216,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "MetaX",
+      "file": "sources/metax.m3u",
+      "channels": 157,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "MovieArk",
+      "file": "sources/movieark.m3u",
+      "channels": 138,
+      "countries": [
+        "Brazil"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "HP TV+",
+      "file": "sources/hp-tv.m3u",
+      "channels": 134,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "SportsTV",
+      "file": "sources/sportstv.m3u",
+      "channels": 124,
+      "countries": [
+        "Brazil"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Tablo",
+      "file": "sources/tablo.m3u",
+      "channels": 103,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "Amazon Fire TV",
+      "file": "sources/amazon-fire-tv.m3u",
+      "channels": 99,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 8.1
+    },
+    {
+      "name": "SoulTV",
+      "file": "sources/soultv.m3u",
+      "channels": 90,
+      "countries": [
+        "Brazil"
+      ],
+      "types": [
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "FreeTV",
+      "file": "sources/freetv.m3u",
+      "channels": 80,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "Rewarded.tv",
+      "file": "sources/rewarded-tv.m3u",
+      "channels": 73,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Tubi",
+      "file": "sources/tubi.m3u",
+      "channels": 67,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 10.4
+    },
+    {
+      "name": "KlowdTV",
+      "file": "sources/klowdtv.m3u",
+      "channels": 63,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 12.7
+    },
+    {
+      "name": "10 FAST",
+      "file": "sources/10-fast.m3u",
+      "channels": 49,
+      "countries": [
+        "Australia"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "Music"
+      ],
+      "web_only": false,
+      "coverage_pct": 81.6
+    },
+    {
+      "name": "Kogan TV+",
+      "file": "sources/kogan-tv.m3u",
+      "channels": 34,
+      "countries": [
+        "Australia"
+      ],
+      "types": [
+        "Entertainment",
+        "Kids",
+        "Lifestyle",
+        "Movies",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 17.6
+    },
+    {
+      "name": "Zeasn",
+      "file": "sources/zeasn.m3u",
+      "channels": 31,
+      "countries": [
+        "International"
+      ],
+      "types": [
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "News"
+      ],
+      "web_only": false,
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "9Now FAST",
+      "file": "sources/9now-fast.m3u",
+      "channels": 30,
+      "countries": [
+        "Australia"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "Orka TV",
+      "file": "sources/orka-tv.m3u",
+      "channels": 29,
+      "countries": [
+        "Turkey"
+      ],
+      "types": [
+        "Entertainment",
+        "Lifestyle",
+        "Music",
+        "News",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Cineverse",
+      "file": "sources/cineverse.m3u",
+      "channels": 26,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Music"
+      ],
+      "web_only": false,
+      "coverage_pct": 23.1
+    },
+    {
+      "name": "OlhosnaTV",
+      "file": "sources/olhosnatv.m3u",
+      "channels": 24,
+      "countries": [
+        "Brazil"
+      ],
+      "types": [
+        "Entertainment",
+        "Movies"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "IGOCast",
+      "file": "sources/igocast.m3u",
+      "channels": 19,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Entertainment",
+        "News"
+      ],
+      "web_only": false,
+      "coverage_pct": 10.5
+    },
+    {
+      "name": "FreeMoviesPlus",
+      "file": "sources/freemoviesplus.m3u",
+      "channels": 16,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Lifestyle",
+        "Movies",
+        "Sports"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Fetch TV",
+      "file": "sources/fetch-tv.m3u",
+      "channels": 9,
+      "countries": [
+        "Australia"
+      ],
+      "types": [
+        "Documentary",
+        "Entertainment",
+        "Movies",
+        "News"
+      ],
+      "web_only": false,
+      "coverage_pct": 77.8
+    },
+    {
+      "name": "Veely",
+      "file": "sources/veely.m3u",
+      "channels": 6,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Entertainment"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Galaxy TV",
+      "file": "sources/galaxy-tv.m3u",
+      "channels": 3,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Entertainment"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    },
+    {
+      "name": "Xumo Play",
+      "file": "sources/xumo-play.m3u",
+      "channels": 1,
+      "countries": [
+        "United States"
+      ],
+      "types": [
+        "Entertainment"
+      ],
+      "web_only": false,
+      "coverage_pct": 0.0
+    }
+  ],
+  "presets": {
+    "australia": {
+      "title": "Australia - all channels",
+      "channels": 2823
+    },
+    "sports": {
+      "title": "All sports",
+      "channels": 1033
+    },
+    "news": {
+      "title": "All news",
+      "channels": 1466
+    },
+    "movies": {
+      "title": "All movies",
+      "channels": 967
+    },
+    "kids": {
+      "title": "All kids",
+      "channels": 222
+    },
+    "us": {
+      "title": "United States",
+      "channels": 3796
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "channels": 285
+    },
+    "f1": {
+      "title": "Formula 1",
+      "channels": 8
+    },
+    "afl": {
+      "title": "AFL",
+      "channels": 5
+    },
+    "daddylive-sports": {
+      "title": "DaddyLive sports (web player required)",
+      "channels": 224
+    }
+  },
+  "coverage": {
+    "generated": "2026-11-19T22:35:26Z",
+    "epg_channels": 3666,
+    "programmes": 205513,
+    "matched_channels": 4191,
+    "total_channels": 23639,
+    "coverage_pct": 17.7,
+    "by_source": {
+      "dearbulut": {
+        "channels": 9567,
+        "matched": 1045,
+        "coverage_pct": 10.9
+      },
+      "Rakuten TV": {
+        "channels": 2752,
+        "matched": 214,
+        "coverage_pct": 7.8
+      },
+      "Vortexo": {
+        "channels": 2392,
+        "matched": 2305,
+        "coverage_pct": 96.4
+      },
+      "LG Channels": {
+        "channels": 1260,
+        "matched": 40,
+        "coverage_pct": 3.2
+      },
+      "apsattv": {
+        "channels": 1220,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "DaddyLive": {
+        "channels": 920,
+        "matched": 20,
+        "coverage_pct": 2.2
+      },
+      "TCL TV": {
+        "channels": 877,
+        "matched": 3,
+        "coverage_pct": 0.3
+      },
+      "Samsung TV Plus": {
+        "channels": 732,
+        "matched": 53,
+        "coverage_pct": 7.2
+      },
+      "LocalNow": {
+        "channels": 442,
+        "matched": 16,
+        "coverage_pct": 3.6
+      },
+      "Vidaa": {
+        "channels": 442,
+        "matched": 38,
+        "coverage_pct": 8.6
+      },
+      "Roku Channel": {
+        "channels": 359,
+        "matched": 333,
+        "coverage_pct": 92.8
+      },
+      "DistroTV": {
+        "channels": 323,
+        "matched": 1,
+        "coverage_pct": 0.3
+      },
+      "WhaleTV": {
+        "channels": 256,
+        "matched": 14,
+        "coverage_pct": 5.5
+      },
+      "RedeiTV": {
+        "channels": 245,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Vizio WatchFree+": {
+        "channels": 231,
+        "matched": 11,
+        "coverage_pct": 4.8
+      },
+      "Xiaomi": {
+        "channels": 216,
+        "matched": 1,
+        "coverage_pct": 0.5
+      },
+      "MetaX": {
+        "channels": 157,
+        "matched": 1,
+        "coverage_pct": 0.6
+      },
+      "MovieArk": {
+        "channels": 138,
+        "matched": 4,
+        "coverage_pct": 2.9
+      },
+      "HP TV+": {
+        "channels": 134,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "SportsTV": {
+        "channels": 124,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Tablo": {
+        "channels": 103,
+        "matched": 5,
+        "coverage_pct": 4.9
+      },
+      "Amazon Fire TV": {
+        "channels": 99,
+        "matched": 8,
+        "coverage_pct": 8.1
+      },
+      "SoulTV": {
+        "channels": 90,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "FreeTV": {
+        "channels": 80,
+        "matched": 1,
+        "coverage_pct": 1.2
+      },
+      "Rewarded.tv": {
+        "channels": 73,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Tubi": {
+        "channels": 67,
+        "matched": 7,
+        "coverage_pct": 10.4
+      },
+      "KlowdTV": {
+        "channels": 63,
+        "matched": 8,
+        "coverage_pct": 12.7
+      },
+      "10 FAST": {
+        "channels": 49,
+        "matched": 40,
+        "coverage_pct": 81.6
+      },
+      "Kogan TV+": {
+        "channels": 34,
+        "matched": 6,
+        "coverage_pct": 17.6
+      },
+      "Zeasn": {
+        "channels": 31,
+        "matched": 1,
+        "coverage_pct": 3.2
+      },
+      "9Now FAST": {
+        "channels": 30,
+        "matched": 1,
+        "coverage_pct": 3.3
+      },
+      "Orka TV": {
+        "channels": 29,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Cineverse": {
+        "channels": 26,
+        "matched": 6,
+        "coverage_pct": 23.1
+      },
+      "OlhosnaTV": {
+        "channels": 24,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "IGOCast": {
+        "channels": 19,
+        "matched": 2,
+        "coverage_pct": 10.5
+      },
+      "FreeMoviesPlus": {
+        "channels": 16,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Fetch TV": {
+        "channels": 9,
+        "matched": 7,
+        "coverage_pct": 77.8
+      },
+      "Veely": {
+        "channels": 6,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Galaxy TV": {
+        "channels": 3,
+        "matched": 0,
+        "coverage_pct": 0.0
+      },
+      "Xumo Play": {
+        "channels": 1,
+        "matched": 0,
+        "coverage_pct": 0.0
+      }
+    }
+  }
+}

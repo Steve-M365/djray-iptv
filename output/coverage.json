@@ -1,0 +1,210 @@
+{
+  "generated": "2026-11-19T22:35:26Z",
+  "epg_channels": 3666,
+  "programmes": 205513,
+  "matched_channels": 4191,
+  "total_channels": 23639,
+  "coverage_pct": 17.7,
+  "by_source": {
+    "dearbulut": {
+      "channels": 9567,
+      "matched": 1045,
+      "coverage_pct": 10.9
+    },
+    "Rakuten TV": {
+      "channels": 2752,
+      "matched": 214,
+      "coverage_pct": 7.8
+    },
+    "Vortexo": {
+      "channels": 2392,
+      "matched": 2305,
+      "coverage_pct": 96.4
+    },
+    "LG Channels": {
+      "channels": 1260,
+      "matched": 40,
+      "coverage_pct": 3.2
+    },
+    "apsattv": {
+      "channels": 1220,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "DaddyLive": {
+      "channels": 920,
+      "matched": 20,
+      "coverage_pct": 2.2
+    },
+    "TCL TV": {
+      "channels": 877,
+      "matched": 3,
+      "coverage_pct": 0.3
+    },
+    "Samsung TV Plus": {
+      "channels": 732,
+      "matched": 53,
+      "coverage_pct": 7.2
+    },
+    "LocalNow": {
+      "channels": 442,
+      "matched": 16,
+      "coverage_pct": 3.6
+    },
+    "Vidaa": {
+      "channels": 442,
+      "matched": 38,
+      "coverage_pct": 8.6
+    },
+    "Roku Channel": {
+      "channels": 359,
+      "matched": 333,
+      "coverage_pct": 92.8
+    },
+    "DistroTV": {
+      "channels": 323,
+      "matched": 1,
+      "coverage_pct": 0.3
+    },
+    "WhaleTV": {
+      "channels": 256,
+      "matched": 14,
+      "coverage_pct": 5.5
+    },
+    "RedeiTV": {
+      "channels": 245,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Vizio WatchFree+": {
+      "channels": 231,
+      "matched": 11,
+      "coverage_pct": 4.8
+    },
+    "Xiaomi": {
+      "channels": 216,
+      "matched": 1,
+      "coverage_pct": 0.5
+    },
+    "MetaX": {
+      "channels": 157,
+      "matched": 1,
+      "coverage_pct": 0.6
+    },
+    "MovieArk": {
+      "channels": 138,
+      "matched": 4,
+      "coverage_pct": 2.9
+    },
+    "HP TV+": {
+      "channels": 134,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "SportsTV": {
+      "channels": 124,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Tablo": {
+      "channels": 103,
+      "matched": 5,
+      "coverage_pct": 4.9
+    },
+    "Amazon Fire TV": {
+      "channels": 99,
+      "matched": 8,
+      "coverage_pct": 8.1
+    },
+    "SoulTV": {
+      "channels": 90,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "FreeTV": {
+      "channels": 80,
+      "matched": 1,
+      "coverage_pct": 1.2
+    },
+    "Rewarded.tv": {
+      "channels": 73,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Tubi": {
+      "channels": 67,
+      "matched": 7,
+      "coverage_pct": 10.4
+    },
+    "KlowdTV": {
+      "channels": 63,
+      "matched": 8,
+      "coverage_pct": 12.7
+    },
+    "10 FAST": {
+      "channels": 49,
+      "matched": 40,
+      "coverage_pct": 81.6
+    },
+    "Kogan TV+": {
+      "channels": 34,
+      "matched": 6,
+      "coverage_pct": 17.6
+    },
+    "Zeasn": {
+      "channels": 31,
+      "matched": 1,
+      "coverage_pct": 3.2
+    },
+    "9Now FAST": {
+      "channels": 30,
+      "matched": 1,
+      "coverage_pct": 3.3
+    },
+    "Orka TV": {
+      "channels": 29,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Cineverse": {
+      "channels": 26,
+      "matched": 6,
+      "coverage_pct": 23.1
+    },
+    "OlhosnaTV": {
+      "channels": 24,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "IGOCast": {
+      "channels": 19,
+      "matched": 2,
+      "coverage_pct": 10.5
+    },
+    "FreeMoviesPlus": {
+      "channels": 16,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Fetch TV": {
+      "channels": 9,
+      "matched": 7,
+      "coverage_pct": 77.8
+    },
+    "Veely": {
+      "channels": 6,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Galaxy TV": {
+      "channels": 3,
+      "matched": 0,
+      "coverage_pct": 0.0
+    },
+    "Xumo Play": {
+      "channels": 1,
+      "matched": 0,
+      "coverage_pct": 0.0
+    }
+  }
+}

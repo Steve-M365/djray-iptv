@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0d12'/%3E%3Cpath d='M12 8l12 8-12 8z' fill='%233ddc97'/%3E%3C/svg%3E">
+<title>DJRay IPTV Hub</title>
+<style>
+  :root{
+    --bg:#0b0d12; --panel:#12151d; --panel2:#171b25; --line:#242938;
+    --text:#e9ebf2; --dim:#8b93a7; --accent:#3ddc97; --accent2:#f2b544;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent);text-decoration:none}
+  header{padding:2.4rem 1.2rem 1rem;text-align:center}
+  h1{margin:0;font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:-.02em}
+  h1 span{color:var(--accent)}
+  .sub{color:var(--dim);margin-top:.4rem}
+  .stats{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap;margin-top:1.3rem}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1.1rem;min-width:118px}
+  .stat b{display:block;font-size:1.3rem;color:var(--accent)}
+  .stat small{color:var(--dim);text-transform:uppercase;letter-spacing:.08em;font-size:.62rem}
+  main{max-width:1080px;margin:0 auto;padding:1rem 1.2rem 4rem}
+  section{margin-top:2.2rem}
+  h2{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);
+    border-bottom:1px solid var(--line);padding-bottom:.5rem;margin:0 0 1rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.7rem}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;
+    display:flex;flex-direction:column;gap:.35rem;transition:border-color .15s,transform .15s}
+  .card:hover{border-color:var(--accent);transform:translateY(-1px)}
+  .name{font-weight:600}
+  .meta{color:var(--dim);font-size:.78rem;display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+  .pill{border:1px solid var(--line);border-radius:999px;padding:.05rem .45rem;font-size:.66rem;color:var(--dim)}
+  .pill.ok{color:var(--accent);border-color:rgba(61,220,151,.35)}
+  .actions{display:flex;gap:.5rem;margin-top:.45rem}
+  button,.btn{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;
+    padding:.35rem .7rem;font-size:.74rem;cursor:pointer;font-family:inherit}
+  button:hover,.btn:hover{border-color:var(--accent);color:var(--accent)}
+  .urlrow{display:flex;gap:.5rem;align-items:center;background:var(--panel);border:1px solid var(--line);
+    border-radius:10px;padding:.55rem .8rem;margin-bottom:.5rem;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.72rem;color:var(--dim)}
+  .urlrow span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .note{background:rgba(242,181,68,.08);border:1px solid rgba(242,181,68,.3);border-radius:10px;
+    padding:.8rem 1rem;font-size:.82rem;color:#e8d6b0;margin-top:1rem}
+  table{width:100%;border-collapse:collapse;font-size:.82rem}
+  th,td{text-align:left;padding:.5rem .4rem;border-bottom:1px solid var(--line)}
+  th{color:var(--dim);text-transform:uppercase;letter-spacing:.08em;font-size:.63rem}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .bar{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-top:.25rem}
+  .bar i{display:block;height:100%;background:var(--accent)}
+  .toast{position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%) translateY(20px);
+    background:var(--accent);color:#06110c;padding:.55rem .9rem;border-radius:8px;font-size:.76rem;
+    opacity:0;transition:.2s;pointer-events:none}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  footer{text-align:center;color:var(--dim);font-size:.72rem;margin-top:3rem}
+  code{background:var(--panel2);padding:.1rem .3rem;border-radius:4px;font-size:.8em}
+  .muted{color:var(--dim)}
+</style>
+</head>
+<body>
+<header>
+  <h1>DJRay <span>IPTV</span></h1>
+  <div class="sub">TiviMate-ready playlists · flat groups · real EPG</div>
+  <div class="stats">
+    <div class="stat"><b id="s-channels">–</b><small>channels</small></div>
+    <div class="stat"><b id="s-sources">–</b><small>sources</small></div>
+    <div class="stat"><b id="s-presets">–</b><small>presets</small></div>
+    <div class="stat"><b id="s-coverage">–</b><small>EPG covered</small></div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>Your TiviMate URLs</h2>
+    <div class="urlrow"><span id="master-url">output/master.m3u</span><button data-copy-id="master-url">Copy</button></div>
+    <div class="urlrow"><span id="epg-url">output/epg.xml.gz</span><button data-copy-id="epg-url">Copy</button></div>
+    <div class="note">
+      TiviMate has <b>no nested groups</b>. Every group here is one flat label like
+      <code>Australia | Sports</code>, ordered so the groups you care about appear first.
+      Add the M3U URL as a playlist, then add the EPG URL under Settings → EPG.
+    </div>
+  </section>
+
+  <section>
+    <h2>Presets</h2>
+    <div class="grid" id="presets"><p class="muted">Loading…</p></div>
+  </section>
+
+  <section>
+    <h2>Sources</h2>
+    <table>
+      <thead><tr><th>Source</th><th style="text-align:right">Channels</th><th style="text-align:right">Countries</th><th style="text-align:right">EPG</th><th></th></tr></thead>
+      <tbody id="sources"></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>How to use</h2>
+    <p class="muted" style="font-size:.85rem">
+      1. Copy a preset URL (or a single source) above.
+      2. TiviMate → Settings → Playlists → Add playlist → M3U URL.
+      3. TiviMate → Settings → EPG → Add EPG → same URL pattern for <code>epg.xml.gz</code>.
+      See the <a href="setup.html">setup guide</a> for Fire TV / Android TV steps.
+    </p>
+  </section>
+
+  <footer>Generated <span id="generated">–</span> · <a href="https://github.com/Steve-M365/djray-iptv">GitHub</a></footer>
+</main>
+
+<div class="toast" id="toast"></div>
+<script>
+let OUTPUT = 'output/';
+const RAW_FALLBACK = 'https://raw.githubusercontent.com/Steve-M365/djray-iptv/master/output/';
+const toast = (m) => {
+  const el = document.getElementById('toast');
+  el.textContent = m; el.classList.add('show');
+  setTimeout(() => el.classList.remove('show'), 1600);
+};
+const esc = (v) => String(v ?? '').replace(/[&<>"']/g, ch => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]
+));
+
+async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); toast('Copied'); }
+  catch { toast('Copy failed'); }
+}
+
+document.querySelectorAll('[data-copy-id]').forEach(btn => {
+  btn.addEventListener('click', () => copyText(document.getElementById(btn.dataset.copyId).textContent));
+});
+
+async function load() {
+  let meta;
+  try {
+    let res = await fetch(`${OUTPUT}sources.json`, {cache: 'no-store'});
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    meta = await res.json();
+  } catch (first) {
+    // Old Pages deployment (site under /docs) has no generated data next to it.
+    try {
+      OUTPUT = RAW_FALLBACK;
+      const res = await fetch(`${OUTPUT}sources.json`, {cache: 'no-store'});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      meta = await res.json();
+    } catch (err) {
+      document.getElementById('presets').innerHTML = `<p class="muted">Could not load catalog: ${esc(first.message)} / ${esc(err.message)}</p>`;
+      return;
+    }
+  }
+
+  document.getElementById('s-channels').textContent = (meta.master_channels || 0).toLocaleString();
+  document.getElementById('s-sources').textContent = (meta.sources || []).length;
+  document.getElementById('s-presets').textContent = Object.keys(meta.presets || {}).length;
+  document.getElementById('s-coverage').textContent = `${meta.coverage?.coverage_pct ?? 0}%`;
+  document.getElementById('generated').textContent = meta.generated || '–';
+
+  const urlFor = (file) => new URL(`${OUTPUT}${file}`, window.location.href).href;
+  document.getElementById('master-url').textContent = urlFor('master.m3u');
+  document.getElementById('epg-url').textContent = urlFor('epg.xml.gz');
+
+  const presets = document.getElementById('presets');
+  const entries = Object.entries(meta.presets || {});
+  presets.innerHTML = entries.length ? '' : '<p class="muted">No presets generated yet.</p>';
+  entries.forEach(([name, value]) => {
+    const url = urlFor(`presets/${name}.m3u`);
+    const title = (value && typeof value === 'object' && value.title)
+      ? value.title
+      : name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    const count = (value && typeof value === 'object') ? value.channels : value;
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="name">${esc(title)}</div>
+      <div class="meta"><span>${Number(count).toLocaleString()} channels</span></div>
+      <div class="actions">
+        <button data-url="${esc(url)}">Copy URL</button>
+        <a class="btn" href="${esc(url)}">Download</a>
+      </div>`;
+    presets.appendChild(card);
+  });
+
+  const tbody = document.getElementById('sources');
+  tbody.innerHTML = (meta.sources || []).map(s => {
+    const url = urlFor(s.file);
+    const cov = Number(s.coverage_pct || 0);
+    return `<tr>
+      <td>${esc(s.name)} ${s.web_only ? '<span class="pill">web only</span>' : ''}</td>
+      <td class="num">${Number(s.channels).toLocaleString()}</td>
+      <td class="num">${(s.countries || []).length}</td>
+      <td class="num">${cov}%<div class="bar"><i style="width:${Math.min(cov, 100)}%"></i></div></td>
+      <td><button data-url="${esc(url)}">Copy</button></td>
+    </tr>`;
+  }).join('');
+
+  document.querySelectorAll('#sources button, #presets button').forEach(btn => {
+    btn.addEventListener('click', () => copyText(btn.dataset.url));
+  });
+}
+load();
+</script>
+</body>
+</html>
